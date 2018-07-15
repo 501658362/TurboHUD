@@ -1,0 +1,85 @@
+﻿2018.07.10 19:53:21.229	very strange unhandled exception (System.IO.IOException: 文件“C:\Users\Chen\Desktop\TurboHUDEn\stat_tracker\陈彦瑾#51613_total.xml”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   在 System.Xml.XmlWriterSettings.CreateWriter(String outputFileName)
+   在 Infinity.Streams.Config.SaveAs(String fileName)
+   在 Turbo.Collector.StatTracker.Save()
+   在 Turbo.Basic.EngineBase.Exit()
+   在 Turbo.Basic.EngineBase.‫‭‍⁯​⁪‏⁫‮‌‏⁫‌⁮‫‎‍⁪‬‏⁯‍‮‭‎‫​‭⁪⁯⁬‍‫⁬‌‏‭​‌‮‮()
+   在 Turbo.Basic.EngineBase.DoCollect(Boolean forceUICollect)
+   在 Turbo.Basic.EngineBase.Sleep(Int32 milliseconds, Int32 rndOffset)
+   在 ‌‍⁮‪⁭⁮‌⁫‍⁬⁮‫‎‌⁮‍‌‍‏⁭⁫‪⁫‮⁭‫‌‬‏⁯‬‮‎‮⁯‎⁪‎⁮⁮‮.‫‬​‬​‬‬⁮⁬‪‮‏‌‭⁮⁭⁭⁪⁬⁪‭‫⁬⁯‍⁫⁮⁫⁮‮⁫‮‌‫‍‮‪‬‎‌‮())
+2018.07.10 20:04:46.823	error while initializing plugins
+2018.07.10 20:04:46.825		c:\Users\Chen\Desktop\TurboHUDEn\plugins\cyj\Cyj_Plugin.cs(206,46) : error CS0103: 当前上下文中不存在名称“uiRect”
+2018.07.10 20:04:46.826		c:\Users\Chen\Desktop\TurboHUDEn\plugins\cyj\Cyj_Plugin.cs(206,66) : error CS0103: 当前上下文中不存在名称“uiRect”
+2018.07.10 20:04:46.826		c:\Users\Chen\Desktop\TurboHUDEn\plugins\cyj\Cyj_Plugin.cs(206,86) : error CS0103: 当前上下文中不存在名称“uiRect”
+2018.07.10 20:04:46.827		c:\Users\Chen\Desktop\TurboHUDEn\plugins\cyj\Cyj_Plugin.cs(206,110) : error CS0103: 当前上下文中不存在名称“uiRect”
+2018.07.11 07:59:03.144	error while initializing plugins
+2018.07.11 07:59:03.146		c:\Users\Chen\Desktop\TurboHUDEn\plugins\Default\Monsters\DangerousMonsterPlugin.cs(14,27) : error CS1002: 应输入 ;
+
+2018.07.11 19:53:52.634	error while initializing plugins
+2018.07.11 19:53:52.635		c:\Users\Chen\Desktop\TurboHUDEn\plugins\glq\GLQ_PartyInspector.cs(17,16) : error CS0246: 未能找到类型或命名空间名称“GLQ_SkillPainter”(是否缺少 using 指令或程序集引用?)
+
+2018.07.11 19:54:41.224	error while initializing plugins
+
+2018.07.11 19:54:41.225		c:\Users\Chen\Desktop\TurboHUDEn\plugins\glq\GLQ_OriginalSkillBarPlugin.cs(11,16) : error CS0246: 未能找到类型或命名空间名称“GLQ_SkillPainter”(是否缺少 using 指令或程序集引用?)
+2018.07.11 19:54:41.226		c:\Users\Chen\Desktop\TurboHUDEn\plugins\glq\GLQ_PartyInspector.cs(17,16) : error CS0246: 未能找到类型或命名空间名称“GLQ_SkillPainter”(是否缺少 using 指令或程序集引用?)
+2018.07.11 19:57:02.730	error while initializing plugins
+2018.07.11 19:57:02.731		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(30,23) : error CS0246: 未能找到类型或命名空间名称“GLQ_PartyInspector”(是否缺少 using 指令或程序集引用?)
+2018.07.11 19:57:02.732		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(30,93) : error CS0103: 当前上下文中不存在名称“Key”
+2018.07.11 19:57:31.956	error while initializing plugins
+2018.07.11 19:57:31.957		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(31,93) : error CS0103: 当前上下文中不存在名称“Key”
+2018.07.11 20:13:56.834	error while initializing plugins
+2018.07.11 20:13:56.835		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(35,9) : error CS1501: “TogglePlugin”方法没有任何重载采用 0 个参数
+2018.07.11 20:13:56.836		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(40,9) : error CS1501: “TogglePlugin”方法没有任何重载采用 0 个参数
+2018.07.11 20:13:56.837		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(41,9) : error CS1501: “TogglePlugin”方法没有任何重载采用 0 个参数
+2018.07.11 20:41:22.511	error while initializing plugins
+2018.07.11 20:41:22.512		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,87) : error CS1525: 无效的表达式项“.”
+2018.07.11 20:41:22.513		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,88) : error CS1026: 应输入 )
+2018.07.11 20:41:22.514		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,91) : error CS1002: 应输入 ;
+2018.07.11 20:41:22.514		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,91) : error CS1525: 无效的表达式项“,”
+2018.07.11 20:41:22.515		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,93) : error CS1002: 应输入 ;
+2018.07.11 20:41:22.516		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,98) : error CS1002: 应输入 ;
+2018.07.11 20:41:22.517		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,98) : error CS1525: 无效的表达式项“,”
+2018.07.11 20:41:22.518		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,100) : error CS1002: 应输入 ;
+2018.07.11 20:41:22.519		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,105) : error CS1002: 应输入 ;
+2018.07.11 20:41:22.520		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,105) : error CS1525: 无效的表达式项“,”
+2018.07.11 20:41:22.520		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,107) : error CS1002: 应输入 ;
+2018.07.11 20:41:22.521		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,112) : error CS1002: 应输入 ;
+2018.07.11 20:41:22.522		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,112) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:41:22.523		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(45,38) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:41:22.524		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(45,54) : error CS1026: 应输入 )
+2018.07.11 20:41:22.525		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(46,42) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:41:22.525		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(46,58) : error CS1026: 应输入 )
+2018.07.11 20:41:22.526		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(49,39) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:41:22.527		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(49,56) : error CS1026: 应输入 )
+2018.07.11 20:41:22.527		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(50,43) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:41:22.528		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(50,59) : error CS1026: 应输入 )
+2018.07.11 20:41:22.528		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(53,48) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:41:22.529		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(53,64) : error CS1026: 应输入 )
+2018.07.11 20:43:21.712	error while initializing plugins
+2018.07.11 20:43:21.712		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(45,38) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:43:21.713		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(45,54) : error CS1026: 应输入 )
+2018.07.11 20:43:21.714		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(46,42) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:43:21.715		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(46,58) : error CS1026: 应输入 )
+2018.07.11 20:43:21.716		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(49,39) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:43:21.717		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(49,56) : error CS1026: 应输入 )
+2018.07.11 20:43:21.718		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(50,43) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:43:21.718		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(50,59) : error CS1026: 应输入 )
+2018.07.11 20:43:21.719		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(53,48) : error CS1525: 无效的表达式项“)”
+2018.07.11 20:43:21.720		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(53,64) : error CS1026: 应输入 )
+2018.07.11 20:44:16.688	error while initializing plugins
+2018.07.11 20:44:16.689		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,45) : error CS1061: “Turbo.Plugins.glq.GLQ_PartyInspector”不包含“ToggleEvent”的定义，并且找不到可接受类型为“Turbo.Plugins.glq.GLQ_PartyInspector”的第一个参数的扩展方法“ToggleEvent”(是否缺少 using 指令或程序集引用?)
+2018.07.11 20:44:16.690		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(33,69) : error CS1061: “Turbo.Plugins.IInputController”不包含“CreateEvent”的定义，并且找不到可接受类型为“Turbo.Plugins.IInputController”的第一个参数的扩展方法“CreateEvent”(是否缺少 using 指令或程序集引用?)
+2018.07.14 17:46:47.863	error while initializing plugins
+2018.07.14 17:46:47.864		c:\Users\Chen\Desktop\TurboHUDEn\plugins\cyj\Cyj_Plugin.cs(7,25) : error CS0234: 命名空间“Turbo.Plugins”中不存在类型或命名空间名称“glq”(是否缺少程序集引用?)
+2018.07.14 17:46:47.865		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(7,21) : error CS0234: 命名空间“Turbo.Plugins”中不存在类型或命名空间名称“glq”(是否缺少程序集引用?)
+2018.07.14 17:46:47.866		c:\Users\Chen\Desktop\TurboHUDEn\plugins\cyj\Cyj_Plugin.cs(11,16) : error CS0246: 未能找到类型或命名空间名称“TopTable”(是否缺少 using 指令或程序集引用?)
+2018.07.14 17:47:16.354	error while initializing plugins
+2018.07.14 17:47:16.355		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(7,21) : error CS0234: 命名空间“Turbo.Plugins”中不存在类型或命名空间名称“glq”(是否缺少程序集引用?)
+2018.07.14 18:20:20.605	error while initializing plugins
+2018.07.14 18:20:20.606		c:\Users\Chen\Desktop\TurboHUDEn\plugins\glq\GLQ_PartyBuffConfigPlugin.cs(13,17) : error CS0246: 未能找到类型或命名空间名称“GLQ_PartyBuffPlugin”(是否缺少 using 指令或程序集引用?)
+2018.07.14 18:21:05.476	error while initializing plugins
+2018.07.14 18:21:05.477		c:\Users\Chen\Desktop\TurboHUDEn\plugins\glq\GLQ_PartyBuffPlugin.cs(24,17) : error CS0246: 未能找到类型或命名空间名称“BuffRuleFactory”(是否缺少 using 指令或程序集引用?)

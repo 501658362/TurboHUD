@@ -1,0 +1,63 @@
+﻿823119018	P61_CruShield_norm_unique_01	弗莱德的怒火	0:0	loot
+	attr	Item_Power_Passive	478477	7.84999990463257	
+	attr	Crit_Percent_Bonus_Capped	-1	0.0949999988079071	
+	proc	crit	9.5	
+	attr	Power_Cooldown_Reduction_Percent_All_Capped	-1	0	power: UNKNOWN
+	attr	Power_Cooldown_Reduction_Percent_All	-1	0.0799560546875	power: UNKNOWN
+	proc	cdred	8	power: UNKNOWN
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	700	
+	proc	str	700	
+	attr	Spending_Resource_Heals_Percent	7	1107	
+	attr	TransmogGBID	-1	161492399	
+	attr	EnchantedAffixCount	-1	18	
+	attr	EnchantedAffixSeed	-1	-655429568	
+	attr	EnchantedAffixNew	-1	783505022	
+	attr	EnchantedAffixOld	-1	432187391	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-682361945	
+	proc	seed	-682361945	
+	attr	Item_LegendaryItem_Level_Override	-1	70	
+	attr	Item_Binding_Level_Override	-1	2	
+	proc	bound_mode	2	
+	attr	Item_Bound_To_ACD	-1	2014838875	
+	proc	bound_to_account	1	
+	attr	Item_Equipped	-1	1	
+	attr	Item_Quality_Level	-1	9	
+	proc	quality	9	
+	attr	Durability_Max	-1	447	
+	proc	dura	44	
+	attr	Durability_Cur	-1	419	
+	attr	Resource_Max_Bonus	7	6	
+	proc	max_wrath	6	
+	attr	Item_Legendary_Item_Base_Item	-1	-118252694	
+	attr	Item_Equipped_But_Disabled	-1	0	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	2216	
+	proc	t_armor	2216	
+	attr	Armor_Item_SubTotal	-1	2216	
+	attr	Armor_Item	-1	2216	
+	proc	b_armor	2216	
+	attr	Block_Amount_Item_Delta	-1	4728	
+	attr	Block_Amount_Item_Min	-1	18160	
+	attr	Block_Chance_Item_Total	-1	0.179931640625	
+	proc	t_block	18	
+	attr	Block_Chance_Item	-1	0.179931640625	
+	proc	b_block	18	
+	affx	3301343617	战争之
+	affx	783505022	尖齿
+	affx	2048965816	
+	affx	4287823669	专注
+	affx	2221274632	愤怒
+	perf	1203	Strength_Item	-1	626-750	700
+	perf	248	Crit_Percent_Bonus_Capped	-1	0.0799999982118607-0.100000001490116	0.0949999988079071
+	perf	73	Spending_Resource_Heals_Percent	7	1077-1276	1107
+	perf	210	Power_Cooldown_Reduction_Percent_All	-1	0.0500000007450581-0.0799999982118607	0.0799560546875
+	perf	152	Resource_Max_Bonus	7	6-7	6
+	perf	264	Block_Chance_Item	-1	0.100000001490116-0.200000002980232	0.179931640625
+	perf	272	Block_Amount_Item_Min	-1	17000-19000	18160
+	perf	273	Block_Amount_Item_Delta	-1	4000-6000	4728
+	perf	1288	Item_Power_Passive	478477	6-8	7.84999990463257
+

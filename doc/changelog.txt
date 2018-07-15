@@ -1,0 +1,2339 @@
+18.7.2.0 STABLE for Diablo III 2.6.1.50649 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: missing powers from Hud.Sno.SnoPowers
+
+18.6.20.0 STABLE for Diablo III 2.6.1.50649 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: LoopingAnimationStartTick and LoopingAnimationEndTick to IPlayer
+	- fixed: many broken ACD dump functionality
+
+18.6.19.0 STABLE for Diablo III 2.6.1.50649 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: AcdAnimationState enum extended by CastingPortal (value = 13)
+
+18.6.11.3 STABLE for Diablo III 2.6.1.50649 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- changed: adjusted to the patch
+	- removed: <map_reveal> from ui_default_main.xml
+	- added: new controller to control map reveal parameters called: Hud.SceneReveal
+	- added: MinimapClip to ISceneReveal controller to disable clipping of the minimap (the small area right to the minimap will be always clipped regardless of this value)
+	- fixed: greater rift timer
+
+18.5.17.0 STABLE for Diablo III 2.6.1.50325 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: zhCN translation is updated to the latest patch
+	- fixed: IRenderController.UiHidden flag
+
+18.4.2.0 STABLE for Diablo III 2.6.1.49508 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- changed: adjusted to the patch
+	- fixed: download version information from github and pastebin as fallback strategy
+		https://raw.githubusercontent.com/thekjohn/TurboHUD/master/version.txt
+		https://pastebin.com/raw/4w5AkAsy
+		http://pastebin.com/raw.php?i=4w5AkAsy
+	- fixed: broken IPlayer.BattleTagAbovePortrait read in 64 bit version (bug since the first 64 bit release)
+
+18.1.29.0 STABLE for Diablo III 2.6.1.48432 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- changed: type of GroundLabelDecorator.CountDownFrom is changed to float? from int
+	- fixed: minor bugs
+
+18.1.12.0 STABLE for Diablo III 2.6.1.48432 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- removed: IMonster.AvoidRule
+	- removed: IPlayer.Avoids, IPlayerAvoidInfo, IAvoid, AvoidType, AvoidWeight
+
+18.1.7.0 STABLE for Diablo III 2.6.1.48432 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: display "exit" scenes with red and "entrance" scenes with green in rifts and greater rifts
+	- fixed: floating number collector in 64 bit release (DPS info is based on the floating numbers)
+	- fixed: floating numbers in 32 bit build
+	- fixed: minimap alpha channel
+	- removed: unused code from InventoryAndStashPlugin
+	- removed: GetData<T> and SetData<T> on IActor and IPlayerSkill
+	- fixed: minor bugs
+
+17.12.20.0 STABLE for Diablo III 2.6.1.48432 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: minor bugs
+
+17.12.16.0 STABLE for Diablo III 2.6.1.48432 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- updated: support 2.6.1.48432
+
+17.12.8.0 STABLE for Diablo III 2.6.1.47919 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- changed: generic proxy actors (sno=4176) are no longer ignored
+	- added: ISnoController.Attributes
+	- added: IActor.GetAttributeValue
+	- added: plugins\Default\Actors\OculusPlugin.cs
+
+17.11.30.0 STABLE for Diablo III 2.6.1.47919 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: screen and item capture
+	- fixed: skill damage calculation in SkillPainter
+	- fixed: FastMummyDecorator range set to 5 in ExplosiveMonsterPlugin
+
+17.11.29.1 STABLE for Diablo III 2.6.1.47919 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: new pickit attributes: "vendor_bought" (0 or 1)
+	- added: IItem.VendorBought
+
+17.11.29.0 STABLE for Diablo III 2.6.1.47919 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- removed: archon teleport cooldown sound in CooldownSoundPlayerPlugin
+	- updated: SharpDX 4.0.1
+	- removed: ISnoItem.GemType (it was flagged as deprecated since long time)
+
+17.11.20.0 STABLE for Diablo III 2.6.1.47919 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: IEnumerable<IBuff> AllBuffs() to ILegendaryGemInfo
+	- added: IEnumerable<IBuff> AllBuffs() to ILegendaryPowerInfo
+
+17.11.17.0 STABLE for Diablo III 2.6.1.47919 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- BREAKING CHANGE: IRenderController.GetUiElement is case sensitive from now
+	- removed: IGameController.WorldMapUiElement and IGameController.ActMapUiElement are moved under IRenderController
+	- removed: IController.CurrentTime, IController.CreateWatch, IController.CreateAndStartWatch
+	- removed: IController.LogIntoFile is depreaced
+
+17.11.13.0 BETA for Diablo III 2.6.1.47919 (v7.5)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.5!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: hotkeys were unusable at the first run after a clean install
+	- fixed: HUD terminated when pastebin.com was unaccessible
+	- fixed: the "Unable to retrieve latest version info for TurboHUD." message was not displayed when pastebin.com was "hacked" in hosts file AND dashboard was forbidden on firewall
+
+17.11.7.0 BETA for Diablo III 2.6.1.47710 (v7.5)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.5!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- removed: doc\sno_actors.txt is no longer generated (use the Plugin interfaces to extract data instead)
+	- removed: doc\sno_items.txt is no longer generated (use the Plugin interfaces to extract data instead)
+	- removed: doc\sno_powers_skills.txt is no longer generated (use the Plugin interfaces to extract data instead)
+	- removed: doc\sno_powers.txt is no longer generated (use the Plugin interfaces to extract data instead)
+	- removed: doc\sno_quests.txt is no longer generated (use the Plugin interfaces to extract data instead)
+	- removed: doc\ui_elements.txt is no longer generated (use the Plugin interfaces to extract data instead)
+
+17.11.6.0 BETA for Diablo III 2.6.1.47710 (v7.5)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.5!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: new notification sound files under \sounds
+	- added: performance counter display in DebugPlugin (PluginPerformanceCountersEnabled has to be enabled first)
+	- added: IController.TimeController
+	- added: IController.TextLogController
+	- warning: IController.CurrentTime, IController.CreateWatch, IController.CreateAndStartWatch are deprecated and will be removed soon
+	- warning: IController.LogIntoFile is depreaced and will be removed soon
+	- note: version is incremented to 7.5 but the deprecated methods are not removed, giving a few days to plugin devs to update their plugins
+
+17.11.4.0 BETA for Diablo III 2.6.1.47710 (v7.4)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.4!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: after paragon capture the rendering was not re-enabled
+	- fixed: cooldown sounds played when the cooldown started, not just when finished
+	- fixed: Girdle of Giants not displayed as cubable item
+	- BREAKING CHANGE: speak and sound related methods are moved from IController to ISoundController
+	- BREAKING CHANGE: tracker related properties are moved from IController to ITrackerController
+	- changed: plugin interface version is 7.4 from now due to breaking changes
+
+17.11.3.0 BETA for Diablo III 2.6.1.47710 (v7.3)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.3!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: hide some UI elements when the map is visible
+	- fixed: adjusted to the live version of the game
+	- added: ISnoController.SnoQuests (property names are the "code"+"sno" of the ISnoQuest due to the fact multiple items can have the same name)
+	- removed: "bounties" section from config file is deprecated from now
+	- added: WaypointQuestsPlugin (replaces old wired-in UI element)
+	- removed: hotkey info is no longer display on loading screen
+	- removed: "skills.cooldown.sound_notification" from config file
+	- added: IController.LogIntoFile method
+	- added: IRenderController.CaptureScreenToFile method
+	- added: IRenderController.ParagonLevelUpSplashTextUiElement property
+	- added: IRenderController.RenderEnabled property
+	- removed: internal paragon capture feature
+	- added: ParagonCapturePlugin
+	- removed: config reload hotkey (F2)
+	- removed: legacy XML theme and override support
+	- fixed: blinking window syndrome
+
+17.9.1.0 STABLE for Diablo III 2.6.0.46568 (v7.3)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.3!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: Shepherd was not recognized as a boss
+	- fixed: some minor issues
+
+17.7.23.0 STABLE for Diablo III 2.6.0.46568 (v7.3)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.3!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: missing chest, bandit shrine
+	- fixed: amulet slot was missing from armory set item list
+
+17.7.19.0 STABLE for Diablo III 2.6.0.46568 (v7.3)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.3!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: some minor issues
+
+17.7.18.0 STABLE for Diablo III 2.6.0.46494 (v7.3)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.3!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: some minor issues
+
+17.7.17.0 STABLE for Diablo III 2.6.0.46006 (v7.3)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.3!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: skill override handling (archon)
+	- added: IPlayerPowerInfo.CurrentSkills (which considers the archon overrides compared to UsedSkills)
+	- added: IPlayerPowerInfo.SkillOverrideActive
+	- added: IPlayerSkill.CurrentSnoPower  (which considers the archon overrides compared to SnoPower)
+	- added: support the third stash page
+
+17.5.9.0 BETA for Diablo III 2.5.0.44247 (v7.3)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.3!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: IWorldShapePainter
+	- added: IRotationTransformator
+	- added: WorldXShapePainter
+	- changed: GroundShapeDecorator uses custom any IWorldShapePainter to draw on the ground
+	- BREAKING CHANGE: GroundShape enumeration removed
+	- BREAKING CHANGE: GroundShapeDecorator.HasShadow and .Shape removed
+	- changed: major internal code overhaul and cleanup
+
+17.4.9.0 BETA for Diablo III 2.5.0.44247 (v7.2)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.2!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: transparency color-key is broken on Windows 10 Creators Update (experimental)
+
+17.4.2.10 STABLE for Diablo III 2.5.0.44247 (v7.2)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.2!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: some minor issues
+
+17.3.30.10 STABLE for Diablo III 2.5.0.44247 (v7.2)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.2!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: speak support for ItemsPlugin
+
+17.3.29.0 STABLE for Diablo III 2.5.0.44247 (v7.2)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.2!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: HideOnIllusions property to MonsterPackPlugin and StandardMonsterPlugin (enabled by default)
+	- added: IController.Speak and LastSpeak support
+	- added: EnableSpeak property to GoblingPlugin (disabled by default)
+
+17.3.28.0 STABLE for Diablo III 2.5.0.44247 (v7.2)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.2!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: added some new cosmetic monsters and items to CosmeticItemsPlugin
+	- fixed: some attribute descriptions in TurboMGR
+	- fixed: materials in inventory was counted twice in InventoryMaterialCountPlugin
+	- added: primal decorators in ItemsPlugin
+
+17.3.27.10 STABLE for Diablo III 2.5.0.44247 (v7.2)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.2!
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: UTF8 encoding applied when reading armory set names
+	- added: improved debug data reporter for suspicious experience gained counters (round number 9...) (very annoying)
+
+17.3.26.3 STABLE for Diablo III 2.5.0.44247 (v7.2)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: This is a MAJOR release. Version breaking changes are inside. A clean install (into an empty folder) is REQUIRED!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: Simplified Chinese localization is updated to 2.5.0.44247
+	- added: improved debug data reporter for suspicious experience gained counters (round number 8...) (getting bored)
+
+17.3.26.2 STABLE for Diablo III 2.5.0.44247 (v7.2)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: This is a MAJOR release. Version breaking changes are inside. A clean install (into an empty folder) is REQUIRED!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: hint in InventoryMaterialCountPlugin
+	- changed: InventoryMaterialCountPlugin uses the account-wide information where it is available
+	- added: notification when the user drops an item which belongs to any Armory Set (ItemsPlugin)
+	- added: improved debug data reporter for suspicious experience gained counters (round number 7...)
+	- knownbug: Simplified Chinese localization is not updated to 2.5.0
+	- removed: bonus act support from BountyTablePlugin and IGameController
+	- removed: ui_default_labels_expbar.xml (replaced by TopExperienceStatistics.cs)
+
+17.3.16.10 STABLE for Diablo III 2.4.3.43048 (v7.1)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- changed: gem powers are moved to ILegendaryGemInfo from ILegendaryPowerInfo (later contains only legendary items from now)
+	- fixed: name of powers: FistsOfTHunder, Determination, Alacrity, WallOfDeath, SwamplandAttunement
+	- added: ISnoPowerList.GetClassSpecificPowers(HeroClass), GetLegendaryGemPowers() and GetLegendaryItemPowers()
+	- added: ISnoController.SnoItems (property names are the "code" of the ISnoItem due to the fact multiple items can have the same name)
+	- added: debug data reporter for suspicious experience gained counters (round number 6...)
+
+17.3.15.20 STABLE for Diablo III 2.4.3.43048 (v7.1)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: ITextureController.InventorySetBackgroundSmall and InventorySetBackgroundLarge
+	- changed: illusions does not count into "nearby rift progression" value
+	- fixed: SkillPainter works properly with EnableSkillDpsBar = true when the skill is not the bottom of the screen
+	- added: BuffRule.UseLegendaryItemTexture to display a legendary item's texture instead of the buff's texture
+	- fixed: experience gained counters (round number 5...)
+
+17.3.15.10 STABLE for Diablo III 2.4.3.43048 (v7.1)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: experience gained counters (round number 4...)
+
+17.3.9.0 STABLE for Diablo III 2.4.3.43048 (v7.1)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: legendary gem powers to ISnoPowerList and IPlayer.Powers.ILegendaryPowerInfo
+	- fixed: experience gained counters (hopefully...)
+
+17.3.7.10 STABLE for Diablo III 2.4.3.43048 (v7.1)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: HideOnIllusions option in EliteMonsterAffixPlugin
+	- added: IStatTracker and IStatTrackerCore interface for plugins
+	- added: lots of StatTrackers are exposed through IController and IGameController for plugins (example: Hud.CurrentAccountLastMonth.GainedExperiencePerHour, Hud.Game.CurrentHeroYesterday.GainedExperiencePerHour)
+	- added: Primal Ancient drop counter in IStatTackerCore
+	- added: walk distance counter in IStatTackerCore
+	- rolled back: "ancient", "set" and "legendary" texts are not localized once again (there is no proper solution for localization for now)
+
+17.3.6.10 STABLE for Diablo III 2.4.3.43048 (v7.1)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: experience gained counters
+	- fixed: "ancient", "set" and "legendary" texts were not localized in IItem.FullNameLocalized
+
+17.3.4.10 STABLE for Diablo III 2.4.3.43048 (v7.1)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: This is a MAJOR release. Version breaking changes are inside. A clean install (into an empty folder) is REQUIRED!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: \plugins\Monsters\MonstersPlugin.cs is renamed to StandardMonsterPlugin.cs
+		After installing this version, make sure to delete \plugins\MonstersPlugin.cs, otherwise it will run twice.
+	- BREAKING CHANGE: BannerPingPlugin class is renamed to BannerPlugin (to match the file name)
+	- BREAKING CHANGE: FeetBuffListPlugin file and class is renamed to PlayerBottomBuffListPlugin
+		After installing this version, make sure to delete \plugins\BuffLists\PlayerBottomListPlugin.cs, otherwise it will run twice.
+	- added: TopLeftBuffListPlugin, TopRightBuffListPlugin serves as buff icon queue for other plugins
+	- added: PlayerTopBuffListPlugin, PlayerLeftBuffListPlugin, PlayerRightBuffListPlugin serves as buff icon queue for other plugins
+	- fixed: DangerousMonsterPlugin when using localizations
+	- added: RiftPlugin (replaces old XML element in ui_default_main.xml)
+	- BREAKING CHANGE: Customize() belongs to ICustomizer interface
+	- BREAKING CHANGE: PaintWorld(WorldLayer layer) belongs to IInGameWorldPainter interface
+	- BREAKING CHANGE: PaintTopInGame(WorldLayer layer) belongs to IInGameTopPainter interface
+	- BREAKING CHANGE: AfterCollect() belongs to IIAfterCollectHandler interface
+	- added: HUD won't start if any 'unusual' .exe or .dll file can be found in it's directory (or any subdirectories)
+	- added: IPlayer.Powers.UsedBarbarianPowers, .UsedCrusaderPowers, .UsedDemonHunterPowers, .UsedMonkPowers, .UsedWitchDoctorPowers, .UsedWizardPowers
+	- added: IPlayer.Powers.UsedLegendaryPowers
+	- added: IController.Sno controller to access static ISnoPower data
+	- added: horizontal attribute bar displays the hints of expanded labels
+
+17.2.9.0 STABLE for Diablo III 2.4.3.43048 (v7)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: This is a MAJOR release. Version breaking changes are inside. A clean install (into an empty folder) is REQUIRED!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: CoE icons filtered by class
+	- fixed: ExplosiveMonsterPlugin.cs is moved from \plugins to \plugins\Monsters.
+		After installing this version, make sure to delete \plugins\ExplosiveMonsterPlugin.cs, otherwise it will run twice.
+	- fixed: GrotesqueDecorator range in ExplosiveMonsterPlugin.cs is properly changed to 20 from 30
+	- changed: ancient rank style over items
+	- BREAKING CHANGE: UiHiddenPlayerSkillBarPlugin class is renamed to UiHiddenPortraitSkillBarPlugin (to match the file name)
+	- BREAKING CHANGE: CrossShapeFilter class is renamed to CrossShapePainter (to match the file name)
+	- BREAKING CHANGE: DoorShapeFilter class is renamed to DoorShapePainter (to match the file name)
+
+17.2.8.1 STABLE for Diablo III 2.4.3.43048 (v7)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: This is a MAJOR release. Version breaking changes are inside. A clean install (into an empty folder) is REQUIRED!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- changed: EVERYTHING
+	- added: localization support - rename \data\selected_language_example.txt to \data\selected_language.txt and change the language code within the file.
+
+17.1.19.1 BETA for Diablo III 2.4.3.43048 (v7)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: This is a MAJOR release. Version breaking changes are inside. A clean install (into an empty folder) is REQUIRED!
+		- with the start of the new season, it is recommended to not copy your 'stat_tracker' folder from the old installation
+		- v5 and v6 configuration files, snippets and themes are no longer supported, and will crash TurboHUD if you try to use them
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- changed: InventoryMaterialCountPlugin is separated from InventoryAndStashPlugin
+	- added: MapTextureDecorator
+	- changed: all plugins are inherited from BasePlugin, which implements IPlugin with empty virtual methods
+	- added: AfterCollect, OnItemIdentified, OnItemLocationChanged, OnLootGenerated, OnItemPicked, OnCooldownExpired, OnMonsterKilled, OnPortalFound methods to IPlugin interface
+
+17.1.9.0 BETA for Diablo III 2.4.3.42655 (v7)
+	NOTE: You can't use TurboHUD with the 64bit version of the Diablo III.
+	NOTE: This is a MAJOR release. Version breaking changes are inside. A clean install (into an empty folder) is REQUIRED!
+		- with the start of the new season, it is recommended to not copy your 'stat_tracker' folder from the old installation
+		- v5 and v6 configuration files, snippets and themes are no longer supported, and will crash TurboHUD if you try to use them
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: C# plugin engine
+	- added: notification at 90% rift progression plugin
+	- removed: most of the item, actor, monster and label XML decorators (replaced by C# plugin)
+	- changed: integrated <powers> overlay element is hidden when the game UI is hidden (Alt+Z)
+	- changed: integrated <portraits> overlay element is hidden when the game UI is hidden (Alt+Z)
+	- added: TurboHUD sends anonym usage data to TurboHUD Dashboard
+		NOTE: the aggregated statistics of TurboHUD userbase will be displayed on the lobby screen soon
+	- improved: selected Kanai power tooltips include the description of the passive (at the top of the inventory) (and replaced by C# plugin)
+
+//////////////////////////////////////
+TurboHUD v6 development is closed here
+//////////////////////////////////////
+
+16.10.30.0 STABLE for Diablo III 2.4.2.39192 (v6)
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	TurboHUD
+	- improved: skill damage types are no longer hardcoded
+	- fixed: paragon capture feature
+
+16.10.25.0 STABLE for Diablo III 2.4.2.39192 (v6)
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	TurboHUD
+	- removed: LUA support
+	- fixed: instant-experience-gain limit (for example GR bonus at Orek) is changed from 16bn to 1024bn
+	- fixed: paragon capture feature is no longer activated by the paragon level display right after entering a game
+	- added: proper recognition of season 8 heroes
+
+16.8.12.0 STABLE for Diablo III 2.4.2.38682 (v6)
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: The scripting reference and the scripting engine is under development. If you write a script then it will broke!
+	TurboHUD
+	- added: proper recognition of season 7 heroes
+
+16.8.6.0 STABLE for Diablo III 2.4.2.38682 (v6)
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: The scripting reference and the scripting engine is under development. If you write a script then it will broke!
+	TurboHUD
+	- added: 2.4.2 support
+
+16.5.25.0 STABLE for Diablo III 2.4.1.36595 (v6)
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: The scripting reference and the scripting engine is under heavy development. If you write a script then it will broke soon!
+	TurboHUD
+	- removed: sandbox mode for unpublished features
+	- removed: admin user warning dialog
+
+16.4.27.0 STABLE for Diablo III 2.4.1.36595 (v6)
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: The scripting reference and the scripting engine is under heavy development. If you write a script then it will broke soon!
+	TurboHUD
+	- removed: support for DotNetLoader
+	- added: scripting engine automatically loads .lua scripts from the config folder, just like the .xml files.
+		- in future HUD releases .lua scripts will slowly replace the older .xml customization format
+		- the method to 'override' values in the .lua scripts (=customization of the default theme) is not designer/implemented yet
+	- removed: <legendary> and <ancient_legenday> elements in ui_default_actors_items.xml are disabled and replaced by ItemsOnFloor.lua
+	- added: Magefist is cube-able now
+	- fixed: missing lua scripts in config\ui_default
+
+//////////////////////////////////////
+TurboHUD v5 development is closed here
+//////////////////////////////////////
+
+16.2.13.0 STABLE for Diablo III 2.4.0.35616 (v5)
+	WARNING: there are rumors around that using HUD is unsafe. Please remember that using TurboHUD is your own responsibility!
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	TurboHUD
+	- added: experimental support for DotNetLoader
+
+16.2.8.0 STABLE for Diablo III 2.4.0.35616 (v5)
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	TurboHUD
+	- fixed: supported cubed item count is increased to 512 (from 300)
+	- fixed: The Three Hundredth Spear, Ashnagarr's Blood Bracers and Orb of Infinite Depth are recognized as cubeable items
+	TurboMGR
+	- added: support for the new stash page + tabs
+
+16.2.3.0 STABLE for Diablo III 2.4.0.35616 (v5)
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	TurboHUD
+	- fixed: adjust to Diablo III 2.4.0.35616
+
+16.1.26.0 STABLE for Diablo III 2.4.0.35324 (v5)
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	TurboHUD
+	- fixed: a few small bugs
+	- removed: R3peat's theme because it is no longer maintained
+	- changed: v6 codebase is merged to v5 (this means no visible change to the users)
+
+16.1.19.0 STABLE for Diablo III 2.4.0.35324 (v5)
+	NOTE: Be sure to have at least .NET 4.5.2 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	TurboHUD
+	- fixed: multiple bugs
+	- changed: required .NET Framework is 4.5.2 instead of 4.5.1
+
+16.1.14.0 STABLE for Diablo III 2.4.0.35057 (v5)
+	TurboHUD
+	- added: support for 'plain bonuses' in Skill DPS calculation (Legacy of Nightmares is the only supported yet)
+	- changed: EHP formula uses 'average resist' instead of 'lowest resist' from now
+	- added: the average of elemental damage reductions is calculated into "damage reduction" attribute (so it affects EHP as well)
+		NOTE: Legacy of Nightmares bonus grants elemental damage reduction for all elements
+		NOTE: Esoteric Alteration grants elemental damage reduction for all elements except physical
+	- changed: no longer display buffs on the main buff bar whose are displayed over the skill icons
+	- added: support for the new stash page + tabs
+	- added: support for the new cube-able items
+	- added: new items to pickit
+	- removed: legendary gem rank display
+	- changed: play cooldown sound effects only when D3's "Enable sound" option is enabled
+	- updated: SharpDX to the latest stable release
+	- fixed: automatically use lower resolution minimap reveal textures when the display's resolution is too high
+
+15.10.7.0 STABLE for Diablo III 2.3.0.33567 (v5)
+	NOTE: Delete your "\snapshots" folder before updating to this version
+	TurboHUD
+	- added: "monster hitpoint decrease per second counter" window is changed from 3sec to 1sec
+	- added: DirectX 10 and DirectX 11 builds
+
+15.10.6.0 STABLE for Diablo III 2.3.0.33567 (v5)
+	NOTE: Delete your "\snapshots" folder before updating to this version
+	TurboHUD
+	- added: HUD is clipping by the leaderboards and seasonal journey window
+	- added: tooltips can be turned off for each buff bars
+	- added: circles over lore books and chests
+	- fixed: "book" item keyword
+	TurboMGR
+	- added: display of the equipped cube powers (no tooltips yet)
+	- fixed: item tooltip alignment for 1x1 size items
+	- added: checkbox to disable item comparison
+	- added: Kanai's Cube icon over items
+
+15.10.1.0 STABLE for Diablo III 2.3.0.33567 (v5)
+	NOTE: Be sure to have at least .NET 4.5 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: Delete your existing SharpDX*.dll files before updating to this version
+	TurboHUD
+	- added: Call of the Ancient's "Together as One" effect is calculated into EHP
+	- fixed: config.xml was not created when HUD started for the first time but the overlay failed to start
+
+15.9.28.1 STABLE for Diablo III 2.3.0.33567 (v5)
+	NOTE: Be sure to have at least .NET 4.5 and DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: Delete your existing SharpDX*.dll files before updating to this version
+	TurboHUD
+	- added: Spirit Guards and Ignore Pain are calculated into EHP
+	- added: Bounty Panel (F6) is redesigned
+	- changed: DirectX engine is updated (SharpDX 3.0.0 alpha01)
+	- changed: DirectX 11 is used instead of DirectX 10
+	- changed: automatic use of higher DirectX features -> HUD's overlay is a lot faster on many PCs
+	- changed: optimized texture mapping (makes HUD faster, but MGR slower)
+	- fixed: some actors were not recognized as monsters (no hp bar, no minimap dot)
+	- changed: pickit filters are evaluated to true when they are NOT available on the item, and =-1 appears on their right side in pickit
+		EXAMPLE: any_res=-1 will be evaluated as true if there is no any_res attribute on the item
+	- changed: nephalem/greater rift progression bar is visible after running out of time
+	- changed: nephalem rift overlay is redesigned to look like the greater rift version
+
+15.9.23.3 STABLE for Diablo III 2.3.0.33567 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- fixed: gold/second was limited to 1M/sec. The limit is increased to 100M/sec
+	- fixed: Skull Grasp and Haunt of Vaxo are added as a cube-able items
+	- fixed: adjusted to the changes in 2.3.0.33567
+
+15.9.20.0 STABLE for Diablo III 2.3.0.33414 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- added: display of total rift/grift progression granted by monsters in the surrounding 40 yards (ui_default_main.xml <rifts>)
+	- added: rift/grift overplay font is customizable (ui_defualt_main.xml <rifts>)
+	- changed: default text settings of rift/grift overlay
+	- fixed: *life-per-second and *life-per-second-nok expressions
+	- fixed: *expbonus expression
+
+15.9.17.3 STABLE for Diablo III 2.3.0.33414 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- fixed: multiple smaller bugs in the collector
+	- improved: performance
+
+15.9.16.0 STABLE for Diablo III 2.3.0.33414 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- changed: in rifts and greater rifts:
+		- 0..1 point progression trash monsters are white (like usually)
+		- 1..2 point progression trash monsters are light green
+		- 2..3 point progression trash monsters are dark green
+		- 3..4 point progression trash monsters are light green with an outline
+		- 4..10 point progression trash monsters are dark green with an outline
+		NOTE: currently 100% rift progression requires 530 points
+	- added: snippet to disable Kanai's Cube effects (ui_user_snippet_disable_kanai_cubes)
+	- added: snippet to disable the monster coloring based on rift progress (ui_user_snippet_disable_rift_progress_colors)
+	- added: yellow circle on minimap, showing the POSSIBLE locations of rift pylons (ui_default_actors.xml <rift_pylon_spawn_location>)
+
+15.9.15.0 STABLE for Diablo III 2.3.0.33414 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- fixed: paragon capture was broken when overlay was enabled
+	- changed: cube icons are smaller now
+	- fixed: 15.9.14.0 was compiled to work only on 64 bit machines. Now it works on 32 bit as well.
+
+15.9.14.0 STABLE for Diablo III 2.3.0.33414 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- fixed: small bugs
+	- changed: "CUBED" text is changed to a cube icon.
+		NOTE: If the icon does not move, it means the item is already in the cube. If it pulsates, it means the item is not in the cube yet. No icon means the item is not allowed to be used in the cube.
+	- added: pulsing cube icon over the items in the stash/inventory for the not cubed, but cube-able items
+	- added: 'can_cubed=1' pickit expression for not cubed, but cube-able items
+	- added: 'cubed' and 'can_cubed' actor (item) element keywords
+	- added: uber machines are added next to the greater rift key (inventory extension line)
+	- added: "monster hitpoint decrease per second counter" below the party portraits
+		NOTE: this counter can be considered as 'party DPS' until the party is near together. Also it uses a 3 seconds long time window.
+	TurboMGR
+	- added: uber machines and uber organs
+
+15.9.9.1 STABLE for Diablo III 2.3.0.33414 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- fixed: rift and greater rift progression display (max is changed to 530 points)
+	- fixed: main buff bar's missing icons
+
+15.9.8.0 STABLE for Diablo III 2.3.0.33414 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- fixed: rift and greater rift progression display (max is changed to 510 points)
+	- changed: inventory lock can be disabled in config.xml by setting the values to -1
+	- changed: inventory lock coordinate system is changed to column=0..9, row=0..5
+	- added: shrine_bandit actor keyword
+	- added: legendary material support in pickit
+	- added: option to disable hiding the overlay while paragon capture is working
+	- added: greater rift key extension line to inventory overlay
+	- added: active items in Kanai's cube on top of the inventory (when opened)
+	- added: 'CUBED' text next to the item's name when it is already in Kanai's cube
+	- changed: slightly updated pickit files
+	TurboMGR
+	- added: legendary material counters
+
+15.8.27.0 STABLE for Diablo III 2.3.0.33174 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- removed: "only_trial" keyword
+		NOTE: be sure to remove this keyword from every user-made elements!
+	- removed: trial support from every feature
+	- removed: uber key extension line from inventory overlay
+	- added: legendary crafting material extension line to inventory overlay
+	- added: "RiftOrb" keyword includes the orbs in regular rifts
+	- added: support for user-made buff bars
+	- added: support for the goblin shrine
+	- added: cooldown fade circle effect (like in D3) to buff elements
+	- added: cooldown_numbers attribute to buff elements (users can hide the remaining time display and enable only the cooldown fade effect)
+	- added: direction attribute on buff elements (possible values can be: left_to_right, right_to_left, top_to_bottom, bottom_to_top, horizontal_center, vertical_center)
+	- changed: player attribute readout interval is changed to 20 times per second (old value was 10 times per second) for smoother effects
+	- added: custom buff element for shrines and pylons (at the left side of the minimap)
+	- added: *exp-remaining-to-next-level-nok and *greater-rift-info-pct-remaining label expressions
+	- added: support for a , separated list of zones for activator elements
+	- fixed: pastebin request format for version checking
+	- improved: performance and DirectX stability
+
+15.6.5.0 STABLE for Diablo III 2.2.1.31666 (v5)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- added: life-on-hit, life-on-hit-nok, life-on-kill, life-on-kill-nok, life-per-second, life-per-second-nok, hp-globe-bonus, hp-globe-bonus-nok label expressions
+	- added: tooltips to buffs
+	- fixed: buffs without a known icon texture no longer display the "dye" texture
+	- fixed: ui_user_snippet_enable_experience_range.txt
+	- fixed: playing of cooldown sounds
+	- changed: buff display is totally rewritten
+	
+15.5.20.5 STABLE for Diablo III 2.2.1.31666 (v5)
+	NOTE: This is a MAJOR release. Version breaking changes are inside. A clean install (into an empty folder) is highly recommended!
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	TurboHUD
+	- added: support for the new Bandit Shrine
+	- added: 'class' condition supports a , separated list from now (activated only if your class in one of the supplied classes)
+	- added: attack radius circle for the hovered skill (data comes from D3 and it shows the range only for attack skills and not even for all)
+		NOTE: this is disabled by default and serves debug purposes for future datamining
+	- added: stash tab preview (ui_default_main.xml <inventory> <stash_preview>)
+	- fixed: rifts/greater rifts were sometimes not recognized
+	- removed: scene dumps
+	- changed: the format and name of actor dump files
+	- removed: run logs, item drop logs, gamble logs
+		NOTE: these features will be added back in the future with a much better implementation
+	- added: "lore_chest" actor keyword (complements the "book" item keyword)
+	- removed: "server_ip_flags" feature from config.xml
+	- changed: experience range on minimap is disabled by default
+	- removed: ui_user_snippet_disable_experience_range.txt
+	- added: ui_user_snippet_enable_experience_range.txt
+	- removed: custom experience_range element from ui_default_main.xml
+	- added: experience_bonus_range actor element in ui_default_actors.xml
+	- fixed: some actors were not recognized properly
+	- added: all_active_buffs="{power}/{rune},{power}/{rune},..." and all_inactive_buffs="{power}/{rune},{power}/{rune},..." conditions
+		NOTE: works like "active_buffs" and "inactive_buffs", except the logical operator between the items is "and" instead of "or"
+	- added: ui_visible="{path}" condition for the supported UI elements (the condition will be true when the corresponding UI element in D3 is visible)
+		NOTE: the list of supported UI elements can be found in \doc\ui_elements.txt
+	TurboMGR
+	- changed: portrait icons are a bit smaller
+
+//////////////////////////////////////
+TurboHUD v4 development is closed here
+//////////////////////////////////////
+
+15.4.20.0 STABLE for Diablo III 2.2.0.30894a (v4)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	NOTE: HUD's CPU usage is slightly increased because the caching of D3's UI controls is disabled
+	TurboHUD
+	- added: Gem of Ease bonus is counted towards the displayed experience on kill value
+	- added: "blind" debuff on top monster bar
+	- fixed: some chests were not recognized properly
+	- fixed: some minor bugs
+	- improve: faster memory reading, lower memory usage
+
+15.4.14.0 STABLE for Diablo III 2.2.0.30894a (v4)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	NOTE: HUD's CPU usage is slightly increased because the caching of D3's UI controls is disabled
+	TurboHUD
+	- fixed: damage calculation for Mantra of Salvation with Agility Rune
+	- improved: memory reading stability
+	TurboMGR
+	- fixed: item size was 1x1 for the new pants introduced with 2.2
+
+15.4.9.0 STABLE for Diablo III 2.2.0.30894a (v4)
+	NOTE: Be sure to have at least .NET 4.5 on your computer
+	NOTE: HUD's CPU usage is slightly increased because the caching of D3's UI controls is disabled
+	TurboHUD
+	- fixed: server IP display
+	TurboMGR
+	- fixed: exception on startup
+
+15.4.8.0 STABLE for Diablo III 2.2.0.30894a (v4)
+	NOTE: Be sure to extract the new 'data' folder from this package
+	NOTE: HUD's CPU usage is slightly increased because the caching of D3's UI controls is disabled
+	TurboHUD
+	- added: Rift overlay (\config\ui_default_main.xml)
+		- keystone rank granted if you don't kill the current wave
+		- current trial wave
+		- trial timer
+		- greater rift timer and percentage
+		- keystone upgrade level in greater rifts (if you would immediately kill the Rift Guardian)
+		- keystone upgrade markers (reaching each marker decreases your keystone upgrade level by 1)
+	- added: HUD is clipping by the cosmetics and greater rift victory window
+	- added: used space display on stash pages (+snippet to disable it)
+	- removed: sentry icon
+	- removed: horrify icon
+	- removed: power highlight feature
+	- changed: some resources are recompiled to binary format (HUD starts faster)
+	- changed: some resources are moved from the .exe into a new folder called 'data' (HUD uses less memory)
+	- changed: the bottom blood shard number recognize when the cap is increased, and the color is
+		- red when cap-current < 100
+		- yellow when cap-current < 200 and >= 100
+		- green when cap-current >= 200
+	- change: default hotkey to hide HUD is changed to F4 from F1 because default Cosmetics window hotkey is F1 (users should change this in hotkeys.xml manually)
+	TurboMGR
+	- added: images of the new items
+	- fixed: affix order is displayed properly
+	- changed: some resources are moved from the .exe into HUD's 'data' folder (MGR uses less memory)
+		NOTE: TurboMGR is moved from it's own subfolder to the root folder
+
+15.3.15.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	NOTE: this build contains many internal changes in preparation of Diablo 3 2.2 (the new file system causes lots of trouble)
+	TurboHUD
+	- changed: internal hotkey management
+	- changed: entire internal data structure is rewritten
+	- added: Greater Rift Keystone Upgrade Rank calculation in greater rifts
+		NOTE: if gives the upgraded keystone's rank IF you would immediately kill the Rift Guardian (based on the remaining time of the current greater rift)
+
+15.3.5.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboHUD
+	- fixed: some minor bugs
+	- fixed: stability issues in TCP/IP communication
+	TurboMGR
+	- fixed: some minor bugs
+
+15.3.4.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboHUD
+	- fixed: 15.2.28.0 STABLE changelog, the new "text_override" attribute for map_label decorators is called "text" properly
+	- fixed: text="default" added to all map_label decorators
+
+15.3.1.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboHUD
+	- added: item attributes and affixes to all_gamble.tsv log file
+	TurboMGR
+	- added: ancient rank numbers
+
+15.2.28.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboHUD
+	- added: follower items are saved into the inventory snapshot (no MGR support yet)
+	- added: gold and vendor tokens (blood shard) are saved into the stash snapshot
+	- fixed: minor bugs
+	- improved: performance of inventory snapshots
+	- improved: item affix change detection
+	- fixed: some skills' elemental damage calculation
+	- added: map_label actor decorators got a new attribute called "text". It will override the actor's default name on the minimap.
+	TurboMGR
+	- added: gold and blood shard display over inventory
+	- added: display of crafing, uber and rift related materials (no gems)
+
+15.2.24.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboHUD
+	- added: conditions can have an <enabled> attribute. Setting it to 0 will disable the entire condition tag.
+	TurboMGR
+	- fixed: portrait click areas
+	- fixed: items in stash uses the selected hero's gender-related texture instead of always using the female version
+
+15.2.22.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboHUD
+	- improved: tcp communication stability and performance
+	- improved: rendering performance
+	TurboMGR
+	- improved: tcp communication stability and performance
+	- fixed: weapon rolls on some legendaries
+	- improved: search input control has focus by default
+	- added: display the search result item's tooltip when the mouse is over the search result
+	- added: display a red rectangle around all search results
+	- changed: portraits are smaller
+
+15.2.21.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboMGR
+	- fixed: problems with package sizes
+
+15.2.20.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboMGR
+	- fixed: Wizard's Dominance passive was not displayed
+	- added: displaying a full error message when connection failed
+
+15.2.18.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	TurboHUD
+	- fixed: negative net healing percentages were not displayed
+	- fixed: some skills' elemental damage calculation
+	TurboMGR
+	- fixed: 15.2.17.1 was not working at all
+
+15.2.17.1 BETA for Diablo III 2.1.2.28709 (v4)
+	TurboHUD
+	- changed: tcp_server's listen_on attribute is no longer used, and a new attribute called 'port' is added.
+		NOTE: tcp_server is changed from TcpListener to a WCF service with net.tcp binding
+	- fixed: many small bugs
+	- added: frozen pulse actor decorator
+	- added: "frozen", "chill", "slow", "stun", "invulnerable" debuffs on top monster bar
+	- added: applied DOT on top monster bar (reflects only DOT damage)
+	- removed: healing/damage taken numbers over the health globe
+	- added: net healing percentage over the health globe (([healing] - [damage taken]) * 100 / [max hitpoints])
+	TurboMGR
+	- fixed: some items' Crusader version were not displayed
+	- improved: '+x-x Damage' type lines are merged into one line
+	- changed: item tooltip width and font size is increased
+
+15.2.16.0 BETA for Diablo III 2.1.2.28709 (v4)
+	- added: automatic inventory/stash/equipped gear snapshots in \snapshots folder (delete this folder with every BETA update, because file formats can/will change and cause errors)
+	- added: automatic hero data snapshots in \snapshots folder
+	- added: portrait, hardcore and seasonal icons for lobby overlay
+	- added: Epiphany, Desert Shroud calculated into EHP
+	- added: TurboMGR BETA application (requires TCP/IP communication with a running TurboHUD instance on the local machine or over the network)
+
+15.1.27.1 STABLE for Diablo III 2.1.2.28709 (v4)
+	- fixed: minor bugs
+	- fixed: "no_cooldown" condition
+
+15.1.27.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	- added: a new, virtual buff icon for Sunwuko's Clone (it has no official icon, so I cherrypicked one)
+	- added: Storm Armor - Power of the Storm is calculated into the resource costs
+	- added: experimental HTTP listener (disabled by default, do not turn it on!)
+	- added: Area Damage % column to the party comparison table (hover on portrait)
+	- added: new condition called "no_cooldown". It accepts a list (1..N elements) of skill codes (from \doc\sno_powers_skills.txt).
+		NOTE: The condition is active only when all skills from the list are "used" by the current hero (=one of the six skills), and none of them is on cooldown.
+		NOTE: While the "powers" condition requires a rune, the "no_cooldown" condition doesn't.
+
+15.1.14.0 STABLE for Diablo III 2.1.2.28709 (v4)
+	NOTE: this release is for the LIVE version of 2.1.2.28709
+	- added: new attribute processor: ancient_rank (integer, =1 for current ancient items)
+	- added: ancient rank number over items in inventory/stash (=1 for current ancient items)
+	- changed: force_sell_corner and keep_corner are disabled by default, so only sell_darkening is enabled by default
+	- removed: inventory.accbound_circle
+	- added: inventory.accbound (replaces accbound_circle, but it is an anchor image from now)
+	- fixed: all skill changes from PTR changelog (skill damages, resource costs)
+	- added: substitution support for pickit (examples are in pickit_sc_70.ini
+	- removed: support for "max level 60" pickits (for those who does not have Reaper of Souls)
+	- added: "legendary_ancient" item keyword (active on items where ancient_rank > 0)
+	- added: "legendary_regular" item keyword (for non-ancient legendaries)
+	- added: only_trial="1" condition (active in Realm of Trials)
+	- added: only_uber="1" condition (active in the Uber boss areas)
+
+15.1.1.0 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	NOTE: this is the last release for Diablo 3 2.1.1
+	- fixed: minor bugs
+	- fixed: \doc\sno_actors.txt was not created on start
+	- added: support for Greater Rifts' Conduit Pylon
+	- fixed: personal arcs are disabled by default (enabled-by-default behavior was a mistake in the last release)
+	- added: "shrine_all_shrine" actor keyword for only shrines (not pylons)
+	- added: "shrine_all_pylon" actor keyword for only pylons (not shrines)
+		NOTE: "shrine_all" still means all shrines + all pylons
+
+14.12.5.0 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	- fixed: minor bugs
+	- improved: performance, stability
+
+14.11.25.0 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	- fixed: acd dump of hero data
+	- added: cooldown arc for the <personal> element. All 6 skills represent a small section in the arc.
+	- added: timers for sentry, hydra, big bad voodoo, spirit walk, piranhado, black hole (in \config\ui_default\ui_default_actors_skill_timers.xml)
+	- added: <ground_timer> decorator
+
+14.11.20.0 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	- added: ground label for banners
+	- added: ground circle for dead Betrayed monsters (poison cloud after death)
+	- added: \doc\sno_quests.txt will be created when HUD is started first time (or the file is not there)
+	- added: separated acd dump files for hero data
+
+14.11.11.1 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	- fixed: recognition of exploding groteques (bug introduced in 14.11.11.0)
+
+14.11.11.0 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	- removed: <topaz> from ui_default_actors_items because it was accidentally left there
+	- changed: shrine_all keyword no longer contains pool of reflection
+	- fixed: small bugs
+	- added: number of blood shards below the achievements button (bottom of the screen, right to the skill icons) (\config\ui_default_labels_utility.xml)
+
+14.11.7.1 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	- added: headstone_other, headstone_other_witchdoctor, headstone_other_demonhunter, headstone_other_monk, headstone_other_wizard, headstone_other_crusader, headstone_other_barbarian actor keywords
+	- added: dead player's names are added to the minimap and ground (red text) (based on their headstones)
+
+14.11.7.0 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	- added: *critdamage label expression
+	- added: icon resource for Piranhas
+	- fixed: multiple small bugs
+	- added: \config\ui_default\ui_default_actors_players.xml
+	- added: player_other, player_other_witchdoctor, player_other_demonhunter, player_other_monk, player_other_wizard, player_other_crusader, player_other_barbarian actor keywords
+	- added: player names are added to the minimap and ground (cyan text)
+
+14.11.4.1 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: if you are using a version before 14.11.3.3 then you have to make a clean install and read the changelog since 14.11.3.3 STABLE
+	- fixed: map_shape's radius value was broken and 200% of the radius was displayed. Now it is fixed, so all previous USER-MADE map shapes will be smaller (default theme's radius values are doubled to correct this change)
+	- added: new snippets in \config\ui_user folder
+	- added: avenger, horde and missiledampening monster keywords + added to the weak affix list
+
+14.11.3.3 STABLE for Diablo III 2.1.1.27255 (v4)
+	NOTE: This is a major release. Version breaking changes are inside.
+	NOTE: A clean install (into an empty folder) is REQUIRED.
+	NOTE: All of former customizations, overrides, ui_user.xml files are considered as deprecated and WILL NOT WORK with this release.
+	NOTE: Users have to re-create all of their overrides. Do not attempt to reuse your current ui_user.xml file!
+	- added: ground circle and minimap rotational triangle for uber- and rift-related items
+	- changed: all rift levels will use the "Rift Level 01" StatTracker instead of their own (02, 03, etc)
+	- added: ability to highlight certain bounties on the bounty panel (F6) and the waypoint dialog
+	- added: calculation of healing and damage taken, based on the ingame floating numbers (very accurate)
+	- added: display of the sum of the recent healings over the health globe
+	- added: display of the sum of the recent damage taken over the health globe
+	- removed: estimated healing over the health globe
+	- added: damage dealt (all), damage dealt (crit), damage taken and healing columns to StatTrackers
+	- changed: only_dead, only_summoned_by_me and only_summoned_by_others are no longer conditions, but keywords (dead, alive, summoned_by_me, summoned_by_party)
+	- changed: only_on_screen, only_off_screen are no longer conditions, but keywords (onscreen, offscreen)
+	- changed: 'match_mode' is removed. All keywords are in "AND" relation.
+	- changed: monsters got their own <monsters></monsters> sections
+	- changed: items got their own <items></items> sections
+	- changed: all other actors kept their own <actors></actors> sections
+	- changed: based on the above 3 changes the type="monster|actor|item" attribute is no longer supported and most (monster and item related) override paths are changed, so existing overrides will not work.
+	- added: minimap effect for goblin portals (red circle instead of the usual green)
+	- added: elite bonus label to the bottom right section (only in town)
+	- added: StatTracker columns can be enabled/disabled with overrides of values in ui_default.main.xml (<stat_tracker>)
+	- changed: gold drop, all kills, all drops, all white drops, all magic drops and all rare drops are disabled by default in StatTrackers
+	- changed: current DPS measurement window is decreased to 1 second from 3 seconds
+	- fixed: many small bugs
+	- added: user customization has it's own directory: \config\ui_user. All ui_user_*.xml files will be loaded from that folder.
+	- changed: ui_user_template.xml is renamed and moved to \config\ui_user\examples.txt
+	- note: preferred file name for users' own configuration file is \config\ui_user\ui_user_my.xml
+	- note: preferred file name for users' special-purpose configuration file is \config\ui_user\ui_user_{mypackagename}.xml
+	- note: after the changes this is the new loading order of config files:
+		- \config\config.xml (always)
+		- \config\ui_default\ui_default_*.xml (always, even if the current theme is not "default")
+		- \config\ui_{current_theme}\ui_{current_theme}_*.xml (optional, only if the current theme is not "default")
+		- \config\ui_user\ui_user_*.xml
+	- changed: label tooltips and activators can be triggered only if the player is idle (not attacking)
+	- added: only_idle condition to support displaying UI elements only when the player is idle
+	- changed: top experience bar and bottom right run stats can be expanded only if the player is idle so there will lot less accidental popups in fights
+	- added: buff icon for Demon Hunter's Steady Aim
+	- added: crusader skill and buff icons
+	- changed: actor decoration system is totally rewritten. All former XML tags are invalid now
+	- changed: minimap_shape decorator is renamed to map_shape
+	- changed: minimap_label decorator is renamed to map_label
+	- changed: label decorator is renamed to ground_label
+	- changed: minimap decorator of clickables is changed to "x"
+	- added: "x" decorators for clickables on ground
+	- changed: <title> tag of ground_label and map_label decorators is renamed to <text>
+	- added: option to define extra decorators for an actor/monster/item element (example in ui_default_actors_monsters.xml). For example users can define multiple ground_circle type decorators within an actor tag.
+		format is extra_decorators="{unique_tag_name}/{base_decorator_type}"
+	- added: override groups (example is in \config\ui_user\examples.txt)
+	- added: customization snippets under \config\ui_user folder
+	- fixed: added lots of missing buff icons
+	- fixed: community experience buff's bonus to exp/h
+	- fixed: party comparison panel columns
+	- changed: experience bar is redesigned
+	- changed: attribute bar is redesigned
+	- added: attacks per second value of pets when using Tasker and Theo gloves
+	- added: suport of <border> child in <ground_label> decorators for actors/items/monsters (example in ui_default_actors_monsters.xml, <keywarden> tag)
+
+//////////////////////////////////////
+TurboHUD v3 development is closed here
+//////////////////////////////////////
+
+14.10.10.2 STABLE for Diablo III 2.1.1.27255
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	- changed: cursed events has red background color on bounty panel (F6)
+	- changed: bounty panel flags "started" bounties
+	- added: act and difficulty display over Horadric Cache items in inventory/stash
+	- fixed: several bugs
+	- improved: performance and security
+	- removed: RPX packer to fix the slow startup issue
+	- fixed: HUD displays the boss health values even if they are not selected by the cursor in the game
+	- changed: SharpDX*.dll files are no longer inside TurboHUD.exe
+	- added: \doc\powers_all.txt is renamed to \doc\sno_powers_skills.txt
+	- added: \doc\items.txt is renamed to \doc\sno_items.txt
+	- added: \doc\sno_powers.txt will be created when HUD is started first time (or the file is not there)
+	- added: \doc\sno_actors.txt will be created when HUD is started first time (or the file is not there)
+	- added: Ghom's poison clouds are highlighted (\config\ui_default_actors_skills.xml)
+	- changed: "active_buffs" condition format is redesigned: 
+		- active_buffs="318881/*" or active_buffs="318881" means any 'icon' of Harrington Waistguard power (check your acd dump for buff_icon_count text) is active
+		- active_buffs="318881/1" means the icon with index=1 of Harrington Waistguard power
+		this is implemented to allow the customization of the UI based on special powers with more effects ("icons").
+		HW belt's 0th icon means it is used on the player, while 1th icon means it is really activated.
+
+14.10.4.5 STABLE for Diablo III 2.1.1.27255
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	NOTE: since TurboHUD has a strong encryption and protection, most antivirus apps will display false positives like "...MSIL...", "Variant.Kazy"
+	- removed: Greater Rift limit
+
+14.10.4.2 STABLE for Diablo III 2.1.1.27255
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	NOTE: since TurboHUD has a strong encryption and protection, most antivirus apps will display false positives like "...MSIL...", "Variant.Kazy"
+	NOTE: virustotal proof: https://www.virustotal.com/en/file/e17498881d8ba9407071f54f0ed4823e22abe4f9c374e5f60255fe9eab31bba5/analysis/1412433592/
+	- improved: performance
+	- improved: protection against tampering or reverse engineering
+
+14.10.4.1 STABLE for Diablo III 2.1.1.27255
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	- added: new exception handlers + improved stability
+	- fixed: kill counter
+	- fixed: crash with Turkish localization (for example it makes a strange letter from I when using ToLower() function)
+
+14.10.3.0 STABLE for Diablo III 2.1.1.27255
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	- added: new log file for all gambled items in \runs\{btag}\{charname} - {charclass} ({charid})\all_gamble.tsv (it is a tab-separated file, you can open it with Excel)
+	- changed: gambled items are calculated into StatTrackers
+	- added: only_summoned_by_others="0/1" condition for actors
+	- added: blood shard counter in StatTrackers
+	- added: exception handler around the pickit rule loader
+
+14.10.2.0 STABLE for Diablo III 2.1.1.27255
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	NOTE: you can find the actors' SNO numbers if you make an ACD dump with Ctrl+Alt+D. The number is right next to the actor's code.
+			HUD will have a proper actor and power SNO list in next release.
+	NOTE: in favor of fair competition on Leaderboards the map reveal and actor decoration effects are turned on in Greater Rifts after reaching a specific GR level
+	- fixed: high CPU usage in town
+	- changed: ACD dump write attribute modifiers in decimal form (instead of hexadecimal)
+	- added: ACD dump contains the power descriptions for related attributes
+	- added: only_summoned_by_me="0/1" condition for actors
+	- added: active_buffs="...,..." condition
+	- changed: clickable items on minimap are enabled by default but only when player uses a Harrington Waistguard
+	- added: names=a|b|c and snos=1|2|3 style keyword support for actor elements
+	- added: sentries and hydras to minimap (red triangle) (\config\ui_default_actors_skills.xml)
+	- fixed: Urzael's portal
+	- added: example circle in ui_user_template.xml to turn on a 50y radius circle around the player when the Zei's Stone of Vengeance is equipped
+	- added: red circle around exploding Grotesques when they are exploding
+	- changed: updated SharpDX to 2.6.0
+	- removed: fetish virtual buff icon
+	- changed: activity and DPS bars are disabled by default (since 2.0 we have no data about party members' DPS or activity)
+	- added: healthlink actor keyword
+	- changed: "map reveal", "actors on minimap" and "actors on ground" features are disabled in softcore Rank >38 Greater Rifts
+	- changed: "map reveal", "actors on minimap" and "actors on ground" features are disabled in hardcore Rank >30 Greater Rifts
+	style changes:
+	- Wood Wraith, Highland Walker, The Old Man no longer have their own color on minimap, but added to the dangerous monster list (red dot)
+	- Deathspitter, Retching Cadaver, Wretched Mother, Spewing Horror no longer have their own color on minimap
+	- monster circles on minimap got some transparency
+	- added: frozen, molten, desecrator, arcane, thunderstorm and plagued ground affixes are highlighted (\config\ui_default_actors_skills.xml)
+	- fixed: "strongarm" text over top monster bar
+
+14.9.26.0 BETA for Diablo III 2.1.1.27255
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	- fixed: fullscreen warning dialog added back
+	- fixed: support of letterbox screen mode is added back
+	- added: Guardian Tower as monster
+	- fixed: label of offscreen Power Orbs
+	- fixed: enabled the caching of UI elements (was temporary disabled for debug purposes)
+	- added: display of legendary gem ranks at Urshi (if the rank does not increase immediately after pressing Upgrade button, then the upgrade is failed)
+	- added: display of legendary gem ranks in inventory/stash (rank 0 is not displayed)
+	- changed: accbound circle is disabled by default (bottom left corner of items in inventory/stash)
+	- changed: the following items inside stash will never display the "keep" (green corner) icon even if they fit the pickit rules: gems, legendary gems, crafting materials, uber items, rift keystones, consumables
+	- fixed: clickable actors
+
+14.9.24.1 BETA for Diablo III 2.1.1.27255
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	NOTE: do not forget to update your entire ui_default folder!
+	- added: option to display power globes (update in \config\ui_default_actors.xml) (default enabled)
+	- added: option to display rift orbs (update in \config\ui_default_actors.xml) (default enabled)
+	- removed: item perfection % display
+	- fixed: Dashing Strike damage calculation
+	- changed: magic find attribute is changed to gold find attribute on the attribute bar (above the skills)
+	- fixed: *elite-dps and *elemental-dps label expressions
+	- changed: Healing Well's shape on minimap
+	- added: option to display "clickable" actors (update in \config\ui_default_actors.xml) (default disabled, but added an example override)
+	- added: new minimap shapes: "plus" (used for clickables) and "healingwell" (used for Healing Wells)
+	- changed: party DPS labels under the portraits (in multiplayer games) are disabled because HUD has no DPS data about other players
+	- changed: stat trackers are paused in Realm of Trials
+	- fixed: a few dead bodies was not recognized properly
+	- added: portals to minimap
+	- added: CDR% (cooldown reduction) label left to the buff area
+	- removed: pre-2.0 power IDs (update in \config\ui_default_main.xml)
+	- changed: jailer, waller and mortar are important affixes
+	- added: Punisher, Anarch, Corrupted Angel, Winged Assassin and Exarch to the list of dangerous monsters (red dot on minimap)
+
+14.9.13.0 BETA for Diablo III 2.1.0.26451
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	- added: *cdr, *elite-dps and *elemental-dps label expressions
+	- fixed: bodies, racks and chests in Cesspools
+	- fixed: Blazing Hydra virtual buff icon
+	- fixed: goblins in The Vault are properly shown
+	- fixed: Greed's portal is recognized as a portal (fixed again...)
+	- added: timer for greater rifts
+
+14.9.6.0 BETA for Diablo III 2.1.0.26451
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	- fixed: duplicated rift % display
+	- added: "only_greater_rift" condition (in addition to "only_rift")  (update in \config\ui_default\ui_default_labels_utility.xml)
+	- added: passive skill support in "powers" condition (<conditions powers="passive-skill-id/*" />)
+	- disabled: DPS display for party members
+	- added: a new, virtual buff icon showing the number of "nearby" hydras (owned by the player)
+		NOTE: hydras too far offscreen does not increase the counter
+	- fixed: new monk passives are properly recognized: Harmony, Determination, Relentless Assault (delete your \doc\powers.txt, update to this version and HUD will recreate powers.txt on first start)
+
+14.9.5.0 BETA for Diablo III 2.1.0.26451
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	NOTE: DPS meter is still bugged
+	- fixed: legendary gems are recognized as loot
+	- fixed: unid legendary gems are recognized as unid
+	- fixed: Greed's portal is recognized as a portal
+	- fixed: changes of damage multipliers and elemental damage types introduced in 2.1.0.26451
+	- fixed: % display for normal rifts
+	- added: % display for greater rifts (no timer yet) (update in \config\ui_default\ui_default_labels_utility.xml)
+	- fixed: latency readings
+	- added: compatibility with items introduced in 2.1.0.26451
+	- added: new pickit groups for new items (+updated all pickit files)
+
+14.8.30.0 BETA for Diablo III 2.1.0.26451
+	NOTE: the floating number reader (to calc DPS) still leaks memory in this release
+	- removed: minimap reveal in town
+
+14.8.17.0 STABLE for Diablo III 2.0.6.24641
+	- added: Crusader support in power highlight feature (ui_default_main.xml -> <power_highlight>)
+
+14.8.4.0 STABLE for Diablo III 2.0.6.24641
+	- changed: current player's damage is calculated by HUD based on the floating numbers
+
+14.7.8.0 STABLE for Diablo III 2.0.6.24641
+	- added: *exp-bonus-pool-percent, *exp-bonus-pool-remaining, *exp-bonus-pool-remaining-nok label expressions for Pool of Reflections
+	- added: a new, virtual buff icon showing the number of "nearby" sentries (owned by the player)
+		NOTE: sentries too far offscreen does not increase the counter
+	- fixed: Unwavering Will and Mysic Ally icons
+
+14.6.18.0 STABLE for Diablo III 2.0.6.24641
+	- removed: bounty drop (legendary material) icons from wapoint map
+	- changed: <portraits> tag is revamped in ui_default_main.xml
+	- disabled: Ground Map
+	- enabled: Minimap Reveal, Ground Actors/Monsters (300y range limit), Minimap Actors/Monsters (300y range limit)
+
+14.6.11.0 STABLE for Diablo III 2.0.6.24641
+	NOTE: you have to unpack and overwrite everything or just make a clean install into an empty folder
+	NOTE: the following features are completely disabled in HUD right now, and may or may not come back in the future (with limited funcionality):
+		Minimap Reveal, Ground Map, Ground Actors, Minimap Actors
+	- fixed: small bugs
+	- removed: lots of unused code
+	- fixed: small bugs
+	- removed: run upload feature
+	- added: movespeed and movespeed-bonus label expressions
+	- added: hotkey to reset "Session" StatTracker (Ctrl+Alt+R by default, and only works when StatTracker Panel is visible)
+	- changed: personal health and resource arcs under feet are disabled by default
+	- added: example override to enable personal arcs
+	- added: new attribute for circle elements called "extend_by_pickup". If it is enabled then 'radius' will be automatically increased by the current pickup range.
+	- added: "strongarm" monster buffs/debuff over top monster bar
+	- fixed: keywarden actors are no longer considered elite
+	- fixed: HUD is clipping by the main clan window
+	- changed: the green portrait bar is displaying run-wise total damage output for the player (100% bar is the best player, others scales to that)
+	- added: run-wise total damage output ("total DMG") column to the party comparison table
+	- added: *dmg-total and *dmg-total-party label expressions
+
+14.5.20.0 STABLE for Diablo III 2.0.5.24017
+	NOTE: if you installed 14.5.14.1 or newer then you have to update only the .exe file otherwise unpack (and overwrite) everything
+	- added: pylon_shield, pylon_conduit, pylon_power, pylon_speed, pylon_channeling actor keywords
+	- fixed: map_enabled and minimap_enabled was switched in config.xml
+
+14.5.18.0 STABLE for Diablo III 2.0.5.24017
+	NOTE: if you installed 14.5.14.1 or 14.5.14.2 then you have to update only the .exe file otherwise unpack (and overwrite) everything
+	NOTE: before you overwrite everything, make sure you made a backup first (in case you want to keep your current pickit files)
+	- added: support for the new horadric caches
+	- added: in hotkeys.xml users can use the - character for the "modifier" tag to not disable the modifier
+	- fixed: Spider Queen 'buff' is displayed only once even if there are multiple spawns around
+	- fixed: some configuration settings was not respected by HUD
+	- fixed: Shield Bash/Crumble rune's weapon damage is changed to 700%
+
+14.5.14.2 STABLE for Diablo III 2.0.5.24017
+	NOTE: if you installed 14.5.14.1 then you have to update only the .exe file
+	- fixed: haunt (de)buff was not displayed properly on the MonsterBar
+
+14.5.14.1 STABLE for Diablo III 2.0.5.24017
+	- added: *dmg-dealt-bonus-elite (bonus damage % against elites)
+	- improved: lower CPU usage
+	- fixed: Ancient Pyre map
+	- changed: item capture (Alt+C by default) will automatically hide/show the overlay to prevent the p% and ilvl included on the screenshots
+	- added: item capture automatically save the item's image on the clipboard
+	- added: buff icon for Witch Doctor's "Spider Queen" (no timer is available though)
+	- added: "elemental DPS" and "elite DPS" to the party comparison panel (both based on the players' highest elemental damage bonus %)
+	- added: cooldown reduction (CDR) and resource cost reduction (RCR) to the party comparison panel (+Pierce The Veil support)
+	- added: REAL resource cost display for skills (does not include everything, but includes a few stuff like Cindercoat)
+	- added: monster buffs/debuffs over top monster bar (supported debuffs: palm, locust, haunt, mark)
+
+14.5.9.0 STABLE for Diablo III 2.0.4.23119
+	- changed: some experimental changes around the detection of already used shrine/rack/chest actors
+	- fixed: spirit % expression was not calculated
+	- changed: if a Conduit shrine was active on you in the last 3 seconds then HUD will count your DPS as 0 (and stop counting activity)
+	- fixed: server IP logging in \runs\*\*\pickup_all_*.tsv
+	- fixed: "first area" logging in \runs\*\*\all_drop.tsv
+
+14.5.1.0 STABLE for Diablo III 2.0.4.23119
+	- fixed: small bugs + some stability improvements in case of failed memory reads
+	- added: dungeon stones are displayed as portals
+
+14.4.27.0 STABLE for Diablo III 2.0.4.23119
+	- fixed: Evasive Fire's DPS calculation
+	- changed: electrified is an important (=strongly highlighted) monster affix from now
+	- fixed: small UI fixes
+	- fixed: fetish virtual buff icons shows only the player's own fetishis instead of all nearby
+
+14.4.25.5 STABLE for Diablo III 2.0.4.23119
+	NOTE: a clean install (into an empty folder) is REQUIRED via the new launcher.exe
+	NOTE: support forum: http://www.turbohud.freeforums.net
+	- fixed: small bug around new version notification
+	- fixed: some other smaller bugs (skill DPS calculations, etc)
+	- changed: HUD no longer force the "Teen Female" voice synth scheme
+	- changed: slightly adjusted DH resource values (\config\ui_default_labels_ball_of_resource.xml)
+	- changed: complete rewrite of the theming engine
+		- users can not edit the theme files anymore. All user customization goes into \config\ui_user.xml
+		- themes are organized into folders under \config folder
+		- default theme is always loaded + the user-chosen theme from config.xml
+		- theme-related parts of config.xml are moved into \config\ui_default\ui_default_main.xml
+		- non-default themes can "override" XML attributes of the default theme (check \config\ui_r3peat\ui_r3peat_overrides.xml for examples)
+		- (fun fact: an override in ui_user.xml can disable an override in ui_r3peat_overrides.xml)
+	- removed: thousand separator helpers (no AH, no gold trading...)
+
+14.4.22.3 STABLE for Diablo III 2.0.4.23119
+	- fixed: small bug caused by a debug message
+
+14.4.22.2 STABLE for Diablo III 2.0.4.23119
+	NOTE: if you have HUD 14.4.14.0 or newer then you can update only the .exe file and \config\default_actors_items.xml. Otherwise you need a clean install (see the changelog of 14.4.14.0)
+	- fixed: Evasive Fire DPS was not displayed
+	- changed: legendary items no longer have a rotating triange on the minimap (D3's star is enough) (\config\default_actors_items.xml)
+	- added: material-bar when inventory is opened (only for RoS characters, displaying the following items: reusable parts, arcane dust, veiled crystal, forgotten soul, death's breath, and the four uber-keys and rift key fragments)
+	- fixed: some material's size in inventory is properly set to 1x1
+
+14.4.18.0 STABLE for Diablo III 2.0.4.23119
+	NOTE: if you have HUD 14.4.14.0 or newer then you can update only the .exe file and \config\ui_default_labels_utility.xml. Otherwise you need a clean install (see the changelog of 14.4.14.0)
+	- added: buff icon for Wizard's Unwavering Will
+	- fixed: Mystic Ally and Summon Zombie Dogs skill bonus display
+	- fixed: experience numbers over the D3's experience bar are shown only when the player is at max level (60 or 70 depends on account) (\config\ui_default_labels_utility.xml)
+	- added: elite simulation in town (3-3 seconds with and without simulation)
+	- added: display of targeted monster's current/maximum health
+	- changed: skill DMG values are moved to the left of the skill's button
+
+14.4.16.2 STABLE for Diablo III 2.0.4.23119
+	NOTE: if you have HUD 14.4.14.0 or newer then you can update only the .exe file. Otherwise you need a clean install (see the changelog of 14.4.14.0)
+	- fixed: HUD was unable to recognize you are playing a hardcore hero
+	- fixed: inventory highlight was not working when only "darkening" was enabled
+	- added: only_hardcore and only_softcore conditions for themes
+	- added: waypoint names to Bounty Panel
+	- fixed: HUD is clipping by the clan window
+	- fixed: serious memory leak problem caused by the Bounty Panel's item images
+
+14.4.15.3 STABLE for Diablo III 2.0.4.23119
+	NOTE: if you have HUD 14.4.14.0 or newer then you can update only the .exe file and  \config\ui_default_labels_utility.xml. Otherwise you need a clean install (see the changelog of 14.4.14.0)
+	- fixed: Weapon Throw's DPS calculation was missing
+	- fixed: Spirit Barrage/Manitu is handled like a DOT skill from now
+	- fixed: Piranhas/Wave of Multilation is no longer a DOT skill
+	- fixed: already opened weapon racks no longer shown on HUD when you leave the area and go back
+	- fixed: HUD no longer terminates on start when NTP query is failed
+	- added: Bounty Panel is colored and sorted by event types
+	- fixed: skill DPS calculator will count the elite bonus when there is a goblin on the screen (not only for on-screen elites)
+	- added: bounty names and legendary material drops to Waypoints dialog
+	- added: labels displaying the gained experience in the current level of the total experience needed to reach the next level (over D3's exp bar) (\config\ui_default_labels_utility.xml)
+	- added: option to keep Bounty Panel opened between runs (\config\config.xml <bounty_panel keep_enabled_between_games="1" />)
+	- added: legendary material drop icons to Bounty Panel
+
+14.4.14.1 STABLE for Diablo III 2.0.4.23119
+	NOTE: if you have HUD 14.4.14.0 or newer then you can update only the .exe file and  \config\ui_default_actors_items.xml. Otherwise you need a clean install (see the changelog of 14.4.14.0)
+	- fixed: legendary labels on ground
+
+14.4.14.0 STABLE for Diablo III 2.0.4.23119
+	NOTE: a clean install (into an empty folder) is REQUIRED
+	- removed: timebomb
+	- added: version check on every HUD start. If version check is failed then HUD doesn't start.
+	- added: if the current version is more than 10 days older than the latest online version, then HUD doesn't draw anything (except the bottom status bar).
+		NOTE: this will prevent users to use outdated versions
+	- added: detection of D3's display mode + a notification when it is "fullscreen"
+	- fixed: attack speed calculations for the Crusader (Laws of Valor)
+	- fixed: wrong elite bonus display when playing in party (after leaving and resuming the game)
+	- fixed: row header labels on run stats panel (in town)
+	- fixed: *resource-wrath-pct label expression always displayed 0% instead of the real % of the current amount of wrath
+	- fixed: some attribute processors were not working (like sdmg_f, sdmg_l, etc)
+	- added: option to display dead bodies on minimap (\config\ui_default_actors.xml) (not all dead bodies are recognized!)
+	- changed: option to tag only pickit "keep" items on the ground (keyword: "keep", \config\ui_default_actors_items.xml)
+	- changed: redesigned ground display for items. Legendaries are the same, but everything else got a simple white circle when it is "KEEP" by pickit. Just keep it simple.
+	- added: theme support
+	- added: R3peat's custom theme (to use that you have to change the following value in \config\config.xml:  <themes current="r3peat" />)
+	- added: a new, virtual buff icon showing the number of "nearby" fetish pets. The icon will be visible for all party members, not only the owner.
+		NOTE: fetish pets too far offscreen does not increase the counter
+	- changed: EHP formula is extended with elite damage reduction because "EHP against elites" is much more interesting than "EHP against trash"
+	- added: Bounty panel (F6) (content is not completed yet)
+	- changed: after level 50 any measured DPS value lower than 10.000 will be discarded
+	- changed: after level 70 any measured DPS value lower than 100.000 will be discarded
+
+14.4.9.2 STABLE for Diablo III 2.0.4.23119
+	NOTE: if you have HUD 14.4.9.1 or newer then you can update only the .exe file. Otherwise you need a clean install (see the changelog of 14.4.9.1)
+	- fixed: HUD properly reflects skill damage changes introduced in D3 patch 2.0.4
+		
+14.4.9.1 STABLE for Diablo III 2.0.4.23119
+	NOTE: a clean install (into an empty folder) is REQUIRED, otherwise you have to update the following files (only for experts): TurboHUD.exe (obviously), \config\ui_*.xml
+	NOTE: theme switching feature is postponed for the next week
+	- added: Nephalem Rift status (% and killed monster count) (\config\ui_defaults_labels_utility.xml)
+	- added: new NTP servers
+	- fixed: Act 4 shrines
+	- fixed: minor bugs
+	- Demonic Vessel is no longer a "normal chest"
+	- removed: zones
+	- added: "activators" will allow users to show/hide groups of UI elements with mouse, instead of hotkeys
+	- changed: completely redesigned experience bar (top) and run stats (bottom right)
+	- added: new attribute processor: reg_wrath and max_wrath
+
+14.4.3.0 STABLE for Diablo III 2.0.3.22427
+	NOTE: files to update: .exe (obviously)
+	- fixed: horadric cache size is properly recognized now (1x2)
+	- added: extra exception handlers on start (detailed logging)
+
+14.4.2.1 STABLE for Diablo III 2.0.3.22427
+	NOTE: files to update: .exe (obviously), \config\ui_default_labels_utility.xml, \config\ui_default_labels_attributes.xml
+	- added: number of free inventory slots below the inventory button (bottom of the screen, right to the skill icons) (\config\ui_default_labels_utility.xml)
+	- added: "SUM of party DPS" and "SUM of party average DPS" (\config\ui_default_labels_utility.xml)
+	- added: after level 50 any measured DPS value lower than 1000 will be discarded
+
+14.4.1.2 STABLE for Diablo III 2.0.3.22427
+	- fixed: bugs
+
+14.4.1.1 STABLE for Diablo III 2.0.3.22427
+	NOTE: a clean install (into an empty folder) is REQUIRED
+	NOTE: if you want to keep your old "stat_tracker" and "runs" folder, just copy those into your new installation folder.
+	- changed: timebomb will expire on 2014. may 1.
+	- fixed: lots of small bugs
+	- added: support for 4th stash page
+	- added: Crusader resources (users must update \config\ui_default_labels_ball_of_resource.xml)
+	- fixed: many Act V related actors are properly recognized now
+	- fixed: I started to finalize sc and hc level 70 pickit files, but I need more time to finish (\config\pickit_*.ini)
+	- added: new attribute processor: sdmg_h ("Holy skills deal X% more damage")
+	- added: labels on the bottom right corner showing the different elemental damage bonuses in town (\config\ui_default_labels_damage_bonus.xml)
+	- added: damage bonus display on the skill icons. It shows "skill damage bonus" * "elemental damage bonus" (using the current elemental bonus for the skill's used rune)
+		NOTE1: if there is at least 1 elite on the screen then the number goes red and the value is increased by the elite damage bonus
+		NOTE2: currently there is no FACT about how D3 calculates the different damage bonuses. We know that the "grand elite bonus" is calculated by each items' elite bonus with a diminishing formula = 1-(1-a)*(1-b)*(1-..)
+		But I strongly believe the operation between the different damage bonuses are not diminishing but multiplicative, so damage bonus = skilldamage*elementaldamage*elitedamage*....
+	- added: "skill DMG" display (bottom right corner of the skill icons)
+	- added: "skill DPS" display (under the skill icons)
+	- added: detailed skill damage info panel (next to the skill's tooltip)
+	- added: all skill-damage/dps related info can be disabled in \config\ui_default_powers.xml (set enable_skill_dps="0")
+	- fixed: Nephalem Rift portals
+	- added: DOT damage type support for "skill DPS" display
+	- fixed: HUD no longer hides itself when Paragon Capture is disabled
+	- added: 4 cutomizable "UI Zones". Default UI has the following 3 zones: (zone#1)NumPad1-experience bar, (zone#2)NumPad2-attributes, (zone#3)NumPad3-run stats
+	- added: resource regen labels on the resource balls
+	- added: ADDED BACK the detailed data to the uploaded run stats: spawned monsters and dropped items (removed in 14.3.23.1) for further legendary drop and monster spawn analyzis
+
+14.3.23.1 STABLE for Diablo III 2.0.3.22427
+	- added: Cursed Event (chests and shrines) to the minimap + ground label (\config\ui_default_actors.xml)
+	- added: new attribute processor: elitedam ("Increases damage against elites by X%")
+	- added: new attribute processor: elitedamred ("Reduces damage from elites by X%")
+	- improved: pickit files
+	- removed: sheet DPS and EHP display from portraits
+	- changed: the top label over portraits shows: current DPS
+	- changed: the bottom label over portraits shows: average DPS
+	- added: in multiplayer games: EHP (green), activity (blue) and average DPS (red) bars next to the portraits.
+		Full bar means that player is the best in the game (100%), other bars are relative to that player.
+		Activity counts the time when your current DPS is not 0.
+	- added: statistics of players when you move your mouse over your portrait
+	- added: option to disable the paragon capture feature (\config\config.xml)
+	- fixed: multiple bugs of paragon capture
+	- fixed: Blizzard removed the buff_active attribute from the server side, so HUD lost a lot of it's funcionality.
+		Currently it is replaced by a workaround to detect the active buffs/debuffs on a character. EXPERIMENTAL.
+	- changed: removed some detailed data from uploaded run stats: spawned monsters and dropped items
+	- added: statistical data about dropped items (count of white, magic, rare and legendary items)
+	- fixed: lore dialog player's clipping area
+	- changed: only \config\ui_default_*.* files are loaded for HUD's UI (and ui_debug.xml)
+	- fixed: monk mantras' passive icon timeouts no longer displayer
+
+14.3.14.2 STABLE for Diablo III 2.0.3.22427
+	- fixed: resource bars under feet
+	- added: Demonic Vessel is a "normal chest" now
+
+14.3.14.1 STABLE for Diablo III 2.0.3.22427
+	- fixed: pickit files
+
+14.3.14.0 STABLE for Diablo III 2.0.3.22427
+	NOTE: a clean install (into an empty folder) is REQUIRED
+	- changed: timebomb will expire on 2014. april 1.
+	- added: new StatTracker called "SESSION (abs)" to count the current session (like "SESSION") but it never stops. Not in menu, nor in town, nor when you pause a singleplayer game.
+	- added: rounding to billions (1 bn = 1000 million, using english metric system)
+	- added: HUD will automatically capture a small burst of images of your screen when you reach a new paragon level (into the \capture_paragon folder)
+		NOTE: HUD is automatically disabled when the "You have reached paragon level xxx" is displayed by D3
+	- fixed: experience changes related to 2.0.1.22274
+	- added: new attribute processor: rescostred ("Reduces all resource costs by X%")
+	- added: new attribute processor: cdred ("Reduces cooldown of all skills by X%")
+	- added: new attribute processor: skilldmg ("Increases Energy Twister Damage by X% (Wizard Only)"
+	- added: new attribute processor: areadmg ("Chance To Deal X% Area Damage on Hit")
+	- added: new attribute processor: sdmg_any (all kinds of ".... skills deal X% more damage")
+	- added: new attribute processor: sdmg_ph, sdmg_f, sdmg_l, sdmg_c, sdmg_p, sdmg_a ("Physical/Fire/Lightning/Cold/Poison/Arcane skills deal X% more damage")
+	- changed: revamped internals
+	- removed: item AutoCapture feature temporarily disabled (will be enabled again if I find a way to be 100% sure if an item's panel is already faded in)
+	- fixed: estimation of ETAs to reach new paragon levels
+	- improved: HUD finally recognize if you are at level cap, so level 60 players without RoS will see their paragon progress once again
+	- changed: HUD will dynamically use a level 60 pickit file (hc/sc) when you are <= level 60, and level 70 pickit file when you are >= level 61.
+	- added: "Pool of Reflection" as a shrine
+	- added: 'potions' item group code
+	- changed: all logs are using NTP-corrected datetime values
+	- added: rack_all, rack_weapon and rack_armor actor keywords + overlay element (disabled by default)
+
+14.2.1.0 BETA (2.0.1)
+	NOTE: this version is for Diablo III 2.0.0.21390 and does not work with 1.0.8 LIVE
+	NOTE: a clean install (into an empty folder) is REQUIRED for every beta versions
+	NOTE: the pickit files in this release are a mess. I already added the new crafting materials, but everything else is from HUD 2.0
+	- changed: timebomb will expire on 2014. march 1.
+	- changed: HUD does count only paragon experience, so you can't see any exp/h data before level 70
+		NOTE: I know this will cause serious problems for people don't buy Reaper of Souls, but currently I have no option to detect if you are classic or RoS player
+	- changed: enabled all rare items in ui_default_actors_items.xml to be displayed on floor
+	- added: all identified items displayed on the ground (with a label) will get the [!] postfix if it does fit pickit.ini
+	- added: HUD is clipping by the new D3 dialogs (paragon settings, world map, etc)
+	- added: shield display at the bottom of the health ball
+	- added: support for the new monster affixes
+	- added: magic item drop counter to stat trackers
+	- added: magic and rare item drop counters to run stats (bottom right table ingame)
+	- added: iLvl display on every items' top left corner
+	- added: item Perfection display on all item's top right corner (based on those affixes where maximum possible value is larger than minimum possible value)
+	  NOTE: if an affix can roll a random number between 8 and 12 then 8 will result 0% perfection and 12 will mean 100% perfection for that affix
+	- changed: format of dropped and picked item logs
+	- changed: all_pickup.tsv is renamed to all_pickup_items.tsv and now it includes all picked items with magic or better quality
+	- added: all_pickup_other.tsv for all picked items with lower quality than magic (crafting materials, gems, white items, etc)
+	- added: inventory and stash acd dump files + improved content
+
+//////////////////////////////////////
+TurboHUD v2 development is closed here
+//////////////////////////////////////
+
+13.12.4.0 STABLE (2.0)
+	NOTE: if you have HUD 2.0 STABLE (13.11.15.0 or newer) then you can update only the .exe file. Otherwise you need a clean install (see the changelog of 13.11.15.0)
+	- fixed: goblins
+
+13.12.2.6 STABLE (2.0)
+	NOTE: if you have HUD 2.0 STABLE (13.11.15.0 or newer) then you can update only the .exe file. Otherwise you need a clean install (see the changelog of 13.11.15.0)
+	- fixed: small bugfix
+	
+13.12.2.5 STABLE (2.0)
+	NOTE: if you have HUD 2.0 STABLE (13.11.15.0 or newer) then you can update only the .exe file. Otherwise you need a clean install (see the changelog of 13.11.15.0)
+	- fixed: map reveal
+
+13.12.1.0 STABLE (2.0)
+	NOTE: if you have HUD 2.0 STABLE (13.11.15.0 or newer) then you can update only the .exe file. Otherwise you need a clean install (see the changelog of 13.11.15.0)
+	- changed: timebomb will expire on 2014. january 1.
+	- fixed: some minor bugs
+	- changed: many internal code (I hope this release will not introduce new bugs)
+
+13.11.17.0 STABLE (2.0)
+	NOTE: if you have HUD 2.0 STABLE (13.11.15.0 or newer) then you can update only the .exe file. Otherwise you need a clean install (see the changelog of 13.11.15.0)
+	- fixed: some minor bugs
+	- added: *gold-in-stash and *gold-in-stash-nok label expressions (automatic units and full number format)
+
+13.11.15.0 STABLE (2.0)
+	NOTE: a clean install (into an empty folder) is REQUIRED
+	NOTE: if you want to keep your old "stat_tracker" and "runs" folder, just copy those into your new installation folder. Nothing else can be used from earlier HUD versions.
+	NOTE: let me say again: make a clean install!
+	- added: \config\pickit_hc.ini will be used for inventory highlight if you are playing hardcore
+	- changed: pickit.ini is renamed to pickit_sc.ini
+	- updated: massive update in pickit_sc.ini (filtered out a lot of useless junk - but never forget: that file represents my personal preferences, not yours)
+	- removed: label scramble effect after game is created
+	- added: new condition called only_below_p100
+	- changed: experience related UI elements have the new condition: only_below_p100="1"
+
+13.11.6.0 RC9 (2.0)
+	NOTE: a clean install (into an empty folder) is REQUIRED
+	NOTE: if you want to keep your old "stat_tracker" and "runs" folder, just copy those into your new installation folder. Nothing else can be used from earlier HUD versions.
+	NOTE: let me say again: make a clean install!
+	- added: new StatTrackers based on "current difficulty" (currently without any UI support)
+	- added: death count to StatTrackers
+	- changed: completely redesigned template system for UI elements
+
+13.11.5.0 RC7 (2.0)
+	NOTE: a clean install (into an empty folder) is REQUIRED
+	NOTE: if you want to keep your old "stat_tracker" and "runs" folder, just copy those into your new installation folder. Nothing else can be used from HUD 1.0 or HUD 2.0 BETA or HUD 2.0 RC2
+	NOTE: let me say again: make a clean install!
+	- fixed: thousand helper was not visible on the in-game trade window
+	- added: portal notification on the minimap
+	- added: HUD is clipping by the party invite dialog
+	- added: mouse_near and mouse_far conditions
+	- added: inheritance and template support for UI elements (\config\ui_*.xml files)
+	- improved: performance
+	- changed: character_* StatTrackers renamed to hero_*
+	- added: bottom right run statistics will swap to numeric values (instead of something/hour) when you move the mouse over any labels there
+	- changed: every word "character" displayed by TurboHUD is changed to "hero" to reflect the true meaning of the word
+
+13.10.31.0 RC2 (2.0)
+	NOTE: a clean install (into an empty folder) is REQUIRED
+	NOTE: if you want to keep your old "stat_tracker" and "runs" folder, just copy those into your new installation folder. Nothing else can be used from HUD 1.0 or HUD 2.0 BETA
+	NOTE: let me say again: make a clean install!
+	- added: power highlight
+	- added: own minimap colors for Wretched Mothers and Wood Wraiths (trees)
+	- changed: minimap actor design
+	- removed: automatic download of the Laggy Server database from d3-server-checker's github page
+	- disabled: default speech (voice synth) for monsters (you can enable them in ui_default_actors_monsters.xml)
+
+13.10.29.1 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- changed: TOTAL StatTracker is renamed to CHARACTER TOTAL
+	- added: ACCOUNT-related StatTrackers
+	- added: SESSION StatTracker. It will start from zero every time you start TurboHUD.
+
+13.10.28.9 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- added: a lot of new "scene hints"
+
+13.10.28.8 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- fixed: latency display was only visible in town (you have to update your ui_default_labels_utility.xml)
+
+13.10.28.7 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- added: latency display
+		NOTE: you have to update your ui_default_labels_utility.xml to get the latency display
+
+13.10.28.4 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- added: "scene hints". Supported entrances: Warrior's Rest, Crypt of the Ancients, Decaying Crypt, Khazra Den, Lost Mine, Scavenger's Den
+		NOTE: you have to update your ui_default_actors.xml to get the scene hints
+
+13.10.28.2 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- fixed: bugs
+
+13.10.27.1 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- fixed: kill counter was broken since 13.10.25.9
+	- added: scene codes to map when debug overlay is turned on
+
+13.10.27.0 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- fixed: some very minor bugs
+
+13.10.25.9 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- changed: turned off actor blacklisting - I hope this will fix some minor bugs
+	- changed: HUD's overlay is almost perfectly synced with D3's framerate
+
+13.10.25.8 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- fixed: some minor bugs
+
+13.10.25.4 BETA (2.0)
+	NOTE: if you have 13.10.24.2 or newer version then you can update only the .exe file
+	NOTE: if you have an older version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- fixed: possible bug in map reveal caching
+
+13.10.25.2 BETA (2.0)
+	NOTE: if you have 13.10.24.2 then you can update only the .exe file
+	NOTE: if you have any other version then you have to make a clean install (read 13.10.24.2 changelog)!
+	- fixed: acc_bound_circle and force_sell_corner was not working in inventory highlight
+	- changed: re-designed run logs
+	- added: monster and world (scene) information to run logs
+	- added: at the end of your run, a zipped copy of the log will be saved into the \runs_upload folder.
+			IMPORTANT: After every 10th run all files from \runs_upload folder will be automatically uploaded to me (in email).
+			When the upload is done, HUD will delete the files. The run logs are completely anonymous, and does not contain any sensitive information.
+	- added: version check at startup and notification when a new update is available for TurboHUD (you have to update it manually, TurboHUD will not download anything)
+
+13.10.24.2 BETA (2.0)
+	NOTE: a clean install (into an empty folder) is REQUIRED for every beta versions and the upcoming initial release of TurboHUD 2.0 STABLE
+	NOTE: if you want to keep your old "stat_tracker" and "runs" folder, just copy those into your new installation folder. Nothing else can be used from HUD 1.0
+	- changed: TurboHUD is almost completely rewritten, so basically everything is changed
+	- changed: HUD can't start without DirectX 10.1
+	- changed: hotkeys without modifiers will work only when Diablo 3 is the focused window
+	- changed: hotkeys no longer prevent other applications using the same keys
+	- changed: new default hotkeys
+	- changed: all UI elements are removed from config.xml and moved into separate UI element holder files (\config\ui_*.xml)
+	- changed: all per-hour (/h) calculations are based on the play time which equals to "all time - time in town"
+	- removed: StatTrackerPanel (replaced by a few label elements in \config\ui_default_labels_run_stats.xml)
+	- removed: AttribPanel (replaced by a few label elements in \config\ui_default_labels_attributes.xml)
+	- removed: ExpAnalyzer (replaced by a few label elements in \config\ui_default_labels_expbar.xml)
+	- removed: drop rules (replaced by a few actor elements in \config\ui_default_actors_items.xml)
+	- removed: Edit Mode
+	- removed: histograms
+	- removed: option to show world's directions
+	- removed: saved paths
+	- removed: "filtered items" counter from StatTracker
+	- removed: health and battletag display around other party members
+	- removed: automatic reload of the config file(s) (users have to use the F2 hotkey instead)
+	- added: 'labels' allow users to add various data of the game at any place on the screen (default labels replace the old AttribPanel, ExpAnalyzer and StatTrackerPanel)
+	- added: users can define conditions to show/hide labels, circles, powers based on the current character class or the current character's selected skills
+	- added: experience range on minimap is automatically hidden in singleplayer games
+	- added: pickup range on floor is automatically hidden when not moving
+	- added: autoscale support - every font automatically scales with the D3 window
+	- added: every coordinate (and most geometry sizes) in config.xml means % of the game window's size (or the element's container's size), instead of pixels.
+	- added: server IP label and expression (*ingame-ip)
+	- added: experience-related labels on top of the screen
+	- added: health arc under feet
+	- added: StatTracker Window (default hotkey is F5)
+	- added: debug overlay (default hotkey is F11)
+	- added: fade effect for appearing/disappearing UI elements
+	- added: "YESTERDAY" StatTracker
+	- added: "AREA TOTAL" StatTracker - which collects the data for the current character in the specified area
+	- added: hints for labels
+	- added: option to flag custom server IP addresses (config.xml) (flags are displayed next to the IP address)
+	- added: automatic download of the Laggy Server database from d3-server-checker's github page (https://github.com/azgul/d3-server-checker)
+	- added: loading screen text
+	
+//////////////////////////////////////
+TurboHUD v1 development is closed here
+//////////////////////////////////////
+
+13.9.24.1 STABLE (1.0)
+	- changed: timebomb will expire on 2013. december 1.
+	- changed: full rewrite of the data collector and introducing internal memory reading wrappers (increases the CPU usage a bit)
+	- added: UI item caching -> decreased CPU usage
+	- improved: much smoother reaction to UI item changes (especially with high_framerate="1")
+	- added: dropped gold counter to all StatTrackers.
+		Please note that the amount of "dropped gold" can be lower than "picked gold",
+		because it can happen that HUD (and D3 client) can't recognize the dropped gold before you pick it up (if you are standing on it)
+	- added: "dropped_gold" values to all run logs (both the run and area statistics)
+
+13.9.1.0 STABLE
+	- changed: timebomb will expire on 2013. october 1.
+	- added: server IP is added to run logs, pickup logs and drop logs
+	- added: automatic BattleTag detection (when logged in) - no more need to open social panel for BattleTag detection
+	- added: main_group attribute items to run logs (ex: "helm", "boots", "shoulders")
+	- added: quest information on CharacterBar
+
+	LOG RELATED CHANGES
+	- changed: run logs are moved to \runs\{btag}\{charname} - {charclass} ({charid})\ folder
+	- changed: pickup logs are moved from \logs\pickup_{btag}.txt to \runs\{btag}\{charname} - {charclass} ({charid})\all_pickup.tsv (it is a tab-separated file, you can open it with Excel)
+	- changed: run logs no longer contains any identification information about the character (name or id) or the account (btag)
+	- added: drop logs: new log file for all dropped items in \runs\{btag}\{charname} - {charclass} ({charid})\all_drop.tsv (it is a tab-separated file, you can open it with Excel)
+		NOTE: data is written after every run, not in real-time (so if you want to include item attributes there, you have to identify them in the same run you picked up them)
+	- changed: the format of the run logs is changed
+	- changed: the format of the pickup logs is changed
+	
+	IMPORTANT (users have to migrate old drop.xml data into config.xml manually)
+	- removed: drop.xml is deprecated
+	- added <draw_params>.<drops> tag
+	- changed: drop rule definitions are moved frop drop.xml to the <drops> tag in config.xml (every drop rule has to be named like item_1, item_2, etc from now!)
+	- added: <extra> rule-sets in <drops> allows users to define different ping/label/arrow styles for different sets of rules
+
+13.8.1.0 STABLE
+	- changed: timebomb will expire on 2013. september 1.
+	- improved: stability
+	- added: exception log when a font - defined in config.xml - is invalid
+	- added: "old_style" option for portraits (displays the performance data next to the icons instead displaying over them)
+	- fixed: disabling the info lines with <portraits><info enabled="0"> was ignored by HUD
+
+13.7.1.0 STABLE
+	- NOTE: this version is not sending scene data anymore
+	- changed: timebomb will expire on 2013. august 1.
+	- added: ExpAnalyzer always shows the bar for p100
+	- changed: ExpAnalyzer respects based_on_run="0" option in experience bar settings
+	- improved: HUD startup is a lot faster than in the past
+	- improved: lower cpu usage
+	- improved: stability fixes in collector engine
+	- added: portrait overlay (real DPS, health, skill/passive list on hover) (options under <portraits> tag in config.xml)
+	- added: player status next to it's portrait icon
+			- if he is in a different area, "in New Tristram" is displayed for example
+			- if he is in the same area as you, but too far then "too far" is displayed (when HUD can't access actor data)
+			- if he is close to you and using the town portal then "using Town Portal" is displayed
+			- if he is close to you and identifying something then "identifying a rare" / "identifying a legendary" / "identifying all items" is displayed
+	- added: auto_hide option to reveal minimap. If this is enabled then reveal will temporary turned off when the cursor is over the minimap. (default ON)
+	- added: automatically reveal static (never-changing) areas of the map (go to Act 1 town, press Tab and enjoy)
+	- added: thousand separator helpers for price input controls (default ON)
+	- added: displaying values after the 15% fee (on the Sell tab and only in gold auction house)
+	- changed: Menu's CharacterBar is automatically hidden when Profiles, Achievements, Game Menu, or Auction House window is visible
+	- added: buff timer for Deadly Reach - Foresight
+	- fixed: the BattleTag display above players' head is fixed and re-enabled (it was disabled since 13.3.12.3 STABLE)
+	- changed: "y_offset" attributes under <resources><health> and <class_specific> are deprecated and replaced by "inside_globe" logical attribute (default OFF)
+	- changed: some default values and colors
+	- changed: using high_framerate=1 will affect D3 UI readout refresh rate too (means faster tracking of D3's UI elements)
+	- added: the debug option (ACD dump) will generate one more file called 'acd_dump_onscreen.txt'
+	- added: <stat_tracker enabled="1"> attribute to config.xml, so the entire StatTracker feature can be disabled (default ON)
+	- changed: project is targeted to x86 (instead of AnyCPU)
+	
+13.6.1.2 STABLE
+	- added: when dragging the Map in the game, TurboHUD's map overlay (walkable area reveal, drawing saved paths, etc) will follow it (all credits goes for enigma32)
+	- fixed: I hope this version will fix the flicker bug introduced in 13.5.30.0
+	- changed: HUD will hide itself when D3 is minimized, even when auto_hide_hud is turned off
+		REMINDER: auto_hide_hud hides HUD when D3 has no focus
+
+13.5.30.0 STABLE
+	- changed: timebomb will expire on 2013. july 1.
+	- added: Edit Mode - you can re-arrange HUD's panels (activate and deactivate with Ctrl+NumPlus)
+	- added: experience range display - a circle over the minimap showing the maximum distance you can get experience from a party member (disabled by default)
+	- added: "-" operator in pickit.ini syntax (means 'less')
+	- added: hotkey to reload pickit.ini (Ctrl+F3)
+	- changed: elite monster affix list is displayed in alphabetical order
+	- changed: 'graph' section is removed from config.xml. It is renamed to 'histogram', with new default values, alignment and colors
+	- fixed: unsigned integer overflow in TOTAL StatTracker when your gained experience exceeds 4.2 billion (I did not realized that 10.1 bn is the total experience until people reach p100)
+	- added: debug option in config.xml, called <utility>.low_quality to disable the antialias and font smoothing on HUD (default false)
+	- added: Ctrl+Alt+D creates a list of UI elements into the following file: \logs\ui_dump.txt
+	- improved: the speed of writing ACD and UI dumps
+
+13.5.17.0 STABLE
+	- fixed: a bug related to the fix in 13.5.16.0...
+
+13.5.16.0 STABLE
+	- fixed: a bug related to D3 anniversary buff
+
+13.5.15.0 STABLE
+	- NOTE: timebomb is still set to 2013. june 1.
+	- updated: to client version 1.0.8.16603
+	- added: drop.xml rules will draw the circle around legendaries too
+	- fixed: TurboHUD crash caused by Windows Speach API failure
+	- removed: secondary wizard skill icons: electrocute, disintegrate, ray of frost, archon disintegration wave
+	- removed: secondary demon hunter skill icons: rapid fire, strafe (note: tactical advantage is still there)
+	- removed: secondary monk skill icon: tempest rush
+	- removed: secondary witch doctor skill icon: spirit barrage
+	- added: the usual orange border around buff icons (under the player)
+	- removed: inventory ping feature
+	- added: inventory highlight feature
+	- added: 1.0.8 specific actor and monster data
+
+13.5.8.0 STABLE
+	- updated: to client version 1.0.8.16416
+	- added: utility.exp_bar.based_on_run option allowing users to calculate the "time to next level" timer based on the current run instead of the current day
+
+13.5.1.0 STABLE
+	- changed: timebomb will expire on 2013. june 1.
+	- added: skill icons under the character with cooldown timers (and skill-related buff icons with remaining time display)
+	- added: config.xml entries for skill icons under your player (personal -> self -> foot -> skills)
+	- changed: "next level in" is calculated from "Today" StatTracker instead the current "Run" StatTracker
+	- added: HUD is clipping by the confirmation dialog
+
+13.4.18.0 STABLE
+	- NOTE: timebomb is still set to 2013. may 1.
+	- fixed: some CharacterBar bugs
+	- added: new StatTracker called "last 30 days" to CharacterBar
+	- added: new StatTracker called "last 7 days" to CharacterBar
+	- added: day count display to StatTrackers
+	- changed: opening Profile or Achievement windows pause the StratTracker timers
+	- added: AttribPanel, a panel for DPS, EHP and "Self bonuses" (does not include bonuses from your follower)
+	- changed: the "DPS" line from the StatTracker is moved to the new DPS/EHP panel called "real DPS"
+	- changed: the "next level" line from the StatTracker is moved to the ExpBar
+	- added: HUD is clipping by the chat item panel
+
+13.4.1.0 STABLE
+	- changed: timebomb will expire on 2013. may 1.
+	- added: HUD is hidden when a scripted cutscene animation is playing
+	- changed: listed all legendaries in pickit.ini (with updated filters)
+	- added: Spirit Barrage (Manitou) timer
+
+13.3.24.1 STABLE
+	- NOTE: timebomb is still set to 2013. april 1.
+	- added: expanded buff icons (showing buffs over the internal 5 buffs)
+	- added: Guiding Light buff with timer
+	- added: Plagued debuff icon and stack counter
+	- added: Hysteria (Scoundrel) buff icon with timer
+	- added: Sacrifice (Provoke the Pack) buff icon with timer
+	- added: Bash (Punish) buff icon with stack count (replacing the stack count from the skill button)
+	- added: Leap (Iron Impact) buff icon with timer
+	- added: Familiar buff icon with timer (replacing the timer from the skill button)
+	- added: Mirror Image buff icon with timer
+	- added: Chackram (Shuriken Cloud) buff icon with timer
+	- added: Sentry (Guardian Turret) buff icon
+	- added: Deadly Reach (Forsight) buff icon (replacing the ON text from the skill button)
+	- added: Combination Strike buff icon with stack count (no timer is available)
+	- added: secondary wizard skill icons: electrocute, disintegrate, ray of frost, archon disintegration wave
+	- added: secondary demon hunter skill icons: tactical advantage (with timer), rapid fire, strafe
+	- added: secondary monk skill icon: tempest rush
+	- added: secondary witch doctor skill icon: spirit barrage
+	- changed: Character Bar don't hide dead characters
+	- added: option to invert the behavior of the 'switch' of the ingame StatTracker (so the default trackers are TOTAL and TODAY, and when you hover over 'switch' then you see RUN and AREA)
+	- added: % value to Exp Bar
+	- improved: text measure and rendering precision
+	- added: difficulty field to run logs (in \runs folder)
+	- fixed: monster power and difficulty detection
+	- fixed: all StatTracker timers are stopped in PvP area
+	- fixed: act 4 shrines (some are still missing)
+
+13.3.13.0 STABLE
+	- updated: to client version 1.0.7.15295
+
+13.3.12.3 STABLE
+	- changed: timebomb will expire on 2013. april 01.
+	- added: TODAY tracker
+	- added: CharacterBar in menu
+	- added: CharacterBar shows the selected player's TOTAL and TODAY trackers (if available)
+	- changed: Gain Panel is renamed to StatTracker (tm) (you have to reconfigure it in config.xml too)
+			NOTE: you can manually remove <gain_panel> tag from your config.xml
+	- changed: TOTAL and TODAY trackers are bound to character and stored in \stat_tracker
+	- added: town timer (per-hour stats are still derived from the normal timers, including town-time)
+	- removed: there is no longer an AREA tracker in town
+	- changed: only the RUN and AREA trackers are visible in game by default
+	- added: recycling of the AREA trackers - this means when you return to an area in the same run, the tracker do not reset but you will see the your values where you left the area last time
+	- added: config entry to customize "next level" line
+	- added: a counter for drops defined in drop.xml (called "filtered")
+	- added: a label below the StatTracker called "switch" - when the cursor is over the label, the RUN and AREA trackers are replaced by the TOTAL and TODAY trackers
+	- removed: the customization possibility of StatTracker's position (x and y values are deprecated from now) - it is always at the bottom right corner of the screen
+	- fixed: reading the current gold amount was broken in non-Inferno difficulties
+	- improved: the performance of character attribute collection
+	- added: option to disable the OTHERS panel of the StatTracker
+	- fixed: experience and gold calculations no longer count amounts over 1 million (workaround against memory reading glitches)
+	- improved: StatTracker cleanup, better alignments, units are in separated columns
+	- added: utility.high_framerate option - almost doubles the data collection- and frame-rate of TurboHUD (AND the cpu usage...)
+	- disabled: the BattleTag display above players' head, because it is unstable
+	- changed: completely rewritten character and party member collection routines
+
+13.3.9.0 STABLE
+	- changed: "K" units are displayed with 1 decimal place (like '12.7 K')
+	- changed: when you are in the menu then the gain panel is ALWAYS at the right side of the screen
+	- changed: if you use -1 as Gain Panel's X coordinate then the gain panel will automatically move itself to the right side of your screen. Otherwise it is on the left side.
+	- changed: if you use -1 as Gain Panel's Y coordinate then
+			- if your Gain Panel is on the left side, it will be automatically below the party icons
+			- if your Gain Panel is on the right side, it will be automatically above the bottom right buttons
+
+13.3.7.7 STABLE
+	- KNOWN ISSUE: Displaying party members' BattleTag over their had is bugged when players enter/leave party
+    - KNOWN ISSUE: HUD will always draw the map to the center of The Map screen.
+	- added: a TOTAL section on Gain Panel (option: gain_panel.total_panel_enabled)
+	- removed: binary logs in data_packets folder are no longer saved
+	- added: reveal nearby minimap/map (option: maps)
+	- added: logging the picked up rare and legendary items in \logs\pickup_{BattleTag}.txt files (it is a tab-separated file, you can copy and paste it's content into Excel)
+	- improved: automatically hide experience graph and Gain Panel's experience-related lines when you are at Paragon Level 100
+	- fixed: pickup range was not shown on characters when you did not used any pickup range equipment
+	- fixed: new exception handlers, some stability fixes
+	- changed: added the "main category" code to \doc\items.txt
+	- changed: complete rewrite of the experience and gold graphs. They are no longer showing the current average of the entire run, but the average of the configured time window.
+			Old "window_size" option is deprecated, use the avg_window_size option instead (default is 3 seconds). You can remove the old window_size attribute from your config.xml.
+			Because this is a momentary average of the time window, you will experience spikes and flat intervals too.
+	- removed: numbers on graphs (they are unnecessary with momentary values on the graphs)
+	- changed: "<text color=" tags are used for the graph's name
+	- added: current DPS display on Gain Panel
+	- changed: separated "/h" lines are gone from Gain Panel, and moved next to their sum values
+	- removed: "<gold_hour" and the other tags from config.xml
+	- added: dynamic units (K, M, nothing) for Gain Panel's values
+	- improved: automatic right alignment for Gain Panel's values
+	- updated: manual.txt
+	- added: 'all items', 'rares', 'legendaries' and 'demonic e.' counters to Gain Panel
+
+13.2.26.2 STABLE
+	- changed: timebomb will expire on 2013. march 21.
+	- removed: 1hmonk and 2hmonk item groups
+	- added: inventory pings are clipped by the item compare panel
+	- added: Barbarian's Bash ("Punish") has no buff icon in D3 buff area, so when this skill is active then the stack count is displayed on the skill button
+	- added: Monk's Deadly Reach (Foresight) has no buff icon in D3 buff area, so when this skill is active then "ON" is displayed on the skill button
+	- fixed: opening a respendent chest is resetting the NV timer, so increasing the elite count by one
+			This is corrected by decreasing the counter by 1 when you open a resplendent chest.
+	- changed: ACD dumps and saved gear data contains raw and processed attributes in different lines
+	- improved: hotkeys.xml accepts "-" as modifier, considered as "no modifier"
+	- improved: drop.xml accepts "-" as sound/speech, considered as "no sound"/"no speech"
+	- added: hotkey to save gear data to .\logs\gear.txt (default Ctrl+Alt+G)
+	- improved: massive performance profiling and optimizations
+	- added: new subgroups of plans: plans_gem, plans_gem_marquise
+	- added: new subgroup of gems: gems_low
+	- added: support for the new iLvl 63 amulet (crafted) introduced in 1.0.7
+	- added: new pickit attributes: "bound_to_account" (0 or 1), "crafted" (0 or 1)
+	- improved: support for new monsters in 1.0.7. Blizzard changed some of the monsters:
+		Fallen Lunatic -> Deranged Fallen
+		Moon Clan Warrior -> Moon Clan Ghost
+		Moon Clan Shaman -> Dark Moon Clan Shaman
+		Lacuni Huntress -> Lacuni Stalker
+		Priest -> Brother Andreus the Healer
+		Writhing Deceiver -> Copperfang Lurker
+		Colossal Golgor -> Maniacal Golgor
+		Dark Cultist -> Deranged Cultist
+	- changed: default drop.xml is added to the release package and highly customized (thanks for Azgul and Massivelybored)
+	- added: "speech" tag to drop.xml entries. empty tag means no Voice Synth, "default" means HUD will speak the item's name, anything else means HUD will speak that text
+
+13.2.13.0 STABLE for 14633
+	NOTE: this version is for patch 1.0.7
+	- added: HUD is clipping by the item compare panel
+	- improved: passive skills are readed properly from player data instead of figuring out from current buffs
+	- fixed: a few small bugs
+	- added: all uber bosses are forced to elite category
+	- added: new subgroups of plans: plans_4prop, plans_5prop, plans_6prop, plans_bound, plans_legendary
+	- added: new subgroups of gems: gems_high
+	- added: new pickit attribute "gem_quality" (for example 8 = flawless squares)
+	- changed: pickit.ini template
+
+13.2.2.0 STABLE for 13644/14528
+	- added: adjustments for 1.0.7.14528
+	- added: support for Uber areas
+
+13.2.1.1 STABLE for 13644/14456
+	- changed: timebomb will expire on 2013. march 1
+	- changed: there will be two releases until 1.0.7 comes out: one for 1.0.6 (13644) and one for the current PTR (14456)
+
+13.2.1.0 STABLE
+	- added: adjustments for 1.0.7.14456
+	- fixed: some actors (especially "voiceovers") are no longer monsters
+	NOTE: this release is for 1.0.6, not 1.0.7, but it contains 1.0.7 data too
+
+13.1.30.0 RC5
+	- note: RC5 timebomb is still set to 2013. february 1.
+	- fixed: UI element caching
+	- fixed: sometimes "Shielding" elite affix was displayed twice
+
+13.1.28.3 RC4
+	- added: option to config.xml to specify the Diablo 3 window's title (default is "Diablo III"), probably you will need this for non-english clients
+
+13.1.28.2 RC3
+	- fixed: item quality levels was not updated after the items was identified
+	- fixed: Sin Heart is no longer a monster
+	- fixed: RC2 was a broken build, props to Visual Studio...
+
+13.1.28.1 RC2
+	- fixed: a bug of buff timer display, causing insane amount of resource allocation, lag, crashes
+	- added: ping shape alternatives to the Manual
+	- changed: "time to next level" changed to "next level" on gain panel
+
+13.1.28.0 RC1
+	- note: after updating to this version, BEFORE running the .exe file, YOU HAVE TO delete your config.xml to reset everything to default values and you have to re-configure it manually (make a backup before doing this!)
+	- note: RC1 timebomb is still set to 2013. february 1.
+	- note: my plan is that first Stable is coming on 2013. february 1.
+	- changed: COMPATIBILITY BRAKING CHANGE: entire .\config\config.xml structure is changed
+	- removed: minimap location manual settings
+	- added: gain panel customization options
+	- added: customizable arrow styles in draw_params (end_cap and dash, see the Manual for available options), saved paths, world directions, circles, etc
+	- added: line thickness settings for many options
+	- added: customization options for personal HUD, resource numbers above the balls
+	- added: comments in .\config\config.xml
+	- added: Wizard Familiar has no buff icon in D3 buff area, so when this skill is active it's timer is displayed on the skill button
+	- added: when gain panel's Y value is set to -1, it will be automatically fit under your party icons
+	- fixed: experience "bar" (numbers in fact) was broken for players reached paragon level 1
+	- changed: default ExpAnalyzer hotkey changed to Ctrl+Alt+X from Ctrl+X
+	- changed: default QuickShot hotkey changed to Ctrl+Alt+C from Ctrl+C
+	- fixed: HUD is properly clipping the cooldown and buff timers by skill hint panel too
+	- added: HUD is clipping by the general tooltip panel
+	- added: HUD is clipping by the follower context menu
+	- improved: completely rewritten UI component update strategy, about 4 times faster than before -> ~30% drop of HUD's total CPU usage
+	- changed: 'hide_battle_tag' option is ON by default
+	- changed: '(contributor)' label is shown even when hide_battle_tag is ON (only if you have contributor access)
+
+13.1.26.0 beta
+	- added: experience numbers
+	- added: HUD is clipping by skill hint panel and banner window
+	- changed: thicker hp bar over players' head
+	- added: option to display players' battle tag under their health bar
+	- changed: health bar no longer turns into red when the players health potion is on cooldown
+	- added: a red circle left to the health bar when the players health potion is on cooldown
+
+13.1.25.2 beta
+	- changed: discipline direction is the mirror of hatred
+	- fixed: added some unique monsters manually as Elites, so from now most 1 affix monster will be properly displayed as Elite on Normal difficulty
+	- added: cooldown display for healing potion (on the bottom skillbar)
+	- added: cooldown display for healing potion (over the player's head / not supported for other party members)
+	- changed: when a player's health potion is on cooldown, the health bar over the player's head is turning to red from green (this is supported for all the party members)
+
+13.1.25.1 beta
+	- fixed: "Executioner's Blade" is no longer a monster
+	- changed: health indicator style
+	- added: class-specific resource circle coloring
+	- changed: demonhunter resource circle style
+
+13.1.25.0 beta
+	- beta timebomb is still set to 2013. february 1.
+	- changed: monsters with >= 2 elite affixes are considered as Elite - again
+	- changed: health indicator is not visible when health is over 75% (and it's style is changed when visible)
+	- added: health indicator under your feet
+	- added: health bar over players' head
+	- added: resource indicator(s) for your party and yourself
+
+13.1.24.1 beta
+	- fixed: party health indicator bug
+	- changed: [only] monsters with the "Champion" buff are considered as Elite (experimental, please report anomalies)
+
+13.1.24.0 beta
+	- added: date prefix to log lines
+	- fixed: a bug in some rare cases when you have no ".\doc" folder
+	- fixed: removed some actors displayed as chests
+	- changed: format of acd_dump.txt
+	- added: party health indicator (<utility><party><health><foot>)
+
+13.1.23.0 beta
+	- beta timebomb is still set to 2013. february 1.
+	- improved: buff timers are processed in a more efficient way
+	- experimental: complete rewrite of player information readings (please post bugs as always...)
+	- changed: disabled "Slow Time" timer because Diablo has no real timer inside the memory for it
+	- added: reading and logging the character name
+	- added: game clock (<utility><game_clock>) to the top right corner, auto-fit under the difficulty and system clock label
+	- added: "Scorched Chapel" area
+	- changed: HUD is turning off in PvP area(s)
+	- changed: Resplendent Chest labels are changed from "Chest" to "Resplendent Chest"
+	- added: array,label,ping options for normal chests (with the "Chest" label)
+	- added: debug hotkey: Ctrl+Alt+D (see Release Notes in .\doc\manual.txt)
+	- fixed: a bug with shrine state detection
+
+13.1.20.1 beta
+	- fixed: WD's Fetishes and SporePods are no longer considered as monsters
+	- fixed: Barbarian's WarCry-Impunity rune's timer was not displayed properly
+
+13.1.20.0 beta
+	- beta timebomb is still set to 2013. february 1.
+	- fixed: Hell Fissure (lava in act 4), Spike Trap and some others are no longer a monster
+	- changed: Phoenix and Frenzy are no longer elite affixes
+	- fixed: monster kill count did not reset properly between runs
+	- added: invisible monster circles <draw_params><invisible_monster_circle>
+	- changed: re-processed the monster name database, based on the monster code instead of the actor code (experimental)
+	- added: elite group kill counter and logging (only for characters already reached level 60)
+		NOTE: this is based on the Nephalem Valor timer's reset event, so the sideeffect is that completing events will increase the counter too
+	- added: option to automatically terminate the HUD when Diablo 3 is not running (utility.auto_terminate, default false)
+	- added: buff timer display
+	- added: handlers for shrine buffs (to display timers properly for shrines too)
+
+	Preparing to 1.0.7
+	- added: Marquise gems, new crafting designs and Demonic Essence to the item database
+		NOTE: this release is for 1.0.6, not 1.0.7, but it contains 1.0.7 items too
+
+13.1.16.2 beta
+	- fixed: a big-bug introduced in 13.1.16.0
+
+13.1.16.1 beta
+	- added: some new monsters
+	- changed: exception log will contain a bit more information about the generated exception
+
+13.1.16.0 beta
+	- fixed: arcane lasers should not be treated as monsters
+	- fixed: added ceremonialdagger_1h/fistweapon_1h actors, Infernal Machine, Staff of Herding(s) and the 104 version of Horadric Hamburger to the item database
+	- removed: Scoundrel's Journal from the item database
+	- fixed: "Devil's Fang" item's name
+	- fixed: jewelry.wav file added into sounds folder. q8_jewelry file is deprecated from now and you should re-check your .\config\drop.xml sounds!
+
+13.1.15.0 beta
+	- changed: beta timebomb will expire on 2013. february 1. Please note that HUD WILL NOT WORK when 1.0.7 comes out.
+	- added: a "comment" attribute in drop.xml for every item tag, you can put there notes for yourself
+	- fixed: sometimes the cooldown counter went under zero
+	- added: allow minimap ping and floor arrows for items defined in .\config\drop.xml (see <draw_params><drop> in .\config\config.xml)
+			NOTE: this will work with all items defined in drop.xml except legendaries, because there is already a feature for this in <draw_params><legendary>
+	- changed: slightly increased segment count in circles (for smoother graphics)
+	- changed: skill list in area logs contains used runes too
+	- added: new feature: "circles" and some examples (probably you will want to customize them)
+	- removed: custom_radius_circles feature (replaced by "circles")
+	- updated: \doc\powers.txt with Runes (sadly D3's internal rune index is NOT the same as the displayed one)
+	- added: QuickShot (see: manual)
+	- changed: the new "circles" and the "pickup range circle" got a small outline - this will cause that your existing colors will be darker. You have to make them brighter manually !
+			pickup_range circle's new default color is <65,255,165,0> (old value was <20,255,165,0>)
+	- experimental: entire monster detection routine is dropped and remade with a much better solution, but ofc it can contain some bugs
+	- fixed: the base pickup radius (4 yards) is added to the detected pickup radius bonus, so now the pickup radius circle is showing the combined real radius, not the bonus only
+	- added: goblin status display on labels
+	- experimental: revamped coordinate and monster size detection (bugs can occur)
+	- removed: "item_quality_names" and "floor" tags from .\config\config.xml
+
+13.1.9.0 beta
+	- added: HUD is clipped and partially hidden when 'Character Details' or 'Follower Details' or 'Merchant' (Shop) panels are opened
+	- fixed: a bug caused that only rares, legendaries and sets was able to trigger the drop.xml's rules
+	- added: health and class-specific resource displays
+	- added: in \config\drop.xml, in the "groups" filter you can use the item's real name (like 'Arch Axe') too not just the group codes (ex: 'chestarmors')
+
+13.1.8.0 beta
+	- fixed: not showing labels when both onscreen and offscreen arrows are disabled
+	- changed: showing Champion affix again, but only when the monster has no other affix
+	- added: background_color, size, speed and thickness parameters in \config\drop.xml to display pings around specific unidentified drops on the floor
+		NOTE: you have to create the new attributes manually in you already created item_X tags based on what you see in item_1 and item_2 after the update
+	- changed: complete rewrite of the UI clipping engine
+	- improved: HUD is clipped and partially hidden when Trade panel is opened
+
+13.1.7.2 beta
+	NOTE: about drop.xml and unidentified items: every unidentified rare item's quality is q6 (means '4 stat') and the D3 client gets the correct, final quality (q6,q7 or q8) after the item is identified
+	NOTE: before updating to this version, please make a full backup
+	- fixed: DureDervish (aka Dervish/Magewraith) actors are forced to the monster category
+	- fixed: Ghost and Skeleton Mage actors are forced to the monster category
+	- fixed: Act1/2/3 Keywardens are forced to the monster category
+	- fixed: dropping identified items should not trigger playing the drop.xml's sounds
+	- added: "monster warning" feature: you can set up in the config.xml an unlimited number of monster names, and they will be pinged on the minimap, plus their names are shown on the edge of the screen when they are offscreen)
+	- added: "Resplendent Chest ping" feature
+	- added: "Shrine ping" feature
+	- added: if "Profile" window is visible, most parts of the HUD are hidden automatically
+	- added: customizable hotkeys in \config\hotkeys.xml (see: "IV. Hotkeys" section in \doc\manual.txt)
+	- changed: not displaying the Champion affix anymore
+	- changed: <minimap><show>, <minimap><ping>, <directions> tags are deprecated and will be automatically removed from the config.xml
+	- added: <draw_params> tag, where you can set up the minimap dots, minimap pings, direction arrows and labels of all things
+	- changed: q8_jewelry.wav is renamed to jewelry.wav and the new file name is updated in \config\drop.xml too
+	- added: skill cooldown display and sound notification
+	- added: \doc\powers.txt document where you can search for the power (skill) codes and names
+
+13.1.3.0 beta
+	- fixed: hide_battle_tag was not working
+	- fixed: bugs with reloading the drop.xml
+
+13.1.2.1 beta
+	- fixed: "Fire Chains" affix was displayed as "Health Link"
+
+13.1.2.0 beta
+	NOTE: after updating to this version, before running the .exe file, YOU HAVE TO delete your config.xml to reset everything to default values and re-configure it (make a backup before doing this!)
+	- fixed: a very rare bug when saving a binary data_packet
+	- fixed: problem with gold/h when changing accounts or switching between HC and SC characters
+	- added: max_fury, reg_fury attributes in pickit
+	- added: internal reading of current fury resource amount (leading the way to display customized health/resource display panels)
+	- changed: utility.footer.hide_battle_tag moved under utility.streamers.hide_battle_tag
+	- removed: <monsters> tag and "strong_monster_limit" option
+	- added: automatic detection of "elite" (former "strong") monsters, no need for health limit anymore... every monster with an affix is considered "elite"
+	- changed: every "strong" word in config.xml is replaced with "elite" to make things clear...
+	- added: when "elite monster directions" are enabled, the strongest elite monster alive (in his pack, usually the leader) has a label with his affixes
+	- added: when "goblin directions" are enabled, the goblin has a label with "Goblin"
+	- changed: showing off-screen monsters and goblins too (like legendaries)
+	- added: if Map (the large one with TAB) is visible, most parts of the HUD are hidden automatically
+	- changed: many default values in config files
+	- added: \config\drop.xml where you can set up sounds for specific drops (look the manual's "Features" section)
+	- added: \doc\items.txt document where you can search for the item groups and ilvl values
+	- changed: 'End' hotkey is changed to 'Ctrl+End' (exit HUD)
+	- changed: 'F2' hotkey is changed to 'Ctrl+F2' (reload configs)
+	- changed: 'F8' hotkey is changed to 'Ctrl+F8' (save current position)
+	NOTE AGAIN: after updating to this version, before running the .exe file, YOU HAVE TO delete your config.xml to reset everything to default values and re-configure it (make a backup before doing this!)
+
+12.12.27.1 beta
+	- changed: beta timebomb will expire on 2013. january 15.
+	- added: pickit file in config folder which evaluates all items ingame as "keep" or "sell"
+			NOTE: fury-related attributes are not supported yet
+	- added: all identified items in inventory will be "pinged" when pickit evaluates it to "keep"
+
+12.12.27.0 beta
+	- changed: optimized object caching and cleanup
+	- improved: lower CPU usage
+	- fixed: object read problems (in very rare cases)
+	- fixed: exceptions when D3 window is minimized to the taskbar
+
+12.12.25.0 beta
+	- changed: legendary pings and direction arrows are visible for unidentified items only
+	- changed: HUD drawer FPS reduced to ~24 from ~30
+	- changed: UI item collection reduced to 15/sec from 30/sec
+	- added: reading the 6 main skills, the 3 passives and "skill overrides" (like archon)
+	- added: reading of all skills on cooldown
+	- added: character class detection and saving in the logs
+	- added: saving the used skills and passives in area log tags (the skills used at the start of the area)
+
+12.12.23.1 beta
+	- improved: some stability fixes of attribute reads
+	- added: some internal extensions leading the way to skill-related HUD feedback
+
+12.12.23.0 beta
+	- fixed: custom radius circles was broken after a config file reload
+	- experimental: added pet detection
+	- fixed: a bug caused instability in rare cases when you did not teached your BattleTag before the end of the first run
+	- fixed: files under data_packets was named wrong (with extension '.bin.bin')
+	- improved: HUD is hidden when Skills or Achievements windows are opened
+	- improved: HUD is clipped and partially hidden when Follower or Vendor or Quests or Social panels are opened
+	- added: HUD is hidden when cutscene video is playing (experimental)
+
+12.12.21.3 beta
+	- fixed: a bug related to Identity ID recognition
+
+12.12.21.2 beta
+	- fixed: a bug causing bad experience calculations
+	- added: ExpAnalyzer (Ctrl+X)
+	- added: new option: "utility.low_priority" (default 1) - if it's true, then the HUD's windows process priority is automatically set to "below normal"
+
+12.12.21.1 beta
+	- added: monster power readout and logging
+	- added: directions on floor showing legendaries, strong monsters, and goblins
+	- fixed: area changes was not visible on gold graph
+	- fixed: gold graph was bugged when the entire graph was already filled with data
+	- added: new option: "utility.auto_hide_hud" (default 1) - you can turn off/on the autohide feature (you can always hide the HUD with the corresponding hotkey)
+
+12.12.21.0 beta
+	- added: new option "utility.footer.hide_battle_tag" (default 0) to be able to hide your BattleTag from the HUD
+	- improved: when ingame "Game Menu (Esc)" dialog is visible, the graphs and stats are not counting, and some HUD elements are automatically hide (minimap, circles, pickup range, paths, etc)
+	- changed: exp and gold graphs are showing the exp/h and gph/h value (shown on GAIN panel) at that time
+	- fixed: gold and dps histogram misbehavior between runs
+	- added: area changes are displayed on graphs by a line with the graphs border color
+	- known bug: letterbox in Diablo 3 settings is not supported (yet, I hope)
+	- changed: gold/h scale on Gain Panel is changed to K/h from M/h
+
+12.12.20.1 beta
+	- fixed: a bug caused logging runs not working
+	- added: a new feature to the area log sections - experience and gold map data (for further processing, like all logs)
+
+12.12.20.0 beta
+	- initial release

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<!-- !!! DO NOT MODIFY THIS FILE !!! -->
+
+	<buffs>
+		<main_bar is_main_bar="1" enabled="1" border="1" cooldown_numbers="1" tooltips="1">
+      <cooldown_fade enabled="1" color="192,0,0,0" stroke="0" />
+      <cooldown font_family="tahoma" font_size="8" font_bold="0" font_color="255,255,255,255" font_shadow="1" font_halign="Center">
+        <custom_shadow enabled="1" heavy="1" color="255,0,0,0" />
+      </cooldown>
+      <stack font_family="tahoma" font_size="9" font_bold="0" font_color="255,255,255,255" font_shadow="1" font_halign="Center">
+        <custom_shadow enabled="1" heavy="1" color="255,0,0,0" />
+      </stack>
+      <position x="0" y="0" w="0" h="0" container="-" />
+			<rules>
+				<Barbarian_Passive_Brawler enabled="0" sno="205133" icon="1" min_icon_count="1" />
+				<Barbarian_Passive_BerserkerRage enabled="1" sno="205187" icon="1" min_icon_count="1" />
+				<DemonHunter_Passive_SteadyAim enabled="1" sno="164363" icon="1" min_icon_count="1" />
+				<DemonHunter_Passive_TacticalAdvantage enabled="1" sno="218385" icon="1" min_icon_count="1" show_cooldown="1" />
+				<DemonHunter_Passive_HotPursuit enabled="1" sno="155725" icon="1" min_icon_count="1" show_cooldown="1" />
+				<DemonHunter_Passive_Sharpshooter enabled="1" sno="155715" icon="1" min_icon_count="1" show_stack="1" />
+				<p1_Monk_Passive_Provocation enabled="0" sno="402633" icon="1" min_icon_count="1" show_stack="1" force_powers_texture="1" force_powers_name="1" />
+				<X1_Monk_Passive_MythicRhythm enabled="1" sno="315271" icon="0" min_icon_count="1" force_powers_desc="1" />
+				<Monk_Passive_CombinationStrike enabled="1" sno="218415" icon="1" min_icon_count="1" show_cooldown="1" />
+				<!-- stacks doesn't work because it is not working the usual way -->
+				<!--WitchDoctor_Passive_PhysicalAttunement enabled="1" sno="340910" icon="0" min_icon_count="1" show_stack="1" /-->
+				<!-- stacks are not supported by D3 -->
+				<WitchDoctor_Passive_RushOfEssence enabled="1" sno="208565" icon="1" min_icon_count="1" show_stack="1" />
+				<Wizard_Passive_Illusionist enabled="1" sno="208547" icon="1" min_icon_count="1" show_cooldown="1" />
+				<Wizard_Passive_GalvanizingWard enabled="1" sno="208541" icon="1" min_icon_count="1" show_cooldown="1" />
+				<X1_Wizard_Passive_UnwaveringWill enabled="1" sno="298038" icon="1" min_icon_count="1" force_powers_texture="1" />
+				<Wizard_Familiar enabled="1" sno="99120" icon="*" min_icon_count="1" show_cooldown="1" />
+				<MonsterAffix_PlaguedCast enabled="0" sno="231115" icon="10" min_icon_count="1" show_stack="1" />
+				<!-- currently not working because it has no texture -->
+			</rules>
+		</main_bar>
+
+	</buffs>
+
+</config>

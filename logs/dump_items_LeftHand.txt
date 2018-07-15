@@ -1,0 +1,171 @@
+﻿1692870602	P4_Unique_Flail_2H_001	阿克汉的补件	0:0	loot
+	attr	Crit_Damage_Percent	-1	1.29999995231628	
+	proc	critdmg	130	
+	attr	Damage_Weapon_Percent_All	-1	0.0900000035762787	
+	proc	dmg_pbonus	9	
+	attr	Damage_Weapon_Average_Total_All	-1	3659.1298828125	
+	attr	Damage_Weapon_Min_Total_All	-1	3379	
+	proc	dmg_lo	3379	
+	attr	Damage_Weapon_Delta_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	3	0	
+	attr	Damage_Weapon_Min_Total_OffHand	2	0	
+	attr	Damage_Weapon_Min_Total_MainHand	1	1906.41003417969	
+	attr	Damage_Weapon_Delta_Total_OffHand	5	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	2	0	
+	attr	Damage_Weapon_Min_Total_OffHand	3	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1472.59008789063	
+	attr	Damage_Weapon_Delta_Total_OffHand	6	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	1	413.110015869141	
+	attr	Damage_Weapon_Min_Total_MainHand	3	0	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	560.260009765625	
+	attr	Damage_Weapon_Min_Total_OffHand	1	0	
+	attr	Damage_Weapon_Min_Total_MainHand	2	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	147.150009155273	
+	attr	Damage_Weapon_Min_Total_OffHand	6	0	
+	attr	Damage_Weapon_Min_Total_MainHand	5	0	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_OffHand	1	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	6	0	
+	attr	Damage_Weapon_Min_Total_MainHand	4	0	
+	attr	Damage_Weapon_Max_Total_All	-1	3939.26025390625	
+	proc	dmg_hi	3939	
+	attr	Damage_Weapon_Delta_Total_OffHand	2	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	5	0	
+	attr	Damage_Weapon_Min_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_OffHand	3	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	4	0	
+	attr	Damage_Weapon_Min_Total_OffHand	5	0	
+	attr	Damage_Weapon_Min_Total_MainHand	6	0	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Power_Cooldown_Reduction_Percent_All_Capped	-1	0	power: UNKNOWN
+	attr	Power_Cooldown_Reduction_Percent_All	-1	0.0999755859375	power: UNKNOWN
+	proc	cdred	10	power: UNKNOWN
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.14999997615814	
+	proc	as_weap	1.15	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.14999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.14999997615814	
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	1347	
+	proc	str	1347	
+	attr	TransmogGBID	-1	2141721069	
+	attr	EnchantedAffixCount	-1	68	
+	attr	EnchantedAffixSeed	-1	-709567100	
+	attr	EnchantedAffixNew	-1	828960464	
+	attr	EnchantedAffixOld	-1	1498634735	
+	attr	ConsumableAddSockets	-1	1	
+	attr	Ancient_Rank	-1	1	
+	proc	ancient_rank	1	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-669465470	
+	proc	seed	-669465470	
+	attr	Item_LegendaryItem_Level_Override	-1	70	
+	attr	Item_Binding_Level_Override	-1	2	
+	proc	bound_mode	2	
+	attr	Item_Bound_To_ACD	-1	2014838875	
+	proc	bound_to_account	1	
+	attr	Sockets_Filled	-1	1	
+	attr	Sockets	-1	1	
+	proc	sock	1	
+	attr	Item_Equipped	-1	1	
+	attr	Item_Quality_Level	-1	9	
+	proc	quality	9	
+	attr	Durability_Max	-1	310	
+	proc	dura	31	
+	attr	Durability_Cur	-1	282	
+	attr	Resource_Max_Bonus	7	17	
+	proc	max_wrath	17	
+	attr	Item_Legendary_Item_Base_Item	-1	-873319305	
+	attr	Damage_Delta_Total	5	0	
+	attr	Damage_Delta_Total	4	0	
+	attr	Damage_Delta_Total	6	0	
+	attr	Damage_Delta_Total	1	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Delta_Total	3	0	
+	attr	Damage_Delta_Total	2	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	4	0	
+	attr	Damage_Min_Total	1	0	
+	attr	Damage_Min_Subtotal	5	0	
+	attr	Damage_Min_Total	2	0	
+	attr	Damage_Min_Subtotal	6	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Total	3	0	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	4	0	
+	attr	Damage_Min_Subtotal	1	0	
+	attr	Damage_Min_Total	5	0	
+	attr	Damage_Weapon_Delta_SubTotal	1	379	
+	attr	Damage_Weapon_Delta	0	135	
+	attr	Damage_Min_Subtotal	2	0	
+	attr	Damage_Min_Total	6	0	
+	attr	Damage_Weapon_Delta	1	379	
+	attr	Damage_Weapon_Delta_SubTotal	0	135	
+	attr	Damage_Min_Subtotal	3	0	
+	attr	Damage_Weapon_Delta_Total	3	0	
+	attr	Damage_Weapon_Max_Total	1	2319.52001953125	
+	attr	Damage_Weapon_Max	0	1486	
+	attr	Damage_Weapon_Max	1	2128	
+	attr	Damage_Weapon_Delta_Total	2	0	
+	attr	Damage_Weapon_Max_Total	0	1619.74011230469	
+	attr	Damage_Weapon_Delta_Total	1	413.110015869141	
+	attr	Damage_Weapon_Max_Total	3	0	
+	attr	Damage_Weapon_Delta_Total	0	147.150009155273	
+	attr	Damage_Weapon_Max_Total	2	0	
+	attr	Damage_Weapon_Max_Total	5	0	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Delta_Total	6	0	
+	attr	Damage_Weapon_Max_Total	4	0	
+	attr	Damage_Weapon_Min	1	1749	
+	attr	Damage_Weapon_Delta_Total	5	0	
+	attr	Damage_Weapon_Min	0	1351	
+	attr	Damage_Weapon_Delta_Total	4	0	
+	attr	Damage_Weapon_Max_Total	6	0	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1472.59008789063	
+	attr	Damage_Weapon_Average_Total	3	0	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.14999997615814	
+	attr	Damage_Weapon_Min_Total	1	1906.41003417969	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Damage_Weapon_Average_Total	2	0	
+	attr	Damage_Weapon_Min_Total	2	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.14999997615814	
+	attr	Damage_Weapon_Average_Total	1	2112.96508789063	
+	attr	Damage_Weapon_Average	0	1418.5	
+	attr	Damage_Weapon_Min_Total	3	0	
+	attr	Damage_Weapon_Average	1	1938.5	
+	attr	Damage_Weapon_Average_Total	0	1546.1650390625	
+	attr	Damage_Weapon_Min_Total	4	0	
+	attr	Damage_Weapon_Min_Total	5	0	
+	attr	Damage_Weapon_Average_Total	6	0	
+	attr	Damage_Weapon_Min_Total	6	0	
+	attr	Damage_Weapon_Average_Total	5	0	
+	attr	Damage_Weapon_Average_Total	4	0	
+	attr	Damage_Weapon_Percent_Total	2	0.0900000035762787	
+	attr	Damage_Weapon_Percent_Total	3	0.0900000035762787	
+	attr	Damage_Weapon_Percent_Total	0	0.0900000035762787	
+	attr	Damage_Weapon_Percent_Total	1	0.0900000035762787	
+	attr	Damage_Weapon_Percent_Total	6	0.0900000035762787	
+	attr	Damage_Weapon_Percent_Total	4	0.0900000035762787	
+	attr	Damage_Weapon_Percent_Total	5	0.0900000035762787	
+	attr	Item_Power_Passive	445943	1	
+	affx	134299444	
+	affx	828960464	洞察
+	affx	3699593118	野蛮
+	affx	2468089101	
+	affx	2778204765	
+	perf	231	Damage_Weapon_Min	1	1582-1870	1749
+	perf	222	Damage_Weapon_Delta	1	350-455	379
+	perf	241	Damage_Weapon_Percent_All	-1	0.0599999986588955-0.100000001490116	0.0900000035762787
+	perf	1203	Strength_Item	-1	1237-1465	1347
+	perf	210	Power_Cooldown_Reduction_Percent_All	-1	0.0599999986588955-0.100000001490116	0.0999755859375
+	perf	152	Resource_Max_Bonus	7	16-20	17
+	perf	1288	Item_Power_Passive	445943	1-1	1
+

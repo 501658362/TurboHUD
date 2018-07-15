@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+
+	<!-- !!! DO NOT MODIFY THIS FILE !!! -->
+
+	<personal enabled="0">
+		<conditions only_out_town="1" />
+		<health enabled="1">
+			<fill enabled="1" color="255,255,50,50" stroke="5" start_cap="Round" end_cap="Round" />
+			<outline enabled="1" color="32,0,0,0" stroke="7" start_cap="Round" end_cap="Round" />
+			<emptyfill enabled="1" color="128,32,32,32" stroke="5" start_cap="Round" end_cap="Round" />
+		</health>
+		<cooldown enabled="1">
+			<fill enabled="1" color="255,160,80,44" stroke="5" start_cap="Round" end_cap="Round" />
+			<outline enabled="1" color="128,0,0,0" stroke="7" start_cap="Round" end_cap="Round" />
+			<emptyfill enabled="1" color="128,80,255,80" stroke="5" start_cap="Round" end_cap="Round" />
+			<skill_image enabled="1" fade="1" />
+		</cooldown>
+		<res enabled="1">
+			<arcane>
+				<fill enabled="1" color="200,100,0,205" stroke="5" start_cap="Round" end_cap="Round" />
+				<outline enabled="1" color="128,255,255,255" stroke="8" start_cap="Round" end_cap="Round" />
+			</arcane>
+			<discipline>
+				<fill enabled="1" color="200,0,0,255" stroke="5" start_cap="Round" end_cap="Round" />
+				<outline enabled="1" color="128,255,255,255" stroke="8" start_cap="Round" end_cap="Round" />
+			</discipline>
+			<hatred>
+				<fill enabled="1" color="200,255,0,0" stroke="5" start_cap="Round" end_cap="Round" />
+				<outline enabled="1" color="128,255,255,255" stroke="8" start_cap="Round" end_cap="Round" />
+			</hatred>
+			<fury>
+				<fill enabled="1" color="200,255,170,0" stroke="5" start_cap="Round" end_cap="Round" />
+				<outline enabled="1" color="128,0,0,0" stroke="8" start_cap="Round" end_cap="Round" />
+			</fury>
+			<mana>
+				<fill enabled="1" color="200,0,0,255" stroke="5" start_cap="Round" end_cap="Round" />
+				<outline enabled="1" color="128,255,255,255" stroke="8" start_cap="Round" end_cap="Round" />
+			</mana>
+			<spirit>
+				<fill enabled="1" color="200,255,255,200" stroke="5" start_cap="Round" end_cap="Round" />
+				<outline enabled="1" color="128,0,0,0" stroke="8" start_cap="Round" end_cap="Round" />
+			</spirit>
+			<wrath>
+				<fill enabled="1" color="200,255,255,225" stroke="5" start_cap="Round" end_cap="Round" />
+				<outline enabled="1" color="128,0,0,0" stroke="8" start_cap="Round" end_cap="Round" />
+			</wrath>
+      <essence>
+        <fill enabled="1" color="200,175,238,238" stroke="5" start_cap="Round" end_cap="Round" />
+        <outline enabled="1" color="128,0,0,0" stroke="8" start_cap="Round" end_cap="Round" />
+      </essence>
+      <emptyfill enabled="1" color="128,32,32,32" stroke="5" start_cap="Round" end_cap="Round" />
+		</res>
+	</personal>
+
+	<cursor_hint enabled="1">
+		<body enabled="1" color="255,0,0,0" stroke="0" />
+		<border enabled="1" color="255,75,60,45" stroke="-1" />
+		<title font_family="tahoma" font_size="7" font_bold="0" font_color="255,255,255,255" font_shadow="0" />
+	</cursor_hint>
+
+	<portraits enabled="1">
+		<performance>
+			<real_dps enabled="1" font_family="tahoma" font_size="6" font_bold="1" font_color="255,0,220,255" font_shadow="1">
+				<custom_shadow enabled="1" heavy="1" color="255,0,0,0" />
+			</real_dps>
+			<run_dps enabled="1" font_family="tahoma" font_size="6" font_bold="1" font_color="255,0,220,255" font_shadow="1">
+				<custom_shadow enabled="1" heavy="1" color="255,0,0,0" />
+			</run_dps>
+			<total_dmg enabled="1" font_family="tahoma" font_size="6" font_bold="1" font_color="255,255,220,0" font_shadow="1">
+				<custom_shadow enabled="1" heavy="1" color="255,0,0,0" />
+			</total_dmg>
+		</performance>
+		<bars>
+			<ehp enabled="1" />
+			<activity enabled="0" />
+			<total_dmg enabled="0" />
+		</bars>
+		<info enabled="1" font_family="arial" font_size="6" font_bold="1" font_color="255,255,200,0" font_shadow="1" />
+	</portraits>
+
+	<stat_tracker scale_width="100">
+		<columns>
+			<experience enabled="1" />
+			<gold_pickup enabled="1" />
+			<gold_drop enabled="0" />
+			<kill_total enabled="0" />
+			<kill_elite enabled="1" />
+			<drop_all enabled="0" />
+			<drop_white enabled="0" />
+			<drop_magic enabled="0" />
+			<drop_rare enabled="0" />
+			<drop_legendary enabled="1" />
+			<drop_blood_shard enabled="1" />
+			<death enabled="1" />
+			<damage_dealt_all enabled="1" />
+			<damage_dealt_crit enabled="1" />
+			<damage_taken enabled="1" />
+			<healing enabled="0" />
+		</columns>
+	</stat_tracker>
+
+	<debug>
+	</debug>
+
+	<lobby_heroes>
+	</lobby_heroes>
+
+</config>

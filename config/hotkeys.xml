@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<hotkeys>
+		<exit modifier="ctrl" key="End" />
+		<hide_hud modifier="" key="F4" />
+		<reload_pickit modifier="" key="F3" />
+		<capture modifier="alt" key="C" />
+		<stat_tracker modifier="" key="F5" />
+		<debug_overlay modifier="" key="F11" />
+		<save_debug_data modifier="ctrl+alt" key="D" />
+		<reset_session modifier="ctrl+alt" key="R" />
+	</hotkeys>
+</config>

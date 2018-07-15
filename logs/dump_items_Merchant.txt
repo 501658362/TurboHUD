@@ -1,0 +1,4293 @@
+﻿1565456767	Helm_208	升灵头冠	8:0	loot
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	601	
+	proc	str	601	
+	attr	Resistance	0	134	
+	proc	anyres	134	
+	proc	ph_res	134	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1031723079	
+	proc	seed	1031723079	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	673	
+	proc	dura	67	
+	attr	Durability_Cur	-1	673	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	688	
+	proc	t_armor	688	
+	attr	Armor_Item_SubTotal	-1	688	
+	attr	Armor_Item	-1	688	
+	proc	b_armor	688	
+	affx	3301343616	战争之
+	affx	1220349768	密不透风
+	perf	1203	Strength_Item	-1	525-625	601
+	perf	93	Resistance	0	121-140	134
+2638944385	Mace_1H_301	残酷者	2:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1337.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1122	
+	proc	dmg_lo	1122	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1122	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	431	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	431	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1553	
+	proc	dmg_hi	1553	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.25999999046326	
+	proc	as_weap	1.26	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.25999999046326	
+	attr	Attacks_Per_Second_Item_Percent	-1	0.0500000007450581	
+	proc	as_extr	5	
+	attr	Attacks_Per_Second_Item	-1	1.20000004768372	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1453045307	
+	proc	seed	1453045307	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	647	
+	proc	dura	64	
+	attr	Durability_Cur	-1	647	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	217	
+	attr	Damage_Weapon_Delta_SubTotal	0	217	
+	attr	Damage_Weapon_Max	0	469	
+	attr	Damage_Weapon_Max_Total	0	1553	
+	attr	Damage_Weapon_Delta_Total	0	431	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	214	
+	attr	Damage_Weapon_Min	0	252	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1122	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.25999999046326	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.25999999046326	
+	attr	Damage_Weapon_Average	0	360.5	
+	attr	Damage_Weapon_Average_Total	0	1337.5	
+	attr	Damage_Weapon_Bonus_Min_X1	0	870	
+	affx	2227990498	死亡之
+	affx	3804566574	痛击
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	870
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	214
+	perf	195	Attacks_Per_Second_Item_Percent	-1	0.0500000007450581-0.0599999986588955	0.0500000007450581
+1815809042	Shield_208	拉基斯守护盾牌	12:0	loot
+	attr	Requirement	57	70	
+	attr	Intelligence_Item	-1	575	
+	proc	int	575	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1345224611	
+	proc	seed	1345224611	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Hitpoints_Max_Percent_Bonus_Item	-1	0.159912109375	
+	proc	life	16	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	581	
+	proc	dura	58	
+	attr	Durability_Cur	-1	581	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	1535	
+	proc	t_armor	1535	
+	attr	Armor_Item_SubTotal	-1	1535	
+	attr	Armor_Item	-1	1535	
+	proc	b_armor	1535	
+	attr	Block_Amount_Item_Delta	-1	4704	
+	attr	Block_Amount_Item_Min	-1	9408	
+	attr	Block_Chance_Item_Total	-1	0.18994140625	
+	proc	t_block	19	
+	attr	Block_Chance_Item	-1	0.18994140625	
+	proc	b_block	19	
+	affx	2902946034	远见之
+	affx	3013994134	健硕
+	perf	1205	Intelligence_Item	-1	525-625	575
+	perf	135	Hitpoints_Max_Percent_Bonus_Item	-1	0.119999997317791-0.159999996423721	0.159912109375
+	perf	264	Block_Chance_Item	-1	0.100000001490116-0.200000002980232	0.18994140625
+	perf	272	Block_Amount_Item_Min	-1	9410-9410	9408
+	perf	273	Block_Amount_Item_Delta	-1	4705-4705	4704
+2802482727	PH_Ring	神秘戒指	8:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-2070912376	
+	proc	seed	-2070912376	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+3419024603	Bracers_208	升灵护腕	31:0	loot
+	attr	Requirement	57	70	
+	attr	Intelligence_Item	-1	376	
+	proc	int	376	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-2143875796	
+	proc	seed	-2143875796	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	516	
+	proc	dura	51	
+	attr	Durability_Cur	-1	516	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Gold_Find	-1	0.300000011920929	
+	proc	gf	30	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	416	
+	proc	t_armor	416	
+	attr	Armor_Item_SubTotal	-1	416	
+	attr	Armor_Item	-1	416.666656494141	
+	proc	b_armor	417	
+	affx	1570361690	
+	affx	1237138646	昌隆
+	perf	1205	Intelligence_Item	-1	350-415	376
+	perf	50	Gold_Find	-1	0.28999999165535-0.310000002384186	0.300000011920929
+1565456767	Helm_208	升灵头冠	25:0	loot
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	547	
+	proc	str	547	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1979799691	
+	proc	seed	1979799691	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	573	
+	proc	dura	57	
+	attr	Durability_Cur	-1	573	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Gold_PickUp_Radius	-1	2	
+	proc	pickup	2	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	703	
+	proc	t_armor	703	
+	attr	Armor_Item_SubTotal	-1	703	
+	attr	Armor_Item	-1	703	
+	proc	b_armor	703	
+	affx	3301343616	战争之
+	affx	4034366320	财迷
+	perf	1203	Strength_Item	-1	525-625	547
+	perf	1071	Gold_PickUp_Radius	-1	1-2	2
+4193657807	Spear_302	破膛矛	7:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1537	
+	attr	Damage_Weapon_Min_Total_All	-1	1360	
+	proc	dmg_lo	1360	
+	attr	Damage_Weapon_Min_Total_OffHand	2	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	2	181	
+	attr	Damage_Weapon_Min_Total_MainHand	0	357	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	354	
+	attr	Damage_Weapon_Min_Total_MainHand	2	1003	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	173	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1714	
+	proc	dmg_hi	1714	
+	attr	Damage_Weapon_Delta_Total_OffHand	2	0	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.20000004768372	
+	proc	as_weap	1.2	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.20000004768372	
+	attr	Attacks_Per_Second_Item	-1	1.20000004768372	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	668959424	
+	proc	seed	668959424	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	490	
+	proc	dura	49	
+	attr	Durability_Cur	-1	490	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Splash_Damage_Effect_Percent	-1	0.150000005960464	
+	proc	areadmg	15	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Delta_Total	2	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Total	2	0	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta	2	181	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta_SubTotal	2	181	
+	attr	Damage_Weapon_Delta	0	173	
+	attr	Damage_Min_Subtotal	2	0	
+	attr	Damage_Weapon_Delta_SubTotal	0	173	
+	attr	Damage_Weapon_Max	0	530	
+	attr	Damage_Weapon_Delta_Total	2	181	
+	attr	Damage_Weapon_Max_Total	0	530	
+	attr	Damage_Weapon_Max	2	1184	
+	attr	Damage_Weapon_Delta_Total	0	173	
+	attr	Damage_Weapon_Max_Total	2	1184	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Min	2	1003	
+	attr	Damage_Weapon_Min	0	357	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	357	
+	attr	Damage_Weapon_Average	2	1093.5	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.20000004768372	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Damage_Weapon_Average_Total	2	1093.5	
+	attr	Damage_Weapon_Min_Total	2	1003	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.20000004768372	
+	attr	Damage_Weapon_Average	0	443.5	
+	attr	Damage_Weapon_Average_Total	0	443.5	
+	affx	517363854	雷击之
+	affx	3879146279	溅射
+	perf	231	Damage_Weapon_Min	2	853-1043	1003
+	perf	222	Damage_Weapon_Delta	2	169-253	181
+	perf	1350	Splash_Damage_Effect_Percent	-1	0.140000000596046-0.200000002980232	0.150000005960464
+3421647990	Flail_2H_204	巴洛克大连枷	20:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	2332	
+	attr	Damage_Weapon_Min_Total_All	-1	2140	
+	proc	dmg_lo	2140	
+	attr	Damage_Weapon_Min_Total_OffHand	2	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	2	280	
+	attr	Damage_Weapon_Min_Total_MainHand	0	992	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	384	
+	attr	Damage_Weapon_Min_Total_MainHand	2	1148	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	104	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	2524	
+	proc	dmg_hi	2524	
+	attr	Damage_Weapon_Delta_Total_OffHand	2	0	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.14999997615814	
+	proc	as_weap	1.15	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.14999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.14999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	375606997	
+	proc	seed	375606997	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	609	
+	proc	dura	60	
+	attr	Durability_Cur	-1	609	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Experience_Bonus	-1	117	
+	proc	expbonus	117	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Delta_Total	2	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Total	2	0	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta	2	280	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta_SubTotal	2	280	
+	attr	Damage_Weapon_Delta	0	104	
+	attr	Damage_Min_Subtotal	2	0	
+	attr	Damage_Weapon_Delta_SubTotal	0	104	
+	attr	Damage_Weapon_Max	0	1096	
+	attr	Damage_Weapon_Delta_Total	2	280	
+	attr	Damage_Weapon_Max_Total	0	1096	
+	attr	Damage_Weapon_Max	2	1428	
+	attr	Damage_Weapon_Delta_Total	0	104	
+	attr	Damage_Weapon_Max_Total	2	1428	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Min	2	1148	
+	attr	Damage_Weapon_Min	0	992	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	992	
+	attr	Damage_Weapon_Average	2	1288	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.14999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Damage_Weapon_Average_Total	2	1288	
+	attr	Damage_Weapon_Min_Total	2	1148	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.14999997615814	
+	attr	Damage_Weapon_Average	0	1044	
+	attr	Damage_Weapon_Average_Total	0	1044	
+	affx	3567248537	
+	affx	3140448489	不息
+	perf	231	Damage_Weapon_Min	2	1024-1252	1148
+	perf	222	Damage_Weapon_Delta	2	203-304	280
+	perf	77	Experience_Bonus	-1	100-139	117
+1612259889	ChestArmor_208	升灵胸甲	6:0	loot
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1834058283	
+	proc	seed	1834058283	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Sockets	-1	1	
+	proc	sock	1	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	677	
+	proc	dura	67	
+	attr	Durability_Cur	-1	677	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	1226	
+	proc	t_armor	1226	
+	attr	Armor_Item_SubTotal	-1	1226	
+	attr	Armor_Bonus_Item	-1	542	
+	proc	e_armor	542	
+	attr	Armor_Item	-1	684	
+	proc	b_armor	684	
+	affx	82091296	城堡之
+	affx	1342579558	镶孔
+	perf	34	Armor_Bonus_Item	-1	509-545	542
+	perf	386	Sockets	-1	1-1	1
+1661415658	Axe_1H_302	厄运斧	0:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1363.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1157	
+	proc	dmg_lo	1157	
+	attr	Damage_Weapon_Delta_Total_OffHand	4	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	252	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	413	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	214	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Min_Total_MainHand	4	905	
+	attr	Damage_Weapon_Max_Total_All	-1	1570	
+	proc	dmg_hi	1570	
+	attr	Damage_Weapon_Min_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	4	199	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.29999995231628	
+	proc	as_weap	1.3	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.29999995231628	
+	attr	Attacks_Per_Second_Item	-1	1.29999995231628	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1471793879	
+	proc	seed	-1471793879	
+	attr	Weapon_On_Hit_Slow_Proc_Chance_OffHand	-1	0	
+	attr	Weapon_On_Hit_Slow_Proc_Chance_MainHand	-1	0.0137939453125	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	567	
+	proc	dura	56	
+	attr	Durability_Cur	-1	567	
+	attr	Weapon_On_Hit_Slow_Proc_Chance	-1	0.0137939453125	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Damage_Delta_Total	4	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	4	0	
+	attr	Damage_Weapon_Delta	4	199	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta_SubTotal	4	199	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	4	0	
+	attr	Damage_Weapon_Delta	0	214	
+	attr	Damage_Weapon_Delta_SubTotal	0	214	
+	attr	Damage_Weapon_Max	0	466	
+	attr	Damage_Weapon_Max_Total	0	466	
+	attr	Damage_Weapon_Delta_Total	0	214	
+	attr	Damage_Weapon_Min	4	905	
+	attr	Damage_Weapon_Max	4	1104	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Max_Total	4	1104	
+	attr	Damage_Weapon_Min	0	252	
+	attr	Damage_Weapon_Delta_Total	4	199	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	252	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.29999995231628	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.29999995231628	
+	attr	Damage_Weapon_Average	0	359	
+	attr	Damage_Weapon_Average_Total	0	359	
+	attr	Damage_Weapon_Min_Total	4	905	
+	attr	Damage_Weapon_Average	4	1004.5	
+	attr	Damage_Weapon_Average_Total	4	1004.5	
+	affx	3359319938	凋零之
+	affx	2683108143	残害
+	perf	231	Damage_Weapon_Min	4	853-1043	905
+	perf	222	Damage_Weapon_Delta	4	169-253	199
+	perf	1140	Weapon_On_Hit_Slow_Proc_Chance	-1	0.00999999977648258-0.0225000008940697	0.0137939453125
+1682228656	Amulet17	护符	9:0	loot
+	attr	Resource_Cost_Reduction_Percent_All	-1	0.04998779296875	
+	proc	rescostred	5	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1121795389	
+	proc	seed	-1121795389	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	463	
+	proc	dura	46	
+	attr	Durability_Cur	-1	463	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Hitpoints_On_Kill	-1	3436	
+	proc	lok	3436	
+	attr	Season	-1	14	
+	affx	71995443	
+	affx	300606640	诛杀之
+	perf	735	Resource_Cost_Reduction_Percent_All	-1	0.0500000007450581-0.0700000002980232	0.04998779296875
+	perf	348	Hitpoints_On_Kill	-1	3124-6427	3436
+4024031642	Sword_1H_301	冠军剑	4:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1223.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1007	
+	proc	dmg_lo	1007	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1007	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	433	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	433	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1440	
+	proc	dmg_hi	1440	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.46999990940094	
+	proc	as_weap	1.47	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.46999990940094	
+	attr	Attacks_Per_Second_Item_Percent	-1	0.0500000007450581	
+	proc	as_extr	5	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-175784324	
+	proc	seed	-175784324	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	622	
+	proc	dura	62	
+	attr	Durability_Cur	-1	622	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	186	
+	attr	Damage_Weapon_Delta_SubTotal	0	186	
+	attr	Damage_Weapon_Max	0	325	
+	attr	Damage_Weapon_Max_Total	0	1440	
+	attr	Damage_Weapon_Delta_Total	0	433	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	247	
+	attr	Damage_Weapon_Min	0	139	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1007	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.46999990940094	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.46999990940094	
+	attr	Damage_Weapon_Average	0	232	
+	attr	Damage_Weapon_Average_Total	0	1223.5	
+	attr	Damage_Weapon_Bonus_Min_X1	0	868	
+	affx	2227990498	死亡之
+	affx	3804566574	痛击
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	868
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	247
+	perf	195	Attacks_Per_Second_Item_Percent	-1	0.0500000007450581-0.0599999986588955	0.0500000007450581
+2179279207	Staff_301	环蛇法杖	15:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	2503.5	
+	attr	Damage_Weapon_Min_Total_All	-1	2149	
+	proc	dmg_lo	2149	
+	attr	Damage_Weapon_Delta_Total_OffHand	5	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	957	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	709	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	478	
+	attr	Damage_Weapon_Min_Total_MainHand	5	1192	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	2858	
+	proc	dmg_hi	2858	
+	attr	Damage_Weapon_Delta_Total_MainHand	5	231	
+	attr	Damage_Weapon_Min_Total_OffHand	5	0	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.10000002384186	
+	proc	as_weap	1.1	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item	-1	1.10000002384186	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1682026983	
+	proc	seed	1682026983	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	597	
+	proc	dura	59	
+	attr	Durability_Cur	-1	597	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Splash_Damage_Effect_Percent	-1	0.200000002980232	
+	proc	areadmg	20	
+	attr	Damage_Delta_Total	5	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	5	0	
+	attr	Damage_Weapon_Delta_SubTotal	5	231	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta	5	231	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	5	0	
+	attr	Damage_Weapon_Delta	0	478	
+	attr	Damage_Weapon_Delta_SubTotal	0	478	
+	attr	Damage_Weapon_Max	0	1435	
+	attr	Damage_Weapon_Max_Total	0	1435	
+	attr	Damage_Weapon_Min	5	1192	
+	attr	Damage_Weapon_Delta_Total	0	478	
+	attr	Damage_Weapon_Max_Total	5	1423	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Max	5	1423	
+	attr	Damage_Weapon_Delta_Total	5	231	
+	attr	Damage_Weapon_Min	0	957	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	957	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.10000002384186	
+	attr	Damage_Weapon_Average	0	1196	
+	attr	Damage_Weapon_Average_Total	0	1196	
+	attr	Damage_Weapon_Min_Total	5	1192	
+	attr	Damage_Weapon_Average_Total	5	1307.5	
+	attr	Damage_Weapon_Average	5	1307.5	
+	affx	2515193311	
+	affx	3879146279	溅射
+	perf	231	Damage_Weapon_Min	5	1024-1252	1192
+	perf	222	Damage_Weapon_Delta	5	203-304	231
+	perf	1350	Splash_Damage_Effect_Percent	-1	0.140000000596046-0.200000002980232	0.200000002980232
+1539238484	Quiver_207	升灵箭袋	10:0	loot
+	attr	Attacks_Per_Second_Percent_Subtotal	-1	0	
+	attr	Attacks_Per_Second_Percent	-1	0.150000005960464	
+	proc	ias	15	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	616	
+	proc	vita	616	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-352768714	
+	proc	seed	-352768714	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Hitpoints_Regen_Per_Second	-1	3972	
+	proc	hpreg	3972	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	470	
+	proc	dura	47	
+	attr	Durability_Cur	-1	470	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	attr	Quiver	-1	1	
+	affx	3501726305	
+	affx	3405776538	荣光之
+	perf	126	Hitpoints_Regen_Per_Second	-1	2753-4642	3972
+	perf	1206	Vitality_Item	-1	525-625	616
+	perf	522	Quiver	-1	1-1	1
+	perf	203	Attacks_Per_Second_Percent	-1	0.150000005960464-0.150000005960464	0.150000005960464
+1755623813	WizardHat_206	升灵头饰	36:0	loot
+	attr	Requirement	57	70	
+	attr	Resource_On_Crit	1	4	resource: arcane
+	proc	apoc	4	resource: arcane
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	20	
+	attr	Seed	-1	346051815	
+	proc	seed	346051815	
+	attr	Power_Damage_Percent_Bonus	93395	0.150000005960464	power: 冰霜射线
+	proc	skilldmg	15	power: 冰霜射线
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	475	
+	proc	dura	47	
+	attr	Durability_Cur	-1	475	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resource_Max_Bonus	1	13	resource: arcane
+	proc	max_ap	13	resource: arcane
+	attr	Gold_PickUp_Radius	-1	2	
+	proc	pickup	2	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	696	
+	proc	t_armor	696	
+	attr	Armor_Item_SubTotal	-1	696	
+	attr	Armor_Item	-1	696	
+	proc	b_armor	696	
+	affx	2881593659	不祥
+	affx	2004073070	寒霜之
+	affx	4034366320	财迷
+	affx	3768588530	恍惚
+	perf	346	Resource_On_Crit	1	3-4	4
+	perf	1191	Power_Damage_Percent_Bonus	93395	0.0799999982118607-0.150000005960464	0.150000005960464
+	perf	1071	Gold_PickUp_Radius	-1	1-2	2
+	perf	152	Resource_Max_Bonus	1	13-14	13
+1700551051	Axe_2H_302	裂肉斧	1:0	loot
+	attr	Damage_Weapon_Percent_All	-1	0.0799999982118607	
+	proc	dmg_pbonus	8	
+	attr	Damage_Weapon_Average_Total_All	-1	3070.98022460938	
+	attr	Damage_Weapon_Min_Total_All	-1	2770.2001953125	
+	proc	dmg_lo	2770	
+	attr	Damage_Weapon_Delta_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	3	0	
+	attr	Damage_Weapon_Min_Total_OffHand	2	0	
+	attr	Damage_Weapon_Min_Total_MainHand	1	0	
+	attr	Damage_Weapon_Delta_Total_OffHand	5	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	2	0	
+	attr	Damage_Weapon_Min_Total_OffHand	3	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	2770.2001953125	
+	attr	Damage_Weapon_Delta_Total_OffHand	6	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	1	0	
+	attr	Damage_Weapon_Min_Total_MainHand	3	0	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	601.559997558594	
+	attr	Damage_Weapon_Min_Total_OffHand	1	0	
+	attr	Damage_Weapon_Min_Total_MainHand	2	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	601.559997558594	
+	attr	Damage_Weapon_Min_Total_OffHand	6	0	
+	attr	Damage_Weapon_Min_Total_MainHand	5	0	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_OffHand	1	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	6	0	
+	attr	Damage_Weapon_Min_Total_MainHand	4	0	
+	attr	Damage_Weapon_Max_Total_All	-1	3371.76025390625	
+	proc	dmg_hi	3372	
+	attr	Damage_Weapon_Delta_Total_OffHand	2	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	5	0	
+	attr	Damage_Weapon_Min_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_OffHand	3	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	4	0	
+	attr	Damage_Weapon_Min_Total_OffHand	5	0	
+	attr	Damage_Weapon_Min_Total_MainHand	6	0	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.10000002384186	
+	proc	as_weap	1.1	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item	-1	1.10000002384186	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1867112900	
+	proc	seed	1867112900	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	484	
+	proc	dura	48	
+	attr	Durability_Cur	-1	484	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Damage_Delta_Total	5	0	
+	attr	Damage_Delta_Total	4	0	
+	attr	Damage_Delta_Total	6	0	
+	attr	Damage_Delta_Total	1	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Delta_Total	3	0	
+	attr	Damage_Delta_Total	2	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	4	0	
+	attr	Damage_Min_Total	1	0	
+	attr	Damage_Min_Subtotal	5	0	
+	attr	Damage_Min_Total	2	0	
+	attr	Damage_Min_Subtotal	6	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Total	3	0	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	4	0	
+	attr	Damage_Min_Subtotal	1	0	
+	attr	Damage_Min_Total	5	0	
+	attr	Damage_Weapon_Delta	0	308	
+	attr	Damage_Min_Subtotal	2	0	
+	attr	Damage_Min_Total	6	0	
+	attr	Damage_Weapon_Delta_SubTotal	0	308	
+	attr	Damage_Min_Subtotal	3	0	
+	attr	Damage_Weapon_Delta_Total	3	0	
+	attr	Damage_Weapon_Max_Total	1	0	
+	attr	Damage_Weapon_Max	0	1693	
+	attr	Damage_Weapon_Delta_Total	2	0	
+	attr	Damage_Weapon_Max_Total	0	3371.76025390625	
+	attr	Damage_Weapon_Delta_Total	1	0	
+	attr	Damage_Weapon_Max_Total	3	0	
+	attr	Damage_Weapon_Delta_Total	0	601.559997558594	
+	attr	Damage_Weapon_Max_Total	2	0	
+	attr	Damage_Weapon_Max_Total	5	0	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Delta_Total	6	0	
+	attr	Damage_Weapon_Max_Total	4	0	
+	attr	Damage_Weapon_Bonus_Delta_X1	0	249	
+	attr	Damage_Weapon_Delta_Total	5	0	
+	attr	Damage_Weapon_Min	0	1385	
+	attr	Damage_Weapon_Delta_Total	4	0	
+	attr	Damage_Weapon_Max_Total	6	0	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	2770.2001953125	
+	attr	Damage_Weapon_Average_Total	3	0	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.10000002384186	
+	attr	Damage_Weapon_Min_Total	1	0	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Damage_Weapon_Average_Total	2	0	
+	attr	Damage_Weapon_Min_Total	2	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.10000002384186	
+	attr	Damage_Weapon_Average_Total	1	0	
+	attr	Damage_Weapon_Average	0	1539	
+	attr	Damage_Weapon_Min_Total	3	0	
+	attr	Damage_Weapon_Average_Total	0	3070.98022460938	
+	attr	Damage_Weapon_Min_Total	4	0	
+	attr	Damage_Weapon_Min_Total	5	0	
+	attr	Damage_Weapon_Average_Total	6	0	
+	attr	Damage_Weapon_Bonus_Min_X1	0	1180	
+	attr	Damage_Weapon_Min_Total	6	0	
+	attr	Damage_Weapon_Average_Total	5	0	
+	attr	Damage_Weapon_Average_Total	4	0	
+	attr	Damage_Weapon_Percent_Total	2	0.0799999982118607	
+	attr	Damage_Weapon_Percent_Total	3	0.0799999982118607	
+	attr	Damage_Weapon_Percent_Total	0	0.0799999982118607	
+	attr	Damage_Weapon_Percent_Total	1	0.0799999982118607	
+	attr	Damage_Weapon_Percent_Total	6	0.0799999982118607	
+	attr	Damage_Weapon_Percent_Total	4	0.0799999982118607	
+	attr	Damage_Weapon_Percent_Total	5	0.0799999982118607	
+	affx	3256106861	
+	affx	2064366741	野蛮
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	1024-1252	1180
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	203-304	249
+	perf	241	Damage_Weapon_Percent_All	-1	0.0500000007450581-0.0799999982118607	0.0799999982118607
+2782237342	Pants_207	拉基斯守护腿甲	30:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	388	
+	proc	vita	388	
+	attr	Resistance	5	133	
+	proc	anyres	133	
+	proc	a_res	133	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	960197211	
+	proc	seed	960197211	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	517	
+	proc	dura	51	
+	attr	Durability_Cur	-1	517	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	640	
+	proc	t_armor	640	
+	attr	Armor_Item_SubTotal	-1	640	
+	attr	Armor_Item	-1	640.5	
+	proc	b_armor	641	
+	affx	3420952834	
+	affx	1767460757	灵妙
+	perf	1206	Vitality_Item	-1	350-415	388
+	perf	93	Resistance	5	121-140	133
+40857601	Cloak_206	升灵披风	21:0	loot
+	attr	Item_Indestructible	-1	1	
+	proc	indest	1	
+	attr	Requirement	57	70	
+	attr	Dexterity_Item	-1	402	
+	proc	dex	402	
+	attr	Power_Damage_Percent_Bonus	129217	0.109999999403954	power: 箭塔
+	proc	skilldmg	11	power: 箭塔
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	11	
+	attr	Seed	-1	-241096934	
+	proc	seed	-241096934	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	458	
+	proc	dura	45	
+	attr	Durability_Cur	-1	458	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	1208	
+	proc	t_armor	1208	
+	attr	Armor_Item_SubTotal	-1	1208	
+	attr	Armor_Bonus_Item	-1	530	
+	proc	e_armor	530	
+	attr	Armor_Item	-1	678	
+	proc	b_armor	678	
+	affx	1343102640	
+	affx	3399480956	哨塔之
+	affx	82091296	城堡之
+	affx	1661455570	坚不可摧
+	perf	1204	Dexterity_Item	-1	350-415	402
+	perf	1191	Power_Damage_Percent_Bonus	129217	0.0799999982118607-0.150000005960464	0.109999999403954
+	perf	34	Armor_Bonus_Item	-1	509-545	530
+	perf	1210	Item_Indestructible	-1	1-1	1
+150867804	Scythe_2H_004	锯齿镰刀	22:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	2846	
+	attr	Damage_Weapon_Min_Total_All	-1	2658	
+	proc	dmg_lo	2658	
+	attr	Damage_Weapon_Min_Total_MainHand	0	2658	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	376	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	376	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	3034	
+	proc	dmg_hi	3034	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.10000002384186	
+	proc	as_weap	1.1	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item	-1	1.10000002384186	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1540069580	
+	proc	seed	1540069580	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Sockets	-1	1	
+	proc	sock	1	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	692	
+	proc	dura	69	
+	attr	Durability_Cur	-1	692	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	152	
+	attr	Damage_Weapon_Delta_SubTotal	0	152	
+	attr	Damage_Weapon_Max	0	1618	
+	attr	Damage_Weapon_Max_Total	0	3034	
+	attr	Damage_Weapon_Delta_Total	0	376	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	224	
+	attr	Damage_Weapon_Min	0	1466	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	2658	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.10000002384186	
+	attr	Damage_Weapon_Average	0	1542	
+	attr	Damage_Weapon_Average_Total	0	2846	
+	attr	Damage_Weapon_Bonus_Min_X1	0	1192	
+	affx	3256106861	
+	affx	1342579558	镶孔
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	1024-1252	1192
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	203-304	224
+	perf	386	Sockets	-1	1-1	1
+88668317	Wand_301	恶魔颅杖	16:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1267	
+	attr	Damage_Weapon_Min_Total_All	-1	1111	
+	proc	dmg_lo	1111	
+	attr	Damage_Weapon_Delta_Total_OffHand	4	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	161	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	312	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	137	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Min_Total_MainHand	4	950	
+	attr	Damage_Weapon_Max_Total_All	-1	1423	
+	proc	dmg_hi	1423	
+	attr	Damage_Weapon_Min_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	4	175	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	165473212	
+	proc	seed	165473212	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	342	
+	proc	dura	34	
+	attr	Durability_Cur	-1	342	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resource_Max_Bonus	1	7	resource: arcane
+	proc	max_ap	7	resource: arcane
+	attr	Damage_Delta_Total	4	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	4	0	
+	attr	Damage_Weapon_Delta	4	175	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta_SubTotal	4	175	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	4	0	
+	attr	Damage_Weapon_Delta	0	137	
+	attr	Damage_Weapon_Delta_SubTotal	0	137	
+	attr	Damage_Weapon_Max	0	298	
+	attr	Damage_Weapon_Max_Total	0	298	
+	attr	Damage_Weapon_Delta_Total	0	137	
+	attr	Damage_Weapon_Min	4	950	
+	attr	Damage_Weapon_Max	4	1125	
+	attr	Damage_Weapon_Max_Total	4	1125	
+	attr	Damage_Weapon_Min	0	161	
+	attr	Damage_Weapon_Delta_Total	4	175	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	161	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	229.5	
+	attr	Damage_Weapon_Average_Total	0	229.5	
+	attr	Damage_Weapon_Min_Total	4	950	
+	attr	Skill	30601	1	power: 魔杖射击
+	attr	Damage_Weapon_Average	4	1037.5	
+	attr	Damage_Weapon_Average_Total	4	1037.5	
+	affx	3359319938	凋零之
+	affx	3768588528	狡黠
+	perf	231	Damage_Weapon_Min	4	853-1043	950
+	perf	222	Damage_Weapon_Delta	4	169-253	175
+	perf	152	Resource_Max_Bonus	1	7-9	7
+2782237343	Pants_208	升灵腿甲	13:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	401	
+	proc	vita	401	
+	attr	Resistance	5	134	
+	proc	anyres	134	
+	proc	a_res	134	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1665748104	
+	proc	seed	-1665748104	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	630	
+	proc	dura	63	
+	attr	Durability_Cur	-1	630	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	732	
+	proc	t_armor	732	
+	attr	Armor_Item_SubTotal	-1	732	
+	attr	Armor_Item	-1	732	
+	proc	b_armor	732	
+	affx	3420952834	
+	affx	1767460757	灵妙
+	perf	1206	Vitality_Item	-1	350-415	401
+	perf	93	Resistance	5	121-140	134
+1565456767	Helm_208	升灵头冠	12:0	loot
+	attr	Requirement	57	70	
+	attr	Thorns_Fixed	0	2300	
+	proc	thorns	2300	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-825182668	
+	proc	seed	-825182668	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	610	
+	proc	dura	61	
+	attr	Durability_Cur	-1	610	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Resistance_All	-1	90	
+	proc	allres	90	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	748	
+	proc	t_armor	748	
+	attr	Armor_Item_SubTotal	-1	748	
+	attr	Armor_Item	-1	748	
+	proc	b_armor	748	
+	affx	148673682	万华
+	affx	3463907179	
+	perf	96	Resistance_All	-1	86-90	90
+	perf	334	Thorns_Fixed	0	2015-2400	2300
+2782237342	Pants_207	拉基斯守护腿甲	10:0	loot
+	attr	Requirement	57	70	
+	attr	Intelligence_Item	-1	398	
+	proc	int	398	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1311570710	
+	proc	seed	-1311570710	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Hitpoints_Regen_Per_Second	-1	4484	
+	proc	hpreg	4484	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	576	
+	proc	dura	57	
+	attr	Durability_Cur	-1	576	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	636	
+	proc	t_armor	636	
+	attr	Armor_Item_SubTotal	-1	636	
+	attr	Armor_Item	-1	636.5	
+	proc	b_armor	637	
+	affx	1570361690	
+	affx	3501726305	
+	perf	1205	Intelligence_Item	-1	350-415	398
+	perf	126	Hitpoints_Regen_Per_Second	-1	2753-4642	4484
+1060845884	PH_Phylactery	神秘魂匣	16:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1932193703	
+	proc	seed	-1932193703	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+88668318	Wand_302	魔头短杖	21:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1360	
+	attr	Damage_Weapon_Min_Total_All	-1	1176	
+	proc	dmg_lo	1176	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1176	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	368	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	368	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1544	
+	proc	dmg_hi	1544	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	613	
+	proc	vita	613	
+	attr	Intelligence_Item	-1	619	
+	proc	int	619	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1515558179	
+	proc	seed	1515558179	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	385	
+	proc	dura	38	
+	attr	Durability_Cur	-1	385	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Resource_Max_Bonus	1	11	resource: arcane
+	proc	max_ap	11	resource: arcane
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	166	
+	attr	Damage_Weapon_Delta_SubTotal	0	166	
+	attr	Damage_Weapon_Max	0	361	
+	attr	Damage_Weapon_Max_Total	0	1544	
+	attr	Damage_Weapon_Delta_Total	0	368	
+	attr	Damage_Weapon_Bonus_Delta_X1	0	202	
+	attr	Damage_Weapon_Min	0	195	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1176	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	278	
+	attr	Damage_Weapon_Average_Total	0	1360	
+	attr	Skill	30601	1	power: 魔杖射击
+	attr	Damage_Weapon_Bonus_Min_X1	0	981	
+	affx	2227990498	死亡之
+	affx	2902946034	远见之
+	affx	3405776538	荣光之
+	affx	3768588529	恍惚
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	981
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	202
+	perf	1205	Intelligence_Item	-1	525-625	619
+	perf	1206	Vitality_Item	-1	525-625	613
+	perf	152	Resource_Max_Bonus	1	10-12	11
+365492434	Shoulders_208	升灵护肩	20:0	loot
+	attr	Requirement	57	70	
+	attr	Thorns_Fixed	0	4740	
+	proc	thorns	4740	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-280460685	
+	proc	seed	-280460685	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	643	
+	proc	dura	64	
+	attr	Durability_Cur	-1	643	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Splash_Damage_Effect_Percent	-1	0.159999996423721	
+	proc	areadmg	16	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	591	
+	proc	t_armor	591	
+	attr	Armor_Item_SubTotal	-1	591	
+	attr	Armor_Item	-1	591.666687011719	
+	proc	b_armor	592	
+	affx	2775415247	
+	affx	1547283907	棘刺之
+	perf	1350	Splash_Damage_Effect_Percent	-1	0.100000001490116-0.159999996423721	0.159999996423721
+	perf	334	Thorns_Fixed	0	3758-5724	4740
+1661415657	Axe_1H_301	砍头斧	18:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1435	
+	attr	Damage_Weapon_Min_Total_All	-1	1237	
+	proc	dmg_lo	1237	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1237	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	396	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	396	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1633	
+	proc	dmg_hi	1633	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.29999995231628	
+	proc	as_weap	1.3	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.29999995231628	
+	attr	Attacks_Per_Second_Item	-1	1.29999995231628	
+	attr	Requirement	57	70	
+	attr	Intelligence_Item	-1	582	
+	proc	int	582	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Duration_OffHand	-1	0	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Duration_MainHand	-1	5	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Damage_Base_OffHand	-1	0	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Damage_MainHand	-1	3.638671875	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Chance_OffHand	-1	0	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Chance_MainHand	-1	0.351318359375	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-2028733627	
+	proc	seed	-2028733627	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Duration	-1	5	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Damage	-1	3.638671875	
+	attr	Weapon_On_Hit_Percent_Bleed_Proc_Chance	-1	0.351318359375	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	561	
+	proc	dura	56	
+	attr	Durability_Cur	-1	561	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Experience_Bonus	-1	111	
+	proc	expbonus	111	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	173	
+	attr	Damage_Weapon_Delta_SubTotal	0	173	
+	attr	Damage_Weapon_Max	0	376	
+	attr	Damage_Weapon_Max_Total	0	1633	
+	attr	Damage_Weapon_Delta_Total	0	396	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	223	
+	attr	Damage_Weapon_Min	0	203	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1237	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.29999995231628	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.29999995231628	
+	attr	Damage_Weapon_Average	0	289.5	
+	attr	Damage_Weapon_Average_Total	0	1435	
+	attr	Damage_Weapon_Bonus_Min_X1	0	1034	
+	affx	2227990498	死亡之
+	affx	2902946034	远见之
+	affx	3468687192	
+	affx	3140448489	不息
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	1034
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	223
+	perf	1205	Intelligence_Item	-1	525-625	582
+	perf	1146	Weapon_On_Hit_Percent_Bleed_Proc_Chance	-1	0.319999992847443-0.370000004768372	0.351318359375
+	perf	1147	Weapon_On_Hit_Percent_Bleed_Proc_Damage	-1	3-4	3.638671875
+	perf	1148	Weapon_On_Hit_Percent_Bleed_Proc_Duration	-1	5-5	5
+	perf	77	Experience_Bonus	-1	100-139	111
+1281756953	PH_Bracers	神秘护腕	7:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-2015630601	
+	proc	seed	-2015630601	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+181035077	Crossbow_301	护城弩炮	1:0	loot
+	attr	BowAny	-1	1	
+	attr	Crossbow	-1	2	
+	attr	Damage_Weapon_Average_Total_All	-1	1689.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1518	
+	proc	dmg_lo	1518	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1518	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	343	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	343	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1861	
+	proc	dmg_hi	1861	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.10000002384186	
+	proc	as_weap	1.1	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item	-1	1.10000002384186	
+	attr	Item_Indestructible	-1	1	
+	proc	indest	1	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-850227563	
+	proc	seed	-850227563	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	695	
+	proc	dura	69	
+	attr	Durability_Cur	-1	695	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	124	
+	attr	Damage_Weapon_Delta_SubTotal	0	124	
+	attr	Damage_Weapon_Max	0	701	
+	attr	Damage_Weapon_Max_Total	0	1861	
+	attr	Damage_Weapon_Delta_Total	0	343	
+	attr	Skill	30599	1	power: 远程攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	219	
+	attr	Damage_Weapon_Min	0	577	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1518	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.10000002384186	
+	attr	Damage_Weapon_Average	0	639	
+	attr	Damage_Weapon_Average_Total	0	1689.5	
+	attr	Damage_Weapon_Bonus_Min_X1	0	941	
+	attr	WeaponRanged	-1	1	
+	attr	Weapon2H	-1	1	
+	affx	2227990498	死亡之
+	affx	1661455570	坚不可摧
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	941
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	219
+	perf	1210	Item_Indestructible	-1	1-1	1
+	perf	498	Crossbow	-1	1-1	2
+4158153004	Mojo_206	空洞的凝视	24:0	loot
+	attr	Power_Damage_Percent_Bonus	30624	0.0799999982118607	power: 僵尸巨兽
+	proc	skilldmg	8	power: 僵尸巨兽
+	attr	Damage_Average_Total_All	-1	298	
+	attr	Damage_Min_Total_All	-1	269	
+	proc	offh_dmg_lo	269	
+	attr	Damage_Delta_Total_All	-1	58	
+	proc	offh_dmg_add	58	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1643794939	
+	proc	seed	-1643794939	
+	attr	Weapon_On_Hit_Slow_Proc_Chance_OffHand	-1	0	
+	attr	Weapon_On_Hit_Slow_Proc_Chance_MainHand	-1	0.0182952880859375	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	497	
+	proc	dura	49	
+	attr	Durability_Cur	-1	497	
+	attr	Weapon_On_Hit_Slow_Proc_Chance	-1	0.0182952880859375	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Delta	0	58	
+	attr	Damage_Delta_Total	0	58	
+	attr	Damage_Min	0	269	
+	attr	Damage_Min_Total	0	269	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	269	
+	affx	3223058624	巨兽之
+	affx	2683108143	残害
+	perf	1191	Power_Damage_Percent_Bonus	30624	0.0799999982118607-0.150000005960464	0.0799999982118607
+	perf	1140	Weapon_On_Hit_Slow_Proc_Chance	-1	0.00999999977648258-0.0225000008940697	0.0182952880859375
+	perf	214	Damage_Min	0	340-370	269
+	perf	212	Damage_Delta	0	40-80	58
+1146967350	Ring_25	戒指	7:0	loot
+	attr	CrowdControl_Reduction	-1	0.159912109375	
+	proc	ccred	16	
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	399	
+	proc	str	399	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-326042071	
+	proc	seed	-326042071	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	541	
+	proc	dura	54	
+	attr	Durability_Cur	-1	541	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	affx	886664040	
+	affx	1274656074	肆无忌惮
+	perf	1203	Strength_Item	-1	350-415	399
+	perf	702	CrowdControl_Reduction	-1	0.100000001490116-0.300000011920929	0.159912109375
+88668317	Wand_301	恶魔颅杖	1:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	230.5	
+	attr	Damage_Weapon_Min_Total_All	-1	165	
+	proc	dmg_lo	165	
+	attr	Damage_Weapon_Min_Total_MainHand	0	165	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	131	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	131	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	296	
+	proc	dmg_hi	296	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	61	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	868157707	
+	proc	seed	868157707	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	2	
+	proc	quality	2	
+	attr	Durability_Max	-1	377	
+	proc	dura	37	
+	attr	Durability_Cur	-1	377	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	136	
+	attr	Damage_Weapon_Delta_SubTotal	0	131	
+	attr	Damage_Weapon_Max	0	296	
+	attr	Damage_Weapon_Max_Total	0	296	
+	attr	Damage_Weapon_Delta_Total	0	131	
+	attr	Damage_Weapon_Min	0	160	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	165	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	228	
+	attr	Damage_Weapon_Average_Total	0	230.5	
+	attr	Damage_Weapon_Bonus_Min	0	5	
+	attr	Skill	30601	1	power: 魔杖射击
+	affx	1593319829	优异
+	perf	237	Damage_Weapon_Bonus_Min	0	5-5	5
+2451845299	PH_Quiver	神秘箭袋	15:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	257419856	
+	proc	seed	257419856	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+365492434	Shoulders_208	升灵护肩	16:0	loot
+	attr	Requirement	57	70	
+	attr	Thorns_Fixed	0	4033	
+	proc	thorns	4033	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	833631817	
+	proc	seed	833631817	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	537	
+	proc	dura	53	
+	attr	Durability_Cur	-1	537	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Resistance_All	-1	87	
+	proc	allres	87	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	600	
+	proc	t_armor	600	
+	attr	Armor_Item_SubTotal	-1	600	
+	attr	Armor_Item	-1	600.666687011719	
+	proc	b_armor	601	
+	affx	148673682	万华
+	affx	1547283907	棘刺之
+	perf	96	Resistance_All	-1	86-90	87
+	perf	334	Thorns_Fixed	0	3758-5724	4033
+1502365593	NecromancerTalisman_004	纯净之魂	34:0	loot
+	attr	Damage_Average_Total_All	-1	328.5	
+	attr	Damage_Min_Total_All	-1	307	
+	proc	offh_dmg_lo	307	
+	attr	Damage_Delta_Total_All	-1	43	
+	proc	offh_dmg_add	43	
+	attr	Power_Cooldown_Reduction_Percent_All_Capped	-1	0	power: UNKNOWN
+	attr	Power_Cooldown_Reduction_Percent_All	-1	0.03997802734375	power: UNKNOWN
+	proc	cdred	4	power: UNKNOWN
+	attr	Requirement	57	70	
+	attr	Intelligence_Item	-1	569	
+	proc	int	569	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1376439641	
+	proc	seed	-1376439641	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	547	
+	proc	dura	54	
+	attr	Durability_Cur	-1	547	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Delta	0	43	
+	attr	Damage_Delta_Total	0	43	
+	attr	Damage_Min	0	307	
+	attr	Damage_Min_Total	0	307	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	307	
+	affx	2902946034	远见之
+	affx	4106487671	
+	perf	1205	Intelligence_Item	-1	525-625	569
+	perf	210	Power_Cooldown_Reduction_Percent_All	-1	0.0399999991059303-0.0700000002980232	0.03997802734375
+	perf	214	Damage_Min	0	340-370	307
+	perf	212	Damage_Delta	0	40-80	43
+1905181657	Orb_205	机关盒	20:0	loot
+	attr	Crit_Percent_Bonus_Capped	-1	0.100000001490116	
+	proc	crit	10	
+	attr	Damage_Average_Total_All	-1	140.5	
+	attr	Damage_Min_Total_All	-1	131	
+	proc	offh_dmg_lo	131	
+	attr	Damage_Delta_Total_All	-1	19	
+	proc	offh_dmg_add	19	
+	attr	Power_Cooldown_Reduction_Percent_All_Capped	-1	0	power: UNKNOWN
+	attr	Power_Cooldown_Reduction_Percent_All	-1	0.04998779296875	power: UNKNOWN
+	proc	cdred	5	power: UNKNOWN
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-2066096174	
+	proc	seed	-2066096174	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	480	
+	proc	dura	48	
+	attr	Durability_Cur	-1	480	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Resource_Max_Bonus	1	14	resource: arcane
+	proc	max_ap	14	resource: arcane
+	attr	Power_Damage_Percent_Bonus	30744	0.0799999982118607	power: 魔法飞弹
+	proc	skilldmg	8	power: 魔法飞弹
+	attr	Damage_Delta	0	19	
+	attr	Damage_Delta_Total	0	19	
+	attr	Damage_Min	0	131	
+	attr	Damage_Min_Total	0	131	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	131	
+	affx	4058408821	尖齿
+	affx	4106487671	
+	affx	1912961270	唤法之
+	affx	3768588530	恍惚
+	perf	248	Crit_Percent_Bonus_Capped	-1	0.0700000002980232-0.100000001490116	0.100000001490116
+	perf	210	Power_Cooldown_Reduction_Percent_All	-1	0.0399999991059303-0.0700000002980232	0.04998779296875
+	perf	1191	Power_Damage_Percent_Bonus	30744	0.0799999982118607-0.150000005960464	0.0799999982118607
+	perf	152	Resource_Max_Bonus	1	13-14	14
+	perf	214	Damage_Min	0	137-171	131
+	perf	212	Damage_Delta	0	1-34	19
+2112157588	BarbBelt_205	白金扣带	26:0	loot
+	attr	Power_Damage_Percent_Bonus	79242	0.119999997317791	power: 猛击
+	proc	skilldmg	12	power: 猛击
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	377	
+	proc	str	377	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1920288260	
+	proc	seed	1920288260	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	532	
+	proc	dura	53	
+	attr	Durability_Cur	-1	532	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Resource_Max_Bonus	2	11	resource: fury
+	proc	max_fury	11	resource: fury
+	attr	Gold_Find	-1	0.28999999165535	
+	proc	gf	29	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	467	
+	proc	t_armor	467	
+	attr	Armor_Item_SubTotal	-1	467	
+	attr	Armor_Item	-1	467	
+	proc	b_armor	467	
+	affx	886664040	
+	affx	2983524782	激斗之
+	affx	1237138646	昌隆
+	affx	1347655520	愤怒
+	perf	1203	Strength_Item	-1	350-415	377
+	perf	1191	Power_Damage_Percent_Bonus	79242	0.0799999982118607-0.150000005960464	0.119999997317791
+	perf	50	Gold_Find	-1	0.28999999165535-0.310000002384186	0.28999999165535
+	perf	152	Resource_Max_Bonus	2	10-12	11
+3561138112	Belt_208	统御者腰带	9:0	loot
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1712868462	
+	proc	seed	-1712868462	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	386	
+	proc	dura	38	
+	attr	Durability_Cur	-1	386	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resistance_All	-1	88	
+	proc	allres	88	
+	attr	On_Hit_Freeze_Proc_Chance	-1	0.0146942138671875	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	505	
+	proc	t_armor	505	
+	attr	Armor_Item_SubTotal	-1	505	
+	attr	Armor_Item	-1	505	
+	proc	b_armor	505	
+	affx	148673682	万华
+	affx	1992669064	冰封海洋之
+	perf	96	Resistance_All	-1	86-90	88
+	perf	1115	On_Hit_Freeze_Proc_Chance	-1	0.00999999977648258-0.0450000017881393	0.0146942138671875
+2761055176	Gloves_207	拉基斯守护护手	10:0	loot
+	attr	Attacks_Per_Second_Percent_Subtotal	-1	0	
+	attr	Attacks_Per_Second_Percent	-1	0.0599999986588955	
+	proc	ias	6	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Requirement	57	61	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1857476319	
+	proc	seed	-1857476319	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	505	
+	proc	dura	50	
+	attr	Durability_Cur	-1	505	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	On_Hit_Stun_Proc_Chance	-1	0.028289794921875	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	434	
+	proc	t_armor	434	
+	attr	Armor_Item_SubTotal	-1	434	
+	attr	Armor_Item	-1	434.5	
+	proc	b_armor	435	
+	affx	3971592086	
+	affx	536744081	破坏之
+	perf	203	Attacks_Per_Second_Percent	-1	0.0500000007450581-0.0599999986588955	0.0599999986588955
+	perf	1113	On_Hit_Stun_Proc_Chance	-1	0.00999999977648258-0.0450000017881393	0.028289794921875
+2268859294	PH_Boots	神秘短靴	2:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1134955601	
+	proc	seed	1134955601	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+3561138111	Belt_207	战争腰带	12:0	loot
+	attr	Requirement	57	70	
+	attr	Dexterity_Item	-1	414	
+	proc	dex	414	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1079924681	
+	proc	seed	-1079924681	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	355	
+	proc	dura	35	
+	attr	Durability_Cur	-1	355	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Resistance_All	-1	90	
+	proc	allres	90	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	372	
+	proc	t_armor	372	
+	attr	Armor_Item_SubTotal	-1	372	
+	attr	Armor_Item	-1	372	
+	proc	b_armor	372	
+	affx	1343102640	
+	affx	148673682	万华
+	perf	1204	Dexterity_Item	-1	350-415	414
+	perf	96	Resistance_All	-1	86-90	90
+1612259889	ChestArmor_208	升灵胸甲	25:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	403	
+	proc	vita	403	
+	attr	Intelligence_Item	-1	360	
+	proc	int	360	
+	attr	Resistance	5	127	
+	proc	anyres	127	
+	proc	a_res	127	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	20	
+	attr	Seed	-1	-141357892	
+	proc	seed	-141357892	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	650	
+	proc	dura	65	
+	attr	Durability_Cur	-1	650	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	732	
+	proc	t_armor	732	
+	attr	Armor_Item_SubTotal	-1	732	
+	attr	Armor_Item	-1	732	
+	proc	b_armor	732	
+	attr	Power_Damage_Percent_Bonus	72785	0.109999999403954	power: 鬼娃大军
+	proc	skilldmg	11	power: 鬼娃大军
+	affx	938178004	致命人偶之
+	affx	1570361690	
+	affx	3420952834	
+	affx	1767460757	灵妙
+	perf	1191	Power_Damage_Percent_Bonus	72785	0.0799999982118607-0.150000005960464	0.109999999403954
+	perf	1205	Intelligence_Item	-1	350-415	360
+	perf	1206	Vitality_Item	-1	350-415	403
+	perf	93	Resistance	5	121-140	127
+3382512597	Flail_1H_204	巨人连枷	19:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1235	
+	attr	Damage_Weapon_Min_Total_All	-1	1073	
+	proc	dmg_lo	1073	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1073	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	324	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	324	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1397	
+	proc	dmg_hi	1397	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-2100717502	
+	proc	seed	-2100717502	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	586	
+	proc	dura	58	
+	attr	Durability_Cur	-1	586	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resource_Max_Bonus	7	10	
+	proc	max_wrath	10	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	136	
+	attr	Damage_Weapon_Delta_SubTotal	0	136	
+	attr	Damage_Weapon_Max	0	294	
+	attr	Damage_Weapon_Max_Total	0	1397	
+	attr	Damage_Weapon_Delta_Total	0	324	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	188	
+	attr	Damage_Weapon_Min	0	158	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1073	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	226	
+	attr	Damage_Weapon_Average_Total	0	1235	
+	attr	Damage_Weapon_Bonus_Min_X1	0	915	
+	affx	2227990498	死亡之
+	affx	2221274633	愤怒
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	915
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	188
+	perf	152	Resource_Max_Bonus	7	8-10	10
+2050033703	PH_Gloves	神秘手套	3:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1651782907	
+	proc	seed	1651782907	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+4193657807	Spear_302	破膛矛	18:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1535.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1327	
+	proc	dmg_lo	1327	
+	attr	Damage_Weapon_Delta_Total_OffHand	4	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	358	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	417	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	174	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Min_Total_MainHand	4	969	
+	attr	Damage_Weapon_Max_Total_All	-1	1744	
+	proc	dmg_hi	1744	
+	attr	Damage_Weapon_Min_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	4	243	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.20000004768372	
+	proc	as_weap	1.2	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.20000004768372	
+	attr	Attacks_Per_Second_Item	-1	1.20000004768372	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1160144906	
+	proc	seed	1160144906	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	424	
+	proc	dura	42	
+	attr	Durability_Cur	-1	424	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Experience_Bonus	-1	136	
+	proc	expbonus	136	
+	attr	Damage_Delta_Total	4	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	4	0	
+	attr	Damage_Weapon_Delta	4	243	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta_SubTotal	4	243	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	4	0	
+	attr	Damage_Weapon_Delta	0	174	
+	attr	Damage_Weapon_Delta_SubTotal	0	174	
+	attr	Damage_Weapon_Max	0	532	
+	attr	Damage_Weapon_Max_Total	0	532	
+	attr	Damage_Weapon_Delta_Total	0	174	
+	attr	Damage_Weapon_Min	4	969	
+	attr	Damage_Weapon_Max	4	1212	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Max_Total	4	1212	
+	attr	Damage_Weapon_Min	0	358	
+	attr	Damage_Weapon_Delta_Total	4	243	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	358	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.20000004768372	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.20000004768372	
+	attr	Damage_Weapon_Average	0	445	
+	attr	Damage_Weapon_Average_Total	0	445	
+	attr	Damage_Weapon_Min_Total	4	969	
+	attr	Damage_Weapon_Average	4	1090.5	
+	attr	Damage_Weapon_Average_Total	4	1090.5	
+	affx	3359319938	凋零之
+	affx	3140448489	不息
+	perf	231	Damage_Weapon_Min	4	853-1043	969
+	perf	222	Damage_Weapon_Delta	4	169-253	243
+	perf	77	Experience_Bonus	-1	100-139	136
+2179279207	Staff_301	环蛇法杖	0:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1188.5	
+	attr	Damage_Weapon_Min_Total_All	-1	950	
+	proc	dmg_lo	950	
+	attr	Damage_Weapon_Min_Total_MainHand	0	950	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	477	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	477	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1427	
+	proc	dmg_hi	1427	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.10000002384186	
+	proc	as_weap	1.1	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item	-1	1.10000002384186	
+	attr	Requirement	57	61	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-2056205101	
+	proc	seed	-2056205101	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Durability_Max	-1	549	
+	proc	dura	54	
+	attr	Durability_Cur	-1	549	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	477	
+	attr	Damage_Weapon_Delta_SubTotal	0	477	
+	attr	Damage_Weapon_Max	0	1427	
+	attr	Damage_Weapon_Max_Total	0	1427	
+	attr	Damage_Weapon_Delta_Total	0	477	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Min	0	950	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	950	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.10000002384186	
+	attr	Damage_Weapon_Average	0	1188.5	
+	attr	Damage_Weapon_Average_Total	0	1188.5	
+365492433	Shoulders_207	拉基斯守护肩铠	33:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	406	
+	proc	vita	406	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1748788032	
+	proc	seed	-1748788032	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	620	
+	proc	dura	62	
+	attr	Durability_Cur	-1	620	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resistance_All	-1	86	
+	proc	allres	86	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	512	
+	proc	t_armor	512	
+	attr	Armor_Item_SubTotal	-1	512	
+	attr	Armor_Item	-1	512	
+	proc	b_armor	512	
+	affx	148673682	万华
+	affx	3420952834	
+	perf	96	Resistance_All	-1	86-90	86
+	perf	1206	Vitality_Item	-1	350-415	406
+1565456767	Helm_208	升灵头冠	5:0	loot
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-975497792	
+	proc	seed	-975497792	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	502	
+	proc	dura	50	
+	attr	Durability_Cur	-1	502	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Gold_PickUp_Radius	-1	1	
+	proc	pickup	1	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	1191	
+	proc	t_armor	1191	
+	attr	Armor_Item_SubTotal	-1	1191	
+	attr	Armor_Bonus_Item	-1	530	
+	proc	e_armor	530	
+	attr	Armor_Item	-1	661	
+	proc	b_armor	661	
+	affx	82091296	城堡之
+	affx	4034366320	财迷
+	perf	34	Armor_Bonus_Item	-1	509-545	530
+	perf	1071	Gold_PickUp_Radius	-1	1-2	1
+1612259889	ChestArmor_208	升灵胸甲	19:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	383	
+	proc	vita	383	
+	attr	Intelligence_Item	-1	400	
+	proc	int	400	
+	attr	Resistance	2	140	
+	proc	anyres	140	
+	proc	l_res	140	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	16	
+	attr	Seed	-1	850426435	
+	proc	seed	850426435	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	645	
+	proc	dura	64	
+	attr	Durability_Cur	-1	645	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Gold_PickUp_Radius	-1	1	
+	proc	pickup	1	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	687	
+	proc	t_armor	687	
+	attr	Armor_Item_SubTotal	-1	687	
+	attr	Armor_Item	-1	687	
+	proc	b_armor	687	
+	affx	1570361690	
+	affx	3420952834	
+	affx	212605263	宁静
+	affx	4034366320	财迷
+	perf	1205	Intelligence_Item	-1	350-415	400
+	perf	1206	Vitality_Item	-1	350-415	383
+	perf	93	Resistance	2	121-140	140
+	perf	1071	Gold_PickUp_Radius	-1	1-2	1
+2284957981	PH_Pants	神秘裤腿	6:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-973043993	
+	proc	seed	-973043993	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+2514680816	PH_Shield	神秘护盾	12:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	112042363	
+	proc	seed	112042363	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+2761055176	Gloves_207	拉基斯守护护手	14:0	loot
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	665457854	
+	proc	seed	665457854	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Hitpoints_Regen_Per_Second	-1	4148	
+	proc	hpreg	4148	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	474	
+	proc	dura	47	
+	attr	Durability_Cur	-1	474	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Hitpoints_On_Hit	-1	5936	
+	proc	loh	5936	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	407	
+	proc	t_armor	407	
+	attr	Armor_Item_SubTotal	-1	407	
+	attr	Armor_Item	-1	407.5	
+	proc	b_armor	408	
+	affx	3208768145	
+	affx	2363127097	不死
+	perf	347	Hitpoints_On_Hit	-1	3412-7736	5936
+	perf	126	Hitpoints_Regen_Per_Second	-1	3824-6447	4148
+2140882336	Boots_208	升灵长靴	23:0	loot
+	attr	Requirement	57	70	
+	attr	Intelligence_Item	-1	395	
+	proc	int	395	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	3	
+	attr	Seed	-1	-845253872	
+	proc	seed	-845253872	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	532	
+	proc	dura	53	
+	attr	Durability_Cur	-1	532	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Power_Damage_Percent_Bonus	134456	0.140000000596046	power: 奥术洪流
+	proc	skilldmg	14	power: 奥术洪流
+	attr	Resistance_All	-1	89	
+	proc	allres	89	
+	attr	Health_Globe_Bonus_Health	-1	17015	
+	proc	hpglobe	17015	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	545	
+	proc	t_armor	545	
+	attr	Armor_Item_SubTotal	-1	545	
+	attr	Armor_Item	-1	545.333312988281	
+	proc	b_armor	545	
+	affx	148673682	万华
+	affx	3893155255	流星之
+	affx	1570361690	
+	affx	966382507	欢心
+	perf	96	Resistance_All	-1	86-90	89
+	perf	1191	Power_Damage_Percent_Bonus	134456	0.0799999982118607-0.150000005960464	0.140000000596046
+	perf	1205	Intelligence_Item	-1	350-415	395
+	perf	86	Health_Globe_Bonus_Health	-1	14231-20000	17015
+1236608236	FistWeapon_1H_302	苏瓦亚拳刃	2:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1264.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1057	
+	proc	dmg_lo	1057	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1057	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	415	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	415	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1472	
+	proc	dmg_hi	1472	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-267298481	
+	proc	seed	-267298481	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	403	
+	proc	dura	40	
+	attr	Durability_Cur	-1	403	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Resource_Max_Bonus	3	14	resource: spirit
+	proc	max_spirit	14	resource: spirit
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	224	
+	attr	Damage_Weapon_Delta_SubTotal	0	224	
+	attr	Damage_Weapon_Max	0	393	
+	attr	Damage_Weapon_Max_Total	0	1472	
+	attr	Damage_Weapon_Delta_Total	0	415	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	191	
+	attr	Damage_Weapon_Min	0	169	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1057	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	281	
+	attr	Damage_Weapon_Average_Total	0	1264.5	
+	attr	Damage_Weapon_Bonus_Min_X1	0	888	
+	affx	2227990498	死亡之
+	affx	481792534	
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	888
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	191
+	perf	152	Resource_Max_Bonus	3	13-14	14
+2801903326	PH_Belt	神秘腰带	5:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1522556164	
+	proc	seed	-1522556164	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+4158153004	Mojo_206	空洞的凝视	4:0	loot
+	attr	Damage_Average_Total_All	-1	346.5	
+	attr	Damage_Min_Total_All	-1	314	
+	proc	offh_dmg_lo	314	
+	attr	Damage_Delta_Total_All	-1	65	
+	proc	offh_dmg_add	65	
+	attr	Requirement	57	70	
+	attr	Intelligence_Item	-1	544	
+	proc	int	544	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	851224662	
+	proc	seed	851224662	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	526	
+	proc	dura	52	
+	attr	Durability_Cur	-1	526	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resource_Regen_Per_Second	0	12	resource: mana
+	proc	reg_mana	12	resource: mana
+	attr	Damage_Delta	0	65	
+	attr	Damage_Delta_Total	0	65	
+	attr	Damage_Min	0	314	
+	attr	Damage_Min_Total	0	314	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	314	
+	affx	3844506287	增强
+	affx	2902946034	远见之
+	perf	158	Resource_Regen_Per_Second	0	12-14	12
+	perf	1205	Intelligence_Item	-1	525-625	544
+	perf	214	Damage_Min	0	340-370	314
+	perf	212	Damage_Delta	0	40-80	65
+3659700980	CeremonialDagger_1H_301	黑曜石刀	2:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1297.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1046	
+	proc	dmg_lo	1046	
+	attr	Damage_Weapon_Delta_Total_OffHand	4	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	97	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	503	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	290	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Min_Total_MainHand	4	949	
+	attr	Damage_Weapon_Max_Total_All	-1	1549	
+	proc	dmg_hi	1549	
+	attr	Damage_Weapon_Min_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	4	213	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1120655993	
+	proc	seed	-1120655993	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	355	
+	proc	dura	35	
+	attr	Durability_Cur	-1	355	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resource_Max_Bonus	0	142	resource: mana
+	proc	max_mana	142	resource: mana
+	attr	Damage_Delta_Total	4	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	4	0	
+	attr	Damage_Weapon_Delta	4	213	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta_SubTotal	4	213	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	4	0	
+	attr	Damage_Weapon_Delta	0	290	
+	attr	Damage_Weapon_Delta_SubTotal	0	290	
+	attr	Damage_Weapon_Max	0	387	
+	attr	Damage_Weapon_Max_Total	0	387	
+	attr	Damage_Weapon_Delta_Total	0	290	
+	attr	Damage_Weapon_Min	4	949	
+	attr	Damage_Weapon_Max	4	1162	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Max_Total	4	1162	
+	attr	Damage_Weapon_Min	0	97	
+	attr	Damage_Weapon_Delta_Total	4	213	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	97	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	242	
+	attr	Damage_Weapon_Average_Total	0	242	
+	attr	Damage_Weapon_Min_Total	4	949	
+	attr	Damage_Weapon_Average	4	1055.5	
+	attr	Damage_Weapon_Average_Total	4	1055.5	
+	affx	3359319938	凋零之
+	affx	1184986308	超然
+	perf	231	Damage_Weapon_Min	4	853-1043	949
+	perf	222	Damage_Weapon_Delta	4	169-253	213
+	perf	152	Resource_Max_Bonus	0	120-150	142
+1236608236	FistWeapon_1H_302	苏瓦亚拳刃	5:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1283	
+	attr	Damage_Weapon_Min_Total_All	-1	1054	
+	proc	dmg_lo	1054	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1054	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	458	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	458	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1512	
+	proc	dmg_hi	1512	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Spending_Resource_Heals_Percent	3	288	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	114656637	
+	proc	seed	114656637	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	393	
+	proc	dura	39	
+	attr	Durability_Cur	-1	393	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	225	
+	attr	Damage_Weapon_Delta_SubTotal	0	225	
+	attr	Damage_Weapon_Max	0	396	
+	attr	Damage_Weapon_Max_Total	0	1512	
+	attr	Damage_Weapon_Delta_Total	0	458	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	233	
+	attr	Damage_Weapon_Min	0	171	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1054	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	283.5	
+	attr	Damage_Weapon_Average_Total	0	1283	
+	attr	Damage_Weapon_Bonus_Min_X1	0	883	
+	affx	2227990498	死亡之
+	affx	1000967305	极乐
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	883
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	233
+	perf	73	Spending_Resource_Heals_Percent	3	157-350	288
+3527100506	PH_1HWeapon	单手神秘武器	10:0	loot
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	0	
+	proc	as_weap	0	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	0	
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1838518236	
+	proc	seed	1838518236	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	0	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	0	
+2140882336	Boots_208	升灵长靴	11:0	loot
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	381	
+	proc	str	381	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	426368264	
+	proc	seed	426368264	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	452	
+	proc	dura	45	
+	attr	Durability_Cur	-1	452	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Gold_Find	-1	0.28999999165535	
+	proc	gf	29	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	583	
+	proc	t_armor	583	
+	attr	Armor_Item_SubTotal	-1	583	
+	attr	Armor_Item	-1	583.333312988281	
+	proc	b_armor	583	
+	affx	886664040	
+	affx	1237138646	昌隆
+	perf	1203	Strength_Item	-1	350-415	381
+	perf	50	Gold_Find	-1	0.28999999165535-0.310000002384186	0.28999999165535
+2802118941	PH_Helm	神秘头盔	0:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-991955528	
+	proc	seed	-991955528	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+3700538895	PH_ChestArmor	神秘胸甲	1:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1120224778	
+	proc	seed	-1120224778	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+2140882335	Boots_207	拉基斯守护护胫	28:0	loot
+	attr	Requirement	57	70	
+	attr	Movement_Scalar_Total	-1	0	
+	attr	Movement_Scalar_Capped_Total	-1	0	
+	attr	Vitality_Item	-1	356	
+	proc	vita	356	
+	attr	Movement_Scalar_Subtotal	-1	0	
+	attr	Movement_Scalar	-1	0.0999755859375	
+	proc	move	10	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	564887607	
+	proc	seed	564887607	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	551	
+	proc	dura	55	
+	attr	Durability_Cur	-1	551	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	490	
+	proc	t_armor	490	
+	attr	Armor_Item_SubTotal	-1	490	
+	attr	Armor_Item	-1	490.5	
+	proc	b_armor	491	
+	affx	98886378	飞驰
+	affx	3420952834	
+	perf	171	Movement_Scalar	-1	0.100000001490116-0.119999997317791	0.0999755859375
+	perf	1206	Vitality_Item	-1	350-415	356
+3419024602	Bracers_207	拉基斯守护腕甲	38:0	loot
+	attr	Requirement	57	70	
+	attr	Dexterity_Item	-1	408	
+	proc	dex	408	
+	attr	Thorns_Fixed	0	2340	
+	proc	thorns	2340	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1926824074	
+	proc	seed	-1926824074	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	350	
+	proc	dura	35	
+	attr	Durability_Cur	-1	350	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Hitpoints_On_Hit	-1	6920	
+	proc	loh	6920	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	308	
+	proc	t_armor	308	
+	attr	Armor_Item_SubTotal	-1	308	
+	attr	Armor_Item	-1	308.5	
+	proc	b_armor	309	
+	attr	Damage_Dealt_Percent_Bonus	0	0.140000000596046	
+	proc	sdmg_any	14	
+	proc	sdmg_ph	14	
+	affx	1343102640	
+	affx	2866094678	压迫
+	affx	3208768145	
+	affx	3463907179	
+	perf	1204	Dexterity_Item	-1	350-415	408
+	perf	244	Damage_Dealt_Percent_Bonus	0	0.100000001490116-0.150000005960464	0.140000000596046
+	perf	347	Hitpoints_On_Hit	-1	3412-7736	6920
+	perf	334	Thorns_Fixed	0	2015-2400	2340
+1816611999	PH_Amulet	神秘护符	9:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-667033393	
+	proc	seed	-667033393	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+1612259889	ChestArmor_208	升灵胸甲	13:0	loot
+	attr	Requirement	57	70	
+	attr	Thorns_Fixed	0	4228	
+	proc	thorns	4228	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	514361854	
+	proc	seed	514361854	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Sockets	-1	1	
+	proc	sock	1	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	572	
+	proc	dura	57	
+	attr	Durability_Cur	-1	572	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	717	
+	proc	t_armor	717	
+	attr	Armor_Item_SubTotal	-1	717	
+	attr	Armor_Item	-1	717	
+	proc	b_armor	717	
+	affx	1342579558	镶孔
+	affx	1547283907	棘刺之
+	perf	386	Sockets	-1	1-1	1
+	perf	334	Thorns_Fixed	0	3758-5724	4228
+2761055176	Gloves_207	拉基斯守护护手	7:0	loot
+	attr	Requirement	57	61	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-881228357	
+	proc	seed	-881228357	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Durability_Max	-1	475	
+	proc	dura	47	
+	attr	Durability_Cur	-1	475	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	481	
+	proc	t_armor	481	
+	attr	Armor_Item_SubTotal	-1	481	
+	attr	Armor_Item	-1	481.5	
+	proc	b_armor	482	
+3419024602	Bracers_207	拉基斯守护腕甲	11:0	loot
+	attr	Requirement	57	70	
+	attr	Resistance	1	129	
+	proc	anyres	129	
+	proc	f_res	129	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-754007532	
+	proc	seed	-754007532	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	444	
+	proc	dura	44	
+	attr	Durability_Cur	-1	444	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Hitpoints_On_Hit	-1	6708	
+	proc	loh	6708	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	278	
+	proc	t_armor	278	
+	attr	Armor_Item_SubTotal	-1	278	
+	attr	Armor_Item	-1	278.5	
+	proc	b_armor	279	
+	affx	3208768145	
+	affx	2987152209	焦化
+	perf	347	Hitpoints_On_Hit	-1	3412-7736	6708
+	perf	93	Resistance	1	121-140	129
+1815809042	Shield_208	拉基斯守护盾牌	19:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	568	
+	proc	vita	568	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1960417697	
+	proc	seed	1960417697	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Hitpoints_Max_Percent_Bonus_Item	-1	0.1298828125	
+	proc	life	13	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	555	
+	proc	dura	55	
+	attr	Durability_Cur	-1	555	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	1323	
+	proc	t_armor	1323	
+	attr	Armor_Item_SubTotal	-1	1323	
+	attr	Armor_Item	-1	1323	
+	proc	b_armor	1323	
+	attr	Block_Amount_Item_Delta	-1	4704	
+	attr	Block_Amount_Item_Min	-1	9408	
+	attr	Block_Chance_Item_Total	-1	0.14990234375	
+	proc	t_block	15	
+	attr	Block_Chance_Item	-1	0.14990234375	
+	proc	b_block	15	
+	affx	3405776538	荣光之
+	affx	3013994134	健硕
+	perf	1206	Vitality_Item	-1	525-625	568
+	perf	135	Hitpoints_Max_Percent_Bonus_Item	-1	0.119999997317791-0.159999996423721	0.1298828125
+	perf	264	Block_Chance_Item	-1	0.100000001490116-0.200000002980232	0.14990234375
+	perf	272	Block_Amount_Item_Min	-1	9410-9410	9408
+	perf	273	Block_Amount_Item_Delta	-1	4705-4705	4704
+2802309452	PH_Mojo	神秘符咒	14:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	507430347	
+	proc	seed	507430347	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+1905181657	Orb_205	机关盒	23:0	loot
+	attr	Damage_Average_Total_All	-1	135	
+	attr	Damage_Min_Total_All	-1	133	
+	proc	offh_dmg_lo	133	
+	attr	Damage_Delta_Total_All	-1	4	
+	proc	offh_dmg_add	4	
+	attr	Requirement	57	61	
+	attr	Resource_On_Crit	1	4	resource: arcane
+	proc	apoc	4	resource: arcane
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Weapon_On_Hit_Immobilize_Proc_Chance_OffHand	-1	0	
+	attr	Seed	-1	-790330525	
+	proc	seed	-790330525	
+	attr	Weapon_On_Hit_Immobilize_Proc_Chance_MainHand	-1	0.0130996704101563	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	413	
+	proc	dura	41	
+	attr	Durability_Cur	-1	413	
+	attr	Weapon_On_Hit_Immobilize_Proc_Chance	-1	0.0130996704101563	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Delta	0	4	
+	attr	Damage_Delta_Total	0	4	
+	attr	Damage_Min	0	133	
+	attr	Damage_Min_Total	0	133	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	133	
+	affx	2881593659	不祥
+	affx	3243333083	毁伤之
+	perf	346	Resource_On_Crit	1	3-4	4
+	perf	1141	Weapon_On_Hit_Immobilize_Proc_Chance	-1	0.00999999977648258-0.0225000008940697	0.0130996704101563
+	perf	214	Damage_Min	0	137-171	133
+	perf	212	Damage_Delta	0	1-34	4
+2140882336	Boots_208	升灵长靴	8:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	353	
+	proc	vita	353	
+	attr	Resistance	4	140	
+	proc	anyres	140	
+	proc	p_res	140	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1481548477	
+	proc	seed	1481548477	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	517	
+	proc	dura	51	
+	attr	Durability_Cur	-1	517	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	575	
+	proc	t_armor	575	
+	attr	Armor_Item_SubTotal	-1	575	
+	attr	Armor_Item	-1	575.333312988281	
+	proc	b_armor	575	
+	affx	3420952834	
+	affx	3852209603	洁净
+	perf	1206	Vitality_Item	-1	350-415	353
+	perf	93	Resistance	4	121-140	140
+2761055176	Gloves_207	拉基斯守护护手	27:0	loot
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	575	
+	proc	str	575	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1122959933	
+	proc	seed	-1122959933	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	635	
+	proc	dura	63	
+	attr	Durability_Cur	-1	635	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Experience_Bonus	-1	105	
+	proc	expbonus	105	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	380	
+	proc	t_armor	380	
+	attr	Armor_Item_SubTotal	-1	380	
+	attr	Armor_Item	-1	380.5	
+	proc	b_armor	381	
+	affx	3301343616	战争之
+	affx	3140448489	不息
+	perf	1203	Strength_Item	-1	525-625	575
+	perf	77	Experience_Bonus	-1	100-139	105
+215071258	PH_Orb	神秘法球	13:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1184703495	
+	proc	seed	1184703495	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+4063167036	Sword_2H_302	弑君者	5:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	2719	
+	attr	Damage_Weapon_Min_Total_All	-1	2317	
+	proc	dmg_lo	2317	
+	attr	Damage_Weapon_Min_Total_MainHand	0	2317	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	804	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	804	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	3121	
+	proc	dmg_hi	3121	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.14999997615814	
+	proc	as_weap	1.15	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.14999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.14999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1587986889	
+	proc	seed	1587986889	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	533	
+	proc	dura	53	
+	attr	Durability_Cur	-1	533	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Experience_Bonus	-1	112	
+	proc	expbonus	112	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	566	
+	attr	Damage_Weapon_Delta_SubTotal	0	566	
+	attr	Damage_Weapon_Max	0	1709	
+	attr	Damage_Weapon_Max_Total	0	3121	
+	attr	Damage_Weapon_Delta_Total	0	804	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	238	
+	attr	Damage_Weapon_Min	0	1143	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	2317	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.14999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.14999997615814	
+	attr	Damage_Weapon_Average	0	1426	
+	attr	Damage_Weapon_Average_Total	0	2719	
+	attr	Damage_Weapon_Bonus_Min_X1	0	1174	
+	affx	3256106861	
+	affx	3140448489	不息
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	1024-1252	1174
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	203-304	238
+	perf	77	Experience_Bonus	-1	100-139	112
+365492433	Shoulders_207	拉基斯守护肩铠	13:0	loot
+	attr	Resource_Cost_Reduction_Percent_All	-1	0.0699462890625	
+	proc	rescostred	7	
+	attr	Requirement	57	61	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1030671498	
+	proc	seed	-1030671498	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	618	
+	proc	dura	61	
+	attr	Durability_Cur	-1	618	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Power_Damage_Percent_Bonus	99120	0.140000000596046	power: 魔星
+	proc	skilldmg	14	power: 魔星
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	512	
+	proc	t_armor	512	
+	attr	Armor_Item_SubTotal	-1	512	
+	attr	Armor_Item	-1	512	
+	proc	b_armor	512	
+	affx	3835642596	精灵之
+	affx	71995443	
+	perf	1191	Power_Damage_Percent_Bonus	99120	0.0799999982118607-0.150000005960464	0.140000000596046
+	perf	735	Resource_Cost_Reduction_Percent_All	-1	0.0500000007450581-0.0700000002980232	0.0699462890625
+1815809042	Shield_208	拉基斯守护盾牌	15:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	568	
+	proc	vita	568	
+	attr	Resistance	4	136	
+	proc	anyres	136	
+	proc	p_res	136	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1597158521	
+	proc	seed	1597158521	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	675	
+	proc	dura	67	
+	attr	Durability_Cur	-1	675	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	1512	
+	proc	t_armor	1512	
+	attr	Armor_Item_SubTotal	-1	1512	
+	attr	Armor_Item	-1	1512	
+	proc	b_armor	1512	
+	attr	Block_Amount_Item_Delta	-1	4704	
+	attr	Block_Amount_Item_Min	-1	9408	
+	attr	Block_Chance_Item_Total	-1	0.179931640625	
+	proc	t_block	18	
+	attr	Block_Chance_Item	-1	0.179931640625	
+	proc	b_block	18	
+	affx	3405776538	荣光之
+	affx	3852209603	洁净
+	perf	1206	Vitality_Item	-1	525-625	568
+	perf	93	Resistance	4	121-140	136
+	perf	264	Block_Chance_Item	-1	0.100000001490116-0.200000002980232	0.179931640625
+	perf	272	Block_Amount_Item_Min	-1	9410-9410	9408
+	perf	273	Block_Amount_Item_Delta	-1	4705-4705	4704
+3561138112	Belt_208	统御者腰带	29:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	395	
+	proc	vita	395	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1554740584	
+	proc	seed	-1554740584	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	440	
+	proc	dura	44	
+	attr	Durability_Cur	-1	440	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Gold_PickUp_Radius	-1	1	
+	proc	pickup	1	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	490	
+	proc	t_armor	490	
+	attr	Armor_Item_SubTotal	-1	490	
+	attr	Armor_Item	-1	490	
+	proc	b_armor	490	
+	affx	3420952834	
+	affx	4034366320	财迷
+	perf	1206	Vitality_Item	-1	350-415	395
+	perf	1071	Gold_PickUp_Radius	-1	1-2	1
+3195870523	PH_2HWeapon	双手神秘武器	11:0	loot
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	0	
+	proc	as_weap	0	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	0	
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1720947484	
+	proc	seed	-1720947484	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	0	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	0	
+3757730128	PH_Shoulders	神秘肩甲	4:0	loot
+	attr	Requirement	57	16	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1286705667	
+	proc	seed	1286705667	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Picked_Up_Time	-1	312192	
+	proc	picked_up_time	312192	
+	attr	Season	-1	14	
+111732411	Scythe_1H_004	白骨镰刀	21:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1443.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1224	
+	proc	dmg_lo	1224	
+	attr	Damage_Weapon_Delta_Total_OffHand	4	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	252	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	439	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	213	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Min_Total_MainHand	4	972	
+	attr	Damage_Weapon_Max_Total_All	-1	1663	
+	proc	dmg_hi	1663	
+	attr	Damage_Weapon_Min_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	4	226	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.29999995231628	
+	proc	as_weap	1.3	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.29999995231628	
+	attr	Attacks_Per_Second_Item	-1	1.29999995231628	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-957687367	
+	proc	seed	-957687367	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	749	
+	proc	dura	74	
+	attr	Durability_Cur	-1	749	
+	attr	Resource_Max_Bonus	8	15	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Delta_Total	4	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	4	0	
+	attr	Damage_Weapon_Delta	4	226	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta_SubTotal	4	226	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	4	0	
+	attr	Damage_Weapon_Delta	0	213	
+	attr	Damage_Weapon_Delta_SubTotal	0	213	
+	attr	Damage_Weapon_Max	0	465	
+	attr	Damage_Weapon_Max_Total	0	465	
+	attr	Damage_Weapon_Delta_Total	0	213	
+	attr	Damage_Weapon_Min	4	972	
+	attr	Damage_Weapon_Max	4	1198	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Max_Total	4	1198	
+	attr	Damage_Weapon_Min	0	252	
+	attr	Damage_Weapon_Delta_Total	4	226	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	252	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.29999995231628	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.29999995231628	
+	attr	Damage_Weapon_Average	0	358.5	
+	attr	Damage_Weapon_Average_Total	0	358.5	
+	attr	Damage_Weapon_Min_Total	4	972	
+	attr	Damage_Weapon_Average	4	1085	
+	attr	Damage_Weapon_Average_Total	4	1085	
+	affx	3359319938	凋零之
+	affx	1181759046	高效之
+	perf	231	Damage_Weapon_Min	4	853-1043	972
+	perf	222	Damage_Weapon_Delta	4	169-253	226
+	perf	152	Resource_Max_Bonus	8	15-18	15
+1815809043	Shield_209	升灵之盾	32:0	loot
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-596215884	
+	proc	seed	-596215884	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Hitpoints_Max_Percent_Bonus_Item	-1	0.1199951171875	
+	proc	life	12	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	642	
+	proc	dura	64	
+	attr	Durability_Cur	-1	642	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Percent_Reduction_From_Melee	-1	0.050000011920929	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	1782	
+	proc	t_armor	1782	
+	attr	Armor_Item_SubTotal	-1	1782	
+	attr	Armor_Item	-1	1782	
+	proc	b_armor	1782	
+	attr	Block_Amount_Item_Delta	-1	7932	
+	attr	Block_Amount_Item_Min	-1	15864	
+	attr	Block_Chance_Item_Total	-1	0.14990234375	
+	proc	t_block	15	
+	attr	Block_Chance_Item	-1	0.14990234375	
+	proc	b_block	15	
+	affx	2415043582	
+	affx	1297374134	角斗士之
+	perf	135	Hitpoints_Max_Percent_Bonus_Item	-1	0.0799999982118607-0.140000000596046	0.1199951171875
+	perf	1124	Damage_Percent_Reduction_From_Melee	-1	0.0500000007450581-0.0599999986588955	0.050000011920929
+	perf	264	Block_Chance_Item	-1	0.100000001490116-0.200000002980232	0.14990234375
+	perf	272	Block_Amount_Item_Min	-1	15870-15870	15864
+	perf	273	Block_Amount_Item_Delta	-1	7935-7935	7932
+40857600	Cloak_205	拉基斯守护披风	24:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	378	
+	proc	vita	378	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	4	
+	attr	Seed	-1	1059145945	
+	proc	seed	1059145945	
+	attr	Sockets	-1	3	
+	proc	sock	3	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	405	
+	proc	dura	40	
+	attr	Durability_Cur	-1	405	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Resource_Regen_Per_Second	5	1.2998046875	resource: hatred
+	proc	reg_hatred	1.3	resource: hatred
+	attr	Experience_Bonus	-1	139	
+	proc	expbonus	139	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	563	
+	proc	t_armor	563	
+	attr	Armor_Item_SubTotal	-1	563	
+	attr	Armor_Item	-1	563.5	
+	proc	b_armor	564	
+	affx	3420952834	
+	affx	334040522	复仇
+	affx	1342579571	镶孔
+	affx	3140448489	不息
+	perf	1206	Vitality_Item	-1	350-415	378
+	perf	158	Resource_Regen_Per_Second	5	1.18333327770233-1.33333337306976	1.2998046875
+	perf	386	Sockets	-1	3-3	3
+	perf	77	Experience_Bonus	-1	100-139	139
+1682228656	Amulet17	护符	8:0	loot
+	attr	Damage_Average_Total_All	-1	72	
+	attr	Damage_Min_Total_All	-1	43	
+	proc	offh_dmg_lo	43	
+	attr	Damage_Delta_Total_All	-1	58	
+	proc	offh_dmg_add	58	
+	attr	Requirement	57	70	
+	attr	Resistance	3	125	
+	proc	anyres	125	
+	proc	c_res	125	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-18597356	
+	proc	seed	-18597356	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	492	
+	proc	dura	49	
+	attr	Durability_Cur	-1	492	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Damage_Delta	0	58	
+	attr	Damage_Delta_Total	0	58	
+	attr	Damage_Min	0	43	
+	attr	Damage_Min_Total	0	43	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	43	
+	affx	3172875338	
+	affx	512347501	防寒
+	perf	214	Damage_Min	0	40-60	43
+	perf	212	Damage_Delta	0	40-60	58
+	perf	93	Resistance	3	121-140	125
+3931578894	HandXbow_301	狮刃弩	4:0	loot
+	attr	BowAny	-1	1	
+	attr	Crossbow	-1	2	
+	attr	Damage_Weapon_Average_Total_All	-1	324	
+	attr	Damage_Weapon_Min_Total_All	-1	98	
+	proc	dmg_lo	98	
+	attr	Damage_Weapon_Min_Total_MainHand	0	98	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	452	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	452	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	550	
+	proc	dmg_hi	550	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.60000002384186	
+	proc	as_weap	1.6	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.60000002384186	
+	attr	Attacks_Per_Second_Item	-1	1.60000002384186	
+	attr	Requirement	57	61	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1444917400	
+	proc	seed	1444917400	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Durability_Max	-1	550	
+	proc	dura	55	
+	attr	Durability_Cur	-1	550	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	452	
+	attr	Damage_Weapon_Delta_SubTotal	0	452	
+	attr	Damage_Weapon_Max	0	550	
+	attr	Damage_Weapon_Max_Total	0	550	
+	attr	Damage_Weapon_Delta_Total	0	452	
+	attr	Skill	30599	1	power: 远程攻击
+	attr	Damage_Weapon_Min	0	98	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	98	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.60000002384186	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.60000002384186	
+	attr	Damage_Weapon_Average	0	324	
+	attr	Damage_Weapon_Average_Total	0	324	
+	attr	WeaponRanged	-1	1	
+	attr	Weapon2H	-1	1	
+	perf	498	Crossbow	-1	1-1	2
+2678079779	Mace_2H_302	说服者	3:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	3188	
+	attr	Damage_Weapon_Min_Total_All	-1	2985	
+	proc	dmg_lo	2985	
+	attr	Damage_Weapon_Delta_Total_MainHand	3	226	
+	attr	Damage_Weapon_Min_Total_OffHand	3	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1740	
+	attr	Damage_Weapon_Min_Total_MainHand	3	1245	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	406	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	180	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	3391	
+	proc	dmg_hi	3391	
+	attr	Damage_Weapon_Delta_Total_OffHand	3	0	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1	
+	proc	as_weap	1	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1	
+	attr	Attacks_Per_Second_Item	-1	1	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Weapon_On_Hit_Knockback_Proc_Chance_OffHand	-1	0	
+	attr	Weapon_On_Hit_Knockback_Proc_Chance_MainHand	-1	0.040771484375	
+	attr	Seed	-1	273991359	
+	proc	seed	273991359	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	651	
+	proc	dura	65	
+	attr	Durability_Cur	-1	651	
+	attr	Weapon_On_Hit_Knockback_Proc_Chance	-1	0.040771484375	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Delta_Total	3	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Total	3	0	
+	attr	Damage_Weapon_Delta_SubTotal	3	226	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	3	226	
+	attr	Damage_Weapon_Delta	0	180	
+	attr	Damage_Weapon_Delta_SubTotal	0	180	
+	attr	Damage_Min_Subtotal	3	0	
+	attr	Damage_Weapon_Delta_Total	3	226	
+	attr	Damage_Weapon_Max	0	1920	
+	attr	Damage_Weapon_Max_Total	0	1920	
+	attr	Damage_Weapon_Max_Total	3	1471	
+	attr	Damage_Weapon_Delta_Total	0	180	
+	attr	Damage_Weapon_Max	3	1471	
+	attr	Damage_Weapon_Min	3	1245	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Min	0	1740	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1740	
+	attr	Damage_Weapon_Average_Total	3	1358	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Damage_Weapon_Average	3	1358	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1	
+	attr	Damage_Weapon_Average	0	1830	
+	attr	Damage_Weapon_Min_Total	3	1245	
+	attr	Damage_Weapon_Average_Total	0	1830	
+	affx	1213626295	
+	affx	2038507378	强击
+	perf	231	Damage_Weapon_Min	3	1024-1252	1245
+	perf	222	Damage_Weapon_Delta	3	203-304	226
+	perf	1142	Weapon_On_Hit_Knockback_Proc_Chance	-1	0.00999999977648258-0.0450000017881393	0.040771484375
+1539238484	Quiver_207	升灵箭袋	11:0	loot
+	attr	Attacks_Per_Second_Percent_Subtotal	-1	0	
+	attr	Attacks_Per_Second_Percent	-1	0.150000005960464	
+	proc	ias	15	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Weapon_On_Hit_Immobilize_Proc_Chance_OffHand	-1	0	
+	attr	Seed	-1	1251687440	
+	proc	seed	1251687440	
+	attr	Weapon_On_Hit_Immobilize_Proc_Chance_MainHand	-1	0.0176849365234375	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Sockets	-1	1	
+	proc	sock	1	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	432	
+	proc	dura	43	
+	attr	Durability_Cur	-1	432	
+	attr	Weapon_On_Hit_Immobilize_Proc_Chance	-1	0.0176849365234375	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	attr	Quiver	-1	1	
+	affx	1342579558	镶孔
+	affx	3243333083	毁伤之
+	perf	386	Sockets	-1	1-1	1
+	perf	1141	Weapon_On_Hit_Immobilize_Proc_Chance	-1	0.00999999977648258-0.0225000008940697	0.0176849365234375
+	perf	522	Quiver	-1	1-1	1
+	perf	203	Attacks_Per_Second_Percent	-1	0.150000005960464-0.150000005960464	0.150000005960464
+2140882336	Boots_208	升灵长靴	15:0	loot
+	attr	Requirement	57	70	
+	attr	Movement_Scalar_Total	-1	0	
+	attr	Movement_Scalar_Capped_Total	-1	0	
+	attr	Movement_Scalar_Subtotal	-1	0	
+	attr	Vitality_Item	-1	411	
+	proc	vita	411	
+	attr	Movement_Scalar	-1	0.0999755859375	
+	proc	move	10	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1794423694	
+	proc	seed	-1794423694	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	606	
+	proc	dura	60	
+	attr	Durability_Cur	-1	606	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	522	
+	proc	t_armor	522	
+	attr	Armor_Item_SubTotal	-1	522	
+	attr	Armor_Item	-1	522.333312988281	
+	proc	b_armor	522	
+	affx	3420952834	
+	affx	98886378	飞驰
+	perf	1206	Vitality_Item	-1	350-415	411
+	perf	171	Movement_Scalar	-1	0.100000001490116-0.119999997317791	0.0999755859375
+2638944386	Mace_1H_302	裂颅者	22:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1449.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1193	
+	proc	dmg_lo	1193	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1193	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	513	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	513	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1706	
+	proc	dmg_hi	1706	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.20000004768372	
+	proc	as_weap	1.2	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.20000004768372	
+	attr	Attacks_Per_Second_Item	-1	1.20000004768372	
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	577	
+	proc	vita	577	
+	attr	Strength_Item	-1	532	
+	proc	str	532	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	26358424	
+	proc	seed	26358424	
+	attr	Weapon_On_Hit_Slow_Proc_Chance_OffHand	-1	0	
+	attr	Weapon_On_Hit_Slow_Proc_Chance_MainHand	-1	0.018890380859375	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	744	
+	proc	dura	74	
+	attr	Durability_Cur	-1	744	
+	attr	Weapon_On_Hit_Slow_Proc_Chance	-1	0.018890380859375	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	273	
+	attr	Damage_Weapon_Delta_SubTotal	0	273	
+	attr	Damage_Weapon_Max	0	590	
+	attr	Damage_Weapon_Max_Total	0	1706	
+	attr	Damage_Weapon_Delta_Total	0	513	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	240	
+	attr	Damage_Weapon_Min	0	317	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1193	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.20000004768372	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.20000004768372	
+	attr	Damage_Weapon_Average	0	453.5	
+	attr	Damage_Weapon_Average_Total	0	1449.5	
+	attr	Damage_Weapon_Bonus_Min_X1	0	876	
+	affx	2227990498	死亡之
+	affx	3405776538	荣光之
+	affx	3301343616	战争之
+	affx	2683108143	残害
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	876
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	240
+	perf	1206	Vitality_Item	-1	525-625	577
+	perf	1203	Strength_Item	-1	525-625	532
+	perf	1140	Weapon_On_Hit_Slow_Proc_Chance	-1	0.00999999977648258-0.0225000008940697	0.018890380859375
+3382512596	Flail_1H_203	恶毒连枷	17:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1175.5	
+	attr	Damage_Weapon_Min_Total_All	-1	1016	
+	proc	dmg_lo	1016	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1016	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	319	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	319	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1335	
+	proc	dmg_hi	1335	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-108236458	
+	proc	seed	-108236458	
+	attr	Weapon_On_Hit_Freeze_Proc_Chance_OffHand	-1	0	
+	attr	Weapon_On_Hit_Freeze_Proc_Chance_MainHand	-1	0.0123977661132813	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	582	
+	proc	dura	58	
+	attr	Durability_Cur	-1	582	
+	attr	Weapon_On_Hit_Freeze_Proc_Chance	-1	0.0123977661132813	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Resource_Max_Bonus	7	6	
+	proc	max_wrath	6	
+	attr	Splash_Damage_Effect_Percent	-1	0.170000001788139	
+	proc	areadmg	17	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	75	
+	attr	Damage_Weapon_Delta_SubTotal	0	75	
+	attr	Damage_Weapon_Max	0	166	
+	attr	Damage_Weapon_Max_Total	0	1335	
+	attr	Damage_Weapon_Delta_Total	0	319	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	244	
+	attr	Damage_Weapon_Min	0	91	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1016	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	128.5	
+	attr	Damage_Weapon_Average_Total	0	1175.5	
+	attr	Damage_Weapon_Bonus_Min_X1	0	925	
+	affx	2227990498	死亡之
+	affx	3879146279	溅射
+	affx	2221274632	愤怒
+	affx	1708307531	冰封海洋之
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	925
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	244
+	perf	1350	Splash_Damage_Effect_Percent	-1	0.140000000596046-0.200000002980232	0.170000001788139
+	perf	152	Resource_Max_Bonus	7	6-7	6
+	perf	1138	Weapon_On_Hit_Freeze_Proc_Chance	-1	0.00999999977648258-0.0225000008940697	0.0123977661132813
+1612259889	ChestArmor_208	升灵胸甲	9:0	loot
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1269282540	
+	proc	seed	1269282540	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Sockets	-1	1	
+	proc	sock	1	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	610	
+	proc	dura	61	
+	attr	Durability_Cur	-1	610	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Hitpoints_On_Kill	-1	3712	
+	proc	lok	3712	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	682	
+	proc	t_armor	682	
+	attr	Armor_Item_SubTotal	-1	682	
+	attr	Armor_Item	-1	682	
+	proc	b_armor	682	
+	affx	1342579558	镶孔
+	affx	444041880	
+	perf	386	Sockets	-1	1-1	1
+	perf	348	Hitpoints_On_Kill	-1	2083-4251	3712
+181035078	Crossbow_302	巨型机弩	3:0	loot
+	attr	BowAny	-1	1	
+	attr	Crossbow	-1	2	
+	attr	Damage_Weapon_Average_Total_All	-1	1873	
+	attr	Damage_Weapon_Min_Total_All	-1	1701	
+	proc	dmg_lo	1701	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1701	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	344	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	344	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	2045	
+	proc	dmg_hi	2045	
+	attr	Resource_Cost_Reduction_Percent_All	-1	0.0699462890625	
+	proc	rescostred	7	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.10000002384186	
+	proc	as_weap	1.1	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item	-1	1.10000002384186	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-489835689	
+	proc	seed	-489835689	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	585	
+	proc	dura	58	
+	attr	Durability_Cur	-1	585	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	169	
+	attr	Damage_Weapon_Delta_SubTotal	0	169	
+	attr	Damage_Weapon_Max	0	949	
+	attr	Damage_Weapon_Max_Total	0	2045	
+	attr	Damage_Weapon_Delta_Total	0	344	
+	attr	Skill	30599	1	power: 远程攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	175	
+	attr	Damage_Weapon_Min	0	780	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1701	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.10000002384186	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.10000002384186	
+	attr	Damage_Weapon_Average	0	864.5	
+	attr	Damage_Weapon_Average_Total	0	1873	
+	attr	Damage_Weapon_Bonus_Min_X1	0	921	
+	attr	WeaponRanged	-1	1	
+	attr	Weapon2H	-1	1	
+	affx	2227990498	死亡之
+	affx	2529041547	娴熟
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	921
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	175
+	perf	735	Resource_Cost_Reduction_Percent_All	-1	0.0700000002980232-0.0900000035762787	0.0699462890625
+	perf	498	Crossbow	-1	1-1	2
+3561138112	Belt_208	统御者腰带	16:0	loot
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	193894922	
+	proc	seed	193894922	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Power_Damage_Percent_Bonus	289243	0.100000001490116	power: 烈焰斩
+	proc	skilldmg	10	power: 烈焰斩
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	354	
+	proc	dura	35	
+	attr	Durability_Cur	-1	354	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Experience_Bonus	-1	136	
+	proc	expbonus	136	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	506	
+	proc	t_armor	506	
+	attr	Armor_Item_SubTotal	-1	506	
+	attr	Armor_Item	-1	506	
+	proc	b_armor	506	
+	affx	820307714	撕裂之
+	affx	3140448489	不息
+	perf	1191	Power_Damage_Percent_Bonus	289243	0.0799999982118607-0.150000005960464	0.100000001490116
+	perf	77	Experience_Bonus	-1	100-139	136
+1146967350	Ring_25	戒指	6:0	loot
+	attr	Attacks_Per_Second_Percent_Subtotal	-1	0	
+	attr	Attacks_Per_Second_Percent	-1	0.0599999986588955	
+	proc	ias	6	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1869075769	
+	proc	seed	-1869075769	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	387	
+	proc	dura	38	
+	attr	Durability_Cur	-1	387	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Hitpoints_On_Kill	-1	3504	
+	proc	lok	3504	
+	attr	Season	-1	14	
+	affx	3971592086	
+	affx	444041880	
+	perf	203	Attacks_Per_Second_Percent	-1	0.0500000007450581-0.0599999986588955	0.0599999986588955
+	perf	348	Hitpoints_On_Kill	-1	2083-4251	3504
+2678079778	Mace_2H_301	皇家锤	35:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	2777.5	
+	attr	Damage_Weapon_Min_Total_All	-1	2568	
+	proc	dmg_lo	2568	
+	attr	Damage_Weapon_Delta_Total_OffHand	4	0	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1354	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	419	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	136	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Min_Total_MainHand	4	1214	
+	attr	Damage_Weapon_Max_Total_All	-1	2987	
+	proc	dmg_hi	2987	
+	attr	Damage_Weapon_Min_Total_OffHand	4	0	
+	attr	Damage_Weapon_Delta_Total_MainHand	4	283	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1	
+	proc	as_weap	1	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1	
+	attr	Attacks_Per_Second_Item	-1	1	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-184426552	
+	proc	seed	-184426552	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	664	
+	proc	dura	66	
+	attr	Durability_Cur	-1	664	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Hitpoints_On_Hit	-1	14304	
+	proc	loh	14304	
+	attr	Experience_Bonus	-1	122	
+	proc	expbonus	122	
+	attr	Splash_Damage_Effect_Percent	-1	0.180000007152557	
+	proc	areadmg	18	
+	attr	Damage_Delta_Total	4	0	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Damage_Min_Subtotal	4	0	
+	attr	Damage_Weapon_Delta	4	283	
+	attr	Season	-1	14	
+	attr	Damage_Weapon_Delta_SubTotal	4	283	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Min_Total	4	0	
+	attr	Damage_Weapon_Delta	0	136	
+	attr	Damage_Weapon_Delta_SubTotal	0	136	
+	attr	Damage_Weapon_Max	0	1490	
+	attr	Damage_Weapon_Max_Total	0	1490	
+	attr	Damage_Weapon_Delta_Total	0	136	
+	attr	Damage_Weapon_Min	4	1214	
+	attr	Damage_Weapon_Max	4	1497	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Max_Total	4	1497	
+	attr	Damage_Weapon_Min	0	1354	
+	attr	Damage_Weapon_Delta_Total	4	283	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1354	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1	
+	attr	Damage_Weapon_Average	0	1422	
+	attr	Damage_Weapon_Average_Total	0	1422	
+	attr	Damage_Weapon_Min_Total	4	1214	
+	attr	Damage_Weapon_Average	4	1355.5	
+	attr	Damage_Weapon_Average_Total	4	1355.5	
+	affx	3567055629	
+	affx	145602196	
+	affx	3879146279	溅射
+	affx	3140448489	不息
+	perf	231	Damage_Weapon_Min	4	1024-1252	1214
+	perf	222	Damage_Weapon_Delta	4	203-304	283
+	perf	347	Hitpoints_On_Hit	-1	10235-23210	14304
+	perf	1350	Splash_Damage_Effect_Percent	-1	0.140000000596046-0.200000002980232	0.180000007152557
+	perf	77	Experience_Bonus	-1	100-139	122
+1612259889	ChestArmor_208	升灵胸甲	26:0	loot
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	128936331	
+	proc	seed	128936331	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	637	
+	proc	dura	63	
+	attr	Durability_Cur	-1	637	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Percent_Reduction_From_Melee	-1	0.050000011920929	
+	attr	Resistance_All	-1	87	
+	proc	allres	87	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	754	
+	proc	t_armor	754	
+	attr	Armor_Item_SubTotal	-1	754	
+	attr	Armor_Item	-1	754	
+	proc	b_armor	754	
+	affx	148673682	万华
+	affx	1297374134	角斗士之
+	perf	96	Resistance_All	-1	86-90	87
+	perf	1124	Damage_Percent_Reduction_From_Melee	-1	0.0500000007450581-0.0599999986588955	0.050000011920929
+1905181657	Orb_205	机关盒	3:0	loot
+	attr	Damage_Average_Total_All	-1	166	
+	attr	Damage_Min_Total_All	-1	151	
+	proc	offh_dmg_lo	151	
+	attr	Damage_Delta_Total_All	-1	30	
+	proc	offh_dmg_add	30	
+	attr	Requirement	57	61	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-970153389	
+	proc	seed	-970153389	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	3	
+	proc	quality	3	
+	attr	Durability_Max	-1	397	
+	proc	dura	39	
+	attr	Durability_Cur	-1	397	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resource_Max_Bonus	1	12	resource: arcane
+	proc	max_ap	12	resource: arcane
+	attr	Damage_Delta	0	30	
+	attr	Damage_Delta_Total	0	30	
+	attr	Damage_Min	0	151	
+	attr	Damage_Min_Total	0	151	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	151	
+	affx	3768588529	恍惚
+	perf	152	Resource_Max_Bonus	1	10-12	12
+	perf	214	Damage_Min	0	137-171	151
+	perf	212	Damage_Delta	0	1-34	30
+3419024602	Bracers_207	拉基斯守护腕甲	14:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	388	
+	proc	vita	388	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	960300733	
+	proc	seed	960300733	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	449	
+	proc	dura	44	
+	attr	Durability_Cur	-1	449	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Gold_PickUp_Radius	-1	2	
+	proc	pickup	2	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	319	
+	proc	t_armor	319	
+	attr	Armor_Item_SubTotal	-1	319	
+	attr	Armor_Item	-1	319.5	
+	proc	b_armor	320	
+	affx	3420952834	
+	affx	4034366320	财迷
+	perf	1206	Vitality_Item	-1	350-415	388
+	perf	1071	Gold_PickUp_Radius	-1	1-2	2
+3419024602	Bracers_207	拉基斯守护腕甲	18:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	374	
+	proc	vita	374	
+	attr	Resistance	2	136	
+	proc	anyres	136	
+	proc	l_res	136	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-1902709810	
+	proc	seed	-1902709810	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	494	
+	proc	dura	49	
+	attr	Durability_Cur	-1	494	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	304	
+	proc	t_armor	304	
+	attr	Armor_Item_SubTotal	-1	304	
+	attr	Armor_Item	-1	304.5	
+	proc	b_armor	305	
+	affx	3420952834	
+	affx	212605263	宁静
+	perf	1206	Vitality_Item	-1	350-415	374
+	perf	93	Resistance	2	121-140	136
+1502365593	NecromancerTalisman_004	纯净之魂	14:0	loot
+	attr	Power_Damage_Percent_Bonus	453563	0.109999999403954	power: 鲜血虹吸
+	proc	skilldmg	11	power: 鲜血虹吸
+	attr	Damage_Average_Total_All	-1	289	
+	attr	Damage_Min_Total_All	-1	285	
+	proc	offh_dmg_lo	285	
+	attr	Damage_Delta_Total_All	-1	8	
+	proc	offh_dmg_add	8	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-761245591	
+	proc	seed	-761245591	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Sockets	-1	1	
+	proc	sock	1	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	469	
+	proc	dura	46	
+	attr	Durability_Cur	-1	469	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Damage_Delta	0	8	
+	attr	Damage_Delta_Total	0	8	
+	attr	Damage_Min	0	285	
+	attr	Damage_Min_Total	0	285	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	285	
+	affx	2695561281	渗血之
+	affx	1342579558	镶孔
+	perf	1191	Power_Damage_Percent_Bonus	453563	0.0799999982118607-0.150000005960464	0.109999999403954
+	perf	386	Sockets	-1	1-1	1
+	perf	214	Damage_Min	0	340-370	285
+	perf	212	Damage_Delta	0	40-80	8
+2782237342	Pants_207	拉基斯守护腿甲	17:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	398	
+	proc	vita	398	
+	attr	Resistance	5	127	
+	proc	anyres	127	
+	proc	a_res	127	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1808832384	
+	proc	seed	1808832384	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	542	
+	proc	dura	54	
+	attr	Durability_Cur	-1	542	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	537	
+	proc	t_armor	537	
+	attr	Armor_Item_SubTotal	-1	537	
+	attr	Armor_Item	-1	537.5	
+	proc	b_armor	538	
+	affx	3420952834	
+	affx	1767460757	灵妙
+	perf	1206	Vitality_Item	-1	350-415	398
+	perf	93	Resistance	5	121-140	127
+3659700981	CeremonialDagger_1H_302	石祭刀	17:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1385	
+	attr	Damage_Weapon_Min_Total_All	-1	1114	
+	proc	dmg_lo	1114	
+	attr	Damage_Weapon_Min_Total_MainHand	0	1114	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	542	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	542	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1656	
+	proc	dmg_hi	1656	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	-739659885	
+	proc	seed	-739659885	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	415	
+	proc	dura	41	
+	attr	Durability_Cur	-1	415	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resource_Max_Bonus	0	148	resource: mana
+	proc	max_mana	148	resource: mana
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	354	
+	attr	Damage_Weapon_Delta_SubTotal	0	354	
+	attr	Damage_Weapon_Max	0	473	
+	attr	Damage_Weapon_Max_Total	0	1656	
+	attr	Damage_Weapon_Delta_Total	0	542	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	188	
+	attr	Damage_Weapon_Min	0	119	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	1114	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	296	
+	attr	Damage_Weapon_Average_Total	0	1385	
+	attr	Damage_Weapon_Bonus_Min_X1	0	995	
+	affx	2227990498	死亡之
+	affx	1184986308	超然
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	995
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	188
+	perf	152	Resource_Max_Bonus	0	120-150	148
+2991555262	Dagger_302	棉兰匕首	6:0	loot
+	attr	Damage_Weapon_Average_Total_All	-1	1135	
+	attr	Damage_Weapon_Min_Total_All	-1	928	
+	proc	dmg_lo	928	
+	attr	Damage_Weapon_Min_Total_MainHand	0	928	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	414	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	414	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1342	
+	proc	dmg_hi	1342	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.5	
+	proc	as_weap	1.5	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.5	
+	attr	Attacks_Per_Second_Item	-1	1.5	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Weapon_On_Hit_Knockback_Proc_Chance_OffHand	-1	0	
+	attr	Weapon_On_Hit_Knockback_Proc_Chance_MainHand	-1	0.016998291015625	
+	attr	Seed	-1	849401665	
+	proc	seed	849401665	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	599	
+	proc	dura	59	
+	attr	Durability_Cur	-1	599	
+	attr	Weapon_On_Hit_Knockback_Proc_Chance	-1	0.016998291015625	
+	attr	Picked_Up_Time	-1	300615	
+	proc	picked_up_time	300615	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	214	
+	attr	Damage_Weapon_Delta_SubTotal	0	214	
+	attr	Damage_Weapon_Max	0	323	
+	attr	Damage_Weapon_Max_Total	0	1342	
+	attr	Damage_Weapon_Delta_Total	0	414	
+	attr	Skill	30592	1	power: 近战攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	200	
+	attr	Damage_Weapon_Min	0	109	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	928	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.5	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.5	
+	attr	Damage_Weapon_Average	0	216	
+	attr	Damage_Weapon_Average_Total	0	1135	
+	attr	Damage_Weapon_Bonus_Min_X1	0	819	
+	affx	1653888976	
+	affx	2037321457	强击
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	747-912	819
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	148-222	200
+	perf	1142	Weapon_On_Hit_Knockback_Proc_Chance	-1	0.00999999977648258-0.0225000008940697	0.016998291015625
+2203466491	Bow_301	双生弓	0:0	loot
+	attr	BowAny	-1	1	
+	attr	Bow	-1	2	
+	attr	Damage_Weapon_Average_Total_All	-1	1335.5	
+	attr	Damage_Weapon_Min_Total_All	-1	974	
+	proc	dmg_lo	974	
+	attr	Damage_Weapon_Min_Total_MainHand	0	974	
+	attr	Damage_Weapon_Min_Total_OffHand	0	0	
+	attr	Damage_Weapon_Delta_Total_All	-1	723	
+	attr	Damage_Weapon_Delta_Total_MainHand	0	723	
+	attr	Damage_Weapon_Delta_Total_OffHand	0	0	
+	attr	Damage_Weapon_Max_Total_All	-1	1697	
+	proc	dmg_hi	1697	
+	attr	Damage_Average_Total_All	-1	0	
+	attr	Damage_Min_Total_All	-1	0	
+	proc	offh_dmg_lo	0	
+	attr	Damage_Delta_Total_All	-1	0	
+	proc	offh_dmg_add	0	
+	attr	Attacks_Per_Second_Total	-1	0	
+	attr	Attacks_Per_Second_Item_Total	-1	1.39999997615814	
+	proc	as_weap	1.4	
+	attr	Attacks_Per_Second_Item_Subtotal	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item	-1	1.39999997615814	
+	attr	Requirement	57	70	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Seed	-1	1405077093	
+	proc	seed	1405077093	
+	attr	Weapon_On_Hit_Slow_Proc_Chance_OffHand	-1	0	
+	attr	Weapon_On_Hit_Slow_Proc_Chance_MainHand	-1	0.0141983032226563	
+	attr	ItemStackQuantityHi	-1	-2147483648	
+	proc	quantity_hi	-2147483648	
+	attr	Item_Quality_Level	-1	4	
+	proc	quality	4	
+	attr	Durability_Max	-1	453	
+	proc	dura	45	
+	attr	Durability_Cur	-1	453	
+	attr	Weapon_On_Hit_Slow_Proc_Chance	-1	0.0141983032226563	
+	attr	Picked_Up_Time	-1	300629	
+	proc	picked_up_time	300629	
+	attr	Damage_Delta_Total	0	0	
+	attr	Damage_Min_Total	0	0	
+	attr	Season	-1	14	
+	attr	Damage_Min_Subtotal	0	0	
+	attr	Damage_Weapon_Delta	0	517	
+	attr	Damage_Weapon_Delta_SubTotal	0	517	
+	attr	Damage_Weapon_Max	0	627	
+	attr	Damage_Weapon_Max_Total	0	1697	
+	attr	Damage_Weapon_Delta_Total	0	723	
+	attr	Skill	30599	1	power: 远程攻击
+	attr	Damage_Weapon_Bonus_Delta_X1	0	206	
+	attr	Damage_Weapon_Min	0	110	
+	attr	Attacks_Per_Second_Item_Total_OffHand	-1	0	
+	attr	Damage_Weapon_Min_Total	0	974	
+	attr	Attacks_Per_Second_Item_Total_MainHand	-1	1.39999997615814	
+	attr	Attacks_Per_Second_Item_OffHand	-1	0	
+	attr	Attacks_Per_Second_Item_MainHand	-1	1.39999997615814	
+	attr	Damage_Weapon_Average	0	368.5	
+	attr	Damage_Weapon_Average_Total	0	1335.5	
+	attr	Damage_Weapon_Bonus_Min_X1	0	864	
+	attr	WeaponRanged	-1	1	
+	attr	Weapon2H	-1	1	
+	affx	2227990498	死亡之
+	affx	2684294064	残害
+	perf	238	Damage_Weapon_Bonus_Min_X1	0	853-1043	864
+	perf	230	Damage_Weapon_Bonus_Delta_X1	0	169-253	206
+	perf	1140	Weapon_On_Hit_Slow_Proc_Chance	-1	0.00999999977648258-0.0450000017881393	0.0141983032226563
+	perf	497	Bow	-1	1-1	2
+2761055177	Gloves_208	升灵护手	37:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	534	
+	proc	vita	534	
+	attr	Strength_Item	-1	551	
+	proc	str	551	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	13	
+	attr	Seed	-1	1542314593	
+	proc	seed	1542314593	
+	attr	Item_Quality_Level	-1	6	
+	proc	quality	6	
+	attr	Durability_Max	-1	609	
+	proc	dura	60	
+	attr	Durability_Cur	-1	609	
+	attr	Picked_Up_Time	-1	300628	
+	proc	picked_up_time	300628	
+	attr	Resistance_All	-1	86	
+	proc	allres	86	
+	attr	Gold_PickUp_Radius	-1	2	
+	proc	pickup	2	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	529	
+	proc	t_armor	529	
+	attr	Armor_Item_SubTotal	-1	529	
+	attr	Armor_Item	-1	529.333312988281	
+	proc	b_armor	529	
+	affx	3301343616	战争之
+	affx	3405776538	荣光之
+	affx	148673682	万华
+	affx	4034366320	财迷
+	perf	1203	Strength_Item	-1	525-625	551
+	perf	1206	Vitality_Item	-1	525-625	534
+	perf	96	Resistance_All	-1	86-90	86
+	perf	1071	Gold_PickUp_Radius	-1	1-2	2
+

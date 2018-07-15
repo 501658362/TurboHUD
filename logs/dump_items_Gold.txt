@@ -1,0 +1,11 @@
+﻿727989467	HealthPotionBottomless	生命药水	0:0	loot
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	ItemStackQuantityLo	-1	1	
+	proc	quantity_lo	1	
+	attr	Item_Quality_Level	-1	1	
+	proc	quality	1	
+	attr	Season	-1	14	
+	perf	120	Hitpoints_Granted	-1	0-0	0
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- general settings -->
+	<utility diablo_window_title="Diablo III" low_priority="1" auto_hide_hud="1" auto_terminate="1" high_framerate="1">
+		<!-- automatically capture a short burst of images every time you gain a new paragon level -->
+		<paragon_capture enabled="1" hide_overlay="1" />
+		<!-- set the area in your inventory where you keep your useful items (like potions, or anything) (8, 0, 9, 5 means the two rightmost columns) -->
+		<inventory_lock left_column="-1" top_row="-1" right_column="-1" bottom_row="-1" />
+	</utility>
+	<!-- graphics settings - do not touch unless you know what you are doing -->
+	<graphics directx_feature_level_override="-" />
+	<themes current="default" />
+	<!-- TCP server for TurboMGR only. -->
+	<tcp_server enabled="0" port="8081" />
+</config>

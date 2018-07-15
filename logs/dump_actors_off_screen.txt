@@ -1,0 +1,454 @@
+﻿176777	trOut_NewTristram_triage_A		Invalid
+4675	MarkerLocation		Invalid
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	0	
+	attr	Buff_Visual_Effect	-1	1	
+178362	A1_UniqueVendor_Collector_InTown_01	收藏家	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	39886413824	
+	proc	hp_max	39886413824	
+	attr	Hitpoints_Max	-1	39886413824	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	39886413824	
+	proc	hp_cur	39886413824	
+	attr	No_Damage	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+56948	PT_Mystic	秘士	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	43000127488	
+	proc	hp_max	43000127488	
+	attr	Hitpoints_Max	-1	43000127488	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	43000127488	
+	proc	hp_cur	43000127488	
+	attr	TeamID	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+4675	MarkerLocation		Invalid
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	0	
+	attr	Buff_Visual_Effect	-1	1	
+178388	A1_UniqueVendor_Fence_InTown_01	黑心商	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	35051819008	
+	proc	hp_max	35051819008	
+	attr	Hitpoints_Max	-1	35051819008	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	35051819008	
+	proc	hp_cur	35051819008	
+	attr	No_Damage	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+212519	PT_Jeweler_AddSocketShortcut	宝石合成器	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	31057379328	
+	proc	hp_max	31057379328	
+	attr	Hitpoints_Max	-1	31057379328	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	31057379328	
+	proc	hp_cur	31057379328	
+	attr	No_Damage	-1	1	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+212510	PT_Mystic_IdentifyShortcut	幻化	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	34366320640	
+	proc	hp_max	34366320640	
+	attr	Hitpoints_Max	-1	34366320640	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	34366320640	
+	proc	hp_cur	34366320640	
+	attr	No_Damage	-1	1	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+178396	A1_UniqueVendor_Miner_InTown_01	矿工	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	38362128384	
+	proc	hp_max	38362128384	
+	attr	Hitpoints_Max	-1	38362128384	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	38362128384	
+	proc	hp_cur	38362128384	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+431095	WardrobeTest	衣橱	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	DamageCap_Percent	-1	0.0099945068359375	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	37169168384	
+	proc	hp_max	37169168384	
+	attr	Hitpoints_Max	-1	37169168384	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	37169168384	
+	proc	hp_cur	37169168384	
+	attr	No_Damage	-1	1	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+258064	Uber_BossPortal_Door		BreakableDoor
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	Level	-1	70	
+5502	Start_Location_0		PortalDestination
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	Level	-1	70	
+439975	KanaiCube_Stand	卡奈魔盒	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	32793821184	
+	proc	hp_max	32793821184	
+	attr	Hitpoints_Max	-1	32793821184	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	32793821184	
+	proc	hp_cur	32793821184	
+	attr	TeamID	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+4062	Enchantress	魔女	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Hireling_Class	-1	3	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	34197622784	
+	proc	hp_max	34197622784	
+	attr	Hitpoints_Max	-1	34197622784	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	34197622784	
+	proc	hp_cur	34197622784	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	2	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+5502	Start_Location_0		PortalDestination
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	Level	-1	70	
+4675	MarkerLocation		Invalid
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	0	
+	attr	Buff_Visual_Effect	-1	1	
+56949	PT_Jeweler	珠宝匠	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	40871403520	
+	proc	hp_max	40871403520	
+	attr	Hitpoints_Max	-1	40871403520	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	40871403520	
+	proc	hp_cur	40871403520	
+	attr	No_Damage	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+212511	PT_Mystic_EnhanceShortcut	附魔	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	30503489536	
+	proc	hp_max	30503489536	
+	attr	Hitpoints_Max	-1	30503489536	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	30503489536	
+	proc	hp_cur	30503489536	
+	attr	No_Damage	-1	1	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+4644	Scoundrel	痞子	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Hireling_Class	-1	2	
+	attr	Hitpoints_Max_Total	-1	154412941312	
+	proc	hp_max	154412941312	
+	attr	Hitpoints_Max	-1	154412941312	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	154412941312	
+	proc	hp_cur	154412941312	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	2	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+4675	MarkerLocation		Invalid
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	0	
+	attr	Buff_Visual_Effect	-1	1	
+213414	Mystic_Crafting_Backbone_Tristram		Invalid
+	attr	TeamID	-1	10	
+178293	g_Portal_Rectangle_Orange_IconDoor		Portal
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+4538	Templar	圣殿骑士	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Hireling_Class	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	168088469504	
+	proc	hp_max	168088469504	
+	attr	Hitpoints_Max	-1	168088469504	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	168088469504	
+	proc	hp_cur	168088469504	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	2	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+5502	Start_Location_0		PortalDestination
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	Level	-1	70	
+213413	Jeweler_Crafting_Backbone_Tristram		Invalid
+	attr	TeamID	-1	10	
+4675	MarkerLocation		Invalid
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	0	
+	attr	Buff_Visual_Effect	-1	1	
+114622	Tyrael_Heaven	泰瑞尔	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	DamageCap_Percent	-1	0.0099945068359375	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	42818793472	
+	proc	hp_max	42818793472	
+	attr	Hitpoints_Max	-1	42818793472	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	42818793472	
+	proc	hp_cur	42818793472	
+	attr	TeamID	-1	2	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	3	
+	attr	Conversation_Icon	1	3	
+4675	MarkerLocation		Invalid
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	0	
+	attr	Buff_Visual_Effect	-1	1	
+156111	CampfireTrigger		Trigger
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	Level	-1	70	
+4675	MarkerLocation		Invalid
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	0	
+	attr	Buff_Visual_Effect	-1	1	
+429005	p2_HQ_ZoltunKulle	佐敦·库勒	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Hitpoints_Max_Total	-1	12155570176	
+	proc	hp_max	12155570176	
+	attr	Hitpoints_Max	-1	12155570176	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	12155570176	
+	proc	hp_cur	12155570176	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+5992	TriggerSphereOneShot		Trigger
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	Level	-1	70	
+359837	x1_AdventureMode_LorathNahr	洛拉斯·纳尔	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Pet_Type	-1	24	
+	attr	Hitpoints_Max_Total	-1	37948575744	
+	proc	hp_max	37948575744	
+	attr	Hitpoints_Max	-1	37948575744	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	37948575744	
+	proc	hp_cur	37948575744	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	3	
+	attr	Conversation_Icon	1	3	
+272558	PVP_Dueling_NPC		Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Hitpoints_Max_Total	-1	19969060864	
+	proc	hp_max	19969060864	
+	attr	Hitpoints_Max	-1	19969060864	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	19969060864	
+	proc	hp_cur	19969060864	
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	3	
+	attr	Conversation_Icon	1	3	
+375658	X1_AdventureMode_HubBanterTrigger		Trigger
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	Level	-1	70	
+141246	Priest_Male_B_NoLook	治疗者	Invalid
+	attr	NPC_Is_Operatable	-1	1	
+	attr	Is_NPC	-1	1	
+	attr	Resistance_Total	4	175	
+	attr	Hitpoints_Max_Total	-1	27313172480	
+	proc	hp_max	27313172480	
+	attr	Hitpoints_Max	-1	27313172480	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	27313172480	
+	proc	hp_cur	27313172480	
+	attr	No_Damage	-1	1	
+	attr	TeamID	-1	1	
+	attr	Buff_Visual_Effect	-1	1	
+	attr	MinimapActive	-1	1	
+	attr	Level	-1	70	
+	attr	NPC_Has_Interact_Options	1	1	
+	attr	NPC_Has_Interact_Options	0	1	
+	attr	Conversation_Icon	0	0	
+	attr	Conversation_Icon	1	0	
+3795	Checkpoint		Checkpoint
+	attr	Hitpoints_Max_Total	-1	1	
+	proc	hp_max	1	
+	attr	Hitpoints_Max	-1	0.00099945068359375	
+	attr	Hitpoints_Total_From_Level	-1	0	
+	attr	Hitpoints_Cur	-1	0.00100000004749745	
+	proc	hp_cur	0	
+	attr	TeamID	-1	1	
+	attr	Level	-1	70	
+176772	trOut_NewTristram_hanging_cloth_B		Invalid
+6312	trOUT_ZombiePileAndWagon		Invalid
+	attr	Invulnerable	-1	1	
+	attr	TeamID	-1	0	
+	attr	Buff_Visual_Effect	-1	1	
+176763	trOut_NewTristram_broken_furniture_pile		Invalid
+

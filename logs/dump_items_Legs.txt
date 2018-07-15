@@ -1,0 +1,67 @@
+﻿827015887	Unique_Pants_Set_10_x1	阿克汉的腿甲	0:0	loot
+	attr	Requirement	57	70	
+	attr	Vitality_Item	-1	609	
+	proc	vita	609	
+	attr	Strength_Item	-1	551	
+	proc	str	551	
+	attr	Cube_Enchanted_Strength_Item	-1	280	
+	attr	CubeEnchantedGemType	-1	3	
+	attr	CubeEnchantedGemRank	-1	56	
+	proc	cube_enchanted_gem_rank	56	
+	attr	EnchantedAffixCount	-1	1	
+	attr	EnchantedAffixSeed	-1	1273106723	
+	attr	EnchantedAffixNew	-1	-746302019	
+	attr	EnchantedAffixOld	-1	288147301	
+	attr	Resistance	2	195	
+	proc	anyres	195	
+	proc	l_res	195	
+	attr	Ancient_Rank	-1	1	
+	proc	ancient_rank	1	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	3	
+	attr	Seed	-1	-1414426845	
+	proc	seed	-1414426845	
+	attr	Item_LegendaryItem_Level_Override	-1	70	
+	attr	Item_Binding_Level_Override	-1	2	
+	proc	bound_mode	2	
+	attr	Item_Bound_To_ACD	-1	2014838875	
+	proc	bound_to_account	1	
+	attr	Sockets_Filled	-1	2	
+	attr	Sockets	-1	2	
+	proc	sock	2	
+	attr	Hitpoints_Regen_Per_Second	-1	6428	
+	proc	hpreg	6428	
+	attr	Item_Equipped	-1	1	
+	attr	Item_Quality_Level	-1	9	
+	proc	quality	9	
+	attr	Durability_Max	-1	315	
+	proc	dura	31	
+	attr	Durability_Cur	-1	287	
+	attr	Resistance_All	-1	156	
+	proc	allres	156	
+	attr	Hitpoints_On_Kill	-1	6748	
+	proc	lok	6748	
+	attr	Set_Item_Count	580748	1	
+	attr	Item_Legendary_Item_Base_Item	-1	-1512729953	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	747	
+	proc	t_armor	747	
+	attr	Armor_Item_SubTotal	-1	747	
+	attr	Armor_Item	-1	747	
+	proc	b_armor	747	
+	attr	Skill	30592	1	power: 近战攻击
+	affx	1854492596	
+	affx	3614017232	
+	affx	3548665277	
+	affx	3600876420	
+	affx	1355452559	镶孔
+	affx	1066587626	
+	perf	1203	Strength_Item	-1	550-650	551
+	perf	1206	Vitality_Item	-1	550-650	609
+	perf	386	Sockets	-1	2-2	2
+	perf	126	Hitpoints_Regen_Per_Second	-1	6080-7185	6428
+	perf	93	Resistance	2	176-210	195
+	perf	348	Hitpoints_On_Kill	-1	6536-7725	6748
+

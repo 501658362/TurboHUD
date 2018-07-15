@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d40266b-387a-4d3a-b2f6-a19a62e3eb84" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GLQ_AncientParthanCount.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_AncientParthanCount.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLQ_BuffLabelsPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_BuffLabelsPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuffRuleFactory.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/BuffRuleFactory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLQ_PartyBuffPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PartyBuffPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLQ_CursedEventPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_CursedEventPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLQ_GreaterRiftPylonMarkerPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_GreaterRiftPylonMarkerPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLQ_GRiftProgressBarRuler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_GRiftProgressBarRuler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLQ_InventoryMainStatPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_InventoryMainStatPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PluginEnablerOrDisablerPlugin.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/User/PluginEnablerOrDisablerPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLQ_ItemDropSoundAlertPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_ItemDropSoundAlertPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="5" selection-start-line="9" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Order</find>
+      <find>door</find>
+      <find>doors</find>
+      <find>part</find>
+      <find>IInGameWorldPainter</find>
+      <find>GLQ_OriginalSkillBarPlugin</find>
+      <find>GLQ_SkillPainter</find>
+      <find>BountyTablePlugin</find>
+      <find>GLQ_MonstersCountPlugin</find>
+      <find>NotifyAtRiftPercentagePlugin</find>
+      <find>SkillRangeHelperPlugin</find>
+      <find>PortraitBottomStatsPlugin</find>
+      <find>GLQ_NotifyAtRiftPercentagePlugin</find>
+      <find>MultiplayerExperienceRangePlugin</find>
+      <find>GemsInventoryCountPlugin</find>
+      <find>HeadStonePlugin</find>
+      <find>PortalPlugin</find>
+      <find>CursedEventPlugin</find>
+      <find>GlobePlugin</find>
+      <find>GoblinPlugin</find>
+      <find>HealthGlobePlugin</find>
+      <find>Key</find>
+      <find>otherp</find>
+      <find>player</find>
+      <find>legendge</find>
+      <find>GLQ_EliteHealthBarPlugin</find>
+      <find>OtherPlayersPlusPlugin</find>
+      <find>GLQ_BasePluginCN</find>
+      <find>GLQ_BuffLabelsPlugin</find>
+      <find>BuffRuleFactory</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Turbo.Plugins.glq</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default\glq</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\glq</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUDEn\plugins\Default</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUDEn</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUDEn\plugins</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUDEn\plugins\glq</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_PoolState.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_DangerousAffixMonsterPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_EliteHealthListPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_EliteHealthBarPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_DoorsPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/BaneOfTheStrickenPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/Decorators/TopTables/TopTable.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/Decorators/TopTables/TopTableCell.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/Decorators/TopTables/TopTableCellDecorator.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/Decorators/TopTables/TopTableHeader.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_BuffLabelsPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_CosmeticItemsPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_DamageBonusPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_ExperienceOverBarPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_GRProgressionToTime.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_ItemsPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_LegendGemsInfoPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_NetworkLatencyPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_PlayerInfoPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_PlayerResurrectionTimer.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_TopExperienceStatistics.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_WeaponDamageRerollCalculatorPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/ItemStatListExtensions.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/LegendaryPowerInfoExtensions.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/WeaponDamageDefinition.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/WeaponDamageInfo.cs" />
+        <option value="$PROJECT_DIR$/config/ui_default/ui_default_main.xml" />
+        <option value="$PROJECT_DIR$/plugins/Xenthalon/AdvancedMarkerPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_ShrineNamePlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/Monsters/EliteMonsterSkillPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_DifficultiesInfoPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_DoorsPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/Monsters/EliteMonsterAffixPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/Monsters/MonsterPackPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/Monsters/GoblinPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/Monsters/TopMonsterHealthBarPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_EliteHealthBarPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_EliteHealthListPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_TopMonsterHealthBarPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Default/Monsters/DangerousMonsterPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_DangerousAffixMonsterPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_PoolState.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_RedDoorMarker.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_LegendItemCount.cs" />
+        <option value="$PROJECT_DIR$/logs/exceptions.txt" />
+        <option value="$PROJECT_DIR$/plugins/cyj/Cyj_Plugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_GreaterRiftPylonMarkerPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_GRiftProgressBarRuler.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_InventoryMainStatPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/glq/GLQ_ItemDropSoundAlertPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/User/PluginEnablerOrDisablerPlugin.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="1289" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="cyj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Default" type="462c0819:PsiDirectoryNode" />
+              <item name="BuffLists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Default" type="462c0819:PsiDirectoryNode" />
+              <item name="BuffLists" type="462c0819:PsiDirectoryNode" />
+              <item name="Painter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="glq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Xenthalon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins" />
+      <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default\glq" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chen\Desktop\TurboHUDEn\plugins\glq" />
+      <recent name="C:\Users\Chen\Desktop\TurboHUDEn\data" />
+      <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default\glq" />
+      <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default\glq\Decorators" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d40266b-387a-4d3a-b2f6-a19a62e3eb84" name="Default" comment="" />
+      <created>1531150827754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531150827754</updated>
+      <workItem from="1531150828969" duration="5453000" />
+      <workItem from="1531179007720" duration="5507000" />
+      <workItem from="1531185478798" duration="11000" />
+      <workItem from="1531223924243" duration="697000" />
+      <workItem from="1531226022913" duration="3846000" />
+      <workItem from="1531264653611" duration="5034000" />
+      <workItem from="1531309797306" duration="6325000" />
+      <workItem from="1531396469073" duration="760000" />
+      <workItem from="1531484726904" duration="599000" />
+      <workItem from="1531560746650" duration="5001000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33233000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1289" height="1047" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.278275" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_ItemsPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3680">
+          <caret line="184" column="32" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_LegendGemCirclePlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_LegendGemsInfoPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_LegendItemCount.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_MonstersCountPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_NetworkLatencyPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_NotifyAtRiftPercentagePlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_OriginalSkillBarPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PartyInspector.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PlayerInfoPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PlayerResurrectionTimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PoolState.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_RedDoorMarker.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_ShrineNamePlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_SkillBarPainter.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_SkillPainter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_TopExperienceStatistics.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_TopMonsterHealthBarPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_WeaponDamageRerollCalculatorPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/SkillBars/UiHiddenPortraitSkillBarPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/SkillBars/OriginalSkillBarPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/SkillBars/OriginalHealthPotionSkillPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/SkillBars/Painter/SkillPainter.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/ParagonCapturePlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/PortraitBottomStatsPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/OtherPlayersPlusPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/NotifyAtRiftPercentagePlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/GameInfoPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cyj/Cyj_Plugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/Players/BannerPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/Players/HeadStonePlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/Players/PlayerSkillPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/Players/OtherPlayersPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/Players/MultiplayerExperienceRangePlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/Players/SkillRangeHelperPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PartyBuffConfigPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/exceptions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="80" column="103" selection-start-line="80" selection-start-column="74" selection-end-line="80" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/BuffLists/PlayerRightBuffListPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Default/BuffLists/PlayerTopBuffListPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/BaneOfTheStrickenPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_BasePluginCN.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_AncientParthanCount.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_CursedEventPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_GreaterRiftPylonMarkerPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_GRiftProgressBarRuler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_ItemDropSoundAlertPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="5" selection-start-line="9" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_InventoryMainStatPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_BuffLabelsPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/BuffRuleFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PartyBuffPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/User/PluginEnablerOrDisablerPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

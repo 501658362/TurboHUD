@@ -1,0 +1,60 @@
+﻿2314205839	Unique_Shoulder_Set_10_x1	阿克汉的肩甲	0:0	loot
+	attr	Power_Cooldown_Reduction_Percent_All_Capped	-1	0	power: UNKNOWN
+	attr	Power_Cooldown_Reduction_Percent_All	-1	0.0799560546875	power: UNKNOWN
+	proc	cdred	8	power: UNKNOWN
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	650	
+	proc	str	650	
+	attr	EnchantedAffixCount	-1	15	
+	attr	EnchantedAffixSeed	-1	-7130057	
+	attr	EnchantedAffixNew	-1	2048965816	
+	attr	EnchantedAffixOld	-1	-644595103	
+	attr	Ancient_Rank	-1	2	
+	proc	ancient_rank	2	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	DyeType	-1	1	
+	attr	Seed	-1	101467016	
+	proc	seed	101467016	
+	attr	Item_LegendaryItem_Level_Override	-1	70	
+	attr	Item_Binding_Level_Override	-1	2	
+	proc	bound_mode	2	
+	attr	Item_Bound_To_ACD	-1	2014838875	
+	proc	bound_to_account	1	
+	attr	Item_Equipped	-1	1	
+	attr	Item_Quality_Level	-1	9	
+	proc	quality	9	
+	attr	Durability_Max	-1	348	
+	proc	dura	34	
+	attr	Durability_Cur	-1	320	
+	attr	Resistance_All	-1	130	
+	proc	allres	130	
+	attr	Set_Item_Count	580748	1	
+	attr	Item_Legendary_Item_Base_Item	-1	365492434	
+	attr	Splash_Damage_Effect_Percent	-1	0.200000002980232	
+	proc	areadmg	20	
+	attr	Gold_Find	-1	0.349999994039536	
+	proc	gf	35	
+	attr	Gold_PickUp_Radius	-1	2	
+	proc	pickup	2	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	674	
+	proc	t_armor	674	
+	attr	Armor_Item_SubTotal	-1	674	
+	attr	Armor_Item	-1	674.666687011719	
+	proc	b_armor	675	
+	attr	Skill	30592	1	power: 近战攻击
+	affx	1066587626	
+	affx	3858531038	
+	affx	717893392	
+	affx	2048965816	
+	affx	3624530495	
+	affx	4034366321	财迷
+	perf	1203	Strength_Item	-1	550-650	650
+	perf	96	Resistance_All	-1	110-130	130
+	perf	1350	Splash_Damage_Effect_Percent	-1	0.100000001490116-0.200000002980232	0.200000002980232
+	perf	210	Power_Cooldown_Reduction_Percent_All	-1	0.0500000007450581-0.0799999982118607	0.0799560546875
+	perf	50	Gold_Find	-1	0.319999992847443-0.349999994039536	0.349999994039536
+	perf	1071	Gold_PickUp_Radius	-1	1-2	2
+

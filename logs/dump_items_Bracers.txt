@@ -1,0 +1,59 @@
+﻿962426467	Unique_Bracer_106_x1	复仇者护腕	0:0	loot
+	attr	Crit_Percent_Bonus_Capped	-1	0.0599999986588955	
+	proc	crit	6	
+	attr	Requirement	57	70	
+	attr	Strength_Item	-1	617	
+	proc	str	617	
+	attr	Cube_Enchanted_Strength_Item	-1	375	
+	attr	CubeEnchantedGemType	-1	3	
+	attr	CubeEnchantedGemRank	-1	75	
+	proc	cube_enchanted_gem_rank	75	
+	attr	EnchantedAffixCount	-1	14	
+	attr	EnchantedAffixSeed	-1	1857799153	
+	attr	EnchantedAffixNew	-1	232461798	
+	attr	EnchantedAffixOld	-1	-694090876	
+	attr	Ancient_Rank	-1	1	
+	proc	ancient_rank	1	
+	attr	Post_2_5_0_Drop	-1	1	
+	attr	Post_2_1_2_Drop	-1	1	
+	attr	Loot_2_0_Drop	-1	1	
+	attr	Item_Power_Passive	318820	1	
+	attr	Seed	-1	-776908384	
+	proc	seed	-776908384	
+	attr	Item_LegendaryItem_Level_Override	-1	70	
+	attr	Item_Binding_Level_Override	-1	2	
+	proc	bound_mode	2	
+	attr	Item_Bound_To_ACD	-1	2014838875	
+	proc	bound_to_account	1	
+	attr	Item_Equipped	-1	1	
+	attr	Item_Quality_Level	-1	9	
+	proc	quality	9	
+	attr	Durability_Max	-1	340	
+	proc	dura	34	
+	attr	Durability_Cur	-1	312	
+	attr	Resistance_All	-1	121	
+	proc	allres	121	
+	attr	Item_Legendary_Item_Base_Item	-1	-875942693	
+	attr	Experience_Bonus	-1	243	
+	proc	expbonus	243	
+	attr	Season	-1	14	
+	attr	Armor_Item_Total	-1	388	
+	proc	t_armor	388	
+	attr	Armor_Item_SubTotal	-1	388	
+	attr	Armor_Item	-1	388.666656494141	
+	proc	b_armor	389	
+	attr	Damage_Dealt_Percent_Bonus	6	0.170000001788139	
+	proc	sdmg_any	17	
+	proc	sdmg_h	17	
+	affx	1066587626	
+	affx	275315798	圣力
+	affx	3858531038	
+	affx	232461798	
+	affx	1154440475	
+	perf	244	Damage_Dealt_Percent_Bonus	6	0.150000005960464-0.200000002980232	0.170000001788139
+	perf	1203	Strength_Item	-1	550-650	617
+	perf	96	Resistance_All	-1	110-130	121
+	perf	248	Crit_Percent_Bonus_Capped	-1	0.0450000017881393-0.0599999986588955	0.0599999986588955
+	perf	77	Experience_Bonus	-1	220-260	243
+	perf	1288	Item_Power_Passive	318820	1-1	1
+
