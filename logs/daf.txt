@@ -10125,3 +10125,2065 @@
 2018.07.15 14:33:09.236	header load time: 319
 2018.07.15 14:33:09.237	retry: can't find object manager
 2018.07.15 14:33:09.238	ERROR: can't find object manager
+2018.07.15 16:19:10.075	scan started
+2018.07.15 16:19:10.224	header load time: 144
+2018.07.15 16:19:10.236	ObjectManager	10
+2018.07.15 16:19:10.241	AcdContainer	4
+2018.07.15 16:19:10.244	AcdManager	2
+2018.07.15 16:19:10.246	PlayerDataManager	0
+2018.07.15 16:19:10.248	Player	0
+2018.07.15 16:19:10.281	TrickleManager	32
+2018.07.15 16:19:10.284	LevelArea	1
+2018.07.15 16:19:10.287	BattleNetClient	1
+2018.07.15 16:19:10.288	GameState	0
+2018.07.15 16:19:10.290	scan finished in 64 ms
+2018.07.15 16:33:22.414	block sanity check failed
+2018.07.15 16:33:22.415	scan started
+2018.07.15 16:33:22.485	header load time: 69
+2018.07.15 16:33:22.486	retry: can't find object manager
+2018.07.15 16:33:22.488	scan started
+2018.07.15 16:33:22.586	header load time: 97
+2018.07.15 16:33:22.587	retry: can't find object manager
+2018.07.15 16:33:22.588	ERROR: can't find object manager
+2018.07.15 16:33:22.599	scan started
+2018.07.15 16:33:22.665	header load time: 64
+2018.07.15 16:33:22.666	retry: can't find object manager
+2018.07.15 16:33:22.667	scan started
+2018.07.15 16:33:22.776	header load time: 107
+2018.07.15 16:33:22.777	retry: can't find object manager
+2018.07.15 16:33:22.778	ERROR: can't find object manager
+2018.07.15 16:33:22.786	scan started
+2018.07.15 16:33:22.838	header load time: 51
+2018.07.15 16:33:22.840	retry: can't find object manager
+2018.07.15 16:33:22.840	scan started
+2018.07.15 16:33:22.896	header load time: 54
+2018.07.15 16:33:22.897	retry: can't find object manager
+2018.07.15 16:33:22.898	ERROR: can't find object manager
+2018.07.15 16:33:22.905	scan started
+2018.07.15 16:33:22.990	header load time: 84
+2018.07.15 16:33:22.991	retry: can't find object manager
+2018.07.15 16:33:22.992	scan started
+2018.07.15 16:33:23.048	header load time: 55
+2018.07.15 16:33:23.049	retry: can't find object manager
+2018.07.15 16:33:23.051	ERROR: can't find object manager
+2018.07.15 16:33:23.058	scan started
+2018.07.15 16:33:23.111	header load time: 52
+2018.07.15 16:33:23.113	retry: can't find object manager
+2018.07.15 16:33:23.113	scan started
+2018.07.15 16:33:23.199	header load time: 85
+2018.07.15 16:33:23.201	retry: can't find object manager
+2018.07.15 16:33:23.202	ERROR: can't find object manager
+2018.07.15 16:33:23.208	scan started
+2018.07.15 16:33:23.271	header load time: 61
+2018.07.15 16:33:23.272	ObjectManager	0
+2018.07.15 16:33:23.273	AcdContainer	0
+2018.07.15 16:33:23.273	AcdManager	0
+2018.07.15 16:33:23.274	PlayerDataManager	0
+2018.07.15 16:33:23.275	Player	0
+2018.07.15 16:33:23.298	TrickleManager	22
+2018.07.15 16:33:23.299	can't find levelarea
+2018.07.15 16:33:23.300	retry: can't find bnet client
+2018.07.15 16:33:23.301	scan started
+2018.07.15 16:33:23.363	header load time: 60
+2018.07.15 16:33:23.364	ObjectManager	0
+2018.07.15 16:33:23.365	AcdContainer	0
+2018.07.15 16:33:23.366	AcdManager	0
+2018.07.15 16:33:23.366	PlayerDataManager	0
+2018.07.15 16:33:23.367	Player	0
+2018.07.15 16:33:23.389	TrickleManager	21
+2018.07.15 16:33:23.390	can't find levelarea
+2018.07.15 16:33:23.391	retry: can't find bnet client
+2018.07.15 16:33:23.392	ERROR: can't find bnet client
+2018.07.15 16:33:23.398	block sanity check failed
+2018.07.15 16:33:23.399	scan started
+2018.07.15 16:33:23.499	header load time: 98
+2018.07.15 16:33:23.500	ObjectManager	0
+2018.07.15 16:33:23.501	AcdContainer	0
+2018.07.15 16:33:23.502	AcdManager	0
+2018.07.15 16:33:23.503	PlayerDataManager	0
+2018.07.15 16:33:23.504	Player	0
+2018.07.15 16:33:23.529	TrickleManager	24
+2018.07.15 16:33:23.530	can't find levelarea
+2018.07.15 16:33:23.531	retry: can't find bnet client
+2018.07.15 16:33:23.532	scan started
+2018.07.15 16:33:23.616	header load time: 83
+2018.07.15 16:33:23.618	ObjectManager	0
+2018.07.15 16:33:23.619	AcdContainer	0
+2018.07.15 16:33:23.620	AcdManager	0
+2018.07.15 16:33:23.620	PlayerDataManager	0
+2018.07.15 16:33:23.621	Player	0
+2018.07.15 16:33:23.646	TrickleManager	23
+2018.07.15 16:33:23.647	can't find levelarea
+2018.07.15 16:33:23.648	retry: can't find bnet client
+2018.07.15 16:33:23.648	ERROR: can't find bnet client
+2018.07.15 16:33:23.655	block sanity check failed
+2018.07.15 16:33:23.656	scan started
+2018.07.15 16:33:23.733	header load time: 75
+2018.07.15 16:33:23.735	ObjectManager	0
+2018.07.15 16:33:23.736	AcdContainer	0
+2018.07.15 16:33:23.737	AcdManager	0
+2018.07.15 16:33:23.738	PlayerDataManager	0
+2018.07.15 16:33:23.739	Player	0
+2018.07.15 16:33:23.762	TrickleManager	21
+2018.07.15 16:33:23.763	can't find levelarea
+2018.07.15 16:33:23.764	retry: can't find bnet client
+2018.07.15 16:33:23.765	scan started
+2018.07.15 16:33:23.887	header load time: 120
+2018.07.15 16:33:23.888	ObjectManager	0
+2018.07.15 16:33:23.889	AcdContainer	0
+2018.07.15 16:33:23.890	AcdManager	0
+2018.07.15 16:33:23.891	PlayerDataManager	0
+2018.07.15 16:33:23.891	Player	0
+2018.07.15 16:33:23.920	TrickleManager	27
+2018.07.15 16:33:23.921	can't find levelarea
+2018.07.15 16:33:23.922	retry: can't find bnet client
+2018.07.15 16:33:23.923	ERROR: can't find bnet client
+2018.07.15 16:33:23.930	block sanity check failed
+2018.07.15 16:33:23.931	scan started
+2018.07.15 16:33:24.024	header load time: 91
+2018.07.15 16:33:24.026	ObjectManager	0
+2018.07.15 16:33:24.027	AcdContainer	0
+2018.07.15 16:33:24.028	AcdManager	0
+2018.07.15 16:33:24.029	PlayerDataManager	0
+2018.07.15 16:33:24.030	Player	0
+2018.07.15 16:33:24.057	TrickleManager	26
+2018.07.15 16:33:24.058	can't find levelarea
+2018.07.15 16:33:24.060	retry: can't find bnet client
+2018.07.15 16:33:24.061	scan started
+2018.07.15 16:33:24.143	header load time: 81
+2018.07.15 16:33:24.145	ObjectManager	0
+2018.07.15 16:33:24.146	AcdContainer	0
+2018.07.15 16:33:24.147	AcdManager	0
+2018.07.15 16:33:24.148	PlayerDataManager	0
+2018.07.15 16:33:24.149	Player	0
+2018.07.15 16:33:24.174	TrickleManager	24
+2018.07.15 16:33:24.175	can't find levelarea
+2018.07.15 16:33:24.176	retry: can't find bnet client
+2018.07.15 16:33:24.177	ERROR: can't find bnet client
+2018.07.15 16:33:24.184	block sanity check failed
+2018.07.15 16:33:24.185	scan started
+2018.07.15 16:33:24.307	header load time: 120
+2018.07.15 16:33:24.308	ObjectManager	0
+2018.07.15 16:33:24.309	AcdContainer	0
+2018.07.15 16:33:24.311	AcdManager	0
+2018.07.15 16:33:24.312	PlayerDataManager	0
+2018.07.15 16:33:24.313	Player	0
+2018.07.15 16:33:24.340	TrickleManager	26
+2018.07.15 16:33:24.341	can't find levelarea
+2018.07.15 16:33:24.343	retry: can't find bnet client
+2018.07.15 16:33:24.343	scan started
+2018.07.15 16:33:24.432	header load time: 87
+2018.07.15 16:33:24.433	ObjectManager	0
+2018.07.15 16:33:24.434	AcdContainer	0
+2018.07.15 16:33:24.435	AcdManager	0
+2018.07.15 16:33:24.436	PlayerDataManager	0
+2018.07.15 16:33:24.437	Player	0
+2018.07.15 16:33:24.458	TrickleManager	20
+2018.07.15 16:33:24.460	can't find levelarea
+2018.07.15 16:33:24.461	retry: can't find bnet client
+2018.07.15 16:33:24.462	ERROR: can't find bnet client
+2018.07.15 16:33:24.469	block sanity check failed
+2018.07.15 16:33:24.470	scan started
+2018.07.15 16:33:24.545	header load time: 73
+2018.07.15 16:33:24.546	ObjectManager	0
+2018.07.15 16:33:24.547	AcdContainer	0
+2018.07.15 16:33:24.548	AcdManager	0
+2018.07.15 16:33:24.549	PlayerDataManager	0
+2018.07.15 16:33:24.550	Player	0
+2018.07.15 16:33:24.573	TrickleManager	21
+2018.07.15 16:33:24.574	can't find levelarea
+2018.07.15 16:33:24.575	retry: can't find bnet client
+2018.07.15 16:33:24.576	scan started
+2018.07.15 16:33:24.684	header load time: 106
+2018.07.15 16:33:24.685	ObjectManager	0
+2018.07.15 16:33:24.687	AcdContainer	0
+2018.07.15 16:33:24.688	AcdManager	0
+2018.07.15 16:33:24.688	PlayerDataManager	0
+2018.07.15 16:33:24.689	Player	0
+2018.07.15 16:33:24.712	TrickleManager	21
+2018.07.15 16:33:24.713	can't find levelarea
+2018.07.15 16:33:24.714	retry: can't find bnet client
+2018.07.15 16:33:24.715	ERROR: can't find bnet client
+2018.07.15 16:33:24.723	block sanity check failed
+2018.07.15 16:33:24.724	scan started
+2018.07.15 16:33:24.812	header load time: 87
+2018.07.15 16:33:24.814	ObjectManager	0
+2018.07.15 16:33:24.815	AcdContainer	0
+2018.07.15 16:33:24.816	AcdManager	0
+2018.07.15 16:33:24.817	PlayerDataManager	0
+2018.07.15 16:33:24.818	Player	0
+2018.07.15 16:33:24.841	TrickleManager	21
+2018.07.15 16:33:24.842	can't find levelarea
+2018.07.15 16:33:24.843	retry: can't find bnet client
+2018.07.15 16:33:24.844	scan started
+2018.07.15 16:33:24.916	header load time: 71
+2018.07.15 16:33:24.918	ObjectManager	0
+2018.07.15 16:33:24.919	AcdContainer	0
+2018.07.15 16:33:24.920	AcdManager	0
+2018.07.15 16:33:24.922	PlayerDataManager	0
+2018.07.15 16:33:24.923	Player	0
+2018.07.15 16:33:24.949	TrickleManager	25
+2018.07.15 16:33:24.950	can't find levelarea
+2018.07.15 16:33:24.952	retry: can't find bnet client
+2018.07.15 16:33:24.952	ERROR: can't find bnet client
+2018.07.15 16:33:24.959	block sanity check failed
+2018.07.15 16:33:24.960	scan started
+2018.07.15 16:33:25.073	header load time: 111
+2018.07.15 16:33:25.075	ObjectManager	0
+2018.07.15 16:33:25.075	AcdContainer	0
+2018.07.15 16:33:25.076	AcdManager	0
+2018.07.15 16:33:25.077	PlayerDataManager	0
+2018.07.15 16:33:25.078	Player	0
+2018.07.15 16:33:25.101	TrickleManager	22
+2018.07.15 16:33:25.103	can't find levelarea
+2018.07.15 16:33:25.104	retry: can't find bnet client
+2018.07.15 16:33:25.104	scan started
+2018.07.15 16:33:25.188	header load time: 82
+2018.07.15 16:33:25.190	ObjectManager	0
+2018.07.15 16:33:25.191	AcdContainer	0
+2018.07.15 16:33:25.192	AcdManager	0
+2018.07.15 16:33:25.193	PlayerDataManager	0
+2018.07.15 16:33:25.193	Player	0
+2018.07.15 16:33:25.216	TrickleManager	21
+2018.07.15 16:33:25.217	can't find levelarea
+2018.07.15 16:33:25.219	retry: can't find bnet client
+2018.07.15 16:33:25.219	ERROR: can't find bnet client
+2018.07.15 16:33:25.226	block sanity check failed
+2018.07.15 16:33:25.227	scan started
+2018.07.15 16:33:25.305	header load time: 77
+2018.07.15 16:33:25.307	ObjectManager	0
+2018.07.15 16:33:25.308	AcdContainer	0
+2018.07.15 16:33:25.309	AcdManager	0
+2018.07.15 16:33:25.310	PlayerDataManager	0
+2018.07.15 16:33:25.311	Player	0
+2018.07.15 16:33:25.335	TrickleManager	22
+2018.07.15 16:33:25.336	can't find levelarea
+2018.07.15 16:33:25.337	retry: can't find bnet client
+2018.07.15 16:33:25.338	scan started
+2018.07.15 16:33:25.445	header load time: 106
+2018.07.15 16:33:25.448	ObjectManager	0
+2018.07.15 16:33:25.452	AcdContainer	0
+2018.07.15 16:33:25.453	AcdManager	0
+2018.07.15 16:33:25.454	PlayerDataManager	0
+2018.07.15 16:33:25.455	Player	0
+2018.07.15 16:33:25.476	TrickleManager	20
+2018.07.15 16:33:25.477	can't find levelarea
+2018.07.15 16:33:25.478	retry: can't find bnet client
+2018.07.15 16:33:25.479	ERROR: can't find bnet client
+2018.07.15 16:33:25.487	block sanity check failed
+2018.07.15 16:33:25.488	scan started
+2018.07.15 16:33:25.570	header load time: 81
+2018.07.15 16:33:25.572	ObjectManager	1
+2018.07.15 16:33:25.573	AcdContainer	0
+2018.07.15 16:33:25.574	AcdManager	0
+2018.07.15 16:33:25.575	PlayerDataManager	0
+2018.07.15 16:33:25.576	Player	0
+2018.07.15 16:33:25.602	TrickleManager	25
+2018.07.15 16:33:25.604	can't find levelarea
+2018.07.15 16:33:25.605	retry: can't find bnet client
+2018.07.15 16:33:25.606	scan started
+2018.07.15 16:33:25.680	header load time: 72
+2018.07.15 16:33:25.681	ObjectManager	0
+2018.07.15 16:33:25.685	AcdContainer	0
+2018.07.15 16:33:25.686	AcdManager	0
+2018.07.15 16:33:25.687	PlayerDataManager	0
+2018.07.15 16:33:25.688	Player	0
+2018.07.15 16:33:25.711	TrickleManager	22
+2018.07.15 16:33:25.712	can't find levelarea
+2018.07.15 16:33:25.713	retry: can't find bnet client
+2018.07.15 16:33:25.714	ERROR: can't find bnet client
+2018.07.15 16:33:25.721	block sanity check failed
+2018.07.15 16:33:25.722	scan started
+2018.07.15 16:33:25.832	header load time: 109
+2018.07.15 16:33:25.833	ObjectManager	0
+2018.07.15 16:33:25.834	AcdContainer	0
+2018.07.15 16:33:25.835	AcdManager	0
+2018.07.15 16:33:25.836	PlayerDataManager	0
+2018.07.15 16:33:25.837	Player	0
+2018.07.15 16:33:25.861	TrickleManager	22
+2018.07.15 16:33:25.862	can't find levelarea
+2018.07.15 16:33:25.863	retry: can't find bnet client
+2018.07.15 16:33:25.864	scan started
+2018.07.15 16:33:25.949	header load time: 84
+2018.07.15 16:33:25.951	ObjectManager	0
+2018.07.15 16:33:25.952	AcdContainer	0
+2018.07.15 16:33:25.952	AcdManager	0
+2018.07.15 16:33:25.953	PlayerDataManager	0
+2018.07.15 16:33:25.954	Player	0
+2018.07.15 16:33:25.978	TrickleManager	22
+2018.07.15 16:33:25.979	can't find levelarea
+2018.07.15 16:33:25.980	retry: can't find bnet client
+2018.07.15 16:33:25.981	ERROR: can't find bnet client
+2018.07.15 16:33:25.987	block sanity check failed
+2018.07.15 16:33:25.988	scan started
+2018.07.15 16:33:26.064	header load time: 75
+2018.07.15 16:33:26.066	ObjectManager	0
+2018.07.15 16:33:26.067	AcdContainer	0
+2018.07.15 16:33:26.068	AcdManager	0
+2018.07.15 16:33:26.069	PlayerDataManager	0
+2018.07.15 16:33:26.070	Player	0
+2018.07.15 16:33:26.093	TrickleManager	22
+2018.07.15 16:33:26.094	can't find levelarea
+2018.07.15 16:33:26.095	retry: can't find bnet client
+2018.07.15 16:33:26.096	scan started
+2018.07.15 16:33:26.201	header load time: 103
+2018.07.15 16:33:26.202	ObjectManager	0
+2018.07.15 16:33:26.203	AcdContainer	0
+2018.07.15 16:33:26.204	AcdManager	0
+2018.07.15 16:33:26.205	PlayerDataManager	0
+2018.07.15 16:33:26.206	Player	0
+2018.07.15 16:33:26.230	TrickleManager	22
+2018.07.15 16:33:26.231	can't find levelarea
+2018.07.15 16:33:26.233	retry: can't find bnet client
+2018.07.15 16:33:26.234	ERROR: can't find bnet client
+2018.07.15 16:33:26.243	block sanity check failed
+2018.07.15 16:33:26.245	scan started
+2018.07.15 16:33:26.339	header load time: 93
+2018.07.15 16:33:26.341	ObjectManager	0
+2018.07.15 16:33:26.342	AcdContainer	0
+2018.07.15 16:33:26.343	AcdManager	0
+2018.07.15 16:33:26.345	PlayerDataManager	0
+2018.07.15 16:33:26.346	Player	0
+2018.07.15 16:33:26.370	TrickleManager	23
+2018.07.15 16:33:26.371	can't find levelarea
+2018.07.15 16:33:26.372	retry: can't find bnet client
+2018.07.15 16:33:26.373	scan started
+2018.07.15 16:33:26.453	header load time: 79
+2018.07.15 16:33:26.454	ObjectManager	0
+2018.07.15 16:33:26.455	AcdContainer	0
+2018.07.15 16:33:26.456	AcdManager	0
+2018.07.15 16:33:26.457	PlayerDataManager	0
+2018.07.15 16:33:26.458	Player	0
+2018.07.15 16:33:26.480	TrickleManager	21
+2018.07.15 16:33:26.481	can't find levelarea
+2018.07.15 16:33:26.482	retry: can't find bnet client
+2018.07.15 16:33:26.483	ERROR: can't find bnet client
+2018.07.15 16:33:26.491	block sanity check failed
+2018.07.15 16:33:26.492	scan started
+2018.07.15 16:33:26.597	header load time: 104
+2018.07.15 16:33:26.599	ObjectManager	0
+2018.07.15 16:33:26.600	AcdContainer	0
+2018.07.15 16:33:26.601	AcdManager	0
+2018.07.15 16:33:26.602	PlayerDataManager	0
+2018.07.15 16:33:26.603	Player	0
+2018.07.15 16:33:26.628	TrickleManager	24
+2018.07.15 16:33:26.629	can't find levelarea
+2018.07.15 16:33:26.630	retry: can't find bnet client
+2018.07.15 16:33:26.631	scan started
+2018.07.15 16:33:26.717	header load time: 85
+2018.07.15 16:33:26.719	ObjectManager	0
+2018.07.15 16:33:26.720	AcdContainer	0
+2018.07.15 16:33:26.721	AcdManager	0
+2018.07.15 16:33:26.722	PlayerDataManager	0
+2018.07.15 16:33:26.723	Player	0
+2018.07.15 16:33:26.746	TrickleManager	22
+2018.07.15 16:33:26.747	can't find levelarea
+2018.07.15 16:33:26.749	retry: can't find bnet client
+2018.07.15 16:33:26.749	ERROR: can't find bnet client
+2018.07.15 16:33:26.758	block sanity check failed
+2018.07.15 16:33:26.759	scan started
+2018.07.15 16:33:26.834	header load time: 73
+2018.07.15 16:33:26.835	ObjectManager	0
+2018.07.15 16:33:26.836	AcdContainer	0
+2018.07.15 16:33:26.837	AcdManager	0
+2018.07.15 16:33:26.838	PlayerDataManager	0
+2018.07.15 16:33:26.839	Player	0
+2018.07.15 16:33:26.862	TrickleManager	21
+2018.07.15 16:33:26.863	can't find levelarea
+2018.07.15 16:33:26.864	retry: can't find bnet client
+2018.07.15 16:33:26.865	scan started
+2018.07.15 16:33:26.979	header load time: 113
+2018.07.15 16:33:26.981	ObjectManager	0
+2018.07.15 16:33:26.982	AcdContainer	0
+2018.07.15 16:33:26.982	AcdManager	0
+2018.07.15 16:33:26.983	PlayerDataManager	0
+2018.07.15 16:33:26.984	Player	0
+2018.07.15 16:33:27.008	TrickleManager	23
+2018.07.15 16:33:27.010	can't find levelarea
+2018.07.15 16:33:27.011	retry: can't find bnet client
+2018.07.15 16:33:27.012	ERROR: can't find bnet client
+2018.07.15 16:33:27.018	block sanity check failed
+2018.07.15 16:33:27.019	scan started
+2018.07.15 16:33:27.108	header load time: 88
+2018.07.15 16:33:27.110	ObjectManager	0
+2018.07.15 16:33:27.111	AcdContainer	0
+2018.07.15 16:33:27.112	AcdManager	0
+2018.07.15 16:33:27.113	PlayerDataManager	0
+2018.07.15 16:33:27.114	Player	0
+2018.07.15 16:33:27.136	TrickleManager	21
+2018.07.15 16:33:27.137	can't find levelarea
+2018.07.15 16:33:27.138	retry: can't find bnet client
+2018.07.15 16:33:27.140	scan started
+2018.07.15 16:33:27.215	header load time: 74
+2018.07.15 16:33:27.217	ObjectManager	0
+2018.07.15 16:33:27.218	AcdContainer	0
+2018.07.15 16:33:27.219	AcdManager	0
+2018.07.15 16:33:27.220	PlayerDataManager	0
+2018.07.15 16:33:27.220	Player	0
+2018.07.15 16:33:27.243	TrickleManager	22
+2018.07.15 16:33:27.245	can't find levelarea
+2018.07.15 16:33:27.246	retry: can't find bnet client
+2018.07.15 16:33:27.247	ERROR: can't find bnet client
+2018.07.15 16:33:27.254	block sanity check failed
+2018.07.15 16:33:27.255	scan started
+2018.07.15 16:33:27.358	header load time: 102
+2018.07.15 16:33:27.360	ObjectManager	0
+2018.07.15 16:33:27.361	AcdContainer	0
+2018.07.15 16:33:27.362	AcdManager	0
+2018.07.15 16:33:27.363	PlayerDataManager	0
+2018.07.15 16:33:27.364	Player	0
+2018.07.15 16:33:27.387	TrickleManager	22
+2018.07.15 16:33:27.388	can't find levelarea
+2018.07.15 16:33:27.389	retry: can't find bnet client
+2018.07.15 16:33:27.390	scan started
+2018.07.15 16:33:27.476	header load time: 84
+2018.07.15 16:33:27.478	ObjectManager	1
+2018.07.15 16:33:27.479	AcdContainer	0
+2018.07.15 16:33:27.480	AcdManager	0
+2018.07.15 16:33:27.481	PlayerDataManager	0
+2018.07.15 16:33:27.482	Player	0
+2018.07.15 16:33:27.509	TrickleManager	25
+2018.07.15 16:33:27.510	can't find levelarea
+2018.07.15 16:33:27.511	retry: can't find bnet client
+2018.07.15 16:33:27.512	ERROR: can't find bnet client
+2018.07.15 16:33:27.519	block sanity check failed
+2018.07.15 16:33:27.520	scan started
+2018.07.15 16:33:27.596	header load time: 75
+2018.07.15 16:33:27.598	ObjectManager	0
+2018.07.15 16:33:27.598	AcdContainer	0
+2018.07.15 16:33:27.599	AcdManager	0
+2018.07.15 16:33:27.600	PlayerDataManager	0
+2018.07.15 16:33:27.601	Player	0
+2018.07.15 16:33:27.625	TrickleManager	23
+2018.07.15 16:33:27.626	can't find levelarea
+2018.07.15 16:33:27.628	retry: can't find bnet client
+2018.07.15 16:33:27.629	scan started
+2018.07.15 16:33:27.742	header load time: 112
+2018.07.15 16:33:27.744	ObjectManager	0
+2018.07.15 16:33:27.745	AcdContainer	0
+2018.07.15 16:33:27.746	AcdManager	0
+2018.07.15 16:33:27.747	PlayerDataManager	0
+2018.07.15 16:33:27.748	Player	0
+2018.07.15 16:33:27.773	TrickleManager	23
+2018.07.15 16:33:27.774	can't find levelarea
+2018.07.15 16:33:27.776	retry: can't find bnet client
+2018.07.15 16:33:27.777	ERROR: can't find bnet client
+2018.07.15 16:33:27.784	block sanity check failed
+2018.07.15 16:33:27.785	scan started
+2018.07.15 16:33:27.874	header load time: 87
+2018.07.15 16:33:27.875	ObjectManager	0
+2018.07.15 16:33:27.876	AcdContainer	0
+2018.07.15 16:33:27.877	AcdManager	0
+2018.07.15 16:33:27.878	PlayerDataManager	0
+2018.07.15 16:33:27.879	Player	0
+2018.07.15 16:33:27.903	TrickleManager	22
+2018.07.15 16:33:27.904	can't find levelarea
+2018.07.15 16:33:27.905	retry: can't find bnet client
+2018.07.15 16:33:27.906	scan started
+2018.07.15 16:33:27.982	header load time: 75
+2018.07.15 16:33:27.983	ObjectManager	0
+2018.07.15 16:33:27.984	AcdContainer	0
+2018.07.15 16:33:27.985	AcdManager	0
+2018.07.15 16:33:27.985	PlayerDataManager	0
+2018.07.15 16:33:27.986	Player	0
+2018.07.15 16:33:28.008	TrickleManager	22
+2018.07.15 16:33:28.009	can't find levelarea
+2018.07.15 16:33:28.011	retry: can't find bnet client
+2018.07.15 16:33:28.011	ERROR: can't find bnet client
+2018.07.15 16:33:28.018	block sanity check failed
+2018.07.15 16:33:28.019	scan started
+2018.07.15 16:33:28.131	header load time: 111
+2018.07.15 16:33:28.133	ObjectManager	0
+2018.07.15 16:33:28.134	AcdContainer	0
+2018.07.15 16:33:28.135	AcdManager	0
+2018.07.15 16:33:28.136	PlayerDataManager	0
+2018.07.15 16:33:28.137	Player	0
+2018.07.15 16:33:28.163	TrickleManager	25
+2018.07.15 16:33:28.164	can't find levelarea
+2018.07.15 16:33:28.166	retry: can't find bnet client
+2018.07.15 16:33:28.167	scan started
+2018.07.15 16:33:28.265	header load time: 97
+2018.07.15 16:33:28.267	ObjectManager	0
+2018.07.15 16:33:28.268	AcdContainer	0
+2018.07.15 16:33:28.269	AcdManager	0
+2018.07.15 16:33:28.270	PlayerDataManager	0
+2018.07.15 16:33:28.271	Player	0
+2018.07.15 16:33:28.297	TrickleManager	25
+2018.07.15 16:33:28.299	can't find levelarea
+2018.07.15 16:33:28.300	retry: can't find bnet client
+2018.07.15 16:33:28.301	ERROR: can't find bnet client
+2018.07.15 16:33:28.308	block sanity check failed
+2018.07.15 16:33:28.309	scan started
+2018.07.15 16:33:28.382	header load time: 71
+2018.07.15 16:33:28.384	retry: can't find object manager
+2018.07.15 16:33:28.385	scan started
+2018.07.15 16:33:28.484	header load time: 98
+2018.07.15 16:33:28.485	retry: can't find object manager
+2018.07.15 16:33:28.486	ERROR: can't find object manager
+2018.07.15 16:33:28.494	scan started
+2018.07.15 16:33:28.559	header load time: 63
+2018.07.15 16:33:28.560	retry: can't find object manager
+2018.07.15 16:33:28.561	scan started
+2018.07.15 16:33:28.622	header load time: 60
+2018.07.15 16:33:28.624	retry: can't find object manager
+2018.07.15 16:33:28.624	ERROR: can't find object manager
+2018.07.15 16:33:28.631	scan started
+2018.07.15 16:33:28.710	header load time: 78
+2018.07.15 16:33:28.712	retry: can't find object manager
+2018.07.15 16:33:28.713	scan started
+2018.07.15 16:33:28.777	header load time: 63
+2018.07.15 16:33:28.778	retry: can't find object manager
+2018.07.15 16:33:28.779	ERROR: can't find object manager
+2018.07.15 16:33:28.788	scan started
+2018.07.15 16:33:28.844	header load time: 55
+2018.07.15 16:33:28.845	retry: can't find object manager
+2018.07.15 16:33:28.846	scan started
+2018.07.15 16:33:28.932	header load time: 85
+2018.07.15 16:33:28.934	retry: can't find object manager
+2018.07.15 16:33:28.935	ERROR: can't find object manager
+2018.07.15 16:33:28.942	scan started
+2018.07.15 16:33:29.015	header load time: 71
+2018.07.15 16:33:29.016	retry: can't find object manager
+2018.07.15 16:33:29.017	scan started
+2018.07.15 16:33:29.071	header load time: 52
+2018.07.15 16:33:29.073	ObjectManager	0
+2018.07.15 16:33:29.073	AcdContainer	0
+2018.07.15 16:33:29.074	AcdManager	0
+2018.07.15 16:33:29.075	PlayerDataManager	0
+2018.07.15 16:33:29.076	Player	0
+2018.07.15 16:33:29.099	TrickleManager	22
+2018.07.15 16:33:29.100	can't find levelarea
+2018.07.15 16:33:29.101	retry: can't find bnet client
+2018.07.15 16:33:29.103	ERROR: can't find bnet client
+2018.07.15 16:33:29.110	block sanity check failed
+2018.07.15 16:33:29.111	scan started
+2018.07.15 16:33:29.199	header load time: 86
+2018.07.15 16:33:29.200	ObjectManager	0
+2018.07.15 16:33:29.201	AcdContainer	0
+2018.07.15 16:33:29.203	AcdManager	0
+2018.07.15 16:33:29.204	PlayerDataManager	0
+2018.07.15 16:33:29.205	Player	0
+2018.07.15 16:33:29.228	TrickleManager	22
+2018.07.15 16:33:29.229	can't find levelarea
+2018.07.15 16:33:29.230	retry: can't find bnet client
+2018.07.15 16:33:29.232	scan started
+2018.07.15 16:33:29.310	header load time: 77
+2018.07.15 16:33:29.312	ObjectManager	0
+2018.07.15 16:33:29.312	AcdContainer	0
+2018.07.15 16:33:29.313	AcdManager	0
+2018.07.15 16:33:29.314	PlayerDataManager	0
+2018.07.15 16:33:29.316	Player	0
+2018.07.15 16:33:29.341	TrickleManager	24
+2018.07.15 16:33:29.343	can't find levelarea
+2018.07.15 16:33:29.344	retry: can't find bnet client
+2018.07.15 16:33:29.344	ERROR: can't find bnet client
+2018.07.15 16:33:29.351	block sanity check failed
+2018.07.15 16:33:29.352	scan started
+2018.07.15 16:33:29.423	header load time: 69
+2018.07.15 16:33:29.424	ObjectManager	0
+2018.07.15 16:33:29.425	AcdContainer	0
+2018.07.15 16:33:29.426	AcdManager	0
+2018.07.15 16:33:29.427	PlayerDataManager	0
+2018.07.15 16:33:29.428	Player	0
+2018.07.15 16:33:29.452	TrickleManager	22
+2018.07.15 16:33:29.453	can't find levelarea
+2018.07.15 16:33:29.455	retry: can't find bnet client
+2018.07.15 16:33:29.456	scan started
+2018.07.15 16:33:29.569	header load time: 112
+2018.07.15 16:33:29.571	ObjectManager	0
+2018.07.15 16:33:29.572	AcdContainer	0
+2018.07.15 16:33:29.573	AcdManager	0
+2018.07.15 16:33:29.574	PlayerDataManager	0
+2018.07.15 16:33:29.574	Player	0
+2018.07.15 16:33:29.596	TrickleManager	20
+2018.07.15 16:33:29.597	can't find levelarea
+2018.07.15 16:33:29.598	retry: can't find bnet client
+2018.07.15 16:33:29.599	ERROR: can't find bnet client
+2018.07.15 16:33:29.606	block sanity check failed
+2018.07.15 16:33:29.607	scan started
+2018.07.15 16:33:29.706	header load time: 98
+2018.07.15 16:33:29.708	ObjectManager	0
+2018.07.15 16:33:29.710	AcdContainer	0
+2018.07.15 16:33:29.711	AcdManager	0
+2018.07.15 16:33:29.712	PlayerDataManager	0
+2018.07.15 16:33:29.713	Player	0
+2018.07.15 16:33:29.736	TrickleManager	22
+2018.07.15 16:33:29.738	can't find levelarea
+2018.07.15 16:33:29.739	retry: can't find bnet client
+2018.07.15 16:33:29.740	scan started
+2018.07.15 16:33:29.823	header load time: 79
+2018.07.15 16:33:29.826	ObjectManager	0
+2018.07.15 16:33:29.827	AcdContainer	0
+2018.07.15 16:33:29.827	AcdManager	0
+2018.07.15 16:33:29.828	PlayerDataManager	0
+2018.07.15 16:33:29.829	Player	0
+2018.07.15 16:33:29.856	TrickleManager	25
+2018.07.15 16:33:29.857	can't find levelarea
+2018.07.15 16:33:29.858	retry: can't find bnet client
+2018.07.15 16:33:29.858	ERROR: can't find bnet client
+2018.07.15 16:33:29.865	block sanity check failed
+2018.07.15 16:33:29.866	scan started
+2018.07.15 16:33:29.976	header load time: 109
+2018.07.15 16:33:29.978	ObjectManager	0
+2018.07.15 16:33:29.979	AcdContainer	0
+2018.07.15 16:33:29.979	AcdManager	0
+2018.07.15 16:33:29.980	PlayerDataManager	0
+2018.07.15 16:33:29.981	Player	0
+2018.07.15 16:33:30.004	TrickleManager	22
+2018.07.15 16:33:30.005	can't find levelarea
+2018.07.15 16:33:30.006	retry: can't find bnet client
+2018.07.15 16:33:30.007	scan started
+2018.07.15 16:33:30.091	header load time: 82
+2018.07.15 16:33:30.092	ObjectManager	0
+2018.07.15 16:33:30.093	AcdContainer	0
+2018.07.15 16:33:30.094	AcdManager	0
+2018.07.15 16:33:30.095	PlayerDataManager	0
+2018.07.15 16:33:30.096	Player	0
+2018.07.15 16:33:30.120	TrickleManager	23
+2018.07.15 16:33:30.122	can't find levelarea
+2018.07.15 16:33:30.123	retry: can't find bnet client
+2018.07.15 16:33:30.123	ERROR: can't find bnet client
+2018.07.15 16:33:30.130	block sanity check failed
+2018.07.15 16:33:30.131	scan started
+2018.07.15 16:33:30.205	header load time: 72
+2018.07.15 16:33:30.206	ObjectManager	0
+2018.07.15 16:33:30.207	AcdContainer	0
+2018.07.15 16:33:30.208	AcdManager	0
+2018.07.15 16:33:30.210	PlayerDataManager	0
+2018.07.15 16:33:30.211	Player	0
+2018.07.15 16:33:30.235	TrickleManager	22
+2018.07.15 16:33:30.236	can't find levelarea
+2018.07.15 16:33:30.237	retry: can't find bnet client
+2018.07.15 16:33:30.238	scan started
+2018.07.15 16:33:30.343	header load time: 104
+2018.07.15 16:33:30.344	ObjectManager	0
+2018.07.15 16:33:30.345	AcdContainer	0
+2018.07.15 16:33:30.346	AcdManager	0
+2018.07.15 16:33:30.347	PlayerDataManager	0
+2018.07.15 16:33:30.348	Player	0
+2018.07.15 16:33:30.374	TrickleManager	25
+2018.07.15 16:33:30.375	can't find levelarea
+2018.07.15 16:33:30.377	retry: can't find bnet client
+2018.07.15 16:33:30.378	ERROR: can't find bnet client
+2018.07.15 16:33:30.384	block sanity check failed
+2018.07.15 16:33:30.386	scan started
+2018.07.15 16:33:30.479	header load time: 92
+2018.07.15 16:33:30.481	ObjectManager	0
+2018.07.15 16:33:30.482	AcdContainer	0
+2018.07.15 16:33:30.483	AcdManager	0
+2018.07.15 16:33:30.485	PlayerDataManager	0
+2018.07.15 16:33:30.486	Player	0
+2018.07.15 16:33:30.511	TrickleManager	24
+2018.07.15 16:33:30.512	can't find levelarea
+2018.07.15 16:33:30.513	retry: can't find bnet client
+2018.07.15 16:33:30.514	scan started
+2018.07.15 16:33:30.593	header load time: 78
+2018.07.15 16:33:30.594	ObjectManager	0
+2018.07.15 16:33:30.595	AcdContainer	0
+2018.07.15 16:33:30.596	AcdManager	0
+2018.07.15 16:33:30.597	PlayerDataManager	0
+2018.07.15 16:33:30.598	Player	0
+2018.07.15 16:33:30.624	TrickleManager	25
+2018.07.15 16:33:30.626	can't find levelarea
+2018.07.15 16:33:30.627	retry: can't find bnet client
+2018.07.15 16:33:30.628	ERROR: can't find bnet client
+2018.07.15 16:33:30.635	block sanity check failed
+2018.07.15 16:33:30.636	scan started
+2018.07.15 16:33:30.747	header load time: 109
+2018.07.15 16:33:30.750	ObjectManager	0
+2018.07.15 16:33:30.751	AcdContainer	0
+2018.07.15 16:33:30.752	AcdManager	0
+2018.07.15 16:33:30.753	PlayerDataManager	0
+2018.07.15 16:33:30.754	Player	0
+2018.07.15 16:33:30.780	TrickleManager	24
+2018.07.15 16:33:30.781	can't find levelarea
+2018.07.15 16:33:30.782	retry: can't find bnet client
+2018.07.15 16:33:30.783	scan started
+2018.07.15 16:33:30.868	header load time: 84
+2018.07.15 16:33:30.870	ObjectManager	0
+2018.07.15 16:33:30.870	AcdContainer	0
+2018.07.15 16:33:30.871	AcdManager	0
+2018.07.15 16:33:30.872	PlayerDataManager	0
+2018.07.15 16:33:30.873	Player	0
+2018.07.15 16:33:30.895	TrickleManager	21
+2018.07.15 16:33:30.896	can't find levelarea
+2018.07.15 16:33:30.898	retry: can't find bnet client
+2018.07.15 16:33:30.899	ERROR: can't find bnet client
+2018.07.15 16:33:30.909	block sanity check failed
+2018.07.15 16:33:30.910	scan started
+2018.07.15 16:33:30.985	header load time: 74
+2018.07.15 16:33:30.990	ObjectManager	0
+2018.07.15 16:33:30.991	AcdContainer	0
+2018.07.15 16:33:30.992	AcdManager	0
+2018.07.15 16:33:30.992	PlayerDataManager	0
+2018.07.15 16:33:30.993	Player	0
+2018.07.15 16:33:31.017	TrickleManager	22
+2018.07.15 16:33:31.018	can't find levelarea
+2018.07.15 16:33:31.019	retry: can't find bnet client
+2018.07.15 16:33:31.020	scan started
+2018.07.15 16:33:31.130	header load time: 108
+2018.07.15 16:33:31.131	ObjectManager	0
+2018.07.15 16:33:31.132	AcdContainer	0
+2018.07.15 16:33:31.133	AcdManager	0
+2018.07.15 16:33:31.134	PlayerDataManager	0
+2018.07.15 16:33:31.135	Player	0
+2018.07.15 16:33:31.158	TrickleManager	22
+2018.07.15 16:33:31.159	can't find levelarea
+2018.07.15 16:33:31.160	retry: can't find bnet client
+2018.07.15 16:33:31.161	ERROR: can't find bnet client
+2018.07.15 16:33:31.168	block sanity check failed
+2018.07.15 16:33:31.169	scan started
+2018.07.15 16:33:31.260	header load time: 90
+2018.07.15 16:33:31.261	ObjectManager	0
+2018.07.15 16:33:31.262	AcdContainer	0
+2018.07.15 16:33:31.264	AcdManager	0
+2018.07.15 16:33:31.265	PlayerDataManager	0
+2018.07.15 16:33:31.266	Player	0
+2018.07.15 16:33:31.288	TrickleManager	21
+2018.07.15 16:33:31.289	can't find levelarea
+2018.07.15 16:33:31.290	retry: can't find bnet client
+2018.07.15 16:33:31.291	scan started
+2018.07.15 16:33:31.363	header load time: 71
+2018.07.15 16:33:31.365	ObjectManager	0
+2018.07.15 16:33:31.366	AcdContainer	0
+2018.07.15 16:33:31.367	AcdManager	0
+2018.07.15 16:33:31.368	PlayerDataManager	0
+2018.07.15 16:33:31.369	Player	0
+2018.07.15 16:33:31.391	TrickleManager	21
+2018.07.15 16:33:31.392	can't find levelarea
+2018.07.15 16:33:31.393	retry: can't find bnet client
+2018.07.15 16:33:31.394	ERROR: can't find bnet client
+2018.07.15 16:33:31.400	block sanity check failed
+2018.07.15 16:33:31.402	scan started
+2018.07.15 16:33:31.476	header load time: 73
+2018.07.15 16:33:31.478	ObjectManager	0
+2018.07.15 16:33:31.479	AcdContainer	0
+2018.07.15 16:33:31.480	AcdManager	0
+2018.07.15 16:33:31.481	PlayerDataManager	0
+2018.07.15 16:33:31.482	Player	0
+2018.07.15 16:33:31.505	TrickleManager	21
+2018.07.15 16:33:31.506	can't find levelarea
+2018.07.15 16:33:31.507	retry: can't find bnet client
+2018.07.15 16:33:31.508	scan started
+2018.07.15 16:33:31.586	header load time: 76
+2018.07.15 16:33:31.587	ObjectManager	0
+2018.07.15 16:33:31.588	AcdContainer	0
+2018.07.15 16:33:31.589	AcdManager	0
+2018.07.15 16:33:31.590	PlayerDataManager	0
+2018.07.15 16:33:31.591	Player	0
+2018.07.15 16:33:31.616	TrickleManager	23
+2018.07.15 16:33:31.617	can't find levelarea
+2018.07.15 16:33:31.618	retry: can't find bnet client
+2018.07.15 16:33:31.620	ERROR: can't find bnet client
+2018.07.15 16:33:31.627	block sanity check failed
+2018.07.15 16:33:31.628	scan started
+2018.07.15 16:33:31.704	header load time: 75
+2018.07.15 16:33:31.705	ObjectManager	0
+2018.07.15 16:33:31.706	AcdContainer	0
+2018.07.15 16:33:31.707	AcdManager	0
+2018.07.15 16:33:31.707	PlayerDataManager	0
+2018.07.15 16:33:31.708	Player	0
+2018.07.15 16:33:31.731	TrickleManager	21
+2018.07.15 16:33:31.732	can't find levelarea
+2018.07.15 16:33:31.733	retry: can't find bnet client
+2018.07.15 16:33:31.737	scan started
+2018.07.15 16:33:31.814	header load time: 75
+2018.07.15 16:33:31.816	ObjectManager	0
+2018.07.15 16:33:31.816	AcdContainer	0
+2018.07.15 16:33:31.818	AcdManager	0
+2018.07.15 16:33:31.819	PlayerDataManager	0
+2018.07.15 16:33:31.820	Player	0
+2018.07.15 16:33:31.846	TrickleManager	25
+2018.07.15 16:33:31.847	can't find levelarea
+2018.07.15 16:33:31.848	retry: can't find bnet client
+2018.07.15 16:33:31.849	ERROR: can't find bnet client
+2018.07.15 16:33:31.856	block sanity check failed
+2018.07.15 16:33:31.857	scan started
+2018.07.15 16:33:31.999	header load time: 141
+2018.07.15 16:33:32.001	ObjectManager	0
+2018.07.15 16:33:32.002	AcdContainer	0
+2018.07.15 16:33:32.003	AcdManager	0
+2018.07.15 16:33:32.005	PlayerDataManager	0
+2018.07.15 16:33:32.006	Player	0
+2018.07.15 16:33:32.030	TrickleManager	22
+2018.07.15 16:33:32.031	can't find levelarea
+2018.07.15 16:33:32.032	retry: can't find bnet client
+2018.07.15 16:33:32.033	scan started
+2018.07.15 16:33:32.123	header load time: 88
+2018.07.15 16:33:32.124	ObjectManager	0
+2018.07.15 16:33:32.126	AcdContainer	0
+2018.07.15 16:33:32.127	AcdManager	0
+2018.07.15 16:33:32.128	PlayerDataManager	0
+2018.07.15 16:33:32.129	Player	0
+2018.07.15 16:33:32.154	TrickleManager	24
+2018.07.15 16:33:32.155	can't find levelarea
+2018.07.15 16:33:32.156	retry: can't find bnet client
+2018.07.15 16:33:32.157	ERROR: can't find bnet client
+2018.07.15 16:33:32.164	block sanity check failed
+2018.07.15 16:33:32.165	scan started
+2018.07.15 16:33:32.240	header load time: 73
+2018.07.15 16:33:32.242	ObjectManager	0
+2018.07.15 16:33:32.243	AcdContainer	0
+2018.07.15 16:33:32.244	AcdManager	0
+2018.07.15 16:33:32.247	PlayerDataManager	0
+2018.07.15 16:33:32.248	Player	0
+2018.07.15 16:33:32.271	TrickleManager	22
+2018.07.15 16:33:32.272	can't find levelarea
+2018.07.15 16:33:32.273	retry: can't find bnet client
+2018.07.15 16:33:32.274	scan started
+2018.07.15 16:33:32.389	header load time: 114
+2018.07.15 16:33:32.391	ObjectManager	0
+2018.07.15 16:33:32.392	AcdContainer	0
+2018.07.15 16:33:32.393	AcdManager	0
+2018.07.15 16:33:32.393	PlayerDataManager	0
+2018.07.15 16:33:32.394	Player	0
+2018.07.15 16:33:32.420	TrickleManager	24
+2018.07.15 16:33:32.421	can't find levelarea
+2018.07.15 16:33:32.422	retry: can't find bnet client
+2018.07.15 16:33:32.423	ERROR: can't find bnet client
+2018.07.15 16:33:32.431	block sanity check failed
+2018.07.15 16:33:32.432	scan started
+2018.07.15 16:33:32.519	header load time: 86
+2018.07.15 16:33:32.521	ObjectManager	0
+2018.07.15 16:33:32.522	AcdContainer	0
+2018.07.15 16:33:32.523	AcdManager	0
+2018.07.15 16:33:32.524	PlayerDataManager	0
+2018.07.15 16:33:32.525	Player	0
+2018.07.15 16:33:32.552	TrickleManager	26
+2018.07.15 16:33:32.554	can't find levelarea
+2018.07.15 16:33:32.555	retry: can't find bnet client
+2018.07.15 16:33:32.555	scan started
+2018.07.15 16:33:32.624	header load time: 67
+2018.07.15 16:33:32.625	ObjectManager	0
+2018.07.15 16:33:32.626	AcdContainer	0
+2018.07.15 16:33:32.627	AcdManager	0
+2018.07.15 16:33:32.627	PlayerDataManager	0
+2018.07.15 16:33:32.629	Player	0
+2018.07.15 16:33:32.657	TrickleManager	26
+2018.07.15 16:33:32.658	can't find levelarea
+2018.07.15 16:33:32.659	retry: can't find bnet client
+2018.07.15 16:33:32.660	ERROR: can't find bnet client
+2018.07.15 16:33:32.667	block sanity check failed
+2018.07.15 16:33:32.668	scan started
+2018.07.15 16:33:32.766	header load time: 97
+2018.07.15 16:33:32.768	retry: can't find object manager
+2018.07.15 16:33:32.769	scan started
+2018.07.15 16:33:32.844	header load time: 73
+2018.07.15 16:33:32.845	retry: can't find object manager
+2018.07.15 16:33:32.846	ERROR: can't find object manager
+2018.07.15 16:33:32.853	scan started
+2018.07.15 16:33:32.949	header load time: 95
+2018.07.15 16:33:32.950	retry: can't find object manager
+2018.07.15 16:33:32.951	scan started
+2018.07.15 16:33:33.038	header load time: 85
+2018.07.15 16:33:33.039	retry: can't find object manager
+2018.07.15 16:33:33.040	ERROR: can't find object manager
+2018.07.15 16:34:15.787	scan started
+2018.07.15 16:34:15.923	header load time: 131
+2018.07.15 16:34:15.933	ObjectManager	9
+2018.07.15 16:34:15.937	AcdContainer	3
+2018.07.15 16:34:15.940	AcdManager	1
+2018.07.15 16:34:15.941	PlayerDataManager	0
+2018.07.15 16:34:15.943	Player	0
+2018.07.15 16:34:15.945	TrickleManager	1
+2018.07.15 16:34:15.948	LevelArea	1
+2018.07.15 16:34:15.950	BattleNetClient	1
+2018.07.15 16:34:15.952	GameState	0
+2018.07.15 16:34:15.953	scan finished in 29 ms
+2018.07.15 16:35:05.648	scan started
+2018.07.15 16:35:05.781	header load time: 128
+2018.07.15 16:35:05.792	ObjectManager	10
+2018.07.15 16:35:05.797	AcdContainer	3
+2018.07.15 16:35:05.799	AcdManager	1
+2018.07.15 16:35:05.800	PlayerDataManager	0
+2018.07.15 16:35:05.802	Player	0
+2018.07.15 16:35:05.804	TrickleManager	1
+2018.07.15 16:35:05.807	LevelArea	1
+2018.07.15 16:35:05.809	BattleNetClient	1
+2018.07.15 16:35:05.810	GameState	0
+2018.07.15 16:35:05.811	scan finished in 29 ms
+2018.07.15 16:37:34.446	scan started
+2018.07.15 16:37:34.582	header load time: 132
+2018.07.15 16:37:34.594	ObjectManager	9
+2018.07.15 16:37:34.599	AcdContainer	4
+2018.07.15 16:37:34.602	AcdManager	1
+2018.07.15 16:37:34.603	PlayerDataManager	0
+2018.07.15 16:37:34.605	Player	0
+2018.07.15 16:37:34.608	TrickleManager	1
+2018.07.15 16:37:34.611	LevelArea	2
+2018.07.15 16:37:34.613	BattleNetClient	1
+2018.07.15 16:37:34.615	GameState	0
+2018.07.15 16:37:34.617	scan finished in 33 ms
+2018.07.15 16:40:00.332	scan started
+2018.07.15 16:40:00.467	header load time: 130
+2018.07.15 16:40:00.477	ObjectManager	8
+2018.07.15 16:40:00.482	AcdContainer	3
+2018.07.15 16:40:00.485	AcdManager	1
+2018.07.15 16:40:00.487	PlayerDataManager	0
+2018.07.15 16:40:00.488	Player	0
+2018.07.15 16:40:00.490	TrickleManager	1
+2018.07.15 16:40:00.492	LevelArea	1
+2018.07.15 16:40:00.494	BattleNetClient	1
+2018.07.15 16:40:00.496	GameState	0
+2018.07.15 16:40:00.497	scan finished in 28 ms
+2018.07.15 16:40:35.856	scan started
+2018.07.15 16:40:36.003	header load time: 143
+2018.07.15 16:40:36.017	ObjectManager	12
+2018.07.15 16:40:36.023	AcdContainer	5
+2018.07.15 16:40:36.026	AcdManager	1
+2018.07.15 16:40:36.028	PlayerDataManager	0
+2018.07.15 16:40:36.029	Player	0
+2018.07.15 16:40:36.031	TrickleManager	1
+2018.07.15 16:40:36.035	LevelArea	2
+2018.07.15 16:40:36.038	BattleNetClient	1
+2018.07.15 16:40:36.040	GameState	0
+2018.07.15 16:40:36.042	scan finished in 37 ms
+2018.07.15 16:52:03.209	scan started
+2018.07.15 16:52:03.605	header load time: 390
+2018.07.15 16:52:03.616	ObjectManager	9
+2018.07.15 16:52:03.621	AcdContainer	3
+2018.07.15 16:52:03.623	AcdManager	1
+2018.07.15 16:52:03.625	PlayerDataManager	0
+2018.07.15 16:52:03.627	Player	0
+2018.07.15 16:52:03.630	TrickleManager	1
+2018.07.15 16:52:03.632	LevelArea	1
+2018.07.15 16:52:03.635	BattleNetClient	1
+2018.07.15 16:52:03.637	GameState	1
+2018.07.15 16:52:03.639	scan finished in 31 ms
+2018.07.15 16:54:34.373	scan started
+2018.07.15 16:54:34.518	header load time: 141
+2018.07.15 16:54:34.529	ObjectManager	10
+2018.07.15 16:54:34.534	AcdContainer	3
+2018.07.15 16:54:34.536	AcdManager	1
+2018.07.15 16:54:34.538	PlayerDataManager	0
+2018.07.15 16:54:34.540	Player	0
+2018.07.15 16:54:34.542	TrickleManager	1
+2018.07.15 16:54:34.545	LevelArea	1
+2018.07.15 16:54:34.550	BattleNetClient	1
+2018.07.15 16:54:34.552	GameState	1
+2018.07.15 16:54:34.553	scan finished in 34 ms
+2018.07.15 17:00:28.484	scan started
+2018.07.15 17:00:28.624	header load time: 135
+2018.07.15 17:00:28.637	ObjectManager	11
+2018.07.15 17:00:28.642	AcdContainer	4
+2018.07.15 17:00:28.645	AcdManager	1
+2018.07.15 17:00:28.647	PlayerDataManager	0
+2018.07.15 17:00:28.648	Player	0
+2018.07.15 17:00:28.651	TrickleManager	1
+2018.07.15 17:00:28.654	LevelArea	1
+2018.07.15 17:00:28.656	BattleNetClient	1
+2018.07.15 17:00:28.659	GameState	1
+2018.07.15 17:00:28.660	scan finished in 34 ms
+2018.07.15 17:01:06.498	scan started
+2018.07.15 17:01:06.640	header load time: 137
+2018.07.15 17:01:06.652	ObjectManager	10
+2018.07.15 17:01:06.657	AcdContainer	3
+2018.07.15 17:01:06.660	AcdManager	1
+2018.07.15 17:01:06.661	PlayerDataManager	0
+2018.07.15 17:01:06.663	Player	0
+2018.07.15 17:01:06.666	TrickleManager	1
+2018.07.15 17:01:06.669	LevelArea	1
+2018.07.15 17:01:06.671	BattleNetClient	1
+2018.07.15 17:01:06.673	GameState	0
+2018.07.15 17:01:06.674	scan finished in 32 ms
+2018.07.15 17:03:58.491	scan started
+2018.07.15 17:03:58.685	header load time: 187
+2018.07.15 17:03:58.698	ObjectManager	11
+2018.07.15 17:03:58.705	AcdContainer	5
+2018.07.15 17:03:58.708	AcdManager	2
+2018.07.15 17:03:58.710	PlayerDataManager	0
+2018.07.15 17:03:58.712	Player	0
+2018.07.15 17:03:58.716	TrickleManager	2
+2018.07.15 17:03:58.721	LevelArea	2
+2018.07.15 17:03:58.724	BattleNetClient	1
+2018.07.15 17:03:58.726	GameState	0
+2018.07.15 17:03:58.727	scan finished in 41 ms
+2018.07.15 17:05:45.634	scan started
+2018.07.15 17:05:45.810	header load time: 169
+2018.07.15 17:05:45.827	ObjectManager	14
+2018.07.15 17:05:45.832	AcdContainer	4
+2018.07.15 17:05:45.835	AcdManager	1
+2018.07.15 17:05:45.837	PlayerDataManager	0
+2018.07.15 17:05:45.838	Player	0
+2018.07.15 17:05:45.841	TrickleManager	1
+2018.07.15 17:05:45.844	LevelArea	1
+2018.07.15 17:05:45.846	BattleNetClient	1
+2018.07.15 17:05:45.849	GameState	1
+2018.07.15 17:05:45.850	scan finished in 37 ms
+2018.07.15 17:07:24.789	scan started
+2018.07.15 17:07:24.932	header load time: 137
+2018.07.15 17:07:24.945	ObjectManager	11
+2018.07.15 17:07:24.952	AcdContainer	5
+2018.07.15 17:07:24.956	AcdManager	2
+2018.07.15 17:07:24.958	PlayerDataManager	0
+2018.07.15 17:07:24.959	Player	0
+2018.07.15 17:07:24.962	TrickleManager	1
+2018.07.15 17:07:24.965	LevelArea	1
+2018.07.15 17:07:24.968	BattleNetClient	1
+2018.07.15 17:07:24.971	GameState	1
+2018.07.15 17:07:24.972	scan finished in 38 ms
+2018.07.15 17:17:34.547	scan started
+2018.07.15 17:17:34.707	header load time: 156
+2018.07.15 17:17:34.718	ObjectManager	10
+2018.07.15 17:17:34.725	AcdContainer	4
+2018.07.15 17:17:34.728	AcdManager	1
+2018.07.15 17:17:34.730	PlayerDataManager	1
+2018.07.15 17:17:34.732	Player	0
+2018.07.15 17:17:34.736	TrickleManager	1
+2018.07.15 17:17:34.740	LevelArea	2
+2018.07.15 17:17:34.744	BattleNetClient	2
+2018.07.15 17:17:34.747	GameState	1
+2018.07.15 17:17:34.748	scan finished in 40 ms
+2018.07.15 17:18:06.387	scan started
+2018.07.15 17:18:06.571	header load time: 179
+2018.07.15 17:18:06.587	ObjectManager	15
+2018.07.15 17:18:06.595	AcdContainer	5
+2018.07.15 17:18:06.600	AcdManager	3
+2018.07.15 17:18:06.603	PlayerDataManager	1
+2018.07.15 17:18:06.605	Player	0
+2018.07.15 17:18:06.608	TrickleManager	1
+2018.07.15 17:18:06.612	LevelArea	2
+2018.07.15 17:18:06.616	BattleNetClient	2
+2018.07.15 17:18:06.619	GameState	1
+2018.07.15 17:18:06.620	scan finished in 47 ms
+2018.07.15 17:18:23.302	scan started
+2018.07.15 17:18:23.456	header load time: 149
+2018.07.15 17:18:23.468	ObjectManager	10
+2018.07.15 17:18:23.474	AcdContainer	4
+2018.07.15 17:18:23.477	AcdManager	1
+2018.07.15 17:18:23.479	PlayerDataManager	0
+2018.07.15 17:18:23.481	Player	0
+2018.07.15 17:18:23.484	TrickleManager	1
+2018.07.15 17:18:23.489	LevelArea	2
+2018.07.15 17:18:23.492	BattleNetClient	1
+2018.07.15 17:18:23.494	GameState	1
+2018.07.15 17:18:23.496	scan finished in 38 ms
+2018.07.15 17:19:42.381	scan started
+2018.07.15 17:19:42.560	header load time: 174
+2018.07.15 17:19:42.577	ObjectManager	14
+2018.07.15 17:19:42.582	AcdContainer	4
+2018.07.15 17:19:42.585	AcdManager	1
+2018.07.15 17:19:42.587	PlayerDataManager	0
+2018.07.15 17:19:42.589	Player	0
+2018.07.15 17:19:42.592	TrickleManager	1
+2018.07.15 17:19:42.597	LevelArea	2
+2018.07.15 17:19:42.600	BattleNetClient	2
+2018.07.15 17:19:42.603	GameState	1
+2018.07.15 17:19:42.605	scan finished in 42 ms
+2018.07.15 17:21:08.555	scan started
+2018.07.15 17:21:08.711	header load time: 151
+2018.07.15 17:21:08.724	ObjectManager	11
+2018.07.15 17:21:08.731	AcdContainer	4
+2018.07.15 17:21:08.733	AcdManager	1
+2018.07.15 17:21:08.735	PlayerDataManager	0
+2018.07.15 17:21:08.736	Player	0
+2018.07.15 17:21:08.740	TrickleManager	1
+2018.07.15 17:21:08.743	LevelArea	2
+2018.07.15 17:21:08.747	BattleNetClient	1
+2018.07.15 17:21:08.749	GameState	1
+2018.07.15 17:21:08.750	scan finished in 38 ms
+2018.07.15 17:22:08.418	scan started
+2018.07.15 17:22:08.599	header load time: 174
+2018.07.15 17:22:08.610	ObjectManager	9
+2018.07.15 17:22:08.615	AcdContainer	3
+2018.07.15 17:22:08.618	AcdManager	2
+2018.07.15 17:22:08.620	PlayerDataManager	0
+2018.07.15 17:22:08.621	Player	0
+2018.07.15 17:22:08.624	TrickleManager	1
+2018.07.15 17:22:08.626	LevelArea	1
+2018.07.15 17:22:08.629	BattleNetClient	1
+2018.07.15 17:22:08.632	GameState	1
+2018.07.15 17:22:08.633	scan finished in 32 ms
+2018.07.15 18:07:52.601	block sanity check failed
+2018.07.15 18:07:52.602	scan started
+2018.07.15 18:07:52.704	header load time: 100
+2018.07.15 18:07:52.705	retry: can't find object manager
+2018.07.15 18:07:52.706	scan started
+2018.07.15 18:07:52.781	header load time: 74
+2018.07.15 18:07:52.782	retry: can't find object manager
+2018.07.15 18:07:52.782	ERROR: can't find object manager
+2018.07.15 18:07:52.789	scan started
+2018.07.15 18:07:52.896	header load time: 106
+2018.07.15 18:07:52.897	retry: can't find object manager
+2018.07.15 18:07:52.898	scan started
+2018.07.15 18:07:52.984	header load time: 85
+2018.07.15 18:07:52.985	retry: can't find object manager
+2018.07.15 18:07:52.986	ERROR: can't find object manager
+2018.07.15 18:07:52.993	scan started
+2018.07.15 18:07:53.051	header load time: 57
+2018.07.15 18:07:53.052	retry: can't find object manager
+2018.07.15 18:07:53.053	scan started
+2018.07.15 18:07:53.150	header load time: 96
+2018.07.15 18:07:53.151	retry: can't find object manager
+2018.07.15 18:07:53.152	ERROR: can't find object manager
+2018.07.15 18:07:53.159	scan started
+2018.07.15 18:07:53.228	header load time: 68
+2018.07.15 18:07:53.229	retry: can't find object manager
+2018.07.15 18:07:53.230	scan started
+2018.07.15 18:07:53.295	header load time: 64
+2018.07.15 18:07:53.296	retry: can't find object manager
+2018.07.15 18:07:53.297	ERROR: can't find object manager
+2018.07.15 18:07:53.304	scan started
+2018.07.15 18:07:53.420	header load time: 115
+2018.07.15 18:07:53.421	retry: can't find object manager
+2018.07.15 18:07:53.422	scan started
+2018.07.15 18:07:53.504	header load time: 80
+2018.07.15 18:07:53.505	retry: can't find object manager
+2018.07.15 18:07:53.505	ERROR: can't find object manager
+2018.07.15 18:07:53.512	scan started
+2018.07.15 18:07:53.573	header load time: 59
+2018.07.15 18:07:53.574	ObjectManager	0
+2018.07.15 18:07:53.575	AcdContainer	0
+2018.07.15 18:07:53.576	AcdManager	0
+2018.07.15 18:07:53.577	PlayerDataManager	0
+2018.07.15 18:07:53.577	Player	0
+2018.07.15 18:07:53.578	TrickleManager	0
+2018.07.15 18:07:53.579	can't find levelarea
+2018.07.15 18:07:53.579	BattleNetClient	0
+2018.07.15 18:07:53.580	GameState	0
+2018.07.15 18:07:53.581	scan finished in 6 ms
+2018.07.15 18:08:14.432	block sanity check failed
+2018.07.15 18:08:14.433	block sanity check failed
+2018.07.15 18:08:14.434	scan started
+2018.07.15 18:08:14.562	header load time: 127
+2018.07.15 18:08:14.563	retry: can't find object manager
+2018.07.15 18:08:14.564	scan started
+2018.07.15 18:08:14.653	header load time: 88
+2018.07.15 18:08:14.654	retry: can't find object manager
+2018.07.15 18:08:14.655	ERROR: can't find object manager
+2018.07.15 18:08:14.664	scan started
+2018.07.15 18:08:14.743	header load time: 77
+2018.07.15 18:08:14.744	retry: can't find object manager
+2018.07.15 18:08:14.744	scan started
+2018.07.15 18:08:14.852	header load time: 107
+2018.07.15 18:08:14.853	retry: can't find object manager
+2018.07.15 18:08:14.854	ERROR: can't find object manager
+2018.07.15 18:08:14.861	scan started
+2018.07.15 18:08:14.954	header load time: 92
+2018.07.15 18:08:14.955	retry: can't find object manager
+2018.07.15 18:08:14.956	scan started
+2018.07.15 18:08:15.046	header load time: 88
+2018.07.15 18:08:15.047	retry: can't find object manager
+2018.07.15 18:08:15.048	ERROR: can't find object manager
+2018.07.15 18:08:15.056	scan started
+2018.07.15 18:08:15.174	header load time: 117
+2018.07.15 18:08:15.175	ObjectManager	0
+2018.07.15 18:08:15.176	AcdContainer	0
+2018.07.15 18:08:15.178	AcdManager	0
+2018.07.15 18:08:15.179	PlayerDataManager	0
+2018.07.15 18:08:15.180	Player	0
+2018.07.15 18:08:15.181	TrickleManager	0
+2018.07.15 18:08:15.182	can't find levelarea
+2018.07.15 18:08:15.183	BattleNetClient	0
+2018.07.15 18:08:15.185	GameState	0
+2018.07.15 18:08:15.187	scan finished in 11 ms
+2018.07.15 18:08:25.009	scan due to missing LevelAreaAddress
+2018.07.15 18:08:25.010	scan started
+2018.07.15 18:08:25.140	header load time: 128
+2018.07.15 18:08:25.142	ObjectManager	0
+2018.07.15 18:08:25.143	AcdContainer	0
+2018.07.15 18:08:25.144	AcdManager	0
+2018.07.15 18:08:25.144	PlayerDataManager	0
+2018.07.15 18:08:25.145	Player	0
+2018.07.15 18:08:25.146	TrickleManager	0
+2018.07.15 18:08:25.148	LevelArea	0
+2018.07.15 18:08:25.148	BattleNetClient	0
+2018.07.15 18:08:25.149	GameState	0
+2018.07.15 18:08:25.150	scan finished in 8 ms
+2018.07.15 18:57:15.124	scan started
+2018.07.15 18:57:15.423	header load time: 294
+2018.07.15 18:57:15.434	ObjectManager	10
+2018.07.15 18:57:15.439	AcdContainer	4
+2018.07.15 18:57:15.442	AcdManager	1
+2018.07.15 18:57:15.444	PlayerDataManager	0
+2018.07.15 18:57:15.445	Player	0
+2018.07.15 18:57:15.448	TrickleManager	1
+2018.07.15 18:57:15.452	LevelArea	2
+2018.07.15 18:57:15.455	BattleNetClient	1
+2018.07.15 18:57:15.457	GameState	1
+2018.07.15 18:57:15.458	scan finished in 34 ms
+2018.07.15 19:41:52.913	block sanity check failed
+2018.07.15 19:41:52.914	scan started
+2018.07.15 19:41:53.074	header load time: 158
+2018.07.15 19:41:53.075	retry: can't find object manager
+2018.07.15 19:41:53.076	scan started
+2018.07.15 19:41:53.227	header load time: 150
+2018.07.15 19:41:53.228	retry: can't find object manager
+2018.07.15 19:41:53.229	ERROR: can't find object manager
+2018.07.15 19:41:53.236	scan started
+2018.07.15 19:41:53.321	header load time: 83
+2018.07.15 19:41:53.322	retry: can't find object manager
+2018.07.15 19:41:53.323	scan started
+2018.07.15 19:41:53.403	header load time: 79
+2018.07.15 19:41:53.404	retry: can't find object manager
+2018.07.15 19:41:53.405	ERROR: can't find object manager
+2018.07.15 19:41:53.412	scan started
+2018.07.15 19:41:53.508	header load time: 95
+2018.07.15 19:41:53.509	retry: can't find object manager
+2018.07.15 19:41:53.510	scan started
+2018.07.15 19:41:53.603	header load time: 92
+2018.07.15 19:41:53.604	retry: can't find object manager
+2018.07.15 19:41:53.605	ERROR: can't find object manager
+2018.07.15 19:41:53.612	scan started
+2018.07.15 19:41:53.708	header load time: 95
+2018.07.15 19:41:53.709	retry: can't find object manager
+2018.07.15 19:41:53.711	scan started
+2018.07.15 19:41:53.832	header load time: 120
+2018.07.15 19:41:53.834	retry: can't find object manager
+2018.07.15 19:41:53.834	ERROR: can't find object manager
+2018.07.15 19:41:53.841	scan started
+2018.07.15 19:41:53.943	header load time: 100
+2018.07.15 19:41:53.944	retry: can't find object manager
+2018.07.15 19:41:53.945	scan started
+2018.07.15 19:41:54.021	header load time: 74
+2018.07.15 19:41:54.022	ObjectManager	0
+2018.07.15 19:41:54.022	AcdContainer	0
+2018.07.15 19:41:54.023	AcdManager	0
+2018.07.15 19:41:54.024	PlayerDataManager	0
+2018.07.15 19:41:54.024	Player	0
+2018.07.15 19:41:54.025	TrickleManager	0
+2018.07.15 19:41:54.026	can't find levelarea
+2018.07.15 19:41:54.026	BattleNetClient	0
+2018.07.15 19:41:54.027	GameState	0
+2018.07.15 19:41:54.028	scan finished in 6 ms
+2018.07.15 19:41:58.700	block sanity check failed
+2018.07.15 19:41:58.701	scan started
+2018.07.15 19:41:58.800	header load time: 97
+2018.07.15 19:41:58.801	retry: can't find object manager
+2018.07.15 19:41:58.802	scan started
+2018.07.15 19:41:58.902	header load time: 99
+2018.07.15 19:41:58.903	retry: can't find object manager
+2018.07.15 19:41:58.904	ERROR: can't find object manager
+2018.07.15 19:41:58.911	scan started
+2018.07.15 19:41:58.999	header load time: 87
+2018.07.15 19:41:59.000	retry: can't find object manager
+2018.07.15 19:41:59.001	scan started
+2018.07.15 19:41:59.100	header load time: 97
+2018.07.15 19:41:59.101	retry: can't find object manager
+2018.07.15 19:41:59.102	ERROR: can't find object manager
+2018.07.15 19:41:59.108	scan started
+2018.07.15 19:41:59.199	header load time: 90
+2018.07.15 19:41:59.201	retry: can't find object manager
+2018.07.15 19:41:59.202	scan started
+2018.07.15 19:41:59.286	header load time: 83
+2018.07.15 19:41:59.287	retry: can't find object manager
+2018.07.15 19:41:59.288	ERROR: can't find object manager
+2018.07.15 19:41:59.295	scan started
+2018.07.15 19:41:59.424	header load time: 128
+2018.07.15 19:41:59.425	ObjectManager	0
+2018.07.15 19:41:59.426	retry: can't find acd container
+2018.07.15 19:41:59.427	scan started
+2018.07.15 19:41:59.524	header load time: 96
+2018.07.15 19:41:59.525	ObjectManager	0
+2018.07.15 19:41:59.526	AcdContainer	0
+2018.07.15 19:41:59.527	AcdManager	0
+2018.07.15 19:41:59.528	PlayerDataManager	0
+2018.07.15 19:41:59.529	Player	0
+2018.07.15 19:41:59.529	TrickleManager	0
+2018.07.15 19:41:59.530	can't find levelarea
+2018.07.15 19:41:59.531	BattleNetClient	0
+2018.07.15 19:41:59.532	GameState	0
+2018.07.15 19:41:59.533	scan finished in 7 ms
+2018.07.15 19:42:06.132	scan due to missing LevelAreaAddress
+2018.07.15 19:42:06.133	scan started
+2018.07.15 19:42:06.255	header load time: 121
+2018.07.15 19:42:06.257	ObjectManager	0
+2018.07.15 19:42:06.258	AcdContainer	0
+2018.07.15 19:42:06.259	AcdManager	0
+2018.07.15 19:42:06.259	PlayerDataManager	0
+2018.07.15 19:42:06.260	Player	0
+2018.07.15 19:42:06.261	TrickleManager	0
+2018.07.15 19:42:06.261	LevelArea	0
+2018.07.15 19:42:06.262	BattleNetClient	0
+2018.07.15 19:42:06.263	GameState	0
+2018.07.15 19:42:06.263	scan finished in 6 ms
+2018.07.15 19:49:57.009	block sanity check failed
+2018.07.15 19:49:57.010	scan started
+2018.07.15 19:49:57.104	header load time: 93
+2018.07.15 19:49:57.106	retry: can't find object manager
+2018.07.15 19:49:57.106	scan started
+2018.07.15 19:49:57.203	header load time: 96
+2018.07.15 19:49:57.205	retry: can't find object manager
+2018.07.15 19:49:57.205	ERROR: can't find object manager
+2018.07.15 19:49:57.212	scan started
+2018.07.15 19:49:57.315	header load time: 102
+2018.07.15 19:49:57.317	retry: can't find object manager
+2018.07.15 19:49:57.318	scan started
+2018.07.15 19:49:57.416	header load time: 96
+2018.07.15 19:49:57.417	retry: can't find object manager
+2018.07.15 19:49:57.418	ERROR: can't find object manager
+2018.07.15 19:49:57.425	scan started
+2018.07.15 19:49:57.521	header load time: 94
+2018.07.15 19:49:57.522	retry: can't find object manager
+2018.07.15 19:49:57.523	scan started
+2018.07.15 19:49:57.606	header load time: 81
+2018.07.15 19:49:57.607	retry: can't find object manager
+2018.07.15 19:49:57.607	ERROR: can't find object manager
+2018.07.15 19:49:57.614	scan started
+2018.07.15 19:49:57.773	header load time: 157
+2018.07.15 19:49:57.775	retry: can't find object manager
+2018.07.15 19:49:57.776	scan started
+2018.07.15 19:49:57.878	header load time: 100
+2018.07.15 19:49:57.879	retry: can't find object manager
+2018.07.15 19:49:57.880	ERROR: can't find object manager
+2018.07.15 19:49:57.887	scan started
+2018.07.15 19:49:57.979	header load time: 90
+2018.07.15 19:49:57.980	retry: can't find object manager
+2018.07.15 19:49:57.981	scan started
+2018.07.15 19:49:58.079	header load time: 97
+2018.07.15 19:49:58.080	ObjectManager	0
+2018.07.15 19:49:58.081	AcdContainer	0
+2018.07.15 19:49:58.082	AcdManager	0
+2018.07.15 19:49:58.082	PlayerDataManager	0
+2018.07.15 19:49:58.083	Player	0
+2018.07.15 19:49:58.083	TrickleManager	0
+2018.07.15 19:49:58.084	can't find levelarea
+2018.07.15 19:49:58.085	BattleNetClient	0
+2018.07.15 19:49:58.086	GameState	0
+2018.07.15 19:49:58.087	scan finished in 6 ms
+2018.07.15 19:50:03.526	block sanity check failed
+2018.07.15 19:50:03.527	scan started
+2018.07.15 19:50:03.630	header load time: 102
+2018.07.15 19:50:03.631	retry: can't find object manager
+2018.07.15 19:50:03.634	scan started
+2018.07.15 19:50:03.717	header load time: 82
+2018.07.15 19:50:03.719	retry: can't find object manager
+2018.07.15 19:50:03.719	ERROR: can't find object manager
+2018.07.15 19:50:03.726	scan started
+2018.07.15 19:50:03.813	header load time: 86
+2018.07.15 19:50:03.814	retry: can't find object manager
+2018.07.15 19:50:03.814	scan started
+2018.07.15 19:50:03.898	header load time: 83
+2018.07.15 19:50:03.899	retry: can't find object manager
+2018.07.15 19:50:03.900	ERROR: can't find object manager
+2018.07.15 19:50:03.906	scan started
+2018.07.15 19:50:03.983	header load time: 75
+2018.07.15 19:50:03.984	retry: can't find object manager
+2018.07.15 19:50:03.984	scan started
+2018.07.15 19:50:04.072	header load time: 87
+2018.07.15 19:50:04.074	retry: can't find object manager
+2018.07.15 19:50:04.075	ERROR: can't find object manager
+2018.07.15 19:50:04.082	scan started
+2018.07.15 19:50:04.172	header load time: 89
+2018.07.15 19:50:04.174	retry: can't find object manager
+2018.07.15 19:50:04.175	scan started
+2018.07.15 19:50:04.259	header load time: 83
+2018.07.15 19:50:04.261	ObjectManager	0
+2018.07.15 19:50:04.262	AcdContainer	0
+2018.07.15 19:50:04.263	AcdManager	0
+2018.07.15 19:50:04.264	PlayerDataManager	0
+2018.07.15 19:50:04.265	Player	0
+2018.07.15 19:50:04.266	TrickleManager	0
+2018.07.15 19:50:04.267	can't find levelarea
+2018.07.15 19:50:04.268	BattleNetClient	0
+2018.07.15 19:50:04.269	GameState	0
+2018.07.15 19:50:04.270	scan finished in 8 ms
+2018.07.15 19:50:11.026	scan due to missing LevelAreaAddress
+2018.07.15 19:50:11.026	scan started
+2018.07.15 19:50:11.169	header load time: 141
+2018.07.15 19:50:11.171	ObjectManager	0
+2018.07.15 19:50:11.171	AcdContainer	0
+2018.07.15 19:50:11.172	AcdManager	0
+2018.07.15 19:50:11.173	PlayerDataManager	0
+2018.07.15 19:50:11.174	Player	0
+2018.07.15 19:50:11.175	TrickleManager	0
+2018.07.15 19:50:11.176	LevelArea	0
+2018.07.15 19:50:11.177	BattleNetClient	0
+2018.07.15 19:50:11.178	GameState	0
+2018.07.15 19:50:11.179	scan finished in 8 ms
+2018.07.15 19:51:46.142	block sanity check failed
+2018.07.15 19:51:46.143	scan started
+2018.07.15 19:51:46.236	header load time: 92
+2018.07.15 19:51:46.237	retry: can't find object manager
+2018.07.15 19:51:46.238	scan started
+2018.07.15 19:51:46.327	header load time: 87
+2018.07.15 19:51:46.328	retry: can't find object manager
+2018.07.15 19:51:46.328	ERROR: can't find object manager
+2018.07.15 19:51:46.335	scan started
+2018.07.15 19:51:46.438	header load time: 101
+2018.07.15 19:51:46.439	retry: can't find object manager
+2018.07.15 19:51:46.440	scan started
+2018.07.15 19:51:46.512	header load time: 70
+2018.07.15 19:51:46.513	retry: can't find object manager
+2018.07.15 19:51:46.513	ERROR: can't find object manager
+2018.07.15 19:51:46.520	scan started
+2018.07.15 19:51:46.610	header load time: 89
+2018.07.15 19:51:46.612	retry: can't find object manager
+2018.07.15 19:51:46.613	scan started
+2018.07.15 19:51:46.715	header load time: 101
+2018.07.15 19:51:46.716	retry: can't find object manager
+2018.07.15 19:51:46.717	ERROR: can't find object manager
+2018.07.15 19:51:46.724	scan started
+2018.07.15 19:51:46.813	header load time: 88
+2018.07.15 19:51:46.814	retry: can't find object manager
+2018.07.15 19:51:46.815	scan started
+2018.07.15 19:51:46.890	header load time: 74
+2018.07.15 19:51:46.891	retry: can't find object manager
+2018.07.15 19:51:46.892	ERROR: can't find object manager
+2018.07.15 19:51:46.898	scan started
+2018.07.15 19:51:47.002	header load time: 102
+2018.07.15 19:51:47.003	retry: can't find object manager
+2018.07.15 19:51:47.004	scan started
+2018.07.15 19:51:47.106	header load time: 100
+2018.07.15 19:51:47.107	retry: can't find object manager
+2018.07.15 19:51:47.107	ERROR: can't find object manager
+2018.07.15 19:51:47.116	scan started
+2018.07.15 19:51:47.198	header load time: 81
+2018.07.15 19:51:47.199	ObjectManager	0
+2018.07.15 19:51:47.199	AcdContainer	0
+2018.07.15 19:51:47.200	AcdManager	0
+2018.07.15 19:51:47.201	PlayerDataManager	0
+2018.07.15 19:51:47.202	Player	0
+2018.07.15 19:51:47.203	TrickleManager	0
+2018.07.15 19:51:47.203	can't find levelarea
+2018.07.15 19:51:47.204	BattleNetClient	0
+2018.07.15 19:51:47.205	GameState	0
+2018.07.15 19:51:47.205	scan finished in 6 ms
+2018.07.15 19:51:52.749	block sanity check failed
+2018.07.15 19:51:52.750	scan started
+2018.07.15 19:51:52.858	header load time: 107
+2018.07.15 19:51:52.859	retry: can't find object manager
+2018.07.15 19:51:52.860	scan started
+2018.07.15 19:51:52.944	header load time: 83
+2018.07.15 19:51:52.945	retry: can't find object manager
+2018.07.15 19:51:52.946	ERROR: can't find object manager
+2018.07.15 19:51:52.953	scan started
+2018.07.15 19:51:53.029	header load time: 74
+2018.07.15 19:51:53.030	retry: can't find object manager
+2018.07.15 19:51:53.030	scan started
+2018.07.15 19:51:53.117	header load time: 86
+2018.07.15 19:51:53.118	retry: can't find object manager
+2018.07.15 19:51:53.119	ERROR: can't find object manager
+2018.07.15 19:51:53.126	scan started
+2018.07.15 19:51:53.207	header load time: 80
+2018.07.15 19:51:53.209	retry: can't find object manager
+2018.07.15 19:51:53.209	scan started
+2018.07.15 19:51:53.285	header load time: 74
+2018.07.15 19:51:53.286	retry: can't find object manager
+2018.07.15 19:51:53.287	ERROR: can't find object manager
+2018.07.15 19:51:53.297	scan started
+2018.07.15 19:51:53.405	header load time: 107
+2018.07.15 19:51:53.406	retry: can't find object manager
+2018.07.15 19:51:53.407	scan started
+2018.07.15 19:51:53.498	header load time: 90
+2018.07.15 19:51:53.499	ObjectManager	0
+2018.07.15 19:51:53.499	AcdContainer	0
+2018.07.15 19:51:53.500	AcdManager	0
+2018.07.15 19:51:53.501	PlayerDataManager	0
+2018.07.15 19:51:53.501	Player	0
+2018.07.15 19:51:53.502	TrickleManager	0
+2018.07.15 19:51:53.503	can't find levelarea
+2018.07.15 19:51:53.504	BattleNetClient	0
+2018.07.15 19:51:53.504	GameState	0
+2018.07.15 19:51:53.505	scan finished in 6 ms
+2018.07.15 19:52:00.050	scan due to missing LevelAreaAddress
+2018.07.15 19:52:00.051	scan started
+2018.07.15 19:52:00.185	header load time: 133
+2018.07.15 19:52:00.187	ObjectManager	1
+2018.07.15 19:52:00.188	AcdContainer	0
+2018.07.15 19:52:00.189	AcdManager	0
+2018.07.15 19:52:00.190	PlayerDataManager	0
+2018.07.15 19:52:00.191	Player	0
+2018.07.15 19:52:00.192	TrickleManager	0
+2018.07.15 19:52:00.193	LevelArea	0
+2018.07.15 19:52:00.194	BattleNetClient	0
+2018.07.15 19:52:00.195	GameState	0
+2018.07.15 19:52:00.196	scan finished in 9 ms
+2018.07.15 19:53:34.370	block sanity check failed
+2018.07.15 19:53:34.371	scan started
+2018.07.15 19:53:34.468	header load time: 96
+2018.07.15 19:53:34.469	retry: can't find object manager
+2018.07.15 19:53:34.470	scan started
+2018.07.15 19:53:34.559	header load time: 88
+2018.07.15 19:53:34.561	retry: can't find object manager
+2018.07.15 19:53:34.561	ERROR: can't find object manager
+2018.07.15 19:53:34.568	scan started
+2018.07.15 19:53:34.655	header load time: 85
+2018.07.15 19:53:34.656	retry: can't find object manager
+2018.07.15 19:53:34.657	scan started
+2018.07.15 19:53:34.757	header load time: 99
+2018.07.15 19:53:34.758	retry: can't find object manager
+2018.07.15 19:53:34.759	ERROR: can't find object manager
+2018.07.15 19:53:34.765	scan started
+2018.07.15 19:53:34.849	header load time: 83
+2018.07.15 19:53:34.850	retry: can't find object manager
+2018.07.15 19:53:34.851	scan started
+2018.07.15 19:53:34.918	header load time: 67
+2018.07.15 19:53:34.919	retry: can't find object manager
+2018.07.15 19:53:34.921	ERROR: can't find object manager
+2018.07.15 19:53:34.928	scan started
+2018.07.15 19:53:35.014	header load time: 85
+2018.07.15 19:53:35.015	retry: can't find object manager
+2018.07.15 19:53:35.016	scan started
+2018.07.15 19:53:35.109	header load time: 92
+2018.07.15 19:53:35.110	retry: can't find object manager
+2018.07.15 19:53:35.111	ERROR: can't find object manager
+2018.07.15 19:53:35.117	scan started
+2018.07.15 19:53:35.201	header load time: 83
+2018.07.15 19:53:35.203	retry: can't find object manager
+2018.07.15 19:53:35.204	scan started
+2018.07.15 19:53:35.315	header load time: 110
+2018.07.15 19:53:35.316	retry: can't find object manager
+2018.07.15 19:53:35.317	ERROR: can't find object manager
+2018.07.15 19:53:35.324	scan started
+2018.07.15 19:53:35.423	header load time: 98
+2018.07.15 19:53:35.424	ObjectManager	0
+2018.07.15 19:53:35.425	AcdContainer	0
+2018.07.15 19:53:35.425	AcdManager	0
+2018.07.15 19:53:35.426	PlayerDataManager	0
+2018.07.15 19:53:35.426	Player	0
+2018.07.15 19:53:35.427	TrickleManager	0
+2018.07.15 19:53:35.428	can't find levelarea
+2018.07.15 19:53:35.428	BattleNetClient	0
+2018.07.15 19:53:35.429	GameState	0
+2018.07.15 19:53:35.430	scan finished in 5 ms
+2018.07.15 19:53:41.046	block sanity check failed
+2018.07.15 19:53:41.047	scan started
+2018.07.15 19:53:41.129	header load time: 81
+2018.07.15 19:53:41.130	retry: can't find object manager
+2018.07.15 19:53:41.132	scan started
+2018.07.15 19:53:41.223	header load time: 90
+2018.07.15 19:53:41.224	retry: can't find object manager
+2018.07.15 19:53:41.225	ERROR: can't find object manager
+2018.07.15 19:53:41.232	scan started
+2018.07.15 19:53:41.320	header load time: 86
+2018.07.15 19:53:41.321	retry: can't find object manager
+2018.07.15 19:53:41.322	scan started
+2018.07.15 19:53:41.400	header load time: 77
+2018.07.15 19:53:41.401	retry: can't find object manager
+2018.07.15 19:53:41.402	ERROR: can't find object manager
+2018.07.15 19:53:41.409	scan started
+2018.07.15 19:53:41.498	header load time: 88
+2018.07.15 19:53:41.500	retry: can't find object manager
+2018.07.15 19:53:41.501	scan started
+2018.07.15 19:53:41.578	header load time: 76
+2018.07.15 19:53:41.579	retry: can't find object manager
+2018.07.15 19:53:41.580	ERROR: can't find object manager
+2018.07.15 19:53:41.587	scan started
+2018.07.15 19:53:41.675	header load time: 86
+2018.07.15 19:53:41.677	retry: can't find object manager
+2018.07.15 19:53:41.677	scan started
+2018.07.15 19:53:41.776	header load time: 97
+2018.07.15 19:53:41.777	ObjectManager	0
+2018.07.15 19:53:41.778	AcdContainer	0
+2018.07.15 19:53:41.779	AcdManager	0
+2018.07.15 19:53:41.780	PlayerDataManager	0
+2018.07.15 19:53:41.781	Player	0
+2018.07.15 19:53:41.782	TrickleManager	0
+2018.07.15 19:53:41.783	can't find levelarea
+2018.07.15 19:53:41.783	BattleNetClient	0
+2018.07.15 19:53:41.784	GameState	0
+2018.07.15 19:53:41.785	scan finished in 8 ms
+2018.07.15 19:53:48.335	scan due to missing LevelAreaAddress
+2018.07.15 19:53:48.335	scan started
+2018.07.15 19:53:48.456	header load time: 119
+2018.07.15 19:53:48.458	ObjectManager	0
+2018.07.15 19:53:48.459	AcdContainer	0
+2018.07.15 19:53:48.459	AcdManager	0
+2018.07.15 19:53:48.460	PlayerDataManager	0
+2018.07.15 19:53:48.461	Player	0
+2018.07.15 19:53:48.461	TrickleManager	0
+2018.07.15 19:53:48.462	LevelArea	0
+2018.07.15 19:53:48.463	BattleNetClient	0
+2018.07.15 19:53:48.463	GameState	0
+2018.07.15 19:53:48.464	scan finished in 6 ms
+2018.07.15 19:57:13.659	block sanity check failed
+2018.07.15 19:57:13.660	scan started
+2018.07.15 19:57:13.741	header load time: 79
+2018.07.15 19:57:13.741	retry: can't find object manager
+2018.07.15 19:57:13.742	scan started
+2018.07.15 19:57:13.832	header load time: 88
+2018.07.15 19:57:13.833	retry: can't find object manager
+2018.07.15 19:57:13.834	ERROR: can't find object manager
+2018.07.15 19:57:13.842	scan started
+2018.07.15 19:57:13.916	header load time: 73
+2018.07.15 19:57:13.917	retry: can't find object manager
+2018.07.15 19:57:13.918	scan started
+2018.07.15 19:57:14.003	header load time: 84
+2018.07.15 19:57:14.004	retry: can't find object manager
+2018.07.15 19:57:14.005	ERROR: can't find object manager
+2018.07.15 19:57:14.011	scan started
+2018.07.15 19:57:14.089	header load time: 77
+2018.07.15 19:57:14.090	retry: can't find object manager
+2018.07.15 19:57:14.091	scan started
+2018.07.15 19:57:14.155	header load time: 64
+2018.07.15 19:57:14.156	retry: can't find object manager
+2018.07.15 19:57:14.157	ERROR: can't find object manager
+2018.07.15 19:57:14.165	scan started
+2018.07.15 19:57:14.246	header load time: 80
+2018.07.15 19:57:14.247	retry: can't find object manager
+2018.07.15 19:57:14.248	scan started
+2018.07.15 19:57:14.328	header load time: 79
+2018.07.15 19:57:14.329	retry: can't find object manager
+2018.07.15 19:57:14.330	ERROR: can't find object manager
+2018.07.15 19:57:14.336	scan started
+2018.07.15 19:57:14.413	header load time: 75
+2018.07.15 19:57:14.414	retry: can't find object manager
+2018.07.15 19:57:14.414	scan started
+2018.07.15 19:57:14.517	header load time: 101
+2018.07.15 19:57:14.518	retry: can't find object manager
+2018.07.15 19:57:14.519	ERROR: can't find object manager
+2018.07.15 19:57:14.527	scan started
+2018.07.15 19:57:14.628	header load time: 99
+2018.07.15 19:57:14.629	ObjectManager	0
+2018.07.15 19:57:14.630	retry: can't find acd container
+2018.07.15 19:57:14.631	scan started
+2018.07.15 19:57:14.709	header load time: 77
+2018.07.15 19:57:14.710	ObjectManager	0
+2018.07.15 19:57:14.711	AcdContainer	0
+2018.07.15 19:57:14.712	AcdManager	0
+2018.07.15 19:57:14.713	PlayerDataManager	0
+2018.07.15 19:57:14.715	Player	0
+2018.07.15 19:57:14.715	TrickleManager	0
+2018.07.15 19:57:14.716	can't find levelarea
+2018.07.15 19:57:14.717	BattleNetClient	0
+2018.07.15 19:57:14.718	GameState	0
+2018.07.15 19:57:14.719	scan finished in 9 ms
+2018.07.15 19:57:20.278	block sanity check failed
+2018.07.15 19:57:20.279	scan started
+2018.07.15 19:57:20.376	header load time: 96
+2018.07.15 19:57:20.378	retry: can't find object manager
+2018.07.15 19:57:20.379	scan started
+2018.07.15 19:57:20.455	header load time: 75
+2018.07.15 19:57:20.456	retry: can't find object manager
+2018.07.15 19:57:20.457	ERROR: can't find object manager
+2018.07.15 19:57:20.464	scan started
+2018.07.15 19:57:20.535	header load time: 70
+2018.07.15 19:57:20.536	retry: can't find object manager
+2018.07.15 19:57:20.537	scan started
+2018.07.15 19:57:20.619	header load time: 81
+2018.07.15 19:57:20.620	retry: can't find object manager
+2018.07.15 19:57:20.621	ERROR: can't find object manager
+2018.07.15 19:57:20.627	scan started
+2018.07.15 19:57:20.704	header load time: 75
+2018.07.15 19:57:20.705	retry: can't find object manager
+2018.07.15 19:57:20.706	scan started
+2018.07.15 19:57:20.780	header load time: 73
+2018.07.15 19:57:20.781	retry: can't find object manager
+2018.07.15 19:57:20.782	ERROR: can't find object manager
+2018.07.15 19:57:20.789	scan started
+2018.07.15 19:57:20.883	header load time: 92
+2018.07.15 19:57:20.884	retry: can't find object manager
+2018.07.15 19:57:20.884	scan started
+2018.07.15 19:57:20.966	header load time: 80
+2018.07.15 19:57:20.967	ObjectManager	0
+2018.07.15 19:57:20.968	retry: can't find acd container
+2018.07.15 19:57:20.968	ERROR: can't find acd container
+2018.07.15 19:57:20.976	block sanity check failed
+2018.07.15 19:57:20.976	scan started
+2018.07.15 19:57:21.053	header load time: 75
+2018.07.15 19:57:21.054	ObjectManager	0
+2018.07.15 19:57:21.055	AcdContainer	0
+2018.07.15 19:57:21.056	AcdManager	0
+2018.07.15 19:57:21.057	PlayerDataManager	0
+2018.07.15 19:57:21.058	Player	0
+2018.07.15 19:57:21.059	TrickleManager	0
+2018.07.15 19:57:21.060	can't find levelarea
+2018.07.15 19:57:21.061	BattleNetClient	0
+2018.07.15 19:57:21.062	GameState	0
+2018.07.15 19:57:21.063	scan finished in 8 ms
+2018.07.15 19:57:27.642	scan due to missing LevelAreaAddress
+2018.07.15 19:57:27.643	scan started
+2018.07.15 19:57:27.776	header load time: 132
+2018.07.15 19:57:27.778	ObjectManager	0
+2018.07.15 19:57:27.778	AcdContainer	0
+2018.07.15 19:57:27.779	AcdManager	0
+2018.07.15 19:57:27.780	PlayerDataManager	0
+2018.07.15 19:57:27.781	Player	0
+2018.07.15 19:57:27.781	TrickleManager	0
+2018.07.15 19:57:27.782	LevelArea	0
+2018.07.15 19:57:27.783	BattleNetClient	0
+2018.07.15 19:57:27.784	GameState	0
+2018.07.15 19:57:27.785	scan finished in 7 ms
+2018.07.15 20:07:56.332	block sanity check failed
+2018.07.15 20:07:56.333	scan started
+2018.07.15 20:07:56.415	header load time: 80
+2018.07.15 20:07:56.416	retry: can't find object manager
+2018.07.15 20:07:56.416	scan started
+2018.07.15 20:07:56.509	header load time: 91
+2018.07.15 20:07:56.510	retry: can't find object manager
+2018.07.15 20:07:56.511	ERROR: can't find object manager
+2018.07.15 20:07:56.519	scan started
+2018.07.15 20:07:56.613	header load time: 93
+2018.07.15 20:07:56.614	retry: can't find object manager
+2018.07.15 20:07:56.615	scan started
+2018.07.15 20:07:56.697	header load time: 81
+2018.07.15 20:07:56.698	retry: can't find object manager
+2018.07.15 20:07:56.699	ERROR: can't find object manager
+2018.07.15 20:07:56.707	scan started
+2018.07.15 20:07:56.782	header load time: 74
+2018.07.15 20:07:56.784	retry: can't find object manager
+2018.07.15 20:07:56.784	scan started
+2018.07.15 20:07:56.871	header load time: 86
+2018.07.15 20:07:56.872	retry: can't find object manager
+2018.07.15 20:07:56.872	ERROR: can't find object manager
+2018.07.15 20:07:56.879	scan started
+2018.07.15 20:07:56.960	header load time: 79
+2018.07.15 20:07:56.961	retry: can't find object manager
+2018.07.15 20:07:56.962	scan started
+2018.07.15 20:07:57.040	header load time: 77
+2018.07.15 20:07:57.041	retry: can't find object manager
+2018.07.15 20:07:57.042	ERROR: can't find object manager
+2018.07.15 20:07:57.056	scan started
+2018.07.15 20:07:57.152	header load time: 95
+2018.07.15 20:07:57.153	retry: can't find object manager
+2018.07.15 20:07:57.154	scan started
+2018.07.15 20:07:57.249	header load time: 93
+2018.07.15 20:07:57.250	retry: can't find object manager
+2018.07.15 20:07:57.251	ERROR: can't find object manager
+2018.07.15 20:07:57.258	scan started
+2018.07.15 20:07:57.330	header load time: 71
+2018.07.15 20:07:57.331	ObjectManager	0
+2018.07.15 20:07:57.332	retry: can't find acd container
+2018.07.15 20:07:57.333	scan started
+2018.07.15 20:07:57.420	header load time: 86
+2018.07.15 20:07:57.421	ObjectManager	0
+2018.07.15 20:07:57.422	AcdContainer	0
+2018.07.15 20:07:57.423	AcdManager	0
+2018.07.15 20:07:57.424	PlayerDataManager	0
+2018.07.15 20:07:57.424	Player	0
+2018.07.15 20:07:57.425	TrickleManager	0
+2018.07.15 20:07:57.426	can't find levelarea
+2018.07.15 20:07:57.427	BattleNetClient	0
+2018.07.15 20:07:57.427	GameState	0
+2018.07.15 20:07:57.428	scan finished in 6 ms
+2018.07.15 20:08:03.108	block sanity check failed
+2018.07.15 20:08:03.109	scan started
+2018.07.15 20:08:03.195	header load time: 85
+2018.07.15 20:08:03.196	retry: can't find object manager
+2018.07.15 20:08:03.197	scan started
+2018.07.15 20:08:03.271	header load time: 72
+2018.07.15 20:08:03.272	retry: can't find object manager
+2018.07.15 20:08:03.273	ERROR: can't find object manager
+2018.07.15 20:08:03.280	scan started
+2018.07.15 20:08:03.368	header load time: 86
+2018.07.15 20:08:03.369	retry: can't find object manager
+2018.07.15 20:08:03.370	scan started
+2018.07.15 20:08:03.443	header load time: 72
+2018.07.15 20:08:03.444	retry: can't find object manager
+2018.07.15 20:08:03.445	ERROR: can't find object manager
+2018.07.15 20:08:03.451	scan started
+2018.07.15 20:08:03.520	header load time: 67
+2018.07.15 20:08:03.521	retry: can't find object manager
+2018.07.15 20:08:03.522	scan started
+2018.07.15 20:08:03.617	header load time: 93
+2018.07.15 20:08:03.618	retry: can't find object manager
+2018.07.15 20:08:03.619	ERROR: can't find object manager
+2018.07.15 20:08:03.626	scan started
+2018.07.15 20:08:03.730	header load time: 103
+2018.07.15 20:08:03.732	retry: can't find object manager
+2018.07.15 20:08:03.733	scan started
+2018.07.15 20:08:03.812	header load time: 78
+2018.07.15 20:08:03.813	retry: can't find object manager
+2018.07.15 20:08:03.814	ERROR: can't find object manager
+2018.07.15 20:08:03.820	scan started
+2018.07.15 20:08:03.907	header load time: 86
+2018.07.15 20:08:03.908	ObjectManager	0
+2018.07.15 20:08:03.909	AcdContainer	0
+2018.07.15 20:08:03.910	AcdManager	0
+2018.07.15 20:08:03.911	PlayerDataManager	0
+2018.07.15 20:08:03.912	Player	0
+2018.07.15 20:08:03.913	TrickleManager	0
+2018.07.15 20:08:03.914	can't find levelarea
+2018.07.15 20:08:03.914	BattleNetClient	0
+2018.07.15 20:08:03.915	GameState	0
+2018.07.15 20:08:03.916	scan finished in 7 ms
+2018.07.15 20:08:11.242	scan due to missing LevelAreaAddress
+2018.07.15 20:08:11.243	scan started
+2018.07.15 20:08:11.382	header load time: 138
+2018.07.15 20:08:11.383	ObjectManager	0
+2018.07.15 20:08:11.384	AcdContainer	0
+2018.07.15 20:08:11.385	AcdManager	0
+2018.07.15 20:08:11.386	PlayerDataManager	0
+2018.07.15 20:08:11.387	Player	0
+2018.07.15 20:08:11.388	TrickleManager	0
+2018.07.15 20:08:11.390	LevelArea	0
+2018.07.15 20:08:11.391	BattleNetClient	0
+2018.07.15 20:08:11.391	GameState	0
+2018.07.15 20:08:11.392	scan finished in 9 ms
+2018.07.15 20:16:58.916	scan started
+2018.07.15 20:16:59.102	header load time: 182
+2018.07.15 20:16:59.114	ObjectManager	10
+2018.07.15 20:16:59.119	AcdContainer	4
+2018.07.15 20:16:59.123	AcdManager	2
+2018.07.15 20:16:59.125	PlayerDataManager	0
+2018.07.15 20:16:59.127	Player	0
+2018.07.15 20:16:59.131	TrickleManager	2
+2018.07.15 20:16:59.135	LevelArea	2
+2018.07.15 20:16:59.138	BattleNetClient	2
+2018.07.15 20:16:59.140	GameState	1
+2018.07.15 20:16:59.141	scan finished in 37 ms
+2018.07.15 20:24:43.448	block sanity check failed
+2018.07.15 20:24:43.449	scan started
+2018.07.15 20:24:43.533	header load time: 83
+2018.07.15 20:24:43.535	retry: can't find object manager
+2018.07.15 20:24:43.535	scan started
+2018.07.15 20:24:43.623	header load time: 87
+2018.07.15 20:24:43.624	retry: can't find object manager
+2018.07.15 20:24:43.625	ERROR: can't find object manager
+2018.07.15 20:24:43.632	scan started
+2018.07.15 20:24:43.714	header load time: 81
+2018.07.15 20:24:43.714	retry: can't find object manager
+2018.07.15 20:24:43.715	scan started
+2018.07.15 20:24:43.813	header load time: 97
+2018.07.15 20:24:43.815	retry: can't find object manager
+2018.07.15 20:24:43.816	ERROR: can't find object manager
+2018.07.15 20:24:43.828	scan started
+2018.07.15 20:24:44.002	header load time: 173
+2018.07.15 20:24:44.003	retry: can't find object manager
+2018.07.15 20:24:44.005	scan started
+2018.07.15 20:24:44.124	header load time: 118
+2018.07.15 20:24:44.126	retry: can't find object manager
+2018.07.15 20:24:44.127	ERROR: can't find object manager
+2018.07.15 20:24:44.133	scan started
+2018.07.15 20:24:44.229	header load time: 94
+2018.07.15 20:24:44.231	retry: can't find object manager
+2018.07.15 20:24:44.232	scan started
+2018.07.15 20:24:44.358	header load time: 125
+2018.07.15 20:24:44.359	retry: can't find object manager
+2018.07.15 20:24:44.359	ERROR: can't find object manager
+2018.07.15 20:24:44.366	scan started
+2018.07.15 20:24:44.490	header load time: 123
+2018.07.15 20:24:44.492	retry: can't find object manager
+2018.07.15 20:24:44.493	scan started
+2018.07.15 20:24:44.593	header load time: 98
+2018.07.15 20:24:44.594	retry: can't find object manager
+2018.07.15 20:24:44.595	ERROR: can't find object manager
+2018.07.15 20:24:44.603	scan started
+2018.07.15 20:24:44.754	header load time: 149
+2018.07.15 20:24:44.755	retry: can't find object manager
+2018.07.15 20:24:44.756	scan started
+2018.07.15 20:24:44.857	header load time: 99
+2018.07.15 20:24:44.858	retry: can't find object manager
+2018.07.15 20:24:44.859	ERROR: can't find object manager
+2018.07.15 20:24:44.866	scan started
+2018.07.15 20:24:44.970	header load time: 103
+2018.07.15 20:24:44.971	retry: can't find object manager
+2018.07.15 20:24:44.972	scan started
+2018.07.15 20:24:45.116	header load time: 142
+2018.07.15 20:24:45.117	retry: can't find object manager
+2018.07.15 20:24:45.118	ERROR: can't find object manager
+2018.07.15 20:24:45.125	scan started
+2018.07.15 20:24:45.243	header load time: 117
+2018.07.15 20:24:45.244	retry: can't find object manager
+2018.07.15 20:24:45.245	scan started
+2018.07.15 20:24:45.359	header load time: 112
+2018.07.15 20:24:45.361	retry: can't find object manager
+2018.07.15 20:24:45.362	ERROR: can't find object manager
+2018.07.15 20:24:45.369	scan started
+2018.07.15 20:24:45.524	header load time: 153
+2018.07.15 20:24:45.525	retry: can't find object manager
+2018.07.15 20:24:45.526	scan started
+2018.07.15 20:24:45.639	header load time: 111
+2018.07.15 20:24:45.640	retry: can't find object manager
+2018.07.15 20:24:45.641	ERROR: can't find object manager
+2018.07.15 20:24:45.648	scan started
+2018.07.15 20:24:45.745	header load time: 95
+2018.07.15 20:24:45.746	retry: can't find object manager
+2018.07.15 20:24:45.747	scan started
+2018.07.15 20:24:45.894	header load time: 144
+2018.07.15 20:24:45.895	retry: can't find object manager
+2018.07.15 20:24:45.896	ERROR: can't find object manager
+2018.07.15 20:24:45.907	scan started
+2018.07.15 20:24:46.024	header load time: 115
+2018.07.15 20:24:46.025	retry: can't find object manager
+2018.07.15 20:24:46.026	scan started
+2018.07.15 20:24:46.124	header load time: 96
+2018.07.15 20:24:46.125	retry: can't find object manager
+2018.07.15 20:24:46.126	ERROR: can't find object manager
+2018.07.15 20:24:46.133	scan started
+2018.07.15 20:24:46.280	header load time: 145
+2018.07.15 20:24:46.281	retry: can't find object manager
+2018.07.15 20:24:46.283	scan started
+2018.07.15 20:24:46.394	header load time: 110
+2018.07.15 20:24:46.396	retry: can't find object manager
+2018.07.15 20:24:46.397	ERROR: can't find object manager
+2018.07.15 20:24:46.403	scan started
+2018.07.15 20:24:46.505	header load time: 100
+2018.07.15 20:24:46.506	retry: can't find object manager
+2018.07.15 20:24:46.507	scan started
+2018.07.15 20:24:46.629	header load time: 120
+2018.07.15 20:24:46.630	retry: can't find object manager
+2018.07.15 20:24:46.631	ERROR: can't find object manager
+2018.07.15 20:24:46.637	scan started
+2018.07.15 20:24:46.737	header load time: 98
+2018.07.15 20:24:46.739	retry: can't find object manager
+2018.07.15 20:24:46.739	scan started
+2018.07.15 20:24:46.816	header load time: 75
+2018.07.15 20:24:46.817	retry: can't find object manager
+2018.07.15 20:24:46.817	ERROR: can't find object manager
+2018.07.15 20:24:46.824	scan started
+2018.07.15 20:24:46.947	header load time: 121
+2018.07.15 20:24:46.948	retry: can't find object manager
+2018.07.15 20:24:46.949	scan started
+2018.07.15 20:24:47.047	header load time: 97
+2018.07.15 20:24:47.048	retry: can't find object manager
+2018.07.15 20:24:47.049	ERROR: can't find object manager
+2018.07.15 20:24:47.055	scan started
+2018.07.15 20:24:47.123	header load time: 66
+2018.07.15 20:24:47.124	retry: can't find object manager
+2018.07.15 20:24:47.124	scan started
+2018.07.15 20:24:47.232	header load time: 106
+2018.07.15 20:24:47.233	retry: can't find object manager
+2018.07.15 20:24:47.234	ERROR: can't find object manager
+2018.07.15 20:24:47.240	scan started
+2018.07.15 20:24:47.320	header load time: 79
+2018.07.15 20:24:47.321	retry: can't find object manager
+2018.07.15 20:24:47.322	scan started
+2018.07.15 20:24:47.385	header load time: 62
+2018.07.15 20:24:47.386	retry: can't find object manager
+2018.07.15 20:24:47.387	ERROR: can't find object manager
+2018.07.15 20:24:47.394	scan started
+2018.07.15 20:24:47.514	header load time: 119
+2018.07.15 20:24:47.515	retry: can't find object manager
+2018.07.15 20:24:47.516	scan started
+2018.07.15 20:24:47.622	header load time: 105
+2018.07.15 20:24:47.624	retry: can't find object manager
+2018.07.15 20:24:47.625	ERROR: can't find object manager
+2018.07.15 20:24:47.631	scan started
+2018.07.15 20:24:47.724	header load time: 92
+2018.07.15 20:24:47.725	retry: can't find object manager
+2018.07.15 20:24:47.726	scan started
+2018.07.15 20:24:47.847	header load time: 120
+2018.07.15 20:24:47.848	retry: can't find object manager
+2018.07.15 20:24:47.848	ERROR: can't find object manager
+2018.07.15 20:24:47.854	scan started
+2018.07.15 20:24:47.942	header load time: 86
+2018.07.15 20:24:47.943	retry: can't find object manager
+2018.07.15 20:24:47.943	scan started
+2018.07.15 20:24:48.017	header load time: 72
+2018.07.15 20:24:48.018	retry: can't find object manager
+2018.07.15 20:24:48.019	ERROR: can't find object manager
+2018.07.15 20:24:48.027	scan started
+2018.07.15 20:24:48.132	header load time: 104
+2018.07.15 20:24:48.133	retry: can't find object manager
+2018.07.15 20:24:48.133	scan started
+2018.07.15 20:24:48.223	header load time: 88
+2018.07.15 20:24:48.224	retry: can't find object manager
+2018.07.15 20:24:48.224	ERROR: can't find object manager
+2018.07.15 20:24:48.232	scan started
+2018.07.15 20:24:48.301	header load time: 68
+2018.07.15 20:24:48.302	retry: can't find object manager
+2018.07.15 20:24:48.303	scan started
+2018.07.15 20:24:48.422	header load time: 118
+2018.07.15 20:24:48.423	retry: can't find object manager
+2018.07.15 20:24:48.424	ERROR: can't find object manager
+2018.07.15 20:24:48.431	scan started
+2018.07.15 20:24:48.532	header load time: 100
+2018.07.15 20:24:48.533	retry: can't find object manager
+2018.07.15 20:24:48.534	scan started
+2018.07.15 20:24:48.614	header load time: 79
+2018.07.15 20:24:48.615	retry: can't find object manager
+2018.07.15 20:24:48.616	ERROR: can't find object manager
+2018.07.15 20:24:48.623	scan started
+2018.07.15 20:24:48.746	header load time: 121
+2018.07.15 20:24:48.747	retry: can't find object manager
+2018.07.15 20:24:48.748	scan started
+2018.07.15 20:24:48.835	header load time: 86
+2018.07.15 20:24:48.836	retry: can't find object manager
+2018.07.15 20:24:48.837	ERROR: can't find object manager
+2018.07.15 20:24:48.844	scan started
+2018.07.15 20:24:48.924	header load time: 79
+2018.07.15 20:24:48.925	retry: can't find object manager
+2018.07.15 20:24:48.926	scan started
+2018.07.15 20:24:49.065	header load time: 138
+2018.07.15 20:24:49.067	retry: can't find object manager
+2018.07.15 20:24:49.068	ERROR: can't find object manager
+2018.07.15 20:24:49.075	scan started
+2018.07.15 20:24:49.166	header load time: 90
+2018.07.15 20:24:49.167	retry: can't find object manager
+2018.07.15 20:24:49.167	scan started
+2018.07.15 20:24:49.239	header load time: 70
+2018.07.15 20:24:49.240	retry: can't find object manager
+2018.07.15 20:24:49.241	ERROR: can't find object manager
+2018.07.15 20:24:49.247	scan started
+2018.07.15 20:24:49.368	header load time: 119
+2018.07.15 20:24:49.369	retry: can't find object manager
+2018.07.15 20:24:49.370	scan started
+2018.07.15 20:24:49.460	header load time: 89
+2018.07.15 20:24:49.462	retry: can't find object manager
+2018.07.15 20:24:49.463	ERROR: can't find object manager
+2018.07.15 20:24:49.470	scan started
+2018.07.15 20:24:49.543	header load time: 71
+2018.07.15 20:24:49.544	retry: can't find object manager
+2018.07.15 20:24:49.545	scan started
+2018.07.15 20:24:49.660	header load time: 114
+2018.07.15 20:24:49.661	retry: can't find object manager
+2018.07.15 20:24:49.662	ERROR: can't find object manager
+2018.07.15 20:24:49.668	scan started
+2018.07.15 20:24:49.756	header load time: 86
+2018.07.15 20:24:49.757	retry: can't find object manager
+2018.07.15 20:24:49.758	scan started
+2018.07.15 20:24:49.828	header load time: 69
+2018.07.15 20:24:49.829	retry: can't find object manager
+2018.07.15 20:24:49.830	ERROR: can't find object manager
+2018.07.15 20:24:49.837	scan started
+2018.07.15 20:24:49.946	header load time: 107
+2018.07.15 20:24:49.947	retry: can't find object manager
+2018.07.15 20:24:49.948	scan started
+2018.07.15 20:24:50.030	header load time: 81
+2018.07.15 20:24:50.032	retry: can't find object manager
+2018.07.15 20:24:50.033	ERROR: can't find object manager
+2018.07.15 20:24:50.044	scan started
+2018.07.15 20:24:50.118	header load time: 72
+2018.07.15 20:24:50.119	retry: can't find object manager
+2018.07.15 20:24:50.120	scan started
+2018.07.15 20:24:50.233	header load time: 111
+2018.07.15 20:24:50.234	retry: can't find object manager
+2018.07.15 20:24:50.235	ERROR: can't find object manager
+2018.07.15 20:24:50.242	scan started
+2018.07.15 20:24:50.313	header load time: 70
+2018.07.15 20:24:50.315	retry: can't find object manager
+2018.07.15 20:24:50.316	scan started
+2018.07.15 20:24:50.375	header load time: 59
+2018.07.15 20:24:50.377	retry: can't find object manager
+2018.07.15 20:24:50.378	ERROR: can't find object manager
+2018.07.15 20:24:50.384	scan started
+2018.07.15 20:24:50.504	header load time: 118
+2018.07.15 20:24:50.505	retry: can't find object manager
+2018.07.15 20:24:50.506	scan started
+2018.07.15 20:24:50.599	header load time: 92
+2018.07.15 20:24:50.601	retry: can't find object manager
+2018.07.15 20:24:50.602	ERROR: can't find object manager
+2018.07.15 20:24:50.609	scan started
+2018.07.15 20:24:50.670	header load time: 59
+2018.07.15 20:24:50.671	retry: can't find object manager
+2018.07.15 20:24:50.672	scan started
+2018.07.15 20:24:50.768	header load time: 95
+2018.07.15 20:24:50.770	retry: can't find object manager
+2018.07.15 20:24:50.770	ERROR: can't find object manager
+2018.07.15 20:24:50.777	scan started
+2018.07.15 20:24:50.830	header load time: 52
+2018.07.15 20:24:50.831	retry: can't find object manager
+2018.07.15 20:24:50.832	scan started
+2018.07.15 20:24:50.891	header load time: 58
+2018.07.15 20:24:50.892	retry: can't find object manager
+2018.07.15 20:24:50.893	ERROR: can't find object manager
+2018.07.15 20:24:50.899	scan started
+2018.07.15 20:24:50.993	header load time: 92
+2018.07.15 20:24:50.994	retry: can't find object manager
+2018.07.15 20:24:50.995	scan started
+2018.07.15 20:24:51.055	header load time: 59
+2018.07.15 20:24:51.057	retry: can't find object manager
+2018.07.15 20:24:51.058	ERROR: can't find object manager
+2018.07.15 20:24:51.064	scan started
+2018.07.15 20:24:51.112	header load time: 47
+2018.07.15 20:24:51.113	retry: can't find object manager
+2018.07.15 20:24:51.114	scan started
+2018.07.15 20:24:51.207	header load time: 92
+2018.07.15 20:24:51.208	retry: can't find object manager
+2018.07.15 20:24:51.208	ERROR: can't find object manager
+2018.07.15 20:24:51.215	scan started
+2018.07.15 20:24:51.279	header load time: 62
+2018.07.15 20:24:51.280	retry: can't find object manager
+2018.07.15 20:24:51.281	scan started
+2018.07.15 20:24:51.335	header load time: 53
+2018.07.15 20:24:51.336	retry: can't find object manager
+2018.07.15 20:24:51.337	ERROR: can't find object manager
+2018.07.15 20:24:51.344	scan started
+2018.07.15 20:24:51.440	header load time: 95
+2018.07.15 20:24:51.441	retry: can't find object manager
+2018.07.15 20:24:51.442	scan started
+2018.07.15 20:24:51.477	header load time: 33
+2018.07.15 20:24:51.478	retry: can't find object manager
+2018.07.15 20:24:51.479	ERROR: can't find object manager

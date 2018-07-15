@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
-	<time msec="23104721" msec_town="18328340" />
-	<data exp="257579556792" gold="256898410" kill_total="305" kill_elite="15" drop_all="1330" drop_white="73" drop_magic="69" drop_rare="941" drop_legendary="118" drop_ancient="8" drop_primal_ancient="0" drop_blood_shard="1544" drop_gold="0" death="6" damage_dealt_all="766186804848" damage_dealt_crit="472958420976" damage_taken="0" healing="0" />
+	<time msec="25177376" msec_town="19754491" />
+	<data exp="261118887843" gold="260371750" kill_total="823" kill_elite="89" drop_all="1461" drop_white="127" drop_magic="78" drop_rare="996" drop_legendary="125" drop_ancient="9" drop_primal_ancient="0" drop_blood_shard="1544" drop_gold="0" death="7" damage_dealt_all="31598010890316" damage_dealt_crit="25956650181130" damage_taken="0" healing="0" />
 </config>

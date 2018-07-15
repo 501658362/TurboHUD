@@ -83,3 +83,24 @@
 2018.07.14 18:20:20.606		c:\Users\Chen\Desktop\TurboHUDEn\plugins\glq\GLQ_PartyBuffConfigPlugin.cs(13,17) : error CS0246: 未能找到类型或命名空间名称“GLQ_PartyBuffPlugin”(是否缺少 using 指令或程序集引用?)
 2018.07.14 18:21:05.476	error while initializing plugins
 2018.07.14 18:21:05.477		c:\Users\Chen\Desktop\TurboHUDEn\plugins\glq\GLQ_PartyBuffPlugin.cs(24,17) : error CS0246: 未能找到类型或命名空间名称“BuffRuleFactory”(是否缺少 using 指令或程序集引用?)
+2018.07.15 16:34:15.725	error while initializing plugins
+2018.07.15 16:34:15.726		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(99,23) : error CS0246: 未能找到类型或命名空间名称“ConventionOfElementsAndBrokenPromissesBuffOnCenterPlugin”(是否缺少 using 指令或程序集引用?)
+2018.07.15 16:40:00.165	error while initializing plugins
+2018.07.15 16:40:00.166		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(83,23) : error CS0246: 未能找到类型或命名空间名称“GroupGRLevelAdviserPlugin”(是否缺少 using 指令或程序集引用?)
+2018.07.15 16:52:03.040	error while initializing plugins
+2018.07.15 16:52:03.042		c:\Users\Chen\Desktop\TurboHUDEn\plugins\Resu\HuntersVengeancePlugin.cs(77,43) : error CS0246: 未能找到类型或命名空间名称“HotEnablerDisablerPlugin”(是否缺少 using 指令或程序集引用?)
+2018.07.15 17:00:28.420	error while initializing plugins
+2018.07.15 17:00:28.421		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(94,25) : error CS0246: 未能找到类型或命名空间名称“SummonerMonsterBarCountPlugin”(是否缺少 using 指令或程序集引用?)
+2018.07.15 17:01:06.378	error while initializing plugins
+2018.07.15 17:01:06.379		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(97,13) : error CS0103: 当前上下文中不存在名称“ShowMeScreenBaseYard”
+2018.07.15 17:01:06.380		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(98,13) : error CS0103: 当前上下文中不存在名称“ShowMeScreenMaxYard”
+2018.07.15 17:01:06.381		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(99,13) : error CS0103: 当前上下文中不存在名称“ShowSummonerCount”
+2018.07.15 17:01:06.382		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(100,13) : error CS0103: 当前上下文中不存在名称“ShowSummonerEliteBar”
+2018.07.15 17:01:06.383		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(101,13) : error CS0103: 当前上下文中不存在名称“ShowSummonerNormalMonsterBar”
+2018.07.15 17:01:06.384		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(102,13) : error CS0103: 当前上下文中不存在名称“showdifLabel”
+2018.07.15 17:17:34.487	error while initializing plugins
+2018.07.15 17:17:34.489		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(106,25) : error CS0246: 未能找到类型或命名空间名称“PlayerInTown”(是否缺少 using 指令或程序集引用?)
+2018.07.15 17:18:06.198	error while initializing plugins
+2018.07.15 17:18:06.199		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(11,21) : error CS1001: 应输入标识符
+2018.07.15 17:18:23.130	error while initializing plugins
+2018.07.15 17:18:23.131		c:\Users\Chen\Desktop\TurboHUDEn\plugins\User\PluginEnablerOrDisablerPlugin.cs(109,24) : error CS0122: “Turbo.Plugins.gjuz.PlayerInTown.Show”不可访问，因为它受保护级别限制

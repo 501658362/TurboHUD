@@ -229,7 +229,7 @@ namespace Turbo.Plugins.Default
                 BackgroundTexture2 = Hud.Texture.BackgroundTextureOrange,
                 BackgroundTextureOpacity2 = 0.5f,
                 TextFunc = () => Hud.Game.Me.Offense.AttackSpeedPets.ToString("F2", CultureInfo.InvariantCulture) + "/秒",
-                HintFunc = () => "宠物攻击速度",
+                HintFunc = () => "攻击速度",
             });
 
             LabelList.LabelDecorators.Add(new TopLabelDecorator(Hud)

@@ -1,7 +1,920 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d40266b-387a-4d3a-b2f6-a19a62e3eb84" name="Default" comment="" />
+    <list default="true" id="6d40266b-387a-4d3a-b2f6-a19a62e3eb84" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/Resu/GroupGRLevelAdviserPlugin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/Resu/HotEnablerDisablerPlugin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/Resu/HuntersVengeancePlugin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/Resu/UrshisGiftPlugin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/Stone/SummonerMonsterBarCountPlugin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/gjuz/PlayerInTown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TurboHUDEn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TurboHUDEn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TurboHUDEn.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TurboHUDEn.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085414698_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085414901_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085415101_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085415309_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085415524_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085415724_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085415926_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085416135_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085416348_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085416551_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085416755_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085416959_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085417160_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085417368_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085417576_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085417776_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085417976_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085418176_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085418382_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085418593_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085418799_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085419001_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085419211_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085419412_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710085419627_962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202831169_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202831384_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202831650_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202831853_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202832065_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202832268_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202832472_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202832685_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202832891_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202833097_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202833304_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202833518_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202833732_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202833939_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202834147_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202834348_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202834553_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202834766_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202834967_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202835184_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202835387_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202835594_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202835813_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710202836020_963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204543614_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204543816_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204544028_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204544234_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204544439_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204544703_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204544919_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204545126_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204545339_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204545551_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204545754_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204545966_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204546174_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204546385_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204546621_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204546848_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204547061_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204547264_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204547477_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204547687_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204547889_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204548093_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204548295_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710204548496_964.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211130624_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211130825_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211131046_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211131262_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211131474_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211131685_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211131886_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211132093_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211132302_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211132513_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211132728_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211132929_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211133145_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211133360_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211133575_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211133789_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211133998_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211134211_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211134425_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211134632_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211134841_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211135057_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211135262_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710211135477_965.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212753717_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212753925_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212754127_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212754327_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212754528_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212754734_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212754956_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212755156_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212755359_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212755565_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212755778_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212755985_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212756204_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212756413_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212756615_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212756847_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212757056_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212757269_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212757479_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212757691_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212757899_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212758113_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212758331_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180710212758533_966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075537171_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075537375_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075537581_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075537794_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075537994_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075538208_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075538419_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075538624_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075538831_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075539047_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075539255_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075539468_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075539693_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075539902_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075540104_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075540308_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075540515_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075540725_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075540931_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075541137_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075541339_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075541542_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075541753_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713075541963_970.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210347491_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210347691_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210347903_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210348109_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210348322_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210348522_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210348737_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210348945_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210349149_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210349372_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210349580_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210349790_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210349997_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210350200_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210350414_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210350630_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210350832_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210351042_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210351257_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210351473_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210351680_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210351888_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210352091_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713210352307_971.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234151475_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234151745_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234151990_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234152255_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234152495_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234152745_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234152999_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234153246_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234153502_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180713234153739_972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004652634_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004652849_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004653059_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004653266_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004653473_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004653678_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004653891_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004654112_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004654325_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004654541_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004654751_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004654957_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004655159_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004655361_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004655564_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004655769_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004655981_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004656198_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004656415_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004656619_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004657112_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004657371_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714004657620_976.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010727558_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010727774_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010727984_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010728202_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010728416_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010728624_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010728835_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010729045_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010729246_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010729447_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010729652_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010729862_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010730072_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714010732421_977.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091524344_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091524586_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091525635_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091525843_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091526052_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091526259_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091526461_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091526673_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091526873_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091527089_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091527292_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091527496_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091527709_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091527918_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091528138_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091528356_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091528556_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091528773_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091528987_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091529197_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091529400_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714091529604_978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092505472_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092505679_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092505890_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092506090_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092506297_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092506523_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092506728_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092506933_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714092507142_979.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093858961_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093859170_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093859383_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093859588_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093859792_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093900007_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093900213_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093900420_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093900622_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093900830_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093901042_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093901250_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093901451_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093901989_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093902268_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093902513_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093902773_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093903020_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093903271_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093903508_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093903779_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714093904016_980.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095832092_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095832295_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095832498_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095832708_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095832912_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095833121_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095833328_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095833544_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095833757_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095833963_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095834173_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095834385_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095834586_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095834806_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095835012_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095835222_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095835436_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095835647_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095835859_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095836070_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095836277_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095836489_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095836703_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714095836911_981.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102245923_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102246124_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102246339_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102246542_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102246747_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102247038_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102247245_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102247453_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102247666_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102247880_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102248091_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102248296_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102248504_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102248717_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102248925_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102249138_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102249339_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102249557_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102249769_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102249984_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102250188_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102250389_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102250594_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714102250802_982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103856864_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103857080_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103857294_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103857507_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103857722_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103857933_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103858144_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103858357_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103858560_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103858765_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103858976_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103859181_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103859396_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103859609_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103859817_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103900032_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103900233_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103900435_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103900829_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103901080_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103901319_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103901554_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714103901819_983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111424458_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111424660_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111424871_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111425075_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111425277_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111425479_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111425680_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111425884_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111426088_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111426290_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111426492_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111426698_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111426906_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111427116_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111427324_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111427528_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111427730_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111427943_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111428157_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111428374_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111428587_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111428788_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111429001_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111429202_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714111429418_984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134037479_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134037685_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134037888_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134038089_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134038297_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134038501_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134038720_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134038932_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134039134_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134039350_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134039564_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134039771_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134039987_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134040197_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134040399_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134040614_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134040826_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134041029_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134041235_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134041437_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134041640_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134041841_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134042047_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714134042260_985.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135402669_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135402879_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135403096_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135403309_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135403509_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135403721_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135403925_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135404130_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135404342_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135404576_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135404789_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135405002_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135405211_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135405429_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135405636_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135405849_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135406056_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135406267_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135406478_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135406678_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135406882_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135407091_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135407297_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714135407506_986.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143509484_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143509693_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143509904_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143510105_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143510534_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143510800_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143511049_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143511301_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143511564_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143511810_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143512064_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143512292_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143512568_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143512805_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143513042_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143513292_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143513553_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143513810_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143514043_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714143514551_987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150236074_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150236282_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150236485_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150236698_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150236908_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150237111_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150237320_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150237528_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150237735_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150237949_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150238157_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150238371_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150238579_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150238787_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150238997_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150239209_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150239420_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150239634_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150239841_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150240044_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150240259_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150240466_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150240668_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714150240869_988.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151711399_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151711600_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151711815_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151712037_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151712246_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151712460_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151712660_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151712861_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151713075_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151713296_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151713503_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151713728_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151713930_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151714133_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151714362_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151714572_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151714781_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151714992_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151715210_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151715425_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151715790_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151716067_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714151716333_989.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184814488_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184814708_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184814917_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184815121_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184815331_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184815550_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184815752_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184815955_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184816167_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184816376_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184816577_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184816784_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184816997_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184817198_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184817403_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184817614_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184817822_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184818033_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184818234_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184818442_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184818649_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184819024_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714184819316_991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190033829_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190034049_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190034259_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190034470_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190034671_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190034872_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190035085_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190035296_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190035512_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190035712_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190035914_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190036132_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190036345_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190036562_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190036769_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190036978_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190037196_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190037405_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190037613_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190037823_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190038041_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190038252_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190038455_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714190038659_992.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191908269_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191908484_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191908689_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191908891_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191909107_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191909317_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191909533_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191909742_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191909954_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191910162_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191910387_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191910601_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191910804_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191911011_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191911220_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191911425_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191911628_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191911830_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191912043_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191912244_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191912454_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191912666_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191912869_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714191913078_993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193853106_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193853314_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193853530_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193853746_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193853951_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193854162_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193854378_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193854578_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193854783_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193854987_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193855201_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193855409_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193855609_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193855814_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193856014_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193856215_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193856429_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193856640_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193856850_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193857051_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193857254_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193857464_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193857679_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714193857895_994.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220004017_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220004234_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220004435_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220004642_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220004848_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220005080_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220005291_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220005505_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220005708_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220005919_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220006132_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220006345_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180714220006557_995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092416492_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092416697_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092416906_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092417121_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092417321_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092417533_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092417743_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092417952_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092418156_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092418360_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092418570_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092418774_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092418977_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092419185_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092419388_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092419601_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092419814_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092420020_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092420220_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092420434_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092420640_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092420844_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092421055_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715092421263_996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095213433_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095213643_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095213858_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095214078_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095214285_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095214486_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095214697_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095214911_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095215113_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095215326_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095215535_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095215752_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095215971_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095216186_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095216402_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095216604_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095216808_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095217024_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095217229_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095217433_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095217637_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095217855_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095218067_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715095218285_997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101539910_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101540122_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101540335_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101540544_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101540750_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101540963_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101541172_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101541380_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101541585_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101541798_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101542006_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101542217_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101542431_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101542642_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101542842_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101543053_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101543258_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101543469_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101543677_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101543892_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101544096_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101544297_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101544501_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715101544707_998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102816555_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102816758_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102816971_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102817172_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102817372_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102817580_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102817786_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102817995_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102818206_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102818416_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102818626_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102818832_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102819033_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102819245_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102819693_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102819950_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102820189_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102820450_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102820738_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102820951_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102821199_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715102821439_999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104503538_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104503746_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104503949_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104504154_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104504361_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104504575_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104504779_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104504982_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104505192_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104505393_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104505612_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104505820_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104506028_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104506246_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104506448_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104506667_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104506867_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104507077_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104507280_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104507498_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104507713_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104507929_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104508130_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715104508339_1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105858326_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105858530_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105858745_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105858945_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105859151_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105859354_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105859563_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105859765_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105859966_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105900178_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105900382_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105900597_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105900798_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105901003_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105901209_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105901416_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105901624_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105901837_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105902040_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105902254_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105902463_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105902666_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105902898_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715105903106_1001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113643830_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113644043_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113644249_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113644457_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113644670_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113644879_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113645079_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113645291_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113645501_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113645714_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113645929_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113646142_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113646342_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113646551_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113646757_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113646964_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113647179_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113647389_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113647593_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113647796_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113648001_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113648216_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113648426_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715113648639_1002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130435489_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130435700_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130435903_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130436115_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130436323_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130436529_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130436731_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130436941_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130437142_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130437351_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130437841_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130438047_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130438298_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130438545_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130438779_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130439041_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130439279_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130439549_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130439803_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130440040_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_51761896_陈彦瑾_20180715130440293_1003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212855904_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212856107_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212856309_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212856509_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212856714_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212856923_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212857128_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212857338_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212857543_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212857754_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212857961_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212858169_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212858384_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212858591_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212858806_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212859008_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212859224_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212859433_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212859640_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212859842_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212900045_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212900256_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212900460_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212900673_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711212900887_967.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215320085_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215320327_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215320579_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215320828_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215321091_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215321334_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215321586_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215321832_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215322093_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215322335_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215322581_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215322836_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215323082_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215323340_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215323599_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215323848_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215324590_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215324839_968.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223348089_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223348343_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223348601_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223348841_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223349086_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223349356_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223349592_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223349844_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223350091_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223350348_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223350605_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223350837_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223351111_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223351337_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223351617_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223351850_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223352098_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223352366_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223352618_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711223352855_969.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175738250_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175738491_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175738747_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175738988_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175739244_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175739498_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175739752_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175739986_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175740251_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175740492_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175740745_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175740996_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175741255_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175741504_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175741745_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175742000_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175742251_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175742501_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180714175742751_990.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/daf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/daf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/exceptions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/exceptions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/levelup_paragon_陈彦瑾#51613.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/levelup_paragon_陈彦瑾#51613.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ntp_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ntp_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/plugins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/plugins.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/status.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/status.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/Default/LabelLists/AttributeLabelListPlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/Default/LabelLists/AttributeLabelListPlugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/User/PluginEnablerOrDisablerPlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/User/PluginEnablerOrDisablerPlugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/陈彦瑾#51613/heroes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/snapshots/陈彦瑾#51613/heroes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/陈彦瑾#51613/inventory_51761896.bin" beforeDir="false" afterPath="$PROJECT_DIR$/snapshots/陈彦瑾#51613/inventory_51761896.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/陈彦瑾#51613/inventory_52145969.bin" beforeDir="false" afterPath="$PROJECT_DIR$/snapshots/陈彦瑾#51613/inventory_52145969.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snapshots/陈彦瑾#51613/stash_sc_1.bin" beforeDir="false" afterPath="$PROJECT_DIR$/snapshots/陈彦瑾#51613/stash_sc_1.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_168314.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_168314.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_270011.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_270011.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_288482.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_288482.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_288684.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_288684.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_288686.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_288686.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_332339.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_332339.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_168314.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_168314.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_270011.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_270011.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_288482.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_288482.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_288684.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_288684.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_288686.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_288686.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_332339.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_areatotal_t13_332339.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_total.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_total.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_total_20180715.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_total_20180715.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_total_t13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_total_t13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/51761896_total_t13_20180715.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/51761896_total_t13_20180715.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_270011.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_270011.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_288482.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_288482.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_288684.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_288684.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_288686.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_288686.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_332339.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_332339.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_270011.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_270011.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_288482.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_288482.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_288684.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_288684.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_288686.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_288686.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_332339.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_areatotal_t13_332339.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_total.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_total.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_total_20180715.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_total_20180715.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_total_t13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_total_t13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/52145969_total_t13_20180715.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/52145969_total_t13_20180715.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/陈彦瑾#51613_total.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/陈彦瑾#51613_total.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/陈彦瑾#51613_total_20180715.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/陈彦瑾#51613_total_20180715.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/陈彦瑾#51613_total_t13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/陈彦瑾#51613_total_t13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_tracker/陈彦瑾#51613_total_t13_20180715.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stat_tracker/陈彦瑾#51613_total_t13_20180715.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,92 +924,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GLQ_AncientParthanCount.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_AncientParthanCount.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GLQ_BuffLabelsPlugin.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_BuffLabelsPlugin.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuffRuleFactory.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/BuffRuleFactory.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GLQ_PartyBuffPlugin.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PartyBuffPlugin.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GLQ_CursedEventPlugin.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_CursedEventPlugin.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GLQ_GreaterRiftPylonMarkerPlugin.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_GreaterRiftPylonMarkerPlugin.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GLQ_GRiftProgressBarRuler.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_GRiftProgressBarRuler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GLQ_InventoryMainStatPlugin.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_InventoryMainStatPlugin.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PluginEnablerOrDisablerPlugin.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PluginEnablerOrDisablerPlugin.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/User/PluginEnablerOrDisablerPlugin.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            <state relative-caret-position="215">
+              <caret line="84" column="48" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GLQ_ItemDropSoundAlertPlugin.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_ItemDropSoundAlertPlugin.cs">
+      <file leaf-file-name="hotkeys.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/hotkeys.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="5" selection-start-line="9" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerInTown.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/gjuz/PlayerInTown.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SummonerMonsterBarCountPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/Stone/SummonerMonsterBarCountPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrshisGiftPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/Resu/UrshisGiftPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HuntersVengeancePlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/Resu/HuntersVengeancePlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HotEnablerDisablerPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/Resu/HotEnablerDisablerPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="GroupGRLevelAdviserPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../GroupGRLevelAdviserPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" selection-start-line="7" selection-start-column="24" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupGRLevelAdviserPlugin.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/Resu/GroupGRLevelAdviserPlugin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exceptions.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/exceptions.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2000">
+              <caret line="100" column="56" selection-start-line="100" selection-start-column="56" selection-end-line="100" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -105,17 +1014,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Order</find>
-      <find>door</find>
-      <find>doors</find>
-      <find>part</find>
-      <find>IInGameWorldPainter</find>
-      <find>GLQ_OriginalSkillBarPlugin</find>
-      <find>GLQ_SkillPainter</find>
-      <find>BountyTablePlugin</find>
-      <find>GLQ_MonstersCountPlugin</find>
-      <find>NotifyAtRiftPercentagePlugin</find>
-      <find>SkillRangeHelperPlugin</find>
       <find>PortraitBottomStatsPlugin</find>
       <find>GLQ_NotifyAtRiftPercentagePlugin</find>
       <find>MultiplayerExperienceRangePlugin</find>
@@ -135,6 +1033,17 @@
       <find>GLQ_BasePluginCN</find>
       <find>GLQ_BuffLabelsPlugin</find>
       <find>BuffRuleFactory</find>
+      <find>ConventionOfElements</find>
+      <find>BloodSpringsPlugin</find>
+      <find>ShockTowerPlugin</find>
+      <find>DangerPlugin</find>
+      <find>HuntersVengeancePlugin.cs</find>
+      <find>UrshisGiftPlugin</find>
+      <find>SummonerMonsterBarCountPlugin</find>
+      <find>Show</find>
+      <find>宠物攻击速度</find>
+      <find>HuntersVengeancePlugin</find>
+      <find>HotEnablerDisablerPlugin</find>
     </findStrings>
     <replaceStrings>
       <replace>Turbo.Plugins.glq</replace>
@@ -146,19 +1055,18 @@
       <dir>C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\glq</dir>
       <dir>C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins</dir>
       <dir>C:\Users\Chen\Desktop\TurboHUDEn\plugins\Default</dir>
-      <dir>C:\Users\Chen\Desktop\TurboHUDEn</dir>
-      <dir>C:\Users\Chen\Desktop\TurboHUDEn\plugins</dir>
       <dir>C:\Users\Chen\Desktop\TurboHUDEn\plugins\glq</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUDEn\plugins</dir>
+      <dir>C:\Users\Chen\Desktop\TurboHUDEn</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_PoolState.cs" />
-        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_DangerousAffixMonsterPlugin.cs" />
-        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_EliteHealthListPlugin.cs" />
-        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_EliteHealthBarPlugin.cs" />
-        <option value="$PROJECT_DIR$/plugins/Default/glq/GLQ_DoorsPlugin.cs" />
         <option value="$PROJECT_DIR$/plugins/glq/BaneOfTheStrickenPlugin.cs" />
         <option value="$PROJECT_DIR$/plugins/glq/Decorators/TopTables/TopTable.cs" />
         <option value="$PROJECT_DIR$/plugins/glq/Decorators/TopTables/TopTableCell.cs" />
@@ -204,7 +1112,12 @@
         <option value="$PROJECT_DIR$/plugins/glq/GLQ_GRiftProgressBarRuler.cs" />
         <option value="$PROJECT_DIR$/plugins/glq/GLQ_InventoryMainStatPlugin.cs" />
         <option value="$PROJECT_DIR$/plugins/glq/GLQ_ItemDropSoundAlertPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/wq/ConventionOfElementsAndBrokenPromissesBuffOnCenterPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/Stone/SummonerMonsterBarCountPlugin.cs" />
+        <option value="$PROJECT_DIR$/plugins/gjuz/PlayerInTown.cs" />
+        <option value="$PROJECT_DIR$/plugins/Resu/HuntersVengeancePlugin.cs" />
         <option value="$PROJECT_DIR$/plugins/User/PluginEnablerOrDisablerPlugin.cs" />
+        <option value="$PROJECT_DIR$/config/hotkeys.xml" />
       </list>
     </option>
   </component>
@@ -217,16 +1130,20 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1289" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,82 +1154,32 @@
             <path>
               <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
               <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="cyj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="Default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="Default" type="462c0819:PsiDirectoryNode" />
-              <item name="BuffLists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="Default" type="462c0819:PsiDirectoryNode" />
-              <item name="BuffLists" type="462c0819:PsiDirectoryNode" />
-              <item name="Painter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="glq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TurboHUDEn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TurboHUDEn" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="Xenthalon" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins" />
-      <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default\glq" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Chen\Desktop\TurboHUDEn\plugins\Resu" />
       <recent name="C:\Users\Chen\Desktop\TurboHUDEn\plugins\glq" />
       <recent name="C:\Users\Chen\Desktop\TurboHUDEn\data" />
       <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default\glq" />
       <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default\glq\Decorators" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins" />
+      <recent name="C:\Users\Chen\Desktop\TurboHUD 18.7.2.0 (v7.6) STABLE for Diablo III 2.6.1.50649 (64 bit)\plugins\Default\glq" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,27 +1214,28 @@
       <workItem from="1531396469073" duration="760000" />
       <workItem from="1531484726904" duration="599000" />
       <workItem from="1531560746650" duration="5001000" />
+      <workItem from="1531642475354" duration="5867000" />
+      <workItem from="1531657532789" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33233000" />
+    <option name="totallyTimeSpent" value="39149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1289" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18763326" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.278275" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.29699665" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,86 +1244,42 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_ItemsPlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
-          <caret line="184" column="32" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_LegendGemCirclePlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_LegendGemsInfoPlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_LegendItemCount.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_MonstersCountPlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_NetworkLatencyPlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_NotifyAtRiftPercentagePlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_OriginalSkillBarPlugin.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PartyInspector.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PlayerInfoPlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PlayerResurrectionTimer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_PoolState.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_RedDoorMarker.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_ShrineNamePlugin.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -515,13 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/cyj/Cyj_Plugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Default/Players/BannerPlugin.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -569,13 +1386,6 @@
         <state relative-caret-position="-180" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/exceptions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="80" column="103" selection-start-line="80" selection-start-column="74" selection-end-line="80" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Default/BuffLists/PlayerRightBuffListPlugin.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -605,7 +1415,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/glq/GLQ_CursedEventPlugin.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="120">
           <caret line="6" column="38" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
@@ -659,10 +1469,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logs/dump_items_LeftHand.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/dump_items_Gold.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cyj/Cyj_Plugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/wq/ConventionOfElementsAndBrokenPromissesBuffOnCenterPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Xenthalon/AdvancedMarkerPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GroupGRLevelAdviserPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" selection-start-line="7" selection-start-column="24" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Resu/GroupGRLevelAdviserPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Resu/UrshisGiftPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Stone/SummonerMonsterBarCountPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Resu/HotEnablerDisablerPlugin.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/gjuz/PlayerInTown.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/exceptions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="100" column="56" selection-start-line="100" selection-start-column="56" selection-end-line="100" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Resu/HuntersVengeancePlugin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capture_paragon/陈彦瑾#51613_52145969_陈彦瑾_20180711215321091_968.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/User/PluginEnablerOrDisablerPlugin.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        <state relative-caret-position="215">
+          <caret line="84" column="48" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/hotkeys.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>

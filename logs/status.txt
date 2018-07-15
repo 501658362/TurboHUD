@@ -3852,3 +3852,329 @@
 2018.07.15 14:10:42.995	new area: New Tristram
 2018.07.15 14:33:35.848	terminate TurboHUD because Diablo 3 is not running
 2018.07.15 14:33:35.902	exit
+2018.07.15 16:19:08.244	initializing overlay
+2018.07.15 16:19:08.258		create Direct2D1 Factory
+2018.07.15 16:19:08.261		create DirectWrite Factory
+2018.07.15 16:19:08.264		create DirectInput
+2018.07.15 16:19:08.289		create DirectInput Keyboard
+2018.07.15 16:19:08.309		create SwapChain
+2018.07.15 16:19:08.389		maximum supported feature level: Level_11_0
+2018.07.15 16:19:08.454	create RenderTarget
+2018.07.15 16:19:08.513	loading configuration
+2018.07.15 16:19:08.514		config.xml
+2018.07.15 16:19:10.611	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.15 16:19:11.057	create RenderTarget
+2018.07.15 16:33:35.258	terminate TurboHUD because Diablo 3 is not running
+2018.07.15 16:33:35.306	exit
+2018.07.15 16:34:14.680	initializing overlay
+2018.07.15 16:34:14.692		create Direct2D1 Factory
+2018.07.15 16:34:14.695		create DirectWrite Factory
+2018.07.15 16:34:14.697		create DirectInput
+2018.07.15 16:34:14.717		create DirectInput Keyboard
+2018.07.15 16:34:14.738		create SwapChain
+2018.07.15 16:34:14.826		maximum supported feature level: Level_11_0
+2018.07.15 16:34:14.884	create RenderTarget
+2018.07.15 16:34:14.940	loading configuration
+2018.07.15 16:34:14.941		config.xml
+2018.07.15 16:34:16.254	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.15 16:34:16.682	create RenderTarget
+2018.07.15 16:35:04.071	initializing overlay
+2018.07.15 16:35:04.087		create Direct2D1 Factory
+2018.07.15 16:35:04.090		create DirectWrite Factory
+2018.07.15 16:35:04.092		create DirectInput
+2018.07.15 16:35:04.108		create DirectInput Keyboard
+2018.07.15 16:35:04.126		create SwapChain
+2018.07.15 16:35:04.193		maximum supported feature level: Level_11_0
+2018.07.15 16:35:04.240	create RenderTarget
+2018.07.15 16:35:04.295	loading configuration
+2018.07.15 16:35:04.296		config.xml
+2018.07.15 16:35:06.100	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.15 16:35:06.518	create RenderTarget
+2018.07.15 16:37:32.854	initializing overlay
+2018.07.15 16:37:32.875		create Direct2D1 Factory
+2018.07.15 16:37:32.878		create DirectWrite Factory
+2018.07.15 16:37:32.881		create DirectInput
+2018.07.15 16:37:32.897		create DirectInput Keyboard
+2018.07.15 16:37:32.915		create SwapChain
+2018.07.15 16:37:32.981		maximum supported feature level: Level_11_0
+2018.07.15 16:37:33.029	create RenderTarget
+2018.07.15 16:37:33.078	loading configuration
+2018.07.15 16:37:33.079		config.xml
+2018.07.15 16:37:34.919	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.15 16:37:35.329	create RenderTarget
+2018.07.15 16:39:59.253	initializing overlay
+2018.07.15 16:39:59.269		create Direct2D1 Factory
+2018.07.15 16:39:59.273		create DirectWrite Factory
+2018.07.15 16:39:59.275		create DirectInput
+2018.07.15 16:39:59.292		create DirectInput Keyboard
+2018.07.15 16:39:59.311		create SwapChain
+2018.07.15 16:39:59.379		maximum supported feature level: Level_11_0
+2018.07.15 16:39:59.433	create RenderTarget
+2018.07.15 16:39:59.480	loading configuration
+2018.07.15 16:39:59.481		config.xml
+2018.07.15 16:40:00.801	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.15 16:40:01.257	create RenderTarget
+2018.07.15 16:40:34.110	initializing overlay
+2018.07.15 16:40:34.128		create Direct2D1 Factory
+2018.07.15 16:40:34.131		create DirectWrite Factory
+2018.07.15 16:40:34.134		create DirectInput
+2018.07.15 16:40:34.150		create DirectInput Keyboard
+2018.07.15 16:40:34.169		create SwapChain
+2018.07.15 16:40:34.240		maximum supported feature level: Level_11_0
+2018.07.15 16:40:34.287	create RenderTarget
+2018.07.15 16:40:34.343	loading configuration
+2018.07.15 16:40:34.344		config.xml
+2018.07.15 16:40:36.394	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.15 16:40:36.940	create RenderTarget
+2018.07.15 16:52:02.092	initializing overlay
+2018.07.15 16:52:02.112		create Direct2D1 Factory
+2018.07.15 16:52:02.117		create DirectWrite Factory
+2018.07.15 16:52:02.119		create DirectInput
+2018.07.15 16:52:02.137		create DirectInput Keyboard
+2018.07.15 16:52:02.156		create SwapChain
+2018.07.15 16:52:02.236		maximum supported feature level: Level_11_0
+2018.07.15 16:52:02.286	create RenderTarget
+2018.07.15 16:52:02.341	loading configuration
+2018.07.15 16:52:02.342		config.xml
+2018.07.15 16:52:03.952	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.15 16:52:04.435	create RenderTarget
+2018.07.15 16:54:32.124	initializing overlay
+2018.07.15 16:54:32.137		create Direct2D1 Factory
+2018.07.15 16:54:32.141		create DirectWrite Factory
+2018.07.15 16:54:32.143		create DirectInput
+2018.07.15 16:54:32.162		create DirectInput Keyboard
+2018.07.15 16:54:32.188		create SwapChain
+2018.07.15 16:54:32.275		maximum supported feature level: Level_11_0
+2018.07.15 16:54:32.347	create RenderTarget
+2018.07.15 16:54:32.413	loading configuration
+2018.07.15 16:54:32.414		config.xml
+2018.07.15 16:54:34.952	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 16:54:35.453	create RenderTarget
+2018.07.15 17:00:27.275	initializing overlay
+2018.07.15 17:00:27.289		create Direct2D1 Factory
+2018.07.15 17:00:27.293		create DirectWrite Factory
+2018.07.15 17:00:27.296		create DirectInput
+2018.07.15 17:00:27.317		create DirectInput Keyboard
+2018.07.15 17:00:27.339		create SwapChain
+2018.07.15 17:00:27.423		maximum supported feature level: Level_11_0
+2018.07.15 17:00:27.479	create RenderTarget
+2018.07.15 17:00:27.543	loading configuration
+2018.07.15 17:00:27.545		config.xml
+2018.07.15 17:00:29.031	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 17:00:29.562	create RenderTarget
+2018.07.15 17:01:05.387	initializing overlay
+2018.07.15 17:01:05.407		create Direct2D1 Factory
+2018.07.15 17:01:05.411		create DirectWrite Factory
+2018.07.15 17:01:05.413		create DirectInput
+2018.07.15 17:01:05.430		create DirectInput Keyboard
+2018.07.15 17:01:05.448		create SwapChain
+2018.07.15 17:01:05.523		maximum supported feature level: Level_11_0
+2018.07.15 17:01:05.575	create RenderTarget
+2018.07.15 17:01:05.626	loading configuration
+2018.07.15 17:01:05.627		config.xml
+2018.07.15 17:01:07.001	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 17:01:07.515	create RenderTarget
+2018.07.15 17:03:56.176	initializing overlay
+2018.07.15 17:03:56.191		create Direct2D1 Factory
+2018.07.15 17:03:56.195		create DirectWrite Factory
+2018.07.15 17:03:56.197		create DirectInput
+2018.07.15 17:03:56.217		create DirectInput Keyboard
+2018.07.15 17:03:56.238		create SwapChain
+2018.07.15 17:03:56.319		maximum supported feature level: Level_11_0
+2018.07.15 17:03:56.398	create RenderTarget
+2018.07.15 17:03:56.458	loading configuration
+2018.07.15 17:03:56.459		config.xml
+2018.07.15 17:03:59.149	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 17:04:11.078	create RenderTarget
+2018.07.15 17:04:25.779	new area: New Tristram
+2018.07.15 17:04:25.896	new area: [TEMP] Loot Run Level 01
+2018.07.15 17:05:43.324	initializing overlay
+2018.07.15 17:05:43.337		create Direct2D1 Factory
+2018.07.15 17:05:43.340		create DirectWrite Factory
+2018.07.15 17:05:43.342		create DirectInput
+2018.07.15 17:05:43.361		create DirectInput Keyboard
+2018.07.15 17:05:43.383		create SwapChain
+2018.07.15 17:05:43.473		maximum supported feature level: Level_11_0
+2018.07.15 17:05:43.548	create RenderTarget
+2018.07.15 17:05:43.605	loading configuration
+2018.07.15 17:05:43.606		config.xml
+2018.07.15 17:05:46.217	new run: 圣教军, [TEMP] Loot Run Level 01, Difficulty: t13
+2018.07.15 17:05:46.618	create RenderTarget
+2018.07.15 17:07:22.208	initializing overlay
+2018.07.15 17:07:22.225		create Direct2D1 Factory
+2018.07.15 17:07:22.230		create DirectWrite Factory
+2018.07.15 17:07:22.232		create DirectInput
+2018.07.15 17:07:22.256		create DirectInput Keyboard
+2018.07.15 17:07:22.289		create SwapChain
+2018.07.15 17:07:22.396		maximum supported feature level: Level_11_0
+2018.07.15 17:07:22.477	create RenderTarget
+2018.07.15 17:07:22.544	loading configuration
+2018.07.15 17:07:22.546		config.xml
+2018.07.15 17:07:25.342	new run: 圣教军, [TEMP] Loot Run Level 01, Difficulty: t13
+2018.07.15 17:07:25.750	create RenderTarget
+2018.07.15 17:08:41.017	new area: [TEMP] Loot Run Level 01
+2018.07.15 17:08:41.564	new area: [TEMP] Loot Run Level 02
+2018.07.15 17:10:48.825	new area: [TEMP] Loot Run Level 02
+2018.07.15 17:10:49.451	new area: New Tristram
+2018.07.15 17:17:33.277	initializing overlay
+2018.07.15 17:17:33.294		create Direct2D1 Factory
+2018.07.15 17:17:33.298		create DirectWrite Factory
+2018.07.15 17:17:33.300		create DirectInput
+2018.07.15 17:17:33.322		create DirectInput Keyboard
+2018.07.15 17:17:33.344		create SwapChain
+2018.07.15 17:17:33.430		maximum supported feature level: Level_11_0
+2018.07.15 17:17:33.490	create RenderTarget
+2018.07.15 17:17:33.545	loading configuration
+2018.07.15 17:17:33.546		config.xml
+2018.07.15 17:17:35.114	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 17:17:35.670	create RenderTarget
+2018.07.15 17:18:05.651	initializing overlay
+2018.07.15 17:18:05.671		create Direct2D1 Factory
+2018.07.15 17:18:05.676		create DirectWrite Factory
+2018.07.15 17:18:05.680		create DirectInput
+2018.07.15 17:18:05.699		create DirectInput Keyboard
+2018.07.15 17:18:05.723		create SwapChain
+2018.07.15 17:18:05.798		maximum supported feature level: Level_11_0
+2018.07.15 17:18:05.860	create RenderTarget
+2018.07.15 17:18:05.912	loading configuration
+2018.07.15 17:18:05.913		config.xml
+2018.07.15 17:18:07.011	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 17:18:07.632	create RenderTarget
+2018.07.15 17:18:22.090	initializing overlay
+2018.07.15 17:18:22.109		create Direct2D1 Factory
+2018.07.15 17:18:22.113		create DirectWrite Factory
+2018.07.15 17:18:22.116		create DirectInput
+2018.07.15 17:18:22.133		create DirectInput Keyboard
+2018.07.15 17:18:22.154		create SwapChain
+2018.07.15 17:18:22.227		maximum supported feature level: Level_11_0
+2018.07.15 17:18:22.283	create RenderTarget
+2018.07.15 17:18:22.338	loading configuration
+2018.07.15 17:18:22.339		config.xml
+2018.07.15 17:18:23.880	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 17:18:24.434	create RenderTarget
+2018.07.15 17:19:40.373	initializing overlay
+2018.07.15 17:19:40.393		create Direct2D1 Factory
+2018.07.15 17:19:40.396		create DirectWrite Factory
+2018.07.15 17:19:40.398		create DirectInput
+2018.07.15 17:19:40.416		create DirectInput Keyboard
+2018.07.15 17:19:40.436		create SwapChain
+2018.07.15 17:19:40.523		maximum supported feature level: Level_11_0
+2018.07.15 17:19:40.578	create RenderTarget
+2018.07.15 17:19:40.630	loading configuration
+2018.07.15 17:19:40.631		config.xml
+2018.07.15 17:19:42.996	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 17:19:43.556	create RenderTarget
+2018.07.15 17:21:06.114	initializing overlay
+2018.07.15 17:21:06.128		create Direct2D1 Factory
+2018.07.15 17:21:06.132		create DirectWrite Factory
+2018.07.15 17:21:06.135		create DirectInput
+2018.07.15 17:21:06.158		create DirectInput Keyboard
+2018.07.15 17:21:06.184		create SwapChain
+2018.07.15 17:21:06.280		maximum supported feature level: Level_11_0
+2018.07.15 17:21:06.348	create RenderTarget
+2018.07.15 17:21:06.419	loading configuration
+2018.07.15 17:21:06.420		config.xml
+2018.07.15 17:21:09.146	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 17:21:09.666	create RenderTarget
+2018.07.15 17:21:26.308	new area: New Tristram
+2018.07.15 17:21:26.797	new area: Highlands Crossing
+2018.07.15 17:22:06.305	initializing overlay
+2018.07.15 17:22:06.326		create Direct2D1 Factory
+2018.07.15 17:22:06.330		create DirectWrite Factory
+2018.07.15 17:22:06.332		create DirectInput
+2018.07.15 17:22:06.354		create DirectInput Keyboard
+2018.07.15 17:22:06.378		create SwapChain
+2018.07.15 17:22:06.469		maximum supported feature level: Level_11_0
+2018.07.15 17:22:06.524	create RenderTarget
+2018.07.15 17:22:06.577	loading configuration
+2018.07.15 17:22:06.578		config.xml
+2018.07.15 17:22:09.005	new run: 圣教军, Highlands Crossing, Difficulty: t13
+2018.07.15 17:22:09.453	create RenderTarget
+2018.07.15 17:22:21.177	new area: Highlands Crossing
+2018.07.15 17:22:22.006	new area: New Tristram
+2018.07.15 18:08:25.151	new run: 圣教军, The Survivors' Enclave, Difficulty: t13
+2018.07.15 18:57:13.106	initializing overlay
+2018.07.15 18:57:13.120		create Direct2D1 Factory
+2018.07.15 18:57:13.124		create DirectWrite Factory
+2018.07.15 18:57:13.126		create DirectInput
+2018.07.15 18:57:13.149		create DirectInput Keyboard
+2018.07.15 18:57:13.173		create SwapChain
+2018.07.15 18:57:13.257		maximum supported feature level: Level_11_0
+2018.07.15 18:57:13.315	create RenderTarget
+2018.07.15 18:57:13.375	loading configuration
+2018.07.15 18:57:13.376		config.xml
+2018.07.15 18:57:15.790	new run: 圣教军, The Survivors' Enclave, Difficulty: t13
+2018.07.15 18:57:16.235	create RenderTarget
+2018.07.15 19:08:00.487	new area: The Survivors' Enclave
+2018.07.15 19:08:00.730	new area: New Tristram
+2018.07.15 19:10:54.243	new area: New Tristram
+2018.07.15 19:10:54.337	new area: [TEMP] Loot Run Level 01
+2018.07.15 19:12:27.878	new area: [TEMP] Loot Run Level 01
+2018.07.15 19:12:28.136	new area: [TEMP] Loot Run Level 01
+2018.07.15 19:12:28.237	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:13:19.922	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:13:20.515	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:15:34.494	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:15:34.993	new area: New Tristram
+2018.07.15 19:15:47.974	new area: New Tristram
+2018.07.15 19:15:48.536	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:16:09.647	new area: New Tristram
+2018.07.15 19:23:44.577	new area: New Tristram
+2018.07.15 19:23:44.889	new area: [TEMP] Loot Run Level 01
+2018.07.15 19:24:47.661	new area: [TEMP] Loot Run Level 01
+2018.07.15 19:24:48.436	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:26:06.982	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:26:07.894	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:28:38.302	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:28:38.798	new area: New Tristram
+2018.07.15 19:28:58.763	new area: New Tristram
+2018.07.15 19:29:00.326	new area: New Tristram
+2018.07.15 19:29:00.549	new area: [TEMP] Loot Run Level 01
+2018.07.15 19:31:04.435	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:32:14.365	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:32:14.494	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:32:14.930	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:33:41.846	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:33:42.339	new area: New Tristram
+2018.07.15 19:35:47.033	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:36:01.783	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:36:01.869	new area: [TEMP] Loot Run Level 03
+2018.07.15 19:36:02.278	new area: New Tristram
+2018.07.15 19:36:10.864	new area: New Tristram
+2018.07.15 19:36:11.203	new area: New Tristram
+2018.07.15 19:36:11.498	new area: [TEMP] Loot Run Level 01
+2018.07.15 19:37:44.383	new area: [TEMP] Loot Run Level 01
+2018.07.15 19:37:44.457	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:40:59.476	new area: [TEMP] Loot Run Level 02
+2018.07.15 19:40:59.838	new area: New Tristram
+2018.07.15 19:42:06.264	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.15 19:42:14.706	new area: The Survivors' Enclave
+2018.07.15 19:42:14.949	new area: New Tristram
+2018.07.15 19:50:11.180	new run: 圣教军, The Survivors' Enclave, Difficulty: t13
+2018.07.15 19:52:00.198	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.15 19:53:48.465	new run: 圣教军, The Survivors' Enclave, Difficulty: t13
+2018.07.15 19:57:27.786	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.15 20:08:11.393	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.15 20:09:05.376	new area: The Survivors' Enclave
+2018.07.15 20:09:05.476	new area: [TEMP] Loot Run Level 01
+2018.07.15 20:15:02.046	new area: [TEMP] Loot Run Level 01
+2018.07.15 20:15:02.665	new area: [TEMP] Loot Run Level 02
+2018.07.15 20:16:56.755	initializing overlay
+2018.07.15 20:16:56.769		create Direct2D1 Factory
+2018.07.15 20:16:56.774		create DirectWrite Factory
+2018.07.15 20:16:56.776		create DirectInput
+2018.07.15 20:16:56.795		create DirectInput Keyboard
+2018.07.15 20:16:56.816		create SwapChain
+2018.07.15 20:16:56.906		maximum supported feature level: Level_11_0
+2018.07.15 20:16:56.964	create RenderTarget
+2018.07.15 20:16:57.024	loading configuration
+2018.07.15 20:16:57.025		config.xml
+2018.07.15 20:16:59.482	new run: 魔法师, [TEMP] Loot Run Level 02, Difficulty: t13
+2018.07.15 20:17:00.073	create RenderTarget
+2018.07.15 20:19:11.769	new area: [TEMP] Loot Run Level 02
+2018.07.15 20:19:12.586	new area: [TEMP] Loot Run Level 03
+2018.07.15 20:21:46.124	new area: [TEMP] Loot Run Level 03
+2018.07.15 20:21:46.271	new area: [TEMP] Loot Run Level 03
+2018.07.15 20:21:46.938	new area: The Survivors' Enclave
+2018.07.15 20:24:52.055	terminate TurboHUD because Diablo 3 is not running
+2018.07.15 20:24:52.082	exit

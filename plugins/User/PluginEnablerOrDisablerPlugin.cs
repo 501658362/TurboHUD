@@ -5,6 +5,10 @@
 
 using Turbo.Plugins.Default;
 using Turbo.Plugins.glq;
+using Turbo.Plugins.wq;
+using Turbo.Plugins.Resu;
+using Turbo.Plugins.Stone;
+using Turbo.Plugins.gjuz;
 using SharpDX.DirectInput;
 
 namespace Turbo.Plugins.User
@@ -68,11 +72,54 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_CursedEventPlugin>().Enabled = true;
 
 
+        // 全能戒子
+        Hud.GetPlugin<ConventionOfElementsBuffListPlugin>().Enabled = false;
+        // 全能戒子 只显示一种
+        Hud.GetPlugin<ConventionOfElementsAndBrokenPromissesBuffOnCenterPlugin>().Enabled = true;
+
+        // Resu  https://github.com/User5981/Resu/blob/master/README.md
+        // 贼神宝石 指示器
+        Hud.RunOnPlugin<HuntersVengeancePlugin>(plugin =>
+            {
+                plugin.permanentCircle = true;
+                plugin.ElitesOnlyNumbers = true;
+            });
+
+        // 宝石升级几率
+        Hud.RunOnPlugin<UrshisGiftPlugin>(plugin =>
+            {
+                plugin.ChanceWantedPercentage = 100;  // % chance wanted : 100; 90; 80; 70; 60; 30; 15; 8; 4; 2; 1;
+                plugin.NumberOfAttempts = 5;        // 此％的连续尝试次数：1; 2; 3; （默认）4; （授予GRift或无死亡奖金）5; （赋予GRift +无死亡奖​​金）
+                plugin.InventoryNumbers = true;    //显示GRift级别建议库存中的gem，stash，设置为true; 或者是假的;
+                plugin.HoveredNumbers = true;     // 显示项目悬停时的升级提示，设置为true; 或者是假的;
+
+            });
+
+
+        // 怪物统计用  具体没明白 是干嘛的
+        Hud.RunOnPlugin<SummonerMonsterBarCountPlugin>(plugin =>
+            {
+               plugin.ShowMeScreenBaseYard = false;    // 1. MeScreenBaseYard on, off
+               plugin.ShowMeScreenMaxYard = false;     // 2. MeScreenMaxYard on, off
+               plugin.ShowSummonerCount = false;       // 3. SummonerCount on, off
+               plugin.ShowSummonerEliteBar = true;    // 4. EliteSummonerBar on, off
+               plugin.ShowSummonerNormalMonsterBar = true; //5.NormalSummonerBar on, off
+               plugin.showdifLabel = true;            // 6. different Label Color on, off
+
+            });
+         // 统计玩家在城里的时间  悬赏看混子的
+        Hud.RunOnPlugin<PlayerInTown>(plugin =>
+            {
+                plugin.AlwaysStopTime = false;
+                plugin.OnlyShowOnBountyTable = false;
+
+            });
 
 
 
 
-
+        // 大秘境组队推荐层级  垃圾东西。。。
+        Hud.GetPlugin<GroupGRLevelAdviserPlugin>().Enabled = false;
 
         // 宝石技能范围
         Hud.GetPlugin<GLQ_LegendGemCirclePlugin>().Enabled = false;
@@ -90,8 +137,9 @@ namespace Turbo.Plugins.User
 
         // 这个插件显示队友的名字
         Hud.GetPlugin<OtherPlayersPlugin>().Enabled = false;
-        // buff显示在人身上
+        // 所有buff显示在人身上 和头像上
         Hud.GetPlugin<GLQ_PartyBuffPlugin>().Enabled = false;
+
 
 
 //            // turn on MultiplayerExperienceRangePlugin
