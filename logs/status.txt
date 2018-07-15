@@ -3850,3 +3850,5 @@
 2018.07.15 14:05:45.215	new area: [TEMP] Loot Run Level 02
 2018.07.15 14:10:42.028	new area: [TEMP] Loot Run Level 02
 2018.07.15 14:10:42.995	new area: New Tristram
+2018.07.15 14:33:35.848	terminate TurboHUD because Diablo 3 is not running
+2018.07.15 14:33:35.902	exit

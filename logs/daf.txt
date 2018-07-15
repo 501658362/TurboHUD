@@ -10054,3 +10054,74 @@
 2018.07.15 11:33:19.648	BattleNetClient	0
 2018.07.15 11:33:19.648	GameState	0
 2018.07.15 11:33:19.648	scan finished in 34 ms
+2018.07.15 14:33:02.940	block sanity check failed
+2018.07.15 14:33:02.941	scan started
+2018.07.15 14:33:03.208	header load time: 266
+2018.07.15 14:33:03.210	retry: can't find object manager
+2018.07.15 14:33:03.211	scan started
+2018.07.15 14:33:03.427	header load time: 215
+2018.07.15 14:33:03.429	retry: can't find object manager
+2018.07.15 14:33:03.430	ERROR: can't find object manager
+2018.07.15 14:33:03.639	scan started
+2018.07.15 14:33:03.833	header load time: 193
+2018.07.15 14:33:03.835	retry: can't find object manager
+2018.07.15 14:33:03.835	scan started
+2018.07.15 14:33:04.246	header load time: 409
+2018.07.15 14:33:04.248	retry: can't find object manager
+2018.07.15 14:33:04.250	ERROR: can't find object manager
+2018.07.15 14:33:04.271	scan started
+2018.07.15 14:33:04.838	header load time: 565
+2018.07.15 14:33:04.839	retry: can't find object manager
+2018.07.15 14:33:04.840	scan started
+2018.07.15 14:33:05.014	header load time: 174
+2018.07.15 14:33:05.015	retry: can't find object manager
+2018.07.15 14:33:05.016	ERROR: can't find object manager
+2018.07.15 14:33:05.025	scan started
+2018.07.15 14:33:05.376	header load time: 350
+2018.07.15 14:33:05.377	retry: can't find object manager
+2018.07.15 14:33:05.378	scan started
+2018.07.15 14:33:05.664	header load time: 286
+2018.07.15 14:33:05.665	retry: can't find object manager
+2018.07.15 14:33:05.666	ERROR: can't find object manager
+2018.07.15 14:33:05.672	scan started
+2018.07.15 14:33:05.847	header load time: 173
+2018.07.15 14:33:05.848	retry: can't find object manager
+2018.07.15 14:33:05.849	scan started
+2018.07.15 14:33:06.163	header load time: 313
+2018.07.15 14:33:06.164	retry: can't find object manager
+2018.07.15 14:33:06.165	ERROR: can't find object manager
+2018.07.15 14:33:06.172	scan started
+2018.07.15 14:33:06.507	header load time: 335
+2018.07.15 14:33:06.508	retry: can't find object manager
+2018.07.15 14:33:06.509	scan started
+2018.07.15 14:33:06.686	header load time: 176
+2018.07.15 14:33:06.687	retry: can't find object manager
+2018.07.15 14:33:06.687	ERROR: can't find object manager
+2018.07.15 14:33:06.897	scan started
+2018.07.15 14:33:07.195	header load time: 298
+2018.07.15 14:33:07.196	retry: can't find object manager
+2018.07.15 14:33:07.197	scan started
+2018.07.15 14:33:07.545	header load time: 347
+2018.07.15 14:33:07.546	retry: can't find object manager
+2018.07.15 14:33:07.546	ERROR: can't find object manager
+2018.07.15 14:33:07.558	scan started
+2018.07.15 14:33:07.734	header load time: 175
+2018.07.15 14:33:07.735	retry: can't find object manager
+2018.07.15 14:33:07.736	scan started
+2018.07.15 14:33:08.047	header load time: 310
+2018.07.15 14:33:08.048	retry: can't find object manager
+2018.07.15 14:33:08.049	ERROR: can't find object manager
+2018.07.15 14:33:08.054	scan started
+2018.07.15 14:33:08.348	header load time: 293
+2018.07.15 14:33:08.350	retry: can't find object manager
+2018.07.15 14:33:08.351	scan started
+2018.07.15 14:33:08.539	header load time: 187
+2018.07.15 14:33:08.540	retry: can't find object manager
+2018.07.15 14:33:08.541	ERROR: can't find object manager
+2018.07.15 14:33:08.547	scan started
+2018.07.15 14:33:08.914	header load time: 366
+2018.07.15 14:33:08.916	retry: can't find object manager
+2018.07.15 14:33:08.916	scan started
+2018.07.15 14:33:09.236	header load time: 319
+2018.07.15 14:33:09.237	retry: can't find object manager
+2018.07.15 14:33:09.238	ERROR: can't find object manager
