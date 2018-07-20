@@ -72,10 +72,24 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_CursedEventPlugin>().Enabled = true;
 
 
-        // 全能戒子
+        // 显示远古 地面的传奇
+        Hud.GetPlugin<GLQ_ItemsPlugin>().Enabled = false;
+
+        // 全能戒子 buff 计时
         Hud.GetPlugin<ConventionOfElementsBuffListPlugin>().Enabled = false;
-        // 全能戒子 只显示一种
+        // 全能戒子 buff 计时 只显示一种
         Hud.GetPlugin<ConventionOfElementsAndBrokenPromissesBuffOnCenterPlugin>().Enabled = true;
+        // 所有buff显示在人身上 和头像上
+        Hud.RunOnPlugin<GLQ_PartyBuffPlugin>(plugin =>
+            {
+                    plugin.MeScreenPaint = false; // 人物下方
+                    plugin.MePortraitPaint = true; // 自己的头像处
+                    plugin.OtherScreenPaint = false; // ？？
+                    plugin.OtherPortraitPaint = true; // 队友头像处
+                    plugin.Tooltips = false;
+
+            });
+
 
         // Resu  https://github.com/User5981/Resu/blob/master/README.md
         // 贼神宝石 指示器
@@ -124,21 +138,24 @@ namespace Turbo.Plugins.User
         // 宝石技能范围
         Hud.GetPlugin<GLQ_LegendGemCirclePlugin>().Enabled = false;
 
+        // 队友插件
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Enabled = true;
+        // 队友名字
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Tag = true;
+        // 队友血量
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().HPbar = true;
+        // 队友能量
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Resbar = true;
 
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Enabled = false;
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Tag = false;
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().HPbar = false;
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Resbar = false;
+
+        // 这个插件显示队友的名字 很小但是很烦
+        Hud.GetPlugin<OtherPlayersPlugin>().Enabled = false;
 
 
         // 精英各种词缀 看着会很烦
-        Hud.GetPlugin<GLQ_EliteHealthBarPlugin>().Enabled = false;
-        Hud.GetPlugin<GLQ_EliteHealthListPlugin>().Enabled = false;
+        Hud.GetPlugin<GLQ_EliteHealthBarPlugin>().Enabled = true;
+        Hud.GetPlugin<GLQ_EliteHealthListPlugin>().Enabled = true;
 
-        // 这个插件显示队友的名字
-        Hud.GetPlugin<OtherPlayersPlugin>().Enabled = false;
-        // 所有buff显示在人身上 和头像上
-        Hud.GetPlugin<GLQ_PartyBuffPlugin>().Enabled = false;
 
 
 

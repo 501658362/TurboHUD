@@ -4178,3 +4178,1317 @@
 2018.07.15 20:21:46.938	new area: The Survivors' Enclave
 2018.07.15 20:24:52.055	terminate TurboHUD because Diablo 3 is not running
 2018.07.15 20:24:52.082	exit
+2018.07.15 21:34:40.265	initializing overlay
+2018.07.15 21:34:40.277		create Direct2D1 Factory
+2018.07.15 21:34:40.280		create DirectWrite Factory
+2018.07.15 21:34:40.281		create DirectInput
+2018.07.15 21:34:40.299		create DirectInput Keyboard
+2018.07.15 21:34:40.318		create SwapChain
+2018.07.15 21:34:40.404		maximum supported feature level: Level_11_0
+2018.07.15 21:34:40.463	create RenderTarget
+2018.07.15 21:34:40.516	loading configuration
+2018.07.15 21:34:40.516		config.xml
+2018.07.15 21:34:42.470	new run: 魔法师, New Tristram, Difficulty: t13
+2018.07.15 21:34:42.923	create RenderTarget
+2018.07.15 21:47:38.625	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 22:54:37.088	initializing overlay
+2018.07.15 22:54:37.099		create Direct2D1 Factory
+2018.07.15 22:54:37.103		create DirectWrite Factory
+2018.07.15 22:54:37.105		create DirectInput
+2018.07.15 22:54:37.124		create DirectInput Keyboard
+2018.07.15 22:54:37.147		create SwapChain
+2018.07.15 22:54:37.222		maximum supported feature level: Level_11_0
+2018.07.15 22:54:37.272	create RenderTarget
+2018.07.15 22:54:37.322	loading configuration
+2018.07.15 22:54:37.323		config.xml
+2018.07.15 22:54:39.397	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 22:54:39.815	create RenderTarget
+2018.07.15 22:57:36.584	initializing overlay
+2018.07.15 22:57:36.603		create Direct2D1 Factory
+2018.07.15 22:57:36.606		create DirectWrite Factory
+2018.07.15 22:57:36.608		create DirectInput
+2018.07.15 22:57:36.623		create DirectInput Keyboard
+2018.07.15 22:57:36.641		create SwapChain
+2018.07.15 22:57:36.706		maximum supported feature level: Level_11_0
+2018.07.15 22:57:36.752	create RenderTarget
+2018.07.15 22:57:36.800	loading configuration
+2018.07.15 22:57:36.801		config.xml
+2018.07.15 22:57:38.074	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 22:57:38.466	create RenderTarget
+2018.07.15 22:58:34.271	initializing overlay
+2018.07.15 22:58:34.291		create Direct2D1 Factory
+2018.07.15 22:58:34.295		create DirectWrite Factory
+2018.07.15 22:58:34.297		create DirectInput
+2018.07.15 22:58:34.312		create DirectInput Keyboard
+2018.07.15 22:58:34.330		create SwapChain
+2018.07.15 22:58:34.399		maximum supported feature level: Level_11_0
+2018.07.15 22:58:34.449	create RenderTarget
+2018.07.15 22:58:34.497	loading configuration
+2018.07.15 22:58:34.498		config.xml
+2018.07.15 22:58:36.370	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 22:58:36.781	create RenderTarget
+2018.07.15 23:00:54.302	initializing overlay
+2018.07.15 23:00:54.313		create Direct2D1 Factory
+2018.07.15 23:00:54.316		create DirectWrite Factory
+2018.07.15 23:00:54.318		create DirectInput
+2018.07.15 23:00:54.338		create DirectInput Keyboard
+2018.07.15 23:00:54.358		create SwapChain
+2018.07.15 23:00:54.443		maximum supported feature level: Level_11_0
+2018.07.15 23:00:54.501	create RenderTarget
+2018.07.15 23:00:54.567	loading configuration
+2018.07.15 23:00:54.568		config.xml
+2018.07.15 23:00:56.642	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 23:00:57.096	create RenderTarget
+2018.07.15 23:11:40.151	initializing overlay
+2018.07.15 23:11:40.163		create Direct2D1 Factory
+2018.07.15 23:11:40.167		create DirectWrite Factory
+2018.07.15 23:11:40.169		create DirectInput
+2018.07.15 23:11:40.189		create DirectInput Keyboard
+2018.07.15 23:11:40.213		create SwapChain
+2018.07.15 23:11:40.299		maximum supported feature level: Level_11_0
+2018.07.15 23:11:40.355	create RenderTarget
+2018.07.15 23:11:40.410	loading configuration
+2018.07.15 23:11:40.411		config.xml
+2018.07.15 23:11:41.373	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 23:11:41.802	create RenderTarget
+2018.07.15 23:12:54.686	initializing overlay
+2018.07.15 23:12:54.703		create Direct2D1 Factory
+2018.07.15 23:12:54.706		create DirectWrite Factory
+2018.07.15 23:12:54.708		create DirectInput
+2018.07.15 23:12:54.727		create DirectInput Keyboard
+2018.07.15 23:12:54.748		create SwapChain
+2018.07.15 23:12:54.833		maximum supported feature level: Level_11_0
+2018.07.15 23:12:54.894	create RenderTarget
+2018.07.15 23:12:54.947	loading configuration
+2018.07.15 23:12:54.948		config.xml
+2018.07.15 23:12:55.878	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.15 23:12:56.326	create RenderTarget
+2018.07.15 23:26:17.300	terminate TurboHUD because Diablo 3 is not running
+2018.07.15 23:26:17.324	exit
+2018.07.16 07:15:26.527	initializing overlay
+2018.07.16 07:15:26.546		create Direct2D1 Factory
+2018.07.16 07:15:26.550		create DirectWrite Factory
+2018.07.16 07:15:26.552		create DirectInput
+2018.07.16 07:15:26.571		create DirectInput Keyboard
+2018.07.16 07:15:26.598		create SwapChain
+2018.07.16 07:15:26.698		maximum supported feature level: Level_11_0
+2018.07.16 07:15:26.756	create RenderTarget
+2018.07.16 07:15:26.816	loading configuration
+2018.07.16 07:15:26.817		config.xml
+2018.07.16 07:15:28.348	new run: 圣教军, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:15:28.791	create RenderTarget
+2018.07.16 07:15:59.438	initializing overlay
+2018.07.16 07:15:59.453		create Direct2D1 Factory
+2018.07.16 07:15:59.456		create DirectWrite Factory
+2018.07.16 07:15:59.457		create DirectInput
+2018.07.16 07:15:59.473		create DirectInput Keyboard
+2018.07.16 07:15:59.491		create SwapChain
+2018.07.16 07:15:59.561		maximum supported feature level: Level_11_0
+2018.07.16 07:15:59.613	create RenderTarget
+2018.07.16 07:15:59.664	loading configuration
+2018.07.16 07:15:59.664		config.xml
+2018.07.16 07:16:00.662	new run: 圣教军, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:16:01.063	create RenderTarget
+2018.07.16 07:16:57.979	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:17:27.881	initializing overlay
+2018.07.16 07:17:27.892		create Direct2D1 Factory
+2018.07.16 07:17:27.895		create DirectWrite Factory
+2018.07.16 07:17:27.897		create DirectInput
+2018.07.16 07:17:27.915		create DirectInput Keyboard
+2018.07.16 07:17:27.938		create SwapChain
+2018.07.16 07:17:28.029		maximum supported feature level: Level_11_0
+2018.07.16 07:17:28.080	create RenderTarget
+2018.07.16 07:17:28.133	loading configuration
+2018.07.16 07:17:28.133		config.xml
+2018.07.16 07:17:29.431	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:17:29.840	create RenderTarget
+2018.07.16 07:33:37.069	initializing overlay
+2018.07.16 07:33:37.079		create Direct2D1 Factory
+2018.07.16 07:33:37.083		create DirectWrite Factory
+2018.07.16 07:33:37.085		create DirectInput
+2018.07.16 07:33:37.103		create DirectInput Keyboard
+2018.07.16 07:33:37.122		create SwapChain
+2018.07.16 07:33:37.208		maximum supported feature level: Level_11_0
+2018.07.16 07:33:37.269	create RenderTarget
+2018.07.16 07:33:37.321	loading configuration
+2018.07.16 07:33:37.322		config.xml
+2018.07.16 07:33:38.638	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:33:39.070	create RenderTarget
+2018.07.16 07:35:12.925	initializing overlay
+2018.07.16 07:35:12.941		create Direct2D1 Factory
+2018.07.16 07:35:12.944		create DirectWrite Factory
+2018.07.16 07:35:12.946		create DirectInput
+2018.07.16 07:35:12.962		create DirectInput Keyboard
+2018.07.16 07:35:12.980		create SwapChain
+2018.07.16 07:35:13.045		maximum supported feature level: Level_11_0
+2018.07.16 07:35:13.093	create RenderTarget
+2018.07.16 07:35:13.141	loading configuration
+2018.07.16 07:35:13.142		config.xml
+2018.07.16 07:35:14.408	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:35:14.786	create RenderTarget
+2018.07.16 07:36:56.270	initializing overlay
+2018.07.16 07:36:56.287		create Direct2D1 Factory
+2018.07.16 07:36:56.292		create DirectWrite Factory
+2018.07.16 07:36:56.294		create DirectInput
+2018.07.16 07:36:56.309		create DirectInput Keyboard
+2018.07.16 07:36:56.327		create SwapChain
+2018.07.16 07:36:56.390		maximum supported feature level: Level_11_0
+2018.07.16 07:36:56.443	create RenderTarget
+2018.07.16 07:36:56.489	loading configuration
+2018.07.16 07:36:56.490		config.xml
+2018.07.16 07:36:57.713	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:36:58.105	create RenderTarget
+2018.07.16 07:38:51.648	initializing overlay
+2018.07.16 07:38:51.659		create Direct2D1 Factory
+2018.07.16 07:38:51.662		create DirectWrite Factory
+2018.07.16 07:38:51.664		create DirectInput
+2018.07.16 07:38:51.681		create DirectInput Keyboard
+2018.07.16 07:38:51.700		create SwapChain
+2018.07.16 07:38:51.773		maximum supported feature level: Level_11_0
+2018.07.16 07:38:51.829	create RenderTarget
+2018.07.16 07:38:51.882	loading configuration
+2018.07.16 07:38:51.883		config.xml
+2018.07.16 07:38:53.169	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:38:53.596	create RenderTarget
+2018.07.16 07:40:09.458	initializing overlay
+2018.07.16 07:40:09.479		create Direct2D1 Factory
+2018.07.16 07:40:09.482		create DirectWrite Factory
+2018.07.16 07:40:09.484		create DirectInput
+2018.07.16 07:40:09.503		create DirectInput Keyboard
+2018.07.16 07:40:09.524		create SwapChain
+2018.07.16 07:40:09.610		maximum supported feature level: Level_11_0
+2018.07.16 07:40:09.674	create RenderTarget
+2018.07.16 07:40:09.723	loading configuration
+2018.07.16 07:40:09.724		config.xml
+2018.07.16 07:40:11.784	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:40:12.190	create RenderTarget
+2018.07.16 07:42:07.613	initializing overlay
+2018.07.16 07:42:07.625		create Direct2D1 Factory
+2018.07.16 07:42:07.628		create DirectWrite Factory
+2018.07.16 07:42:07.630		create DirectInput
+2018.07.16 07:42:07.647		create DirectInput Keyboard
+2018.07.16 07:42:07.668		create SwapChain
+2018.07.16 07:42:07.731		maximum supported feature level: Level_11_0
+2018.07.16 07:42:07.779	create RenderTarget
+2018.07.16 07:42:07.830	loading configuration
+2018.07.16 07:42:07.830		config.xml
+2018.07.16 07:42:10.098	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:42:10.611	create RenderTarget
+2018.07.16 07:43:05.880	initializing overlay
+2018.07.16 07:43:05.890		create Direct2D1 Factory
+2018.07.16 07:43:05.895		create DirectWrite Factory
+2018.07.16 07:43:05.896		create DirectInput
+2018.07.16 07:43:05.914		create DirectInput Keyboard
+2018.07.16 07:43:05.935		create SwapChain
+2018.07.16 07:43:06.008		maximum supported feature level: Level_11_0
+2018.07.16 07:43:06.064	create RenderTarget
+2018.07.16 07:43:06.117	loading configuration
+2018.07.16 07:43:06.118		config.xml
+2018.07.16 07:43:08.195	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:43:28.202	create RenderTarget
+2018.07.16 07:44:18.064	new run: 圣教军, The Survivors' Enclave, Difficulty: t13
+2018.07.16 07:44:57.011	new area: The Survivors' Enclave
+2018.07.16 07:44:57.199	new area: New Tristram
+2018.07.16 07:45:01.792	new area: New Tristram
+2018.07.16 07:45:01.947	new area: The Survivors' Enclave
+2018.07.16 07:45:32.426	new area: The Survivors' Enclave
+2018.07.16 07:45:33.000	new area: New Tristram
+2018.07.16 07:45:46.540	new area: New Tristram
+2018.07.16 07:45:46.915	new area: [TEMP] Loot Run Level 01
+2018.07.16 07:48:03.405	new area: [TEMP] Loot Run Level 01
+2018.07.16 07:48:03.941	new area: [TEMP] Loot Run Level 01
+2018.07.16 07:48:04.689	new area: [TEMP] Loot Run Level 02
+2018.07.16 07:49:46.238	new area: [TEMP] Loot Run Level 02
+2018.07.16 07:49:46.725	new area: New Tristram
+2018.07.16 07:51:45.892	new area: New Tristram
+2018.07.16 07:51:46.440	new area: [TEMP] Loot Run Level 01
+2018.07.16 07:52:27.632	new area: [TEMP] Loot Run Level 01
+2018.07.16 07:52:28.439	new area: [TEMP] Loot Run Level 02
+2018.07.16 07:54:11.419	new area: [TEMP] Loot Run Level 02
+2018.07.16 07:54:12.022	new area: [TEMP] Loot Run Level 03
+2018.07.16 07:55:31.458	new area: [TEMP] Loot Run Level 03
+2018.07.16 07:55:31.958	new area: New Tristram
+2018.07.16 07:57:37.061	new area: New Tristram
+2018.07.16 07:57:37.240	new area: [TEMP] Loot Run Level 01
+2018.07.16 07:58:43.249	new area: [TEMP] Loot Run Level 01
+2018.07.16 07:58:44.411	new area: [TEMP] Loot Run Level 02
+2018.07.16 07:59:13.988	new area: [TEMP] Loot Run Level 02
+2018.07.16 07:59:14.393	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:00:00.876	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:00:01.141	new area: [TEMP] Loot Run Level 04
+2018.07.16 08:01:52.074	new area: [TEMP] Loot Run Level 04
+2018.07.16 08:01:52.284	new area: New Tristram
+2018.07.16 08:04:19.993	new area: New Tristram
+2018.07.16 08:04:20.690	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:05:17.737	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:05:18.901	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:06:33.168	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:06:34.001	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:07:26.396	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:07:26.864	new area: New Tristram
+2018.07.16 08:11:25.863	new area: New Tristram
+2018.07.16 08:11:25.927	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:12:34.072	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:12:34.736	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:14:50.075	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:14:50.325	new area: New Tristram
+2018.07.16 08:16:48.779	new area: New Tristram
+2018.07.16 08:16:48.846	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:18:13.481	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:18:13.863	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:20:40.968	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:20:41.340	new area: New Tristram
+2018.07.16 08:21:15.778	new area: New Tristram
+2018.07.16 08:21:17.038	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:21:53.876	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:21:54.564	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:22:52.049	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:22:53.061	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:23:34.522	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:23:35.067	new area: [TEMP] Loot Run Level 04
+2018.07.16 08:24:50.882	new area: [TEMP] Loot Run Level 04
+2018.07.16 08:24:51.353	new area: New Tristram
+2018.07.16 08:26:10.896	new area: New Tristram
+2018.07.16 08:26:10.932	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:28:15.148	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:28:15.345	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:30:20.987	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:30:21.444	new area: New Tristram
+2018.07.16 08:31:40.994	new area: New Tristram
+2018.07.16 08:31:42.134	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:32:49.635	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:34:05.032	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:34:06.104	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:35:30.693	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:35:31.116	new area: New Tristram
+2018.07.16 08:36:35.434	new area: New Tristram
+2018.07.16 08:36:35.824	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:38:28.435	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:40:26.128	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:40:26.549	new area: New Tristram
+2018.07.16 08:40:53.211	new area: New Tristram
+2018.07.16 08:40:53.391	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:42:45.235	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:42:45.781	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:43:23.813	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:43:24.756	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:44:29.264	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:44:29.802	new area: New Tristram
+2018.07.16 08:45:08.364	new area: New Tristram
+2018.07.16 08:45:08.748	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:47:31.869	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:47:31.908	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:47:32.348	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:49:59.375	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:49:59.765	new area: New Tristram
+2018.07.16 08:50:28.574	new area: New Tristram
+2018.07.16 08:50:29.156	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:51:11.711	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:51:12.634	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:52:55.903	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:52:56.185	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:54:01.529	new area: New Tristram
+2018.07.16 08:54:43.960	new area: New Tristram
+2018.07.16 08:54:43.996	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:55:52.745	new area: [TEMP] Loot Run Level 01
+2018.07.16 08:55:52.988	new area: [TEMP] Loot Run Level 02
+2018.07.16 08:56:42.405	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:58:02.838	new area: [TEMP] Loot Run Level 03
+2018.07.16 08:58:03.322	new area: New Tristram
+2018.07.16 09:04:48.580	new area: New Tristram
+2018.07.16 09:04:49.458	new area: [TEMP] Loot Run Level 01
+2018.07.16 09:06:06.067	new area: [TEMP] Loot Run Level 02
+2018.07.16 09:07:41.077	new area: [TEMP] Loot Run Level 02
+2018.07.16 09:07:42.009	new area: [TEMP] Loot Run Level 03
+2018.07.16 09:08:45.761	new area: [TEMP] Loot Run Level 03
+2018.07.16 09:08:46.258	new area: New Tristram
+2018.07.16 09:09:33.691	terminate TurboHUD because Diablo 3 is not running
+2018.07.16 09:09:33.709	exit
+2018.07.16 19:44:51.517	initializing overlay
+2018.07.16 19:44:51.532		create Direct2D1 Factory
+2018.07.16 19:44:51.535		create DirectWrite Factory
+2018.07.16 19:44:51.537		create DirectInput
+2018.07.16 19:44:51.556		create DirectInput Keyboard
+2018.07.16 19:44:51.574		create SwapChain
+2018.07.16 19:44:51.643		maximum supported feature level: Level_11_0
+2018.07.16 19:44:51.699	create RenderTarget
+2018.07.16 19:44:51.762	loading configuration
+2018.07.16 19:44:51.763		config.xml
+2018.07.16 19:44:53.613	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.16 19:44:54.031	create RenderTarget
+2018.07.16 19:45:17.213	new area: New Tristram
+2018.07.16 19:45:17.344	new area: [TEMP] Loot Run Level 01
+2018.07.16 19:45:46.525	new area: [TEMP] Loot Run Level 01
+2018.07.16 19:45:46.633	new area: [TEMP] Loot Run Level 02
+2018.07.16 19:46:38.238	new area: [TEMP] Loot Run Level 02
+2018.07.16 19:46:38.999	new area: [TEMP] Loot Run Level 03
+2018.07.16 19:47:48.262	new area: [TEMP] Loot Run Level 03
+2018.07.16 19:47:48.362	new area: [TEMP] Loot Run Level 04
+2018.07.16 19:48:20.684	new area: [TEMP] Loot Run Level 04
+2018.07.16 19:48:21.056	new area: [TEMP] Loot Run Level 05
+2018.07.16 19:49:50.782	new area: New Tristram
+2018.07.16 19:50:07.416	new area: New Tristram
+2018.07.16 19:50:08.069	new area: New Tristram
+2018.07.16 19:50:08.878	new area: [TEMP] Loot Run Level 01
+2018.07.16 19:51:14.211	new area: [TEMP] Loot Run Level 01
+2018.07.16 19:51:14.709	new area: [TEMP] Loot Run Level 02
+2018.07.16 19:52:13.031	new area: [TEMP] Loot Run Level 02
+2018.07.16 19:52:13.319	new area: [TEMP] Loot Run Level 03
+2018.07.16 19:54:36.001	new area: New Tristram
+2018.07.16 19:55:00.635	new area: New Tristram
+2018.07.16 19:55:01.261	new area: New Tristram
+2018.07.16 19:55:01.843	new area: [TEMP] Loot Run Level 01
+2018.07.16 19:56:24.238	new area: [TEMP] Loot Run Level 02
+2018.07.16 19:57:32.428	new area: [TEMP] Loot Run Level 02
+2018.07.16 19:57:33.198	new area: [TEMP] Loot Run Level 03
+2018.07.16 19:58:31.704	new area: [TEMP] Loot Run Level 04
+2018.07.16 20:00:09.781	new area: New Tristram
+2018.07.16 20:01:05.947	new area: New Tristram
+2018.07.16 20:01:06.951	new area: [TEMP] Loot Run Level 04
+2018.07.16 20:01:14.943	new area: New Tristram
+2018.07.16 20:01:36.580	new area: New Tristram
+2018.07.16 20:01:37.694	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:03:14.013	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:03:14.077	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:05:14.532	new area: New Tristram
+2018.07.16 20:07:04.727	initializing overlay
+2018.07.16 20:07:04.742		create Direct2D1 Factory
+2018.07.16 20:07:04.745		create DirectWrite Factory
+2018.07.16 20:07:04.746		create DirectInput
+2018.07.16 20:07:04.761		create DirectInput Keyboard
+2018.07.16 20:07:04.778		create SwapChain
+2018.07.16 20:07:04.848		maximum supported feature level: Level_11_0
+2018.07.16 20:07:04.896	create RenderTarget
+2018.07.16 20:07:04.945	loading configuration
+2018.07.16 20:07:04.945		config.xml
+2018.07.16 20:07:06.915	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.16 20:07:07.369	create RenderTarget
+2018.07.16 20:07:33.270	new area: New Tristram
+2018.07.16 20:07:34.091	new area: New Tristram
+2018.07.16 20:07:34.136	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:09:09.452	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:10:18.447	new area: [TEMP] Loot Run Level 03
+2018.07.16 20:11:20.433	new area: [TEMP] Loot Run Level 03
+2018.07.16 20:11:21.435	new area: [TEMP] Loot Run Level 04
+2018.07.16 20:13:13.229	new area: New Tristram
+2018.07.16 20:13:29.822	new area: New Tristram
+2018.07.16 20:13:30.209	new area: New Tristram
+2018.07.16 20:13:30.250	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:15:07.237	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:16:23.531	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:16:23.746	new area: [TEMP] Loot Run Level 03
+2018.07.16 20:18:38.689	new area: [TEMP] Loot Run Level 03
+2018.07.16 20:18:39.289	new area: New Tristram
+2018.07.16 20:19:39.101	initializing overlay
+2018.07.16 20:19:39.111		create Direct2D1 Factory
+2018.07.16 20:19:39.114		create DirectWrite Factory
+2018.07.16 20:19:39.116		create DirectInput
+2018.07.16 20:19:39.133		create DirectInput Keyboard
+2018.07.16 20:19:39.152		create SwapChain
+2018.07.16 20:19:39.244		maximum supported feature level: Level_11_0
+2018.07.16 20:19:39.311	create RenderTarget
+2018.07.16 20:19:39.367	loading configuration
+2018.07.16 20:19:39.368		config.xml
+2018.07.16 20:19:41.347	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.16 20:19:41.833	create RenderTarget
+2018.07.16 20:19:54.570	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:21:45.829	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:21:46.961	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:23:20.250	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:23:20.301	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:23:21.482	new area: [TEMP] Loot Run Level 03
+2018.07.16 20:25:32.635	new area: New Tristram
+2018.07.16 20:30:03.005	new area: New Tristram
+2018.07.16 20:30:03.167	new area: New Tristram
+2018.07.16 20:30:03.226	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:30:50.087	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:30:51.125	new area: New Tristram
+2018.07.16 20:31:12.071	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:31:15.120	new area: New Tristram
+2018.07.16 20:31:21.799	new area: New Tristram
+2018.07.16 20:31:22.577	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:32:45.100	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:34:33.008	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:34:33.205	new area: [TEMP] Loot Run Level 03
+2018.07.16 20:36:28.921	new area: [TEMP] Loot Run Level 03
+2018.07.16 20:36:30.100	new area: [TEMP] Loot Run Level 04
+2018.07.16 20:38:27.064	new area: New Tristram
+2018.07.16 20:39:49.971	new area: New Tristram
+2018.07.16 20:39:51.253	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:41:43.910	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:41:45.255	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:42:42.277	new area: [TEMP] Loot Run Level 03
+2018.07.16 20:44:31.733	new area: [TEMP] Loot Run Level 04
+2018.07.16 20:46:39.382	new area: [TEMP] Loot Run Level 04
+2018.07.16 20:46:39.911	new area: New Tristram
+2018.07.16 20:48:13.349	initializing overlay
+2018.07.16 20:48:13.359		create Direct2D1 Factory
+2018.07.16 20:48:13.362		create DirectWrite Factory
+2018.07.16 20:48:13.365		create DirectInput
+2018.07.16 20:48:13.384		create DirectInput Keyboard
+2018.07.16 20:48:13.407		create SwapChain
+2018.07.16 20:48:13.503		maximum supported feature level: Level_11_0
+2018.07.16 20:48:13.592	create RenderTarget
+2018.07.16 20:48:13.651	loading configuration
+2018.07.16 20:48:13.652		config.xml
+2018.07.16 20:48:15.863	new run: 圣教军, [TEMP] Loot Run Level 01, Difficulty: t13
+2018.07.16 20:48:16.235	create RenderTarget
+2018.07.16 20:49:50.700	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:49:52.151	new area: [TEMP] Loot Run Level 01
+2018.07.16 20:49:53.676	new area: [TEMP] Loot Run Level 02
+2018.07.16 20:55:22.798	new area: New Tristram
+2018.07.16 20:56:57.946	new area: New Tristram
+2018.07.16 20:56:58.101	new area: New Tristram
+2018.07.16 20:56:58.122	new area: [TEMP] Loot Run Level 01
+2018.07.16 21:01:43.039	new area: [TEMP] Loot Run Level 02
+2018.07.16 21:02:38.586	new area: [TEMP] Loot Run Level 03
+2018.07.16 21:05:47.924	new area: [TEMP] Loot Run Level 03
+2018.07.16 21:05:48.466	new area: New Tristram
+2018.07.16 21:06:15.878	new area: New Tristram
+2018.07.16 21:06:17.168	new area: [TEMP] Loot Run Level 01
+2018.07.16 21:06:50.186	new area: [TEMP] Loot Run Level 02
+2018.07.16 21:08:29.834	new area: [TEMP] Loot Run Level 02
+2018.07.16 21:08:30.677	new area: [TEMP] Loot Run Level 03
+2018.07.16 21:11:29.222	new area: [TEMP] Loot Run Level 04
+2018.07.16 21:13:56.769	new area: New Tristram
+2018.07.16 21:14:30.795	new area: New Tristram
+2018.07.16 21:14:30.912	new area: New Tristram
+2018.07.16 21:14:31.210	new area: [TEMP] Loot Run Level 01
+2018.07.16 21:16:20.706	new area: [TEMP] Loot Run Level 02
+2018.07.16 21:18:22.249	new area: [TEMP] Loot Run Level 03
+2018.07.16 21:21:19.204	new area: [TEMP] Loot Run Level 04
+2018.07.16 21:25:30.732	new area: New Tristram
+2018.07.16 21:27:12.534	new area: [TEMP] Loot Run Level 01
+2018.07.16 21:28:43.331	new area: [TEMP] Loot Run Level 01
+2018.07.16 21:28:44.054	new area: [TEMP] Loot Run Level 02
+2018.07.16 21:31:58.999	new area: [TEMP] Loot Run Level 03
+2018.07.16 21:37:19.761	new area: New Tristram
+2018.07.16 21:38:46.500	new run: 魔法师, The Survivors' Enclave, Difficulty: t13
+2018.07.16 21:47:16.282	new area: The Survivors' Enclave
+2018.07.16 21:47:16.634	new area: [TEMP] Loot Run Level 01
+2018.07.16 21:48:19.175	terminate TurboHUD because Diablo 3 is not running
+2018.07.16 21:48:19.187	exit
+2018.07.16 23:09:12.806	initializing overlay
+2018.07.16 23:09:12.819		create Direct2D1 Factory
+2018.07.16 23:09:12.823		create DirectWrite Factory
+2018.07.16 23:09:12.825		create DirectInput
+2018.07.16 23:09:12.843		create DirectInput Keyboard
+2018.07.16 23:09:12.862		create SwapChain
+2018.07.16 23:09:12.956		maximum supported feature level: Level_11_0
+2018.07.16 23:09:13.023	create RenderTarget
+2018.07.16 23:09:13.083	loading configuration
+2018.07.16 23:09:13.084		config.xml
+2018.07.16 23:09:15.708	new run: 圣教军, [TEMP] Loot Run Level 01, Difficulty: t13
+2018.07.16 23:09:16.081	create RenderTarget
+2018.07.16 23:10:12.650	new area: [TEMP] Loot Run Level 01
+2018.07.16 23:10:12.726	new area: [TEMP] Loot Run Level 01
+2018.07.16 23:10:13.236	new area: New Tristram
+2018.07.16 23:10:46.227	new area: New Tristram
+2018.07.16 23:10:47.452	new area: [TEMP] Loot Run Level 01
+2018.07.16 23:11:55.078	new area: [TEMP] Loot Run Level 01
+2018.07.16 23:11:55.298	new area: [TEMP] Loot Run Level 01
+2018.07.16 23:11:56.358	new area: [TEMP] Loot Run Level 02
+2018.07.16 23:12:51.834	new area: New Tristram
+2018.07.16 23:12:59.260	new area: [TEMP] Loot Run Level 02
+2018.07.16 23:14:27.160	new area: [TEMP] Loot Run Level 02
+2018.07.16 23:14:27.695	new area: New Tristram
+2018.07.16 23:19:48.055	new area: New Tristram
+2018.07.16 23:19:48.320	new area: New Tristram
+2018.07.16 23:19:48.542	new area: [TEMP] Loot Run Level 01
+2018.07.16 23:21:19.141	new area: [TEMP] Loot Run Level 01
+2018.07.16 23:21:19.726	new area: [TEMP] Loot Run Level 02
+2018.07.16 23:21:56.600	new area: [TEMP] Loot Run Level 02
+2018.07.16 23:21:57.257	new area: [TEMP] Loot Run Level 03
+2018.07.16 23:23:59.376	new area: [TEMP] Loot Run Level 03
+2018.07.16 23:23:59.725	new area: New Tristram
+2018.07.16 23:27:08.025	terminate TurboHUD because Diablo 3 is not running
+2018.07.16 23:27:08.041	exit
+2018.07.17 07:14:38.964	initializing overlay
+2018.07.17 07:14:38.989		create Direct2D1 Factory
+2018.07.17 07:14:38.993		create DirectWrite Factory
+2018.07.17 07:14:38.995		create DirectInput
+2018.07.17 07:14:39.013		create DirectInput Keyboard
+2018.07.17 07:14:39.044		create SwapChain
+2018.07.17 07:14:39.130		maximum supported feature level: Level_11_0
+2018.07.17 07:14:39.192	create RenderTarget
+2018.07.17 07:14:39.252	loading configuration
+2018.07.17 07:14:39.253		config.xml
+2018.07.17 07:14:41.586	new run: 圣教军, [TEMP] Loot Run Level 01, Difficulty: t13
+2018.07.17 07:14:41.919	create RenderTarget
+2018.07.17 07:14:49.796	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:14:50.319	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:14:50.514	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:15:35.151	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:15:35.267	new area: [TEMP] Loot Run Level 03
+2018.07.17 07:16:43.169	new area: [TEMP] Loot Run Level 03
+2018.07.17 07:16:44.080	new area: [TEMP] Loot Run Level 04
+2018.07.17 07:18:30.297	new area: [TEMP] Loot Run Level 04
+2018.07.17 07:18:30.869	new area: New Tristram
+2018.07.17 07:19:32.059	new area: New Tristram
+2018.07.17 07:19:33.058	new area: New Tristram
+2018.07.17 07:19:33.417	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:22:05.991	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:22:07.112	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:23:43.362	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:23:43.918	new area: New Tristram
+2018.07.17 07:25:26.745	new area: New Tristram
+2018.07.17 07:25:27.150	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:28:14.060	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:28:15.021	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:29:47.234	new area: New Tristram
+2018.07.17 07:30:29.836	new area: New Tristram
+2018.07.17 07:30:30.247	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:32:08.162	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:32:08.510	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:33:08.112	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:33:08.201	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:33:08.539	new area: [TEMP] Loot Run Level 03
+2018.07.17 07:34:28.357	new area: [TEMP] Loot Run Level 03
+2018.07.17 07:34:28.478	new area: [TEMP] Loot Run Level 03
+2018.07.17 07:34:28.835	new area: New Tristram
+2018.07.17 07:40:35.922	new area: New Tristram
+2018.07.17 07:40:36.268	new area: New Tristram
+2018.07.17 07:40:36.903	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:41:47.503	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:41:48.715	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:42:37.159	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:42:38.212	new area: [TEMP] Loot Run Level 03
+2018.07.17 07:43:59.315	new area: [TEMP] Loot Run Level 03
+2018.07.17 07:43:59.877	new area: New Tristram
+2018.07.17 07:44:23.897	new area: New Tristram
+2018.07.17 07:44:23.961	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:45:10.710	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:45:10.884	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:46:28.827	new area: [TEMP] Loot Run Level 03
+2018.07.17 07:47:16.779	new area: [TEMP] Loot Run Level 04
+2018.07.17 07:49:00.684	new area: New Tristram
+2018.07.17 07:49:45.471	new area: New Tristram
+2018.07.17 07:49:46.695	new area: New Tristram
+2018.07.17 07:49:47.132	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:51:37.766	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:51:38.718	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:53:47.559	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:53:48.128	new area: New Tristram
+2018.07.17 07:54:22.680	new area: New Tristram
+2018.07.17 07:54:23.047	new area: New Tristram
+2018.07.17 07:54:23.117	new area: [TEMP] Loot Run Level 01
+2018.07.17 07:56:30.281	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:58:19.001	new area: [TEMP] Loot Run Level 02
+2018.07.17 07:58:19.368	new area: New Tristram
+2018.07.17 07:58:57.145	new area: New Tristram
+2018.07.17 07:58:57.788	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:00:28.565	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:00:29.675	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:01:40.190	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:02:55.286	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:02:55.749	new area: New Tristram
+2018.07.17 08:03:28.622	new area: New Tristram
+2018.07.17 08:03:28.782	new area: New Tristram
+2018.07.17 08:03:29.390	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:04:25.555	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:04:26.332	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:05:37.457	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:05:38.275	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:07:43.396	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:07:43.540	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:07:43.889	new area: New Tristram
+2018.07.17 08:08:08.069	new area: New Tristram
+2018.07.17 08:08:08.276	new area: New Tristram
+2018.07.17 08:08:08.813	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:08:52.160	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:10:18.109	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:10:19.159	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:11:25.439	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:11:25.955	new area: New Tristram
+2018.07.17 08:17:24.141	new area: New Tristram
+2018.07.17 08:17:24.664	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:18:11.050	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:19:26.165	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:19:27.472	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:20:54.481	new area: New Tristram
+2018.07.17 08:21:14.822	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:23:02.641	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:24:44.541	new area: New Tristram
+2018.07.17 08:25:18.950	new area: New Tristram
+2018.07.17 08:25:19.775	new area: New Tristram
+2018.07.17 08:25:20.041	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:26:11.353	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:26:11.858	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:27:16.649	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:27:17.695	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:29:10.697	new area: New Tristram
+2018.07.17 08:33:07.580	new area: New Tristram
+2018.07.17 08:33:09.215	new area: New Tristram
+2018.07.17 08:33:09.384	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:34:50.670	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:34:51.094	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:36:49.183	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:36:49.766	new area: New Tristram
+2018.07.17 08:37:09.634	new area: New Tristram
+2018.07.17 08:37:09.805	new area: New Tristram
+2018.07.17 08:37:10.248	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:38:44.102	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:38:44.846	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:39:29.851	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:41:29.030	new area: New Tristram
+2018.07.17 08:41:59.354	new area: New Tristram
+2018.07.17 08:41:59.526	new area: New Tristram
+2018.07.17 08:41:59.575	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:43:24.460	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:44:19.897	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:45:28.127	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:45:28.241	new area: [TEMP] Loot Run Level 03
+2018.07.17 08:45:28.706	new area: New Tristram
+2018.07.17 08:48:27.476	new area: New Tristram
+2018.07.17 08:48:28.288	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:50:06.185	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:52:03.942	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:52:04.525	new area: New Tristram
+2018.07.17 08:52:25.809	new area: New Tristram
+2018.07.17 08:52:26.101	new area: New Tristram
+2018.07.17 08:52:26.181	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:53:47.744	new area: [TEMP] Loot Run Level 01
+2018.07.17 08:53:48.334	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:56:30.176	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:56:30.287	new area: [TEMP] Loot Run Level 02
+2018.07.17 08:56:30.858	new area: New Tristram
+2018.07.17 09:05:42.448	new area: New Tristram
+2018.07.17 09:05:42.514	new area: [TEMP] Loot Run Level 01
+2018.07.17 09:06:40.485	new area: [TEMP] Loot Run Level 02
+2018.07.17 09:07:29.963	new area: [TEMP] Loot Run Level 03
+2018.07.17 09:10:18.119	new area: [TEMP] Loot Run Level 03
+2018.07.17 09:10:18.225	new area: [TEMP] Loot Run Level 03
+2018.07.17 09:10:18.691	new area: New Tristram
+2018.07.17 09:14:51.997	terminate TurboHUD because Diablo 3 is not running
+2018.07.17 09:14:52.023	exit
+2018.07.18 07:14:44.605	initializing overlay
+2018.07.18 07:14:44.629		create Direct2D1 Factory
+2018.07.18 07:14:44.634		create DirectWrite Factory
+2018.07.18 07:14:44.636		create DirectInput
+2018.07.18 07:14:44.654		create DirectInput Keyboard
+2018.07.18 07:14:44.683		create SwapChain
+2018.07.18 07:14:44.765		maximum supported feature level: Level_11_0
+2018.07.18 07:14:44.823	create RenderTarget
+2018.07.18 07:14:44.883	loading configuration
+2018.07.18 07:14:44.883		config.xml
+2018.07.18 07:14:47.449	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.18 07:14:47.941	create RenderTarget
+2018.07.18 07:29:51.096	new area: New Tristram
+2018.07.18 07:29:51.257	new area: [TEMP] Loot Run Level 01
+2018.07.18 07:31:05.573	new area: [TEMP] Loot Run Level 01
+2018.07.18 07:31:05.774	new area: [TEMP] Loot Run Level 02
+2018.07.18 07:35:54.926	new area: New Tristram
+2018.07.18 07:36:08.509	new area: New Tristram
+2018.07.18 07:36:08.843	new area: New Tristram
+2018.07.18 07:36:08.884	new area: [TEMP] Loot Run Level 01
+2018.07.18 07:37:17.988	new area: [TEMP] Loot Run Level 01
+2018.07.18 07:37:18.910	new area: [TEMP] Loot Run Level 02
+2018.07.18 07:38:29.690	new area: [TEMP] Loot Run Level 02
+2018.07.18 07:38:30.884	new area: [TEMP] Loot Run Level 03
+2018.07.18 07:39:50.242	new area: [TEMP] Loot Run Level 03
+2018.07.18 07:39:50.372	new area: [TEMP] Loot Run Level 03
+2018.07.18 07:39:50.985	new area: New Tristram
+2018.07.18 07:50:09.048	new area: New Tristram
+2018.07.18 07:50:09.369	new area: [TEMP] Loot Run Level 01
+2018.07.18 07:50:58.328	new area: [TEMP] Loot Run Level 01
+2018.07.18 07:50:58.515	new area: [TEMP] Loot Run Level 01
+2018.07.18 07:50:59.743	new area: [TEMP] Loot Run Level 02
+2018.07.18 07:53:32.354	new area: [TEMP] Loot Run Level 02
+2018.07.18 07:53:32.948	new area: New Tristram
+2018.07.18 07:53:39.175	new area: New Tristram
+2018.07.18 07:53:40.401	new area: [TEMP] Loot Run Level 02
+2018.07.18 07:53:59.480	new area: New Tristram
+2018.07.18 07:58:31.778	new area: New Tristram
+2018.07.18 07:58:31.803	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:00:18.664	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:00:18.749	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:00:18.820	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:01:12.060	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:01:12.746	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:02:33.288	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:02:33.938	new area: New Tristram
+2018.07.18 08:02:45.108	new area: New Tristram
+2018.07.18 08:02:45.849	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:05:21.527	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:05:21.679	new area: New Tristram
+2018.07.18 08:06:17.621	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:07:24.970	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:08:33.046	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:08:33.403	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:10:02.608	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:10:02.742	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:10:03.391	new area: New Tristram
+2018.07.18 08:12:01.851	new area: New Tristram
+2018.07.18 08:12:02.572	new area: New Tristram
+2018.07.18 08:12:02.619	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:13:25.642	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:13:25.825	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:14:24.817	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:14:25.790	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:15:32.923	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:15:33.564	new area: New Tristram
+2018.07.18 08:16:38.465	new area: New Tristram
+2018.07.18 08:16:39.356	new area: New Tristram
+2018.07.18 08:16:39.934	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:17:32.642	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:17:32.821	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:17:33.519	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:18:10.184	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:18:10.945	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:19:19.248	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:19:19.976	new area: [TEMP] Loot Run Level 04
+2018.07.18 08:21:50.419	new area: [TEMP] Loot Run Level 04
+2018.07.18 08:21:50.649	new area: New Tristram
+2018.07.18 08:26:11.007	new area: New Tristram
+2018.07.18 08:26:11.614	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:27:08.562	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:27:09.895	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:28:17.159	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:28:17.411	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:33:16.450	new area: New Tristram
+2018.07.18 08:39:16.136	new area: New Tristram
+2018.07.18 08:39:16.726	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:41:05.084	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:41:05.874	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:41:49.440	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:41:49.509	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:41:50.851	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:45:24.593	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:45:24.813	new area: New Tristram
+2018.07.18 08:45:32.030	new area: New Tristram
+2018.07.18 08:45:32.138	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:48:38.032	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:49:37.983	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:51:21.356	new area: New Tristram
+2018.07.18 08:52:15.843	new area: New Tristram
+2018.07.18 08:52:16.624	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:53:05.750	new area: New Tristram
+2018.07.18 08:53:32.990	new area: New Tristram
+2018.07.18 08:53:33.410	new area: [TEMP] Loot Run Level 01
+2018.07.18 08:54:47.690	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:55:43.085	new area: [TEMP] Loot Run Level 02
+2018.07.18 08:55:43.338	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:57:41.515	new area: [TEMP] Loot Run Level 03
+2018.07.18 08:57:42.210	new area: New Tristram
+2018.07.18 09:19:58.738	terminate TurboHUD because Diablo 3 is not running
+2018.07.18 09:19:58.757	exit
+2018.07.18 21:37:42.665	initializing overlay
+2018.07.18 21:37:42.676		create Direct2D1 Factory
+2018.07.18 21:37:42.679		create DirectWrite Factory
+2018.07.18 21:37:42.681		create DirectInput
+2018.07.18 21:37:42.699		create DirectInput Keyboard
+2018.07.18 21:37:42.718		create SwapChain
+2018.07.18 21:37:42.803		maximum supported feature level: Level_11_0
+2018.07.18 21:37:42.853	create RenderTarget
+2018.07.18 21:37:42.907	loading configuration
+2018.07.18 21:37:42.908		config.xml
+2018.07.18 21:37:45.014	new run: 魔法师, New Tristram, Difficulty: t13
+2018.07.18 21:37:45.449	create RenderTarget
+2018.07.18 21:43:25.367	new area: New Tristram
+2018.07.18 21:43:25.444	new area: [TEMP] Loot Run Level 01
+2018.07.18 21:44:56.539	new area: [TEMP] Loot Run Level 01
+2018.07.18 21:44:56.652	new area: [TEMP] Loot Run Level 01
+2018.07.18 21:44:57.229	new area: New Tristram
+2018.07.18 21:45:54.731	new area: New Tristram
+2018.07.18 21:45:55.692	new area: [TEMP] Loot Run Level 01
+2018.07.18 21:46:15.007	new run: 魔法师, Bastion's Keep Stronghold, Difficulty: t13
+2018.07.18 21:47:27.450	new area: Bastion's Keep Stronghold
+2018.07.18 21:47:28.098	new area: Bastion's Keep Stronghold
+2018.07.18 21:47:28.611	new area: [TEMP] Loot Run Level 01
+2018.07.18 21:51:25.378	new area: [TEMP] Loot Run Level 01
+2018.07.18 21:51:25.553	new area: [TEMP] Loot Run Level 01
+2018.07.18 21:51:26.749	new area: [TEMP] Loot Run Level 02
+2018.07.18 21:54:17.523	new area: [TEMP] Loot Run Level 02
+2018.07.18 21:54:17.886	new area: [TEMP] Loot Run Level 03
+2018.07.18 21:55:56.950	new area: [TEMP] Loot Run Level 03
+2018.07.18 21:55:57.013	new area: [TEMP] Loot Run Level 04
+2018.07.18 22:01:49.431	new area: Bastion's Keep Stronghold
+2018.07.18 22:04:57.485	new run: 圣教军, Bastion's Keep Stronghold, Difficulty: t13
+2018.07.18 22:06:57.183	new area: Bastion's Keep Stronghold
+2018.07.18 22:06:57.259	new area: [TEMP] Loot Run Level 01
+2018.07.18 22:08:33.610	new area: [TEMP] Loot Run Level 01
+2018.07.18 22:08:34.483	new area: [TEMP] Loot Run Level 02
+2018.07.18 22:09:31.946	new area: [TEMP] Loot Run Level 02
+2018.07.18 22:09:32.932	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:11:33.463	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:11:33.583	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:11:34.202	new area: Bastion's Keep Stronghold
+2018.07.18 22:11:46.970	new area: Bastion's Keep Stronghold
+2018.07.18 22:11:47.162	new area: [TEMP] Loot Run Level 01
+2018.07.18 22:13:14.349	new area: [TEMP] Loot Run Level 01
+2018.07.18 22:13:14.749	new area: [TEMP] Loot Run Level 02
+2018.07.18 22:14:05.470	new area: [TEMP] Loot Run Level 02
+2018.07.18 22:14:05.846	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:15:00.833	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:15:01.641	new area: Bastion's Keep Stronghold
+2018.07.18 22:16:13.968	new area: Bastion's Keep Stronghold
+2018.07.18 22:16:14.074	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:16:36.725	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:16:37.323	new area: Bastion's Keep Stronghold
+2018.07.18 22:17:29.334	new area: Bastion's Keep Stronghold
+2018.07.18 22:17:29.448	new area: [TEMP] Loot Run Level 01
+2018.07.18 22:18:23.078	new area: [TEMP] Loot Run Level 01
+2018.07.18 22:18:23.809	new area: [TEMP] Loot Run Level 02
+2018.07.18 22:19:08.395	new area: [TEMP] Loot Run Level 02
+2018.07.18 22:19:09.188	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:20:58.149	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:20:58.670	new area: Bastion's Keep Stronghold
+2018.07.18 22:21:00.713	new area: Bastion's Keep Stronghold
+2018.07.18 22:21:01.632	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:21:13.082	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:21:13.219	new area: [TEMP] Loot Run Level 03
+2018.07.18 22:21:13.671	new area: Bastion's Keep Stronghold
+2018.07.18 22:27:00.170	terminate TurboHUD because Diablo 3 is not running
+2018.07.18 22:27:00.185	exit
+2018.07.19 00:08:33.316	initializing overlay
+2018.07.19 00:08:33.333		create Direct2D1 Factory
+2018.07.19 00:08:33.337		create DirectWrite Factory
+2018.07.19 00:08:33.339		create DirectInput
+2018.07.19 00:08:33.355		create DirectInput Keyboard
+2018.07.19 00:08:33.374		create SwapChain
+2018.07.19 00:08:33.444		maximum supported feature level: Level_11_0
+2018.07.19 00:08:33.496	create RenderTarget
+2018.07.19 00:08:33.545	loading configuration
+2018.07.19 00:08:33.545		config.xml
+2018.07.19 00:08:35.574	new run: 魔法师, New Tristram, Difficulty: t13
+2018.07.19 00:08:36.036	create RenderTarget
+2018.07.19 00:36:38.278	terminate TurboHUD because Diablo 3 is not running
+2018.07.19 00:36:38.312	exit
+2018.07.19 07:10:35.467	initializing overlay
+2018.07.19 07:10:35.488		create Direct2D1 Factory
+2018.07.19 07:10:35.492		create DirectWrite Factory
+2018.07.19 07:10:35.494		create DirectInput
+2018.07.19 07:10:35.520		create DirectInput Keyboard
+2018.07.19 07:10:35.549		create SwapChain
+2018.07.19 07:10:35.633		maximum supported feature level: Level_11_0
+2018.07.19 07:10:35.691	create RenderTarget
+2018.07.19 07:10:35.754	loading configuration
+2018.07.19 07:10:35.755		config.xml
+2018.07.19 07:10:38.224	new run: 圣教军, [TEMP] Loot Run Level 01, Difficulty: t13
+2018.07.19 07:10:38.578	create RenderTarget
+2018.07.19 07:11:50.282	new area: [TEMP] Loot Run Level 01
+2018.07.19 07:11:50.894	new area: [TEMP] Loot Run Level 02
+2018.07.19 07:13:43.109	new area: [TEMP] Loot Run Level 02
+2018.07.19 07:13:43.595	new area: [TEMP] Loot Run Level 03
+2018.07.19 07:29:07.608	new area: [TEMP] Loot Run Level 03
+2018.07.19 07:29:08.080	new area: New Tristram
+2018.07.19 07:29:35.301	new area: New Tristram
+2018.07.19 07:29:36.194	new area: New Tristram
+2018.07.19 07:29:36.703	new area: [TEMP] Loot Run Level 01
+2018.07.19 07:30:55.171	new area: [TEMP] Loot Run Level 01
+2018.07.19 07:30:55.818	new area: [TEMP] Loot Run Level 02
+2018.07.19 07:32:01.194	new area: [TEMP] Loot Run Level 02
+2018.07.19 07:32:01.452	new area: [TEMP] Loot Run Level 02
+2018.07.19 07:32:01.858	new area: [TEMP] Loot Run Level 03
+2018.07.19 07:32:30.134	new area: [TEMP] Loot Run Level 03
+2018.07.19 07:32:30.313	new area: [TEMP] Loot Run Level 04
+2018.07.19 07:44:28.716	new area: New Tristram
+2018.07.19 07:44:37.434	new area: [TEMP] Loot Run Level 04
+2018.07.19 07:45:30.024	new area: New Tristram
+2018.07.19 07:45:57.184	new area: New Tristram
+2018.07.19 07:45:58.327	new area: [TEMP] Loot Run Level 01
+2018.07.19 07:47:25.934	new area: [TEMP] Loot Run Level 01
+2018.07.19 07:47:26.071	new area: [TEMP] Loot Run Level 01
+2018.07.19 07:47:26.303	new area: [TEMP] Loot Run Level 02
+2018.07.19 07:55:33.195	new area: [TEMP] Loot Run Level 02
+2018.07.19 07:55:33.826	new area: New Tristram
+2018.07.19 08:16:14.000	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.19 08:16:33.609	new area: New Tristram
+2018.07.19 08:16:33.680	new area: Besieged Tower Level 1
+2018.07.19 08:17:19.979	new area: Besieged Tower Level 1
+2018.07.19 08:17:21.025	new area: Leoric's Gardens
+2018.07.19 08:18:06.834	new area: Leoric's Gardens
+2018.07.19 08:18:07.511	new area: Gardens of Hope 3rd Tier
+2018.07.19 08:18:40.651	new area: Gardens of Hope 3rd Tier
+2018.07.19 08:18:42.047	new area: Radiant Chapel
+2018.07.19 08:20:22.964	new area: Radiant Chapel
+2018.07.19 08:20:23.315	new area: Radiant Chapel
+2018.07.19 08:20:24.097	new area: The Silver Spire Level 1
+2018.07.19 08:22:06.372	new area: The Silver Spire Level 1
+2018.07.19 08:22:06.526	new area: Upper Realm of Cursed Fate
+2018.07.19 08:22:27.019	new area: Upper Cursed Fate: The Labyrinth
+2018.07.19 08:22:33.017	new area: Upper Cursed Fate: Tidal Cave
+2018.07.19 08:23:18.964	new area: Upper Cursed Fate: Tidal Cave
+2018.07.19 08:23:19.044	new area: Hell Rift
+2018.07.19 08:23:33.763	new area: Hell Rift
+2018.07.19 08:23:58.539	new area: Hell Rift
+2018.07.19 08:23:58.772	new area: Bastion's Keep Stronghold
+2018.07.19 08:24:12.473	new area: Bastion's Keep Stronghold
+2018.07.19 08:24:12.711	new area: Stonefort
+2018.07.19 08:27:15.165	new area: Stonefort
+2018.07.19 08:27:15.722	new area: The Arreat Gate
+2018.07.19 08:27:25.946	new area: The Battlefields
+2018.07.19 08:27:30.319	new area: The Battlefields
+2018.07.19 08:27:30.621	new area: The Forward Barracks
+2018.07.19 08:28:23.382	new area: The Forward Barracks
+2018.07.19 08:28:24.467	new area: The Forward Barracks
+2018.07.19 08:28:25.017	new area: Eternal Woods
+2018.07.19 08:28:45.474	new area: Eternal Woods
+2018.07.19 08:28:46.517	new area: Eternal Woods
+2018.07.19 08:28:47.033	new area: Rakkis Crossing
+2018.07.19 08:28:54.708	new area: Rakkis Crossing
+2018.07.19 08:28:55.562	new area: Edge of the Abyss
+2018.07.19 08:29:23.271	new area: Edge of the Abyss
+2018.07.19 08:29:23.441	new area: Edge of the Abyss
+2018.07.19 08:29:23.980	new area: Bastion's Keep Stronghold
+2018.07.19 08:29:51.878	new area: Bastion's Keep Stronghold
+2018.07.19 08:29:52.508	new area: New Tristram
+2018.07.19 08:31:09.868	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.19 08:31:32.694	new area: New Tristram
+2018.07.19 08:31:32.754	new area: Realm of Unbending Fate
+2018.07.19 08:31:45.960	new area: Unbending Fate: The Wolf Gate
+2018.07.19 08:31:54.968	new area: Unbending Fate: Pandemonium Fortress
+2018.07.19 08:32:17.483	new area: Unbending Fate: The Banished
+2018.07.19 08:32:38.494	new area: Unbending Fate: Nobles' Rest Courtyard
+2018.07.19 08:33:48.254	new area: Unbending Fate: Nobles' Rest Courtyard
+2018.07.19 08:33:48.374	new area: Gardens of Hope 3rd Tier
+2018.07.19 08:33:58.717	new area: Gardens of Hope 3rd Tier
+2018.07.19 08:33:59.472	new area: Leoric's Gardens
+2018.07.19 08:34:30.864	new area: Leoric's Gardens
+2018.07.19 08:34:31.365	new area: The Silver Spire Level 2
+2018.07.19 08:35:42.246	new area: The Silver Spire Level 2
+2018.07.19 08:35:43.055	new area: Gardens of Hope 1st Tier
+2018.07.19 08:36:41.436	new area: Gardens of Hope 1st Tier
+2018.07.19 08:36:41.503	new area: Library of Fate
+2018.07.19 08:37:26.194	new area: Library of Fate
+2018.07.19 08:37:26.771	new area: Eternal Woods
+2018.07.19 08:37:38.730	new area: The Ruins of Sescheron
+2018.07.19 08:37:49.033	new area: Eternal Woods
+2018.07.19 08:37:56.445	new area: The Ruins of Sescheron
+2018.07.19 08:39:22.922	new area: Eternal Woods
+2018.07.19 08:40:34.486	new area: Eternal Woods
+2018.07.19 08:40:35.081	new area: Eternal Woods
+2018.07.19 08:40:35.368	new area: The Keep Depths Level 3
+2018.07.19 08:41:27.849	new area: The Keep Depths Level 3
+2018.07.19 08:41:29.009	new area: The Larder
+2018.07.19 08:41:30.850	new area: The Larder
+2018.07.19 08:42:16.203	new area: The Larder
+2018.07.19 08:42:17.250	new area: The Silver Spire Level 1
+2018.07.19 08:44:06.168	new area: The Silver Spire Level 1
+2018.07.19 08:44:06.322	new area: Westmarch Commons
+2018.07.19 08:45:22.859	new area: Westmarch Commons
+2018.07.19 08:45:23.399	new area: Plague Tunnels Level 1
+2018.07.19 08:45:49.201	new area: Plague Tunnels Level 1
+2018.07.19 08:45:50.266	new area: Plague Tunnels Level 2
+2018.07.19 08:47:05.461	new area: Plague Tunnels Level 2
+2018.07.19 08:47:06.092	new area: Plague Tunnels Level 2
+2018.07.19 08:47:06.575	new area: The Survivors' Enclave
+2018.07.19 08:47:31.895	new area: The Survivors' Enclave
+2018.07.19 08:47:32.391	new area: Heart of the Fortress
+2018.07.19 08:47:33.460	new area: Heart of the Fortress
+2018.07.19 08:48:27.458	new area: Heart of the Fortress
+2018.07.19 08:48:28.051	new area: The Survivors' Enclave
+2018.07.19 09:17:17.107	terminate TurboHUD because Diablo 3 is not running
+2018.07.19 09:17:17.135	exit
+2018.07.19 20:29:52.264	initializing overlay
+2018.07.19 20:29:52.275		create Direct2D1 Factory
+2018.07.19 20:29:52.279		create DirectWrite Factory
+2018.07.19 20:29:52.281		create DirectInput
+2018.07.19 20:29:52.298		create DirectInput Keyboard
+2018.07.19 20:29:52.323		create SwapChain
+2018.07.19 20:29:52.395		maximum supported feature level: Level_11_0
+2018.07.19 20:29:52.449	create RenderTarget
+2018.07.19 20:29:52.522	loading configuration
+2018.07.19 20:29:52.522		config.xml
+2018.07.19 20:29:54.539	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.19 20:29:55.045	create RenderTarget
+2018.07.19 20:35:24.207	new area: New Tristram
+2018.07.19 20:35:24.418	new area: [TEMP] Loot Run Level 01
+2018.07.19 20:37:14.543	new area: [TEMP] Loot Run Level 01
+2018.07.19 20:37:15.158	new area: [TEMP] Loot Run Level 02
+2018.07.19 20:38:04.781	new area: [TEMP] Loot Run Level 02
+2018.07.19 20:38:04.869	new area: [TEMP] Loot Run Level 03
+2018.07.19 20:42:27.398	initializing overlay
+2018.07.19 20:42:27.411		create Direct2D1 Factory
+2018.07.19 20:42:27.414		create DirectWrite Factory
+2018.07.19 20:42:27.416		create DirectInput
+2018.07.19 20:42:27.439		create DirectInput Keyboard
+2018.07.19 20:42:27.462		create SwapChain
+2018.07.19 20:42:27.548		maximum supported feature level: Level_11_0
+2018.07.19 20:42:27.604	create RenderTarget
+2018.07.19 20:42:27.658	loading configuration
+2018.07.19 20:42:27.660		config.xml
+2018.07.19 20:42:30.161	new run: 圣教军, [TEMP] Loot Run Level 03, Difficulty: t13
+2018.07.19 20:42:30.594	create RenderTarget
+2018.07.19 20:48:02.664	new area: New Tristram
+2018.07.19 21:11:09.962	new area: New Tristram
+2018.07.19 21:11:11.051	new area: New Tristram
+2018.07.19 21:11:11.212	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:13:13.923	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:13:16.289	new area: [TEMP] Loot Run Level 02
+2018.07.19 21:15:59.773	new area: [TEMP] Loot Run Level 02
+2018.07.19 21:16:00.235	new area: New Tristram
+2018.07.19 21:17:17.469	new run: 魔法师, Hidden Camp, Difficulty: t13
+2018.07.19 21:17:49.321	new area: Hidden Camp
+2018.07.19 21:17:50.943	new area: Hidden Camp
+2018.07.19 21:17:51.164	new area: New Tristram
+2018.07.19 21:25:44.111	new area: New Tristram
+2018.07.19 21:25:44.372	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:29:34.404	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:29:34.710	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:29:34.857	new area: [TEMP] Loot Run Level 02
+2018.07.19 21:31:45.536	new area: [TEMP] Loot Run Level 02
+2018.07.19 21:31:46.064	new area: [TEMP] Loot Run Level 03
+2018.07.19 21:34:34.700	new area: [TEMP] Loot Run Level 03
+2018.07.19 21:34:34.942	new area: [TEMP] Loot Run Level 04
+2018.07.19 21:37:44.992	new area: New Tristram
+2018.07.19 21:44:19.805	new area: New Tristram
+2018.07.19 21:44:20.083	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:52:31.451	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:52:32.244	new area: [TEMP] Loot Run Level 02
+2018.07.19 21:55:27.133	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:55:33.375	new area: New Tristram
+2018.07.19 21:55:54.003	new area: New Tristram
+2018.07.19 21:55:54.312	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:55:55.595	new area: [TEMP] Loot Run Level 01
+2018.07.19 21:55:55.741	new area: [TEMP] Loot Run Level 02
+2018.07.19 21:59:43.457	new area: [TEMP] Loot Run Level 02
+2018.07.19 21:59:43.598	new area: New Tristram
+2018.07.19 22:00:13.734	initializing overlay
+2018.07.19 22:00:13.745		create Direct2D1 Factory
+2018.07.19 22:00:13.749		create DirectWrite Factory
+2018.07.19 22:00:13.751		create DirectInput
+2018.07.19 22:00:13.772		create DirectInput Keyboard
+2018.07.19 22:00:13.792		create SwapChain
+2018.07.19 22:00:13.884		maximum supported feature level: Level_11_0
+2018.07.19 22:00:13.958	create RenderTarget
+2018.07.19 22:00:14.019	loading configuration
+2018.07.19 22:00:14.020		config.xml
+2018.07.19 22:00:13.938	exit
+2018.07.19 22:00:16.300	new run: 魔法师, New Tristram, Difficulty: t13
+2018.07.19 22:00:16.829	create RenderTarget
+2018.07.19 22:00:20.540	exit
+2018.07.19 22:00:25.829	initializing overlay
+2018.07.19 22:00:25.843		create Direct2D1 Factory
+2018.07.19 22:00:25.846		create DirectWrite Factory
+2018.07.19 22:00:25.848		create DirectInput
+2018.07.19 22:00:25.866		create DirectInput Keyboard
+2018.07.19 22:00:25.885		create SwapChain
+2018.07.19 22:00:25.977		maximum supported feature level: Level_11_0
+2018.07.19 22:00:26.038	create RenderTarget
+2018.07.19 22:00:26.087	loading configuration
+2018.07.19 22:00:26.088		config.xml
+2018.07.19 22:00:28.219	new run: 魔法师, New Tristram, Difficulty: t13
+2018.07.19 22:00:28.669	create RenderTarget
+2018.07.19 22:03:35.087	initializing overlay
+2018.07.19 22:03:35.102		create Direct2D1 Factory
+2018.07.19 22:03:35.105		create DirectWrite Factory
+2018.07.19 22:03:35.107		create DirectInput
+2018.07.19 22:03:35.122		create DirectInput Keyboard
+2018.07.19 22:03:35.144		create SwapChain
+2018.07.19 22:03:35.218		maximum supported feature level: Level_11_0
+2018.07.19 22:03:35.273	create RenderTarget
+2018.07.19 22:03:35.321	loading configuration
+2018.07.19 22:03:35.322		config.xml
+2018.07.19 22:03:37.419	new run: 魔法师, New Tristram, Difficulty: t13
+2018.07.19 22:03:37.911	create RenderTarget
+2018.07.19 22:03:50.649	new area: New Tristram
+2018.07.19 22:03:51.157	new area: New Tristram
+2018.07.19 22:03:51.432	new area: [TEMP] Loot Run Level 01
+2018.07.19 22:12:03.081	new area: [TEMP] Loot Run Level 01
+2018.07.19 22:12:03.407	new area: [TEMP] Loot Run Level 01
+2018.07.19 22:12:04.104	new area: [TEMP] Loot Run Level 02
+2018.07.19 22:17:00.732	new area: New Tristram
+2018.07.19 22:37:54.404	new area: [TEMP] Loot Run Level 01
+2018.07.19 22:38:36.125	new area: [TEMP] Loot Run Level 01
+2018.07.19 22:38:36.285	new area: New Tristram
+2018.07.19 23:57:30.911	new run: 魔法师, Hidden Camp, Difficulty: t13
+2018.07.20 00:26:27.177	terminate TurboHUD because Diablo 3 is not running
+2018.07.20 00:26:27.191	exit
+2018.07.20 19:40:19.107	initializing overlay
+2018.07.20 19:40:19.125		create Direct2D1 Factory
+2018.07.20 19:40:19.128		create DirectWrite Factory
+2018.07.20 19:40:19.131		create DirectInput
+2018.07.20 19:40:19.147		create DirectInput Keyboard
+2018.07.20 19:40:19.173		create SwapChain
+2018.07.20 19:40:19.263		maximum supported feature level: Level_11_0
+2018.07.20 19:40:19.319	create RenderTarget
+2018.07.20 19:40:19.379	loading configuration
+2018.07.20 19:40:19.380		config.xml
+2018.07.20 19:40:21.500	new run: 魔法师, Hidden Camp, Difficulty: t13
+2018.07.20 19:40:21.971	create RenderTarget
+2018.07.20 19:40:54.019	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.20 19:41:17.144	new area: Hidden Camp
+2018.07.20 19:41:17.420	new area: New Tristram
+2018.07.20 19:44:06.277	initializing overlay
+2018.07.20 19:44:06.297		create Direct2D1 Factory
+2018.07.20 19:44:06.301		create DirectWrite Factory
+2018.07.20 19:44:06.303		create DirectInput
+2018.07.20 19:44:06.326		create DirectInput Keyboard
+2018.07.20 19:44:06.352		create SwapChain
+2018.07.20 19:44:06.428		maximum supported feature level: Level_11_0
+2018.07.20 19:44:06.483	create RenderTarget
+2018.07.20 19:44:06.534	loading configuration
+2018.07.20 19:44:06.535		config.xml
+2018.07.20 19:44:08.739	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.20 19:44:09.274	create RenderTarget
+2018.07.20 19:44:36.736	new area: New Tristram
+2018.07.20 19:44:37.185	new area: [TEMP] Loot Run Level 01
+2018.07.20 19:46:18.854	new area: [TEMP] Loot Run Level 01
+2018.07.20 19:46:19.234	new area: [TEMP] Loot Run Level 02
+2018.07.20 19:47:29.486	new area: [TEMP] Loot Run Level 02
+2018.07.20 19:47:29.693	new area: [TEMP] Loot Run Level 03
+2018.07.20 19:49:10.091	new area: New Tristram
+2018.07.20 19:49:51.316	new run: 魔法师, Hidden Camp, Difficulty: t13
+2018.07.20 19:53:51.634	new area: Hidden Camp
+2018.07.20 19:53:52.897	new area: New Tristram
+2018.07.20 19:57:23.602	initializing overlay
+2018.07.20 19:57:23.616		create Direct2D1 Factory
+2018.07.20 19:57:23.619		create DirectWrite Factory
+2018.07.20 19:57:23.621		create DirectInput
+2018.07.20 19:57:23.639		create DirectInput Keyboard
+2018.07.20 19:57:23.657		create SwapChain
+2018.07.20 19:57:23.724		maximum supported feature level: Level_11_0
+2018.07.20 19:57:23.777	create RenderTarget
+2018.07.20 19:57:23.828	loading configuration
+2018.07.20 19:57:23.829		config.xml
+2018.07.20 19:57:28.932	new run: 魔法师, New Tristram, Difficulty: t13
+2018.07.20 19:57:32.288	create RenderTarget
+2018.07.20 20:16:38.932	new area: New Tristram
+2018.07.20 20:16:39.267	new area: New Tristram
+2018.07.20 20:16:40.299	new area: Hidden Camp
+2018.07.20 20:16:44.141	new area: Hidden Camp
+2018.07.20 20:16:45.743	new area: Hidden Camp
+2018.07.20 20:16:45.866	new area: [TEMP] Loot Run Level 01
+2018.07.20 20:17:26.908	new area: Hidden Camp
+2018.07.20 20:25:11.424	new area: Hidden Camp
+2018.07.20 20:25:12.375	new area: Hidden Camp
+2018.07.20 20:25:12.647	new area: [TEMP] Loot Run Level 01
+2018.07.20 20:28:31.299	new area: [TEMP] Loot Run Level 01
+2018.07.20 20:28:31.650	new area: [TEMP] Loot Run Level 02
+2018.07.20 20:31:57.575	new area: [TEMP] Loot Run Level 02
+2018.07.20 20:31:58.316	new area: [TEMP] Loot Run Level 03
+2018.07.20 20:37:19.003	new area: Hidden Camp
+2018.07.20 20:40:05.877	new area: Hidden Camp
+2018.07.20 20:40:07.368	new area: Hidden Camp
+2018.07.20 20:40:07.649	new area: [TEMP] Loot Run Level 01
+2018.07.20 20:40:26.402	new area: Hidden Camp
+2018.07.20 20:40:35.386	new area: [TEMP] Loot Run Level 01
+2018.07.20 20:46:42.343	new area: [TEMP] Loot Run Level 01
+2018.07.20 20:46:42.435	new area: [TEMP] Loot Run Level 01
+2018.07.20 20:46:42.820	new area: [TEMP] Loot Run Level 02
+2018.07.20 20:51:34.488	new area: [TEMP] Loot Run Level 02
+2018.07.20 20:51:35.260	new area: Hidden Camp
+2018.07.20 20:56:55.842	new area: Hidden Camp
+2018.07.20 20:56:56.346	new area: Hidden Camp
+2018.07.20 20:56:56.550	new area: [TEMP] Loot Run Level 03
+2018.07.20 20:57:31.695	new area: [TEMP] Loot Run Level 03
+2018.07.20 20:57:31.738	new area: Hidden Camp
+2018.07.20 21:01:27.361	new area: Hidden Camp
+2018.07.20 21:01:28.050	new area: Hidden Camp
+2018.07.20 21:01:28.638	new area: [TEMP] Loot Run Level 01
+2018.07.20 21:05:01.602	new area: [TEMP] Loot Run Level 01
+2018.07.20 21:05:01.805	new area: [TEMP] Loot Run Level 02
+2018.07.20 21:08:56.898	new area: [TEMP] Loot Run Level 02
+2018.07.20 21:08:57.530	new area: Hidden Camp
+2018.07.20 21:09:04.919	new area: [TEMP] Loot Run Level 02
+2018.07.20 21:11:08.795	new area: Hidden Camp
+2018.07.20 21:11:13.064	new area: Hidden Camp
+2018.07.20 21:11:14.484	new area: [TEMP] Loot Run Level 02
+2018.07.20 21:11:53.173	new area: [TEMP] Loot Run Level 02
+2018.07.20 21:11:53.861	new area: Hidden Camp
+2018.07.20 21:14:22.204	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.20 21:15:11.609	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.20 21:17:33.285	new area: New Tristram
+2018.07.20 21:17:33.342	new area: Realm of Fractured Fate
+2018.07.20 21:17:40.175	new area: Fractured Fate: Keep Depths
+2018.07.20 21:17:47.108	new area: Realm of Fractured Fate
+2018.07.20 21:17:48.615	new area: Fractured Fate: Keep Depths
+2018.07.20 21:17:53.095	new area: Fractured Fate: Battlefields of Eternity
+2018.07.20 21:17:54.598	new area: Fractured Fate: Keep Depths
+2018.07.20 21:18:05.099	new area: Fractured Fate: The Festering Woods
+2018.07.20 21:18:14.107	new area: Fractured Fate: Battlefields of Eternity
+2018.07.20 21:19:32.551	new area: Fractured Fate: Battlefields of Eternity
+2018.07.20 21:19:32.789	new area: The Silver Spire Level 2
+2018.07.20 21:21:08.081	new area: The Silver Spire Level 2
+2018.07.20 21:21:08.326	new area: Gardens of Hope 2nd Tier
+2018.07.20 21:22:20.003	new area: Gardens of Hope 2nd Tier
+2018.07.20 21:22:20.151	new area: The Archives
+2018.07.20 21:23:22.687	new area: The Archives
+2018.07.20 21:23:23.306	new area: Upper Realm of Infernal Fate
+2018.07.20 21:23:27.561	new area: Upper Infernal Fate: Arreat Crater
+2018.07.20 21:24:03.568	new area: Upper Infernal Fate: Halls of Agony
+2018.07.20 21:24:41.892	new area: Upper Infernal Fate: Halls of Agony
+2018.07.20 21:24:42.540	new area: Upper Infernal Fate: Halls of Agony
+2018.07.20 21:24:42.923	new area: Gardens of Hope 1st Tier
+2018.07.20 21:25:06.228	new area: Gardens of Hope 1st Tier
+2018.07.20 21:25:06.387	new area: Bastion's Keep Stronghold
+2018.07.20 21:25:15.923	new area: Bastion's Keep Stronghold
+2018.07.20 21:25:17.139	new area: Gardens of Hope 1st Tier
+2018.07.20 21:26:14.165	new area: Gardens of Hope 1st Tier
+2018.07.20 21:26:14.205	new area: Library of Fate
+2018.07.20 21:26:48.022	new area: Library of Fate
+2018.07.20 21:26:48.617	new area: The Core of Arreat
+2018.07.20 21:28:41.629	new area: The Core of Arreat
+2018.07.20 21:28:42.137	new area: Bastion's Keep Stronghold
+2018.07.20 21:29:12.509	new area: Bastion's Keep Stronghold
+2018.07.20 21:29:12.957	new area: Westmarch Commons
+2018.07.20 21:30:00.106	new area: Westmarch Commons
+2018.07.20 21:30:00.377	new area: Westmarch Commons
+2018.07.20 21:30:00.458	new area: Plague Tunnels Level 1
+2018.07.20 21:30:19.493	new area: Plague Tunnels Level 1
+2018.07.20 21:30:19.671	new area: Plague Tunnels Level 2
+2018.07.20 21:31:17.761	new area: Plague Tunnels Level 2
+2018.07.20 21:31:17.933	new area: Pandemonium Fortress Level 2
+2018.07.20 21:34:23.290	new area: Pandemonium Fortress Level 2
+2018.07.20 21:34:23.510	new area: Pandemonium Fortress Level 2
+2018.07.20 21:34:23.950	new area: The Survivors' Enclave
+2018.07.20 21:34:48.381	new area: The Survivors' Enclave
+2018.07.20 21:34:48.639	new area: Pandemonium Fortress Level 1
+2018.07.20 21:34:55.894	new area: Pandemonium Fortress Level 1
+2018.07.20 21:34:56.921	new area: New Tristram
+2018.07.20 22:36:17.031	terminate TurboHUD because Diablo 3 is not running
+2018.07.20 22:36:17.043	exit
+2018.07.20 22:42:28.878	initializing overlay
+2018.07.20 22:42:28.892		create Direct2D1 Factory
+2018.07.20 22:42:28.896		create DirectWrite Factory
+2018.07.20 22:42:28.899		create DirectInput
+2018.07.20 22:42:28.919		create DirectInput Keyboard
+2018.07.20 22:42:28.944		create SwapChain
+2018.07.20 22:42:29.018		maximum supported feature level: Level_11_0
+2018.07.20 22:42:29.091	create RenderTarget
+2018.07.20 22:42:29.149	loading configuration
+2018.07.20 22:42:29.150		config.xml
+2018.07.20 22:42:31.498	new run: 魔法师, New Tristram, Difficulty: t13
+2018.07.20 22:42:32.046	create RenderTarget
+2018.07.20 22:43:43.348	new area: New Tristram
+2018.07.20 22:43:43.532	new area: [TEMP] Loot Run Level 01
+2018.07.20 22:45:18.045	new area: [TEMP] Loot Run Level 01
+2018.07.20 22:45:18.631	new area: [TEMP] Loot Run Level 02
+2018.07.20 22:45:26.201	new area: [TEMP] Loot Run Level 02
+2018.07.20 22:46:11.931	new area: New Tristram
+2018.07.20 22:48:48.789	new run: 圣教军, Bastion's Keep Stronghold, Difficulty: t13
+2018.07.20 22:49:02.653	new area: Bastion's Keep Stronghold
+2018.07.20 22:49:02.855	new area: New Tristram
+2018.07.20 22:50:51.655	new area: New Tristram
+2018.07.20 22:50:52.488	new area: [TEMP] Loot Run Level 01
+2018.07.20 22:52:53.094	new area: New Tristram
+2018.07.20 22:53:40.117	new run: 魔法师, Bastion's Keep Stronghold, Difficulty: t13
+2018.07.20 22:53:44.140	new area: Bastion's Keep Stronghold
+2018.07.20 22:53:44.325	new area: New Tristram
+2018.07.20 22:56:52.053	new area: New Tristram
+2018.07.20 22:56:52.220	new area: [TEMP] Loot Run Level 01
+2018.07.20 22:59:52.480	new area: New Tristram
+2018.07.20 23:01:58.981	new run: 魔法师, Hidden Camp, Difficulty: t13
+2018.07.20 23:03:27.842	new run: 魔法师, Hidden Camp, Difficulty: t13
+2018.07.20 23:04:06.512	new run: 圣教军, Hidden Camp, Difficulty: t13
+2018.07.20 23:08:36.688	new area: Hidden Camp
+2018.07.20 23:08:36.888	new area: [TEMP] Loot Run Level 01
+2018.07.20 23:14:05.942	new area: [TEMP] Loot Run Level 01
+2018.07.20 23:14:06.179	new area: [TEMP] Loot Run Level 02
+2018.07.20 23:16:06.498	new area: [TEMP] Loot Run Level 02
+2018.07.20 23:16:06.741	new area: [TEMP] Loot Run Level 02
+2018.07.20 23:16:07.417	new area: [TEMP] Loot Run Level 03
+2018.07.20 23:23:10.880	new area: [TEMP] Loot Run Level 03
+2018.07.20 23:23:11.833	new area: [TEMP] Loot Run Level 04
+2018.07.20 23:28:09.877	new area: [TEMP] Loot Run Level 04
+2018.07.20 23:28:11.202	new area: Hidden Camp
+2018.07.20 23:28:46.540	new run: 魔法师, Hidden Camp, Difficulty: t13
+2018.07.20 23:29:01.543	new area: Hidden Camp
+2018.07.20 23:31:53.885	new area: Hidden Camp
+2018.07.20 23:31:54.935	new area: Hidden Camp
+2018.07.20 23:31:55.022	new area: [TEMP] Loot Run Level 01
+2018.07.20 23:37:15.665	new area: [TEMP] Loot Run Level 01
+2018.07.20 23:41:31.561	new run: 魔法师, Hidden Camp, Difficulty: t13
+2018.07.21 00:06:40.069	new run: 圣教军, New Tristram, Difficulty: t13
+2018.07.21 00:10:48.631	exit
