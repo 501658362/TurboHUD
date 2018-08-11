@@ -1,3 +1,20 @@
+18.8.10.0 BETA for Diablo III 2.6.1.51663 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- changed: adjusted to the patch
+
+18.7.13.0 STABLE for Diablo III 2.6.1.50649 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: Hud.Game.Shrines, Hud.Game.NormalChests, Hud.Game.ResplendentChests lists missed the disabled and operated items
+		NOTE: from now it should be filtered by "!actor.Disabled && !actor.Operated" in the plugins
+
 18.7.2.0 STABLE for Diablo III 2.6.1.50649 (v7.6)
 	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
 	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer

@@ -34,6 +34,8 @@
         uint SummonerId { get; }
         uint SummonerAcdDynamicId { get; }
 
+        bool Untargetable { get; }
+
         bool IsClickable { get; }
         bool IsDisabled { get; }
         bool IsOperated { get; }

@@ -10,8 +10,7 @@ namespace Turbo.Plugins
         long CurrentRealTimeMilliseconds { get; }
         int CurrentGameTick { get; }
         bool IsLoading { get; }
-        bool IsPaused { get; }
-        bool IsInGame { get; }
+        bool IsPaused { get; }        bool IsInGame { get; }
         bool IsInTown { get; }
         MapMode MapMode { get; }
         SpecialArea SpecialArea { get; }
@@ -52,13 +51,14 @@ namespace Turbo.Plugins
 
         IEnumerable<IShrine> Shrines { get; }
         IEnumerable<IPortal> Portals { get; }
-        IEnumerable<IActor> NormalChests { get; }
-        IEnumerable<IActor> ResplendentChests { get; }
+        IEnumerable<IClickableActor> NormalChests { get; }
+        IEnumerable<IClickableActor> ResplendentChests { get; }
         IEnumerable<IClickableActor> Doors { get; }
 
         IEnumerable<ISceneHint> SceneHints { get; }
         IEnumerable<IBanner> Banners { get; }
         IEnumerable<IMarker> Markers { get; }
+
 
         IEnumerable<IWaypoint> ActMapWaypoints { get; }
         BountyAct ActMapCurrentAct { get; }
@@ -84,6 +84,7 @@ namespace Turbo.Plugins
         IStatTracker CurrentHeroYesterdayOnCurrentDifficulty { get; }
         IStatTracker CurrentHeroTodayOnCurrentDifficulty { get; }
 
-        bool IsIngameSoundEnabled { get; }    }
+        bool IsIngameSoundEnabled { get; }
+    }
 
 }

@@ -121,11 +121,11 @@
 				<position x="::x3" />
 				<conditions mouse_near="::rect" only_idle="1" />
 			</session>
-			<hero_today expression="今日英雄">
+			<hero_today expression="hero today">
 				<position x="::x4" />
 				<conditions mouse_near="::rect" only_idle="1" />
 			</hero_today>
-			<run expression="运行">
+			<run expression="run">
 				<position x="::x5" />
 				<conditions mouse_near="::rect" only_idle="1" />
 			</run>
@@ -134,10 +134,10 @@
 		<!--<conditions mouse_near="" mouse_far="::rect" />-->
 
 		<play_time container="1" template="default">
-			<info_town template="row_header_town" expression="游戏时长">
+			<info_town template="row_header_town" expression="play time">
 				<position y="::y1" />
 			</info_town>
-			<info_area template="row_header_area" expression="游戏时长">
+			<info_area template="row_header_area" expression="play time">
 				<position y="::y1" />
 			</info_area>
 			<values container="1" enabled="1" template="play_time">
@@ -164,10 +164,10 @@
 		</play_time>
 
 		<kill container="1" template="default">
-			<info_town template="row_header_town" expression="总击杀">
+			<info_town template="row_header_town" expression="total kills">
 				<position y="::y2" />
 			</info_town>
-			<info_area template="row_header_area" expression="总击杀">
+			<info_area template="row_header_area" expression="total kills">
 				<position y="::y2" />
 			</info_area>
 			<ph container="1" enabled="1" template="kill_ph">
@@ -216,10 +216,10 @@
 		</kill>
 
 		<elite container="1" template="default">
-			<info_town template="row_header_town" expression="击杀精英">
+			<info_town template="row_header_town" expression="elite kills">
 				<position y="::y3" />
 			</info_town>
-			<info_area template="row_header_area" expression="击杀精英">
+			<info_area template="row_header_area" expression="elite kills">
 				<position y="::y3" />
 			</info_area>
 			<ph container="1" enabled="1" template="elite_ph">
@@ -268,10 +268,10 @@
 		</elite>
 
 		<legendary container="1" template="default">
-			<info_town template="row_header_town" expression="掉落传奇">
+			<info_town template="row_header_town" expression="legendaries">
 				<position y="::y4" />
 			</info_town>
-			<info_area template="row_header_area" expression="掉落传奇">
+			<info_area template="row_header_area" expression="legendaries">
 				<position y="::y4" />
 			</info_area>
 			<ph container="1" template="legendary_ph">
@@ -320,10 +320,10 @@
 		</legendary>
 
 		<exp container="1" template="default">
-			<info_town template="row_header_town" expression="经验">
+			<info_town template="row_header_town" expression="experience">
 				<position y="::y5" />
 			</info_town>
-			<info_area template="row_header_area" expression="经验">
+			<info_area template="row_header_area" expression="experience">
 				<position y="::y5" />
 			</info_area>
 			<ph container="1" template="exp_ph" >

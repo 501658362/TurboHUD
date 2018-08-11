@@ -73,7 +73,7 @@ namespace Turbo.Plugins.User
 
 
         // 显示远古 地面的传奇
-        Hud.GetPlugin<GLQ_ItemsPlugin>().Enabled = false;
+        Hud.GetPlugin<GLQ_ItemsPlugin>().Enabled = true;
 
         // 全能戒子 buff 计时
         Hud.GetPlugin<ConventionOfElementsBuffListPlugin>().Enabled = false;
@@ -139,7 +139,7 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_LegendGemCirclePlugin>().Enabled = false;
 
         // 队友插件
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Enabled = true;
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Enabled = false;
         // 队友名字
         Hud.GetPlugin<OtherPlayersPlusPlugin>().Tag = true;
         // 队友血量
@@ -153,8 +153,8 @@ namespace Turbo.Plugins.User
 
 
         // 精英各种词缀 看着会很烦
-        Hud.GetPlugin<GLQ_EliteHealthBarPlugin>().Enabled = true;
-        Hud.GetPlugin<GLQ_EliteHealthListPlugin>().Enabled = true;
+        Hud.GetPlugin<GLQ_EliteHealthBarPlugin>().Enabled = false;
+        Hud.GetPlugin<GLQ_EliteHealthListPlugin>().Enabled = false;
 
 
 

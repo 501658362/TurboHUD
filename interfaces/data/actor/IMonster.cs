@@ -26,7 +26,6 @@ namespace Turbo.Plugins
         bool Stunned { get; }
         bool Burrowed { get; }
         bool Invulnerable { get; }
-        bool Untargetable { get; }
         bool Hidden { get; }
         bool Stealthed { get; }
         bool Invisible { get; }

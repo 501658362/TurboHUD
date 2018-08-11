@@ -4,7 +4,7 @@
 		<exit modifier="ctrl" key="End" />
 		<hide_hud modifier="" key="F4" />
 		<reload_pickit modifier="" key="F3" />
-		<capture modifier="ctrl+alt" key="C" />
+		<capture modifier="alt" key="C" />
 		<stat_tracker modifier="" key="F5" />
 		<debug_overlay modifier="" key="F11" />
 		<save_debug_data modifier="ctrl+alt" key="D" />

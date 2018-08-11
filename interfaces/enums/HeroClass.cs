@@ -8,7 +8,6 @@
 		WitchDoctor = 3,
 		Monk = 4,
         Crusader = 5,
-        Necromancer = 6,
-        None = uint.MaxValue
+        Necromancer = 6,        None = uint.MaxValue
     }
 }
