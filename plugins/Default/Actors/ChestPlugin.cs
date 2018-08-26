@@ -52,19 +52,19 @@ namespace Turbo.Plugins.Default
         {
             if (Hud.Game.IsInTown) return;
 
-            var loreChests = Hud.Game.Actors.Where(x => x.DisplayOnOverlay && x.GizmoType == GizmoType.LoreChest);
+            var loreChests = Hud.Game.Actors.Where(x => !x.IsDisabled && !x.IsOperated && x.GizmoType == GizmoType.LoreChest);
             foreach (var actor in loreChests)
             {
                 LoreChestDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
             }
 
-            var normalChests = Hud.Game.Actors.Where(x => x.DisplayOnOverlay && x.SnoActor.Kind == ActorKind.ChestNormal);
+            var normalChests = Hud.Game.Actors.Where(x => !x.IsDisabled && !x.IsOperated && x.SnoActor.Kind == ActorKind.ChestNormal);
             foreach (var actor in normalChests)
             {
                 NormalChestDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
             }
 
-            var resplendentChests = Hud.Game.Actors.Where(x => x.DisplayOnOverlay && x.SnoActor.Kind == ActorKind.Chest);
+            var resplendentChests = Hud.Game.Actors.Where(x => !x.IsDisabled && !x.IsOperated && x.SnoActor.Kind == ActorKind.Chest);
             foreach (var actor in resplendentChests)
             {
                 ResplendentChestDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);

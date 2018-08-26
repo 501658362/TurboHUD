@@ -93,7 +93,6 @@ namespace Turbo.Plugins.Default
                     return Hud.Game.Me.Materials.DeathsBreath;
                 case 2073430088:
                     return Hud.Game.Me.Materials.ForgottenSoul;
-
                 case 1948629088:
                     return Hud.Game.Me.Materials.KhanduranRune;
                 case 1948629089:
@@ -104,6 +103,14 @@ namespace Turbo.Plugins.Default
                     return Hud.Game.Me.Materials.CorruptedAngelFlesh;
                 case 1948629092:
                     return Hud.Game.Me.Materials.WestmarchHolyWater;
+                case 1102953247:
+                    return Hud.Game.Me.Materials.LeoricsRegret;
+                case 2029265596:
+                    return Hud.Game.Me.Materials.VialOfPutridness;
+                case 2670343450:
+                    return Hud.Game.Me.Materials.IdolOfTerror;
+                case 3336787100:
+                    return Hud.Game.Me.Materials.HeartOfFright;
             }
 
             var count = 0;

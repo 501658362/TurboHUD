@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Turbo.Plugins.Default
 {
 
-    public abstract class AbstractTopLabelList
+    public abstract class List
     {
 
         public IController Hud { get; private set; }
@@ -16,7 +16,7 @@ namespace Turbo.Plugins.Default
         public Func<float> WidthFunc { get; set; }
         public Func<float> HeightFunc { get; set; }
 
-        public AbstractTopLabelList(IController hud)
+        public List(IController hud)
         {
             Hud = hud;
             LabelDecorators = new List<TopLabelDecorator>();

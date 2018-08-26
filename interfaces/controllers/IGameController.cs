@@ -33,6 +33,7 @@ namespace Turbo.Plugins
         IEnumerable<IQuest> Bounties { get; }
 
         IEnumerable<IItem> Items { get; }
+
         IEnumerable<IPlayer> Players { get; }
 
         IEnumerable<IHeadStone> HeadStones { get; }
@@ -84,7 +85,6 @@ namespace Turbo.Plugins
         IStatTracker CurrentHeroYesterdayOnCurrentDifficulty { get; }
         IStatTracker CurrentHeroTodayOnCurrentDifficulty { get; }
 
-        bool IsIngameSoundEnabled { get; }
     }
 
 }

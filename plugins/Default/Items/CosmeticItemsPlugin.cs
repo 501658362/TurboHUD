@@ -88,19 +88,19 @@ namespace Turbo.Plugins.Default
 
         public void PaintWorld(WorldLayer layer)
         {
-            var actors = Hud.Game.Actors.Where(actor => actor.DisplayOnOverlay && _actorSnoList.Contains(actor.SnoActor.Sno));
+            var actors = Hud.Game.Actors.Where(x => !x.IsDisabled && !x.IsOperated && _actorSnoList.Contains(x.SnoActor.Sno));
             foreach (var actor in actors)
             {
                 Decorator.Paint(layer, actor, actor.FloorCoordinate, DisplayTextOnActors);
             }
 
-            var monsters = Hud.Game.AliveMonsters.Where(monster => _monsterSnoList.Contains(monster.SnoActor.Sno));
+            var monsters = Hud.Game.AliveMonsters.Where(x => _monsterSnoList.Contains(x.SnoActor.Sno));
             foreach (var monster in monsters)
             {
                 Decorator.Paint(layer, monster, monster.FloorCoordinate, DisplayTextOnMonsters);
             }
 
-            var items = Hud.Game.Items.Where(item => item.Location == ItemLocation.Floor && IsCosmetic(item));
+            var items = Hud.Game.Items.Where(x => x.Location == ItemLocation.Floor && IsCosmetic(x));
             foreach (var item in items)
             {
                 Decorator.Paint(layer, item, item.FloorCoordinate, DisplayTextOnItems);

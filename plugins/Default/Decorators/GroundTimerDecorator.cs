@@ -35,6 +35,7 @@ namespace Turbo.Plugins.Default
             var rad = Radius / 1200.0f * Hud.Window.Size.Height;
             var max = CountDownFrom;
             var elapsed = (Hud.Game.CurrentGameTick - actor.CreatedAtInGameTick) / 60.0f;
+            if (elapsed < 0) return;
             if (elapsed > max) elapsed = max;
 
             var screenCoord = coord.ToScreenCoordinate();

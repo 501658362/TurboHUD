@@ -26,14 +26,14 @@ namespace Turbo.Plugins.Default
             DecoratorByClass.Add(HeroClass.Barbarian, new WorldDecoratorCollection(
                 new MapLabelDecorator(Hud)
                 {
-                    LabelFont = Hud.Render.CreateFont("tahoma", 6f, 200, 250, 10, 10, false, false, 128, 0, 0, 0, true),
+                    LabelFont = Hud.Render.CreateFont("tahoma", 6f, 200, 255, 60, 60, false, false, 128, 0, 0, 0, true),
                     Up = true,
                 },
                 new GroundLabelDecorator(Hud)
                 {
                     BackgroundBrush = grounLabelBackgroundBrush,
                     BorderBrush = Hud.Render.CreateBrush(200, 250, 10, 10, 1),
-                    TextFont = Hud.Render.CreateFont("tahoma", 6f, 200, 250, 10, 10, false, false, 128, 0, 0, 0, true),
+                    TextFont = Hud.Render.CreateFont("tahoma", 6f, 200, 255, 60, 60, false, false, 128, 0, 0, 0, true),
                 }
                 ));
 
@@ -54,28 +54,28 @@ namespace Turbo.Plugins.Default
             DecoratorByClass.Add(HeroClass.DemonHunter, new WorldDecoratorCollection(
                 new MapLabelDecorator(Hud)
                 {
-                    LabelFont = Hud.Render.CreateFont("tahoma", 6f, 255, 0, 0, 200, false, false, 128, 0, 0, 0, true),
+                    LabelFont = Hud.Render.CreateFont("tahoma", 6f, 255, 60, 60, 200, false, false, 128, 0, 0, 0, true),
                     Up = true,
                 },
                 new GroundLabelDecorator(Hud)
                 {
                     BackgroundBrush = grounLabelBackgroundBrush,
                     BorderBrush = Hud.Render.CreateBrush(255, 0, 0, 200, 1),
-                    TextFont = Hud.Render.CreateFont("tahoma", 6f, 255, 0, 0, 200, false, false, 128, 0, 0, 0, true),
+                    TextFont = Hud.Render.CreateFont("tahoma", 6f, 255, 60, 60, 200, false, false, 128, 0, 0, 0, true),
                 }
                 ));
 
             DecoratorByClass.Add(HeroClass.Monk, new WorldDecoratorCollection(
                 new MapLabelDecorator(Hud)
                 {
-                    LabelFont = Hud.Render.CreateFont("tahoma", 6f, 245, 120, 0, 200, false, false, 128, 0, 0, 0, true),
+                    LabelFont = Hud.Render.CreateFont("tahoma", 6f, 245, 170, 0, 255, false, false, 128, 0, 0, 0, true),
                     Up = true,
                 },
                 new GroundLabelDecorator(Hud)
                 {
                     BackgroundBrush = grounLabelBackgroundBrush,
                     BorderBrush = Hud.Render.CreateBrush(245, 120, 0, 200, 1),
-                    TextFont = Hud.Render.CreateFont("tahoma", 6f, 245, 120, 0, 200, false, false, 128, 0, 0, 0, true),
+                    TextFont = Hud.Render.CreateFont("tahoma", 6f, 245, 170, 0, 255, false, false, 128, 0, 0, 0, true),
                 }
                 ));
 

@@ -7,8 +7,11 @@ namespace Turbo.Plugins
         IWorldCoordinate Center { get; }
 
         Size Size { get; }
+        Point Offset { get; }
         float Aspect { get; }
         float HeightUiRatio { get; }
+
+        bool IsForeground { get; }
 
         Rectangle GroundRectangle { get; }
 

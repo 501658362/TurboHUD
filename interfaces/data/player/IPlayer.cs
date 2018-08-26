@@ -68,6 +68,7 @@ namespace Turbo.Plugins
         long BonusPoolRemaining { get; }
 
         int HighestSoloRiftLevel { get; }
+        int HighestHeroSoloRiftLevel { get; }
 
         int InventorySpaceTotal { get; }
 

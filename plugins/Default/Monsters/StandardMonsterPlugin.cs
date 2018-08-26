@@ -33,7 +33,7 @@ namespace Turbo.Plugins.Default
                     Brush = Hud.Render.CreateBrush(128, 200, 200, 200, 0),
                     ShadowBrush = shadowBrush,
                     ShapePainter = new CircleShapePainter(Hud),
-                    Radius = 4,
+                    Radius = 2,
                 }
                 );
 

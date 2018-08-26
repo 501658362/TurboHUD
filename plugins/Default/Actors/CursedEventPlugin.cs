@@ -35,7 +35,7 @@ namespace Turbo.Plugins.Default
 
         public void PaintWorld(WorldLayer layer)
 		{
-            var actors = Hud.Game.Actors.Where(x => x.SnoActor.Kind == ActorKind.CursedEvent);
+            var actors = Hud.Game.Actors.Where(x => x.SnoActor.Kind == ActorKind.CursedEvent && !x.IsDisabled && !x.IsOperated);
             foreach (var actor in actors)
 			{
                 Decorator.ToggleDecorators<GroundLabelDecorator>(!actor.IsOnScreen);

@@ -1,7 +1,7 @@
 namespace Turbo.Plugins.Default
 {
 
-    public class VerticalTopLabelList : AbstractTopLabelList
+    public class VerticalTopLabelList : List
     {
 
         public VerticalTopLabelList(IController hud)

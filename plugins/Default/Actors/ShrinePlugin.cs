@@ -85,21 +85,21 @@ namespace Turbo.Plugins.Default
 
 		public void PaintWorld(WorldLayer layer)
 		{
-            var shrines = Hud.Game.Shrines.Where(x => x.DisplayOnOverlay && (x.Type != ShrineType.HealingWell) && (x.Type != ShrineType.PoolOfReflection));
+            var shrines = Hud.Game.Shrines.Where(x => !x.IsDisabled && !x.IsOperated && (x.Type != ShrineType.HealingWell) && (x.Type != ShrineType.PoolOfReflection));
             foreach (var actor in shrines)
 			{
                 AllShrineDecorator.ToggleDecorators<GroundLabelDecorator>(!actor.IsOnScreen); // do not display ground labels when the actor is on the screen
                 AllShrineDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 			}
 
-            var healingWells = Hud.Game.Shrines.Where(x => x.DisplayOnOverlay && (x.Type == ShrineType.HealingWell));
+            var healingWells = Hud.Game.Shrines.Where(x => !x.IsDisabled && !x.IsOperated && (x.Type == ShrineType.HealingWell));
             foreach (var actor in healingWells)
             {
                 HealingWellDecorator.ToggleDecorators<GroundLabelDecorator>(!actor.IsOnScreen); // do not display ground labels when the actor is on the screen
                 HealingWellDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
             }
 
-            var poolOfReflections = Hud.Game.Shrines.Where(x => x.DisplayOnOverlay && (x.Type == ShrineType.PoolOfReflection));
+            var poolOfReflections = Hud.Game.Shrines.Where(x => !x.IsDisabled && !x.IsOperated && (x.Type == ShrineType.PoolOfReflection));
             foreach (var actor in poolOfReflections)
             {
                 PoolOfReflectionDecorator.ToggleDecorators<GroundLabelDecorator>(!actor.IsOnScreen); // do not display ground labels when the actor is on the screen

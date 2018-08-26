@@ -1,4 +1,67 @@
-18.8.10.0 BETA for Diablo III 2.6.1.51663 (v7.6)
+18.8.26.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: even more stability (hopefully)
+	- improved: daf.txt log extended with more useful information
+	- improved: embedded manifest file to support UAC better
+
+18.8.25.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: game state reading was broken in some very rare cases
+
+18.8.24.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: ISoundController.VolumeMultiplier to adjust the automatically calculated volume of HUD
+	- updated: SharpDX 4.2.0
+
+18.8.23.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: hopefully fixed some weird behavior
+
+18.8.17.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windo	ws 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: IPlayer.HighestHeroSoloRiftLevel
+	- changed: some internal refactoring to improve memory footprint
+
+18.8.15.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- BREAKING CHANGE: Hud.Game.IsIngameSoundEnabled is moved to Hud.Sound.IsIngameSoundEnabled
+	- added: ISoundController.IngameMasterVolume and IngameEffectsVolume
+	- added: HUD's volume is automatically defined by IngameMasterVolume and IngameEffectsVolume (combined)
+	- fixed: finally fixed the Dashboard connection
+
+18.8.14.1 STABLE for Diablo III 2.6.1.51663 (v7.6)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: some minor bugs
+
+18.8.14.0 STABLE for Diablo III 2.6.1.51663 (v7.6)
 	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
 	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
 	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.

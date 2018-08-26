@@ -41,7 +41,7 @@ namespace Turbo.Plugins.Default
 		{
             if (PaintOnlyWhenHarringtonWaistguardIsActive && !Hud.Game.Me.Powers.BuffIsActive(318881, 0)) return;
 
-            var actors = Hud.Game.Actors.Where(x => x.DisplayOnOverlay && x.GizmoType == GizmoType.Chest);
+            var actors = Hud.Game.Actors.Where(x => !x.IsDisabled && !x.IsOperated && x.GizmoType == GizmoType.Chest);
             foreach (var actor in actors)
 			{
                 Decorator.Paint(layer, actor, actor.FloorCoordinate, null);
