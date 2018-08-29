@@ -14,7 +14,7 @@ namespace Turbo.Plugins.Default
 
 		public NetworkLatencyPlugin()
 		{
-            Enabled = false;
+            Enabled = true;
             HighLimit = 50;
 		}
 

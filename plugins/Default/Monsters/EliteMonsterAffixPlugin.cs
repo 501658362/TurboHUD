@@ -15,8 +15,7 @@ namespace Turbo.Plugins.Default
 
         public EliteMonsterAffixPlugin()
 		{
-		    // 精英词缀
-            Enabled = false;
+            Enabled = true;
             Order = 20000;
             HideOnIllusions = true;
 		}

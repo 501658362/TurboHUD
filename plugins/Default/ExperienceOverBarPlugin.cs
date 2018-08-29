@@ -14,7 +14,7 @@ namespace Turbo.Plugins.Default
 
 		public ExperienceOverBarPlugin()
 		{
-            Enabled = false;
+            Enabled = true;
 		}
 
         public override void Load(IController hud)

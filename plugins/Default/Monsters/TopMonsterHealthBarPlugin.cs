@@ -9,7 +9,7 @@ namespace Turbo.Plugins.Default
 
         public TopMonsterHealthBarPlugin()
 		{
-            Enabled = false;
+            Enabled = true;
 		}
 
         public override void Load(IController hud)

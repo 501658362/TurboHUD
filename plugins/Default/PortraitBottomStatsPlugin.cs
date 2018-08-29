@@ -21,7 +21,7 @@ namespace Turbo.Plugins.Default
                 BackgroundTextureOpacity1 = 1.0f,
                 TextFont = Hud.Render.CreateFont("tahoma", 6, 255, 200, 180, 100, true, false, 255, 0, 0, 0, true),
                 TextFunc = () => ValueToString(Hud.Stat.MonsterHitpointDecreasePerfCounter.LastValue, ValueFormat.LongNumber),
-                HintFunc = () => "队伍每秒伤害",
+                HintFunc = () => "DPS dealt to monsters",
             };
         }
 		

@@ -13,7 +13,7 @@ namespace Turbo.Plugins.Default
         public TopExperienceStatistics()
             : base()
         {
-            Enabled = false;
+            Enabled = true;
         }
 
         public override void Load(IController hud)

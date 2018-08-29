@@ -35,7 +35,6 @@ namespace Turbo.Plugins.Default
 
         public MonsterPackPlugin()
         {
-         // 精英词缀
             Enabled = false;
             Order = 20000;
             HideOnIllusions = true;

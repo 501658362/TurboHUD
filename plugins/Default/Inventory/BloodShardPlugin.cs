@@ -22,7 +22,7 @@ namespace Turbo.Plugins.Default
             base.Load(hud);
 
             StringGeneratorFunc textFunc = () => (ShowRemaining ? 500 + Hud.Game.Me.HighestSoloRiftLevel * 10 - Hud.Game.Me.Materials.BloodShard : Hud.Game.Me.Materials.BloodShard).ToString("D", CultureInfo.InvariantCulture);
-            StringGeneratorFunc hintFunc = () => ShowRemaining ? "还有血岩" : "血岩数量";
+            StringGeneratorFunc hintFunc = () => ShowRemaining ? "amount of blood shards remaining" : "amount of blood shards";
 
             RedDecorator = new TopLabelDecorator(Hud)
             {

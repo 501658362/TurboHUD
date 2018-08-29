@@ -32,11 +32,25 @@ namespace Turbo.Plugins.User
         // Make sure you test the return value against null!
         public void Customize()
         {
+        // default disable
+        Hud.GetPlugin<ItemsPlugin>().Enabled = false;
+        Hud.GetPlugin<TopExperienceStatistics>().Enabled = false;
+        Hud.GetPlugin<DangerousMonsterPlugin>().Enabled = false;
+        Hud.GetPlugin<EliteMonsterAffixPlugin>().Enabled = false;
+        Hud.GetPlugin<GoblinPlugin>().EnableSpeak = false;
+        Hud.GetPlugin<TopMonsterHealthBarPlugin>().Enabled = false;
+        Hud.GetPlugin<DamageBonusPlugin>().Enabled = false;
+        Hud.GetPlugin<ExperienceOverBarPlugin>().Enabled = false;
+        Hud.GetPlugin<NetworkLatencyPlugin>().Enabled = false;
+
+        Hud.GetPlugin<MultiplayerExperienceRangePlugin>().Enabled = true;
+
             // basic examples
             // 玩家技能配置
         Hud.GetPlugin<GLQ_PartyInspector>().ToggleKeyEvent = Hud.Input.CreateKeyEvent(true, Key.F12, false, false, false);
         //  悬赏表格
         Hud.GetPlugin<BountyTablePlugin>().Enabled = true;
+
         // 计算怪物数量
         Hud.GetPlugin<GLQ_MonstersCountPlugin>().yard = 40;
 

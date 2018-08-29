@@ -20,7 +20,7 @@ namespace Turbo.Plugins.Default
 
         public DamageBonusPlugin()
         {
-            Enabled = false;
+            Enabled = true;
         }
 
         public override void Load(IController hud)

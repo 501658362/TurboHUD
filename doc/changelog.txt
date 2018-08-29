@@ -1,4 +1,4 @@
-18.8.26.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+18.8.26.1 STABLE for Diablo III 2.6.1.51663 (v7.7)
 	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
 	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
 	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.

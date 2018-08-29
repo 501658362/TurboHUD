@@ -29,7 +29,7 @@ namespace Turbo.Plugins.Default
         {
             Enabled = true;
             SnoMapping = new Dictionary<uint, WorldDecoratorCollection>();
-            EnableSpeak = true;
+            EnableSpeak = false;
         }
 
         public override void Load(IController hud)
