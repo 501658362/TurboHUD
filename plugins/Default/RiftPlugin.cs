@@ -60,8 +60,8 @@ namespace Turbo.Plugins.Default
         public void PaintTopInGame(ClipState clipState)
         {
             if (clipState != ClipState.BeforeClip) return;
-
             if ((Hud.Game.SpecialArea != SpecialArea.Rift) && (Hud.Game.SpecialArea != SpecialArea.GreaterRift) && (Hud.Game.SpecialArea != SpecialArea.ChallengeRift)) return;
+            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap) || (Hud.Game.MapMode == MapMode.Map)) return;
 
             if (Hud.Game.SpecialArea == SpecialArea.Rift)
             {

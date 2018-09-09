@@ -2,6 +2,8 @@
 
 namespace Turbo.Plugins
 {
+    public enum VolumeMode { AutoMaster, AutoMasterAndEffects, Constant }
+
     public interface ISoundController
     {
         bool IsSpeakEnabled { get; set; }
@@ -13,8 +15,15 @@ namespace Turbo.Plugins
         int IngameMasterVolume { get; }
         int IngameEffectsVolume { get; }
 
-        // Final volume is calculated by this: (IngameMasterVolume / 100) * (IngameEffectsVolume / 100) * HudVolumeMultiplier
+        VolumeMode VolumeMode { get; set; } // default VolumeMode.AutoMaster
+
+        // used when Mode == AutoMaster or Mode == AutoMasterAndEffects
+        // AutoMaster final volume is calculated by this: (IngameMasterVolume / 100) * VolumeMultiplier
+        // AutoMasterAndEffects final volume is calculated by this: (IngameMasterVolume / 100) * (IngameEffectsVolume / 100) * VolumeMultiplier
         double VolumeMultiplier { get; set; } // default 1.0
+
+        // used when Mode == Constant
+        int ConstantVolume { get; set; } // default 100. 0 = no sound, 100 = max sound
 
         SoundPlayer LoadSoundPlayer(string fileName); // filename is relative to the \sounds folder
     }

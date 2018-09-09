@@ -107,7 +107,7 @@ namespace Turbo.Plugins.Default
         {
             if (Hud.Render.UiHidden) return;
             if (clipState != ClipState.BeforeClip) return;
-            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap)) return;
+            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap) || (Hud.Game.MapMode == MapMode.Map)) return;
 
             if (!ShowInTown && Hud.Game.IsInTown) return;
             if (!ShowOutOfTown && !Hud.Game.IsInTown) return;

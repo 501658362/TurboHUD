@@ -30,6 +30,7 @@ namespace Turbo.Plugins.Default
             if (Hud.Render.UiHidden) return;
             if (clipState != ClipState.BeforeClip) return;
             if (Hud.Game.NumberOfPlayersInGame <= 1) return;
+            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap) || (Hud.Game.MapMode == MapMode.Map)) return;
 
             var uiRect = Hud.Render.GetUiElement("*portrait-bottom").Rectangle;
 

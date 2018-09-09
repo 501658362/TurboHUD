@@ -57,6 +57,7 @@ namespace Turbo.Plugins.Default
         {
             if (!Hud.Game.IsInTown) return;
             if (Hud.Render.UiHidden) return;
+            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap) || (Hud.Game.MapMode == MapMode.Map)) return;
 
             IPlayerSkill hoveredSkill = null;
             foreach (var skill in Hud.Game.Me.Powers.CurrentSkills)

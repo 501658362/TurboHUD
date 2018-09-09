@@ -34,7 +34,7 @@ namespace Turbo.Plugins.Default
 
         public ItemsPlugin()
 		{
-            Enabled = false;
+            Enabled = true;
 
             EnableSpeakLegendary = false;
             EnableSpeakAncient = false;

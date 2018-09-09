@@ -1,3 +1,39 @@
+18.9.6.1 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: IActor.RadiusScaled
+	- fixed: sound output is stereo again
+
+18.9.3.1 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: an extremely rare bug caused by D3 memory page expansion without re-allocation
+
+18.8.31.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- fixed: some plugins no longer display their contents when the map (TAB) is open
+	- added: \logs\dump_debug.txt is created when ctrl+alt+d is pressed
+
+18.8.30.0 STABLE for Diablo III 2.6.1.51663 (v7.7)
+	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
+	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer
+	NOTE: Windows 7 users have to install Windows 7 SP1 and Platform Update. In exchange everybody can get a smoother HUD experience.
+	NOTE: TurboHUD sends anonymous usage data to TurboHUD Dashboard!
+	TurboHUD
+	- added: ISoundController.VolumeMode (possible value = VolumeMode.AutoMaster, VolumeMode.AutoMasterAndEffects, VolumeMode.Constant, default is AutoMaster)
+	- added: ISoundController.ConstantVolume used when VolumeMode is Constant
+	- added: more debug exceptions
+
 18.8.26.1 STABLE for Diablo III 2.6.1.51663 (v7.7)
 	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
 	NOTE: Be sure to have at least .NET 4.5.2, DirectX 11 and Windows 7 SP1 on your computer

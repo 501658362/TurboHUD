@@ -342,7 +342,7 @@ namespace Turbo.Plugins.Default
         public void PaintTopInGame(ClipState clipState)
         {
             if (clipState != ClipState.BeforeClip) return;
-            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap)) return;
+            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap) || (Hud.Game.MapMode == MapMode.Map)) return;
 
             LabelList.Paint();
         }
