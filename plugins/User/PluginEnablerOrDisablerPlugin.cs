@@ -34,14 +34,16 @@ namespace Turbo.Plugins.User
         {
         // default disable
         Hud.GetPlugin<ItemsPlugin>().Enabled = false;
-        Hud.GetPlugin<TopExperienceStatistics>().Enabled = false;
-        Hud.GetPlugin<DangerousMonsterPlugin>().Enabled = false;
-        Hud.GetPlugin<EliteMonsterAffixPlugin>().Enabled = false;
-        Hud.GetPlugin<GoblinPlugin>().EnableSpeak = false;
+        Hud.GetPlugin<TopExperienceStatistics>().Enabled = true;
+        Hud.GetPlugin<DangerousMonsterPlugin>().Enabled = true;
+        Hud.GetPlugin<EliteMonsterAffixPlugin>().Enabled = true;
+        Hud.GetPlugin<GoblinPlugin>().EnableSpeak = true;
         Hud.GetPlugin<TopMonsterHealthBarPlugin>().Enabled = false;
-        Hud.GetPlugin<DamageBonusPlugin>().Enabled = false;
+        Hud.GetPlugin<DamageBonusPlugin>().Enabled = true;
         Hud.GetPlugin<ExperienceOverBarPlugin>().Enabled = false;
-        Hud.GetPlugin<NetworkLatencyPlugin>().Enabled = false;
+        Hud.GetPlugin<NetworkLatencyPlugin>().Enabled = true;
+        // 截图插件
+        Hud.GetPlugin<ParagonCapturePlugin>().Enabled = false;
 
         Hud.GetPlugin<MultiplayerExperienceRangePlugin>().Enabled = true;
 
@@ -55,7 +57,7 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_MonstersCountPlugin>().yard = 40;
 
         // 进度条提醒 秘境百分比通知
-        Hud.GetPlugin<NotifyAtRiftPercentagePlugin>().Enabled = false;
+        Hud.GetPlugin<NotifyAtRiftPercentagePlugin>().Enabled = true;
         // 进度条提醒 秘境百分比通知
         Hud.GetPlugin<GLQ_NotifyAtRiftPercentagePlugin>().Enabled = true;
         // 秘境圣坛标记
@@ -129,7 +131,7 @@ namespace Turbo.Plugins.User
             {
                plugin.ShowMeScreenBaseYard = false;    // 1. MeScreenBaseYard on, off
                plugin.ShowMeScreenMaxYard = false;     // 2. MeScreenMaxYard on, off
-               plugin.ShowSummonerCount = false;       // 3. SummonerCount on, off
+               plugin.ShowSummonerCount = true;       // 3. SummonerCount on, off
                plugin.ShowSummonerEliteBar = true;    // 4. EliteSummonerBar on, off
                plugin.ShowSummonerNormalMonsterBar = true; //5.NormalSummonerBar on, off
                plugin.showdifLabel = true;            // 6. different Label Color on, off
@@ -153,13 +155,13 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_LegendGemCirclePlugin>().Enabled = false;
 
         // 队友插件
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Enabled = false;
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Enabled = true;
         // 队友名字
         Hud.GetPlugin<OtherPlayersPlusPlugin>().Tag = true;
         // 队友血量
         Hud.GetPlugin<OtherPlayersPlusPlugin>().HPbar = true;
         // 队友能量
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Resbar = true;
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Resbar = false;
 
 
         // 这个插件显示队友的名字 很小但是很烦
