@@ -100,7 +100,7 @@ namespace Turbo.Plugins.User
             {
                     plugin.MeScreenPaint = false; // 人物下方
                     plugin.MePortraitPaint = true; // 自己的头像处
-                    plugin.OtherScreenPaint = false; // ？？
+                    plugin.OtherScreenPaint = true; // ？？
                     plugin.OtherPortraitPaint = true; // 队友头像处
                     plugin.Tooltips = false;
 
@@ -161,7 +161,7 @@ namespace Turbo.Plugins.User
         // 队友血量
         Hud.GetPlugin<OtherPlayersPlusPlugin>().HPbar = true;
         // 队友能量
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Resbar = false;
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Resbar = true;
 
 
         // 这个插件显示队友的名字 很小但是很烦
@@ -169,8 +169,8 @@ namespace Turbo.Plugins.User
 
 
         // 精英各种词缀 看着会很烦
-        Hud.GetPlugin<GLQ_EliteHealthBarPlugin>().Enabled = false;
-        Hud.GetPlugin<GLQ_EliteHealthListPlugin>().Enabled = false;
+        Hud.GetPlugin<GLQ_EliteHealthBarPlugin>().Enabled = true;
+        Hud.GetPlugin<GLQ_EliteHealthListPlugin>().Enabled = true;
 
 
 
