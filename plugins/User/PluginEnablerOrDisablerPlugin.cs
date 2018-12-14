@@ -34,12 +34,12 @@ namespace Turbo.Plugins.User
         {
         // default disable
         Hud.GetPlugin<ItemsPlugin>().Enabled = false;
-        Hud.GetPlugin<TopExperienceStatistics>().Enabled = true;
+        Hud.GetPlugin<TopExperienceStatistics>().Enabled = false;
         Hud.GetPlugin<DangerousMonsterPlugin>().Enabled = true;
         Hud.GetPlugin<EliteMonsterAffixPlugin>().Enabled = true;
         Hud.GetPlugin<GoblinPlugin>().EnableSpeak = true;
         Hud.GetPlugin<TopMonsterHealthBarPlugin>().Enabled = false;
-        Hud.GetPlugin<DamageBonusPlugin>().Enabled = true;
+        Hud.GetPlugin<DamageBonusPlugin>().Enabled = false;
         Hud.GetPlugin<ExperienceOverBarPlugin>().Enabled = false;
         Hud.GetPlugin<NetworkLatencyPlugin>().Enabled = true;
         // 截图插件
