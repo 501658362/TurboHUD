@@ -1,9 +1,7 @@
 namespace Turbo.Plugins.Default
 {
-
     public class InventoryKanaiCubedItemsPlugin : BasePlugin, IInGameTopPainter
     {
-
         public InventoryKanaiCubedItemsPlugin()
         {
             Enabled = true;
@@ -56,7 +54,5 @@ namespace Turbo.Plugins.Default
                 itemTexture.Draw(itemRect.X, itemRect.Y, itemRect.Width, itemRect.Height);
             }
         }
-
     }
-
 }

@@ -3,13 +3,11 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     // this is not a plugin, just a helper class to display labels on the ground
-    public class GroundLabelDecorator: IWorldDecorator
+    public class GroundLabelDecorator : IWorldDecorator
     {
-
         public bool Enabled { get; set; }
-        public WorldLayer Layer { get; private set; }
+        public WorldLayer Layer { get; } = WorldLayer.Ground;
         public IController Hud { get; set; }
 
         public IFont TextFont { get; set; }
@@ -28,17 +26,13 @@ namespace Turbo.Plugins.Default
 
         public float OffsetX { get; set; }
         public float OffsetY { get; set; }
-        public bool CenterBaseLine { get; set; }
-        public bool ForceOnScreen { get; set; }
+        public bool CenterBaseLine { get; set; } = true;
+        public bool ForceOnScreen { get; set; } = true;
 
         public GroundLabelDecorator(IController hud)
         {
             Enabled = true;
-            Layer = WorldLayer.Ground;
             Hud = hud;
-
-            CenterBaseLine = true;
-            ForceOnScreen = true;
         }
 
         public void Paint(IActor actor, IWorldCoordinate coord, string text)
@@ -66,7 +60,5 @@ namespace Turbo.Plugins.Default
             yield return BorderBrush;
             yield return TextFont;
         }
-
     }
-
 }

@@ -1,18 +1,16 @@
-using System;
-using System.Collections.Generic;
 using SharpDX;
 using SharpDX.Direct2D1;
+using System;
+using System.Collections.Generic;
 
 namespace Turbo.Plugins.Default
 {
-
     // this is not a plugin, just a helper class to display timers on the ground
-    public class GroundTimerDecorator: IWorldDecorator
+    public class GroundTimerDecorator : IWorldDecorator
     {
-
         public bool Enabled { get; set; }
-        public WorldLayer Layer { get; private set; }
-        public IController Hud { get; set; }
+        public WorldLayer Layer { get; } = WorldLayer.Ground;
+        public IController Hud { get; }
 
         public IBrush BackgroundBrushEmpty { get; set; }
         public IBrush BackgroundBrushFill { get; set; }
@@ -23,7 +21,6 @@ namespace Turbo.Plugins.Default
         public GroundTimerDecorator(IController hud)
         {
             Enabled = true;
-            Layer = WorldLayer.Ground;
             Hud = hud;
         }
 
@@ -54,9 +51,11 @@ namespace Turbo.Plugins.Default
                         var vector = new Vector2(screenCoord.X + mx, screenCoord.Y + my);
                         gs.AddLine(vector);
                     }
+
                     gs.EndFigure(FigureEnd.Closed);
                     gs.Close();
                 }
+
                 BackgroundBrushFill.DrawGeometry(pg);
             }
 
@@ -72,9 +71,11 @@ namespace Turbo.Plugins.Default
                         var vector = new Vector2(screenCoord.X + mx, screenCoord.Y + my);
                         gs.AddLine(vector);
                     }
+
                     gs.EndFigure(FigureEnd.Closed);
                     gs.Close();
                 }
+
                 BackgroundBrushEmpty.DrawGeometry(pg);
             }
         }
@@ -84,7 +85,5 @@ namespace Turbo.Plugins.Default
             yield return BackgroundBrushEmpty;
             yield return BackgroundBrushFill;
         }
-
     }
-
 }

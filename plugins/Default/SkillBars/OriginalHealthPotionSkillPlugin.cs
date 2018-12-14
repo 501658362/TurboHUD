@@ -3,10 +3,8 @@ using System;
 
 namespace Turbo.Plugins.Default
 {
-
     public class OriginalHealthPotionSkillPlugin : BasePlugin, IInGameTopPainter
     {
-
         public SkillPainter Decorator { get; set; }
 
         public OriginalHealthPotionSkillPlugin()
@@ -36,7 +34,5 @@ namespace Turbo.Plugins.Default
 
             Decorator.Paint(Hud.Game.Me.Powers.HealthPotionSkill, rect);
         }
-
     }
-
 }

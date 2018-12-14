@@ -4,23 +4,19 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     // - all GroundLabelDecorators are registering here instead of painting themselves
     // - at PaintWorldFinished step this plugin will collect, and group all GroundLabelDecorators, and adjust them
     // - after adjustment, all GroundLabelDecorators are painted at the same time
     public class GroundLabelDecoratorPainterPlugin : BasePlugin, IInGameWorldPainter
     {
-
-        public float Padding { get; set; }
-        public float ScreenBorderPadding { get; set; }
+        public float Padding { get; set; } = 0.002f;
+        public float ScreenBorderPadding { get; set; } = 0.01f;
 
         private Dictionary<IWorldCoordinate, List<RegisteredLabel>> _registeredLabels = new Dictionary<IWorldCoordinate, List<RegisteredLabel>>();
 
         public GroundLabelDecoratorPainterPlugin()
         {
             Enabled = true;
-            Padding = 0.002f;
-            ScreenBorderPadding = 0.01f;
         }
 
         public override void Load(IController hud)
@@ -68,7 +64,7 @@ namespace Turbo.Plugins.Default
                     var w = layout.Metrics.Width + padding * 6;
                     var h = layout.Metrics.Height + padding * 2;
 
-                    var y = regLabel.Decorator.CenterBaseLine ? sc.Y - layout.Metrics.Height / 2 : sc.Y + (maxH - layout.Metrics.Height) / 2; 
+                    var y = regLabel.Decorator.CenterBaseLine ? sc.Y - layout.Metrics.Height / 2 : sc.Y + (maxH - layout.Metrics.Height) / 2;
 
                     if (forceOnScreen)
                     {
@@ -116,6 +112,7 @@ namespace Turbo.Plugins.Default
                 list = new List<RegisteredLabel>();
                 _registeredLabels.Add(coord, list);
             }
+
             list.Add(new RegisteredLabel()
             {
                 Decorator = decorator,
@@ -130,7 +127,5 @@ namespace Turbo.Plugins.Default
             public IWorldCoordinate Coord { get; set; }
             public string Text { get; set; }
         }
-
     }
-
 }

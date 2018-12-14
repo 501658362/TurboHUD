@@ -2,21 +2,18 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class NetworkLatencyPlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public TopLabelDecorator AverageDecoratorNormal { get; set; }
         public TopLabelDecorator CurrentDecoratorNormal { get; set; }
         public TopLabelDecorator AverageDecoratorHigh { get; set; }
         public TopLabelDecorator CurrentDecoratorHigh { get; set; }
-        public int HighLimit { get; set; }
+        public int HighLimit { get; set; } = 50;
 
-		public NetworkLatencyPlugin()
-		{
+        public NetworkLatencyPlugin()
+        {
             Enabled = true;
-            HighLimit = 50;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -49,7 +46,7 @@ namespace Turbo.Plugins.Default
                 TextFunc = () => Hud.Game.CurrentLatency.ToString("F0", CultureInfo.InvariantCulture),
                 HintFunc = () => "current latency"
             };
-		}
+        }
 
         public void PaintTopInGame(ClipState clipState)
         {
@@ -65,7 +62,5 @@ namespace Turbo.Plugins.Default
             (avg >= HighLimit ? AverageDecoratorHigh : AverageDecoratorNormal).Paint(uiRect.Left + uiRect.Width * 0.5f, uiRect.Top + uiRect.Height * 0.62f, uiRect.Width, uiRect.Height * 0.15f, HorizontalAlign.Left);
             (cur >= HighLimit ? CurrentDecoratorHigh : CurrentDecoratorNormal).Paint(uiRect.Left + uiRect.Width * 0.5f, uiRect.Top + uiRect.Height * 0.80f, uiRect.Width, uiRect.Height * 0.15f, HorizontalAlign.Left);
         }
-
     }
-
 }

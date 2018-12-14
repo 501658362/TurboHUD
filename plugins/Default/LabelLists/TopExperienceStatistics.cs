@@ -4,10 +4,8 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class TopExperienceStatistics : BasePlugin, IInGameTopPainter
     {
-
         public HorizontalTopLabelList LabelList { get; private set; }
 
         public TopExperienceStatistics()
@@ -22,23 +20,24 @@ namespace Turbo.Plugins.Default
 
             var expandedHintFont = Hud.Render.CreateFont("tahoma", 6, 255, 200, 200, 200, false, false, true);
 
-            LabelList = new HorizontalTopLabelList(hud);
-
-            LabelList.LeftFunc = () =>
+            LabelList = new HorizontalTopLabelList(hud)
             {
-                return Hud.Window.Size.Width / 2 - Hud.Window.Size.Height * 0.08f;
-            };
-            LabelList.TopFunc = () =>
-            {
-                return Hud.Window.Size.Height * 0.001f;
-            };
-            LabelList.WidthFunc = () =>
-            {
-                return Hud.Window.Size.Height * 0.08f;
-            };
-            LabelList.HeightFunc = () =>
-            {
-                return Hud.Window.Size.Height * 0.018f;
+                LeftFunc = () =>
+                {
+                    return Hud.Window.Size.Width / 2 - Hud.Window.Size.Height * 0.08f;
+                },
+                TopFunc = () =>
+                {
+                    return Hud.Window.Size.Height * 0.001f;
+                },
+                WidthFunc = () =>
+                {
+                    return Hud.Window.Size.Height * 0.08f;
+                },
+                HeightFunc = () =>
+                {
+                    return Hud.Window.Size.Height * 0.018f;
+                }
             };
 
             var currentLevelDecorator = new TopLabelDecorator(Hud)
@@ -81,7 +80,6 @@ namespace Turbo.Plugins.Default
                 BackgroundTextureOpacity2 = 0.5f,
                 TextFunc = () => ValueToString(Hud.Game.CurrentHeroToday.GainedExperiencePerHourPlay, ValueFormat.ShortNumber) + "/h",
             });
-
         }
 
         public void PaintTopInGame(ClipState clipState)
@@ -99,6 +97,7 @@ namespace Turbo.Plugins.Default
                 var xpRemaining = xpRequired - Hud.Game.Me.ParagonTotalExp;
                 return ValueToString(xpRemaining, ValueFormat.LongNumber);
             }
+
             return null;
         }
 
@@ -123,9 +122,8 @@ namespace Turbo.Plugins.Default
                     return text;
                 }
             }
+
             return null;
         }
-
     }
-
 }

@@ -1,15 +1,13 @@
 namespace Turbo.Plugins.Default
 {
-
     public class PortraitBottomStatsPlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public TopLabelDecorator MonsterHpDecreaseDecorator { get; set; }
 
-		public PortraitBottomStatsPlugin()
-		{
+        public PortraitBottomStatsPlugin()
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -24,9 +22,9 @@ namespace Turbo.Plugins.Default
                 HintFunc = () => "DPS dealt to monsters",
             };
         }
-		
+
         public void PaintTopInGame(ClipState clipState)
-		{
+        {
             if (Hud.Render.UiHidden) return;
             if (clipState != ClipState.BeforeClip) return;
             if (Hud.Game.NumberOfPlayersInGame <= 1) return;
@@ -36,7 +34,5 @@ namespace Turbo.Plugins.Default
 
             MonsterHpDecreaseDecorator.Paint(uiRect.Left + uiRect.Width * 0.14f, uiRect.Top + uiRect.Height * 1.03f, uiRect.Width * 0.72f, uiRect.Height * 0.1f, HorizontalAlign.Center);
         }
-
     }
-
 }

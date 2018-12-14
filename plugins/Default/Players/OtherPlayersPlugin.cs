@@ -3,18 +3,14 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class OtherPlayersPlugin : BasePlugin, IInGameWorldPainter
-	{
-
-        public Dictionary<HeroClass, WorldDecoratorCollection> DecoratorByClass { get; set; }
-        public float NameOffsetZ { get; set; }
+    {
+        public Dictionary<HeroClass, WorldDecoratorCollection> DecoratorByClass { get; set; } = new Dictionary<HeroClass, WorldDecoratorCollection>();
+        public float NameOffsetZ { get; set; } = 8.0f;
 
         public OtherPlayersPlugin()
-		{
+        {
             Enabled = true;
-            DecoratorByClass = new Dictionary<HeroClass, WorldDecoratorCollection>();
-            NameOffsetZ = 8.0f;
         }
 
         public override void Load(IController hud)
@@ -133,7 +129,5 @@ namespace Turbo.Plugins.Default
                 decorator.Paint(layer, null, NameOffsetZ != 0 ? player.FloorCoordinate.Offset(0, 0, NameOffsetZ) : player.FloorCoordinate, player.BattleTagAbovePortrait);
             }
         }
-
     }
-
 }

@@ -3,24 +3,20 @@ using System.Collections.Generic;
 
 namespace Turbo.Plugins.Default
 {
-
-    public abstract class List
+    public abstract class AbstractTopLabelList
     {
-
-        public IController Hud { get; private set; }
-        public List<TopLabelDecorator> LabelDecorators { get; private set; }
-        public float SpacingAdjustmentInPixels { get; set; }
+        public IController Hud { get; }
+        public List<TopLabelDecorator> LabelDecorators { get; set; } = new List<TopLabelDecorator>();
+        public float SpacingAdjustmentInPixels { get; set; } = -1;
 
         public Func<float> LeftFunc { get; set; }
         public Func<float> TopFunc { get; set; }
         public Func<float> WidthFunc { get; set; }
         public Func<float> HeightFunc { get; set; }
 
-        public List(IController hud)
+        public AbstractTopLabelList(IController hud)
         {
             Hud = hud;
-            LabelDecorators = new List<TopLabelDecorator>();
-            SpacingAdjustmentInPixels = -1;
         }
 
         public void Paint()
@@ -36,7 +32,5 @@ namespace Turbo.Plugins.Default
         }
 
         protected abstract void Paint(float x, float y, float labelWidth, float labelHeight);
-
     }
-
 }

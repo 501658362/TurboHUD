@@ -1,15 +1,13 @@
 namespace Turbo.Plugins.Default
 {
-
     public class StashPreviewPlugin : BasePlugin, IInGameTopPainter
     {
-
         public IItemRenderer ItemRenderer { get; set; }
 
         public StashPreviewPlugin()
-		{
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -55,7 +53,5 @@ namespace Turbo.Plugins.Default
                 ItemRenderer.RenderItem(item, rect);
             }
         }
-
     }
-
 }

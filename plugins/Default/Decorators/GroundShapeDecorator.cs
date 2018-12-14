@@ -2,21 +2,19 @@ using System.Collections.Generic;
 
 namespace Turbo.Plugins.Default
 {
-
     // this is not a plugin, just a helper class to display labels on the ground
-    public class GroundShapeDecorator: IWorldDecoratorWithRadius
+    public class GroundShapeDecorator : IWorldDecoratorWithRadius
     {
-
         public bool Enabled { get; set; }
-        public WorldLayer Layer { get; private set; }
-        public IController Hud { get; set; }
+        public WorldLayer Layer { get; } = WorldLayer.Ground;
+        public IController Hud { get; }
 
         public IBrush Brush { get; set; }
         public IBrush ShadowBrush { get; set; }
         public IWorldShapePainter ShapePainter { get; set; }
 
-        public float Radius { get; set; }
-        public float Rotation { get; set; }
+        public float Radius { get; set; } = 1.0f;
+        public float Rotation { get; set; } = 0.0f;
 
         public IRadiusTransformator RadiusTransformator { get; set; }
         public IRotationTransformator RotationTransformator { get; set; }
@@ -24,10 +22,7 @@ namespace Turbo.Plugins.Default
         public GroundShapeDecorator(IController hud)
         {
             Enabled = true;
-            Layer = WorldLayer.Ground;
             Hud = hud;
-            Radius = 1.0f;
-            Rotation = 0.0f;
         }
 
         public void Paint(IActor actor, IWorldCoordinate coord, string text)
@@ -48,7 +43,5 @@ namespace Turbo.Plugins.Default
             yield return Brush;
             yield return ShadowBrush;
         }
-
     }
-
 }

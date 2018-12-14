@@ -6,14 +6,12 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class BountyTablePlugin : BasePlugin, ITransparentCollection, ITransparent, IKeyEventHandler, INewAreaHandler, IInGameTopPainter
     {
-
         public bool TurnedOn { get; set; }
-        public bool TurnOffWhenNewGameStarts { get; set; }
+        public bool TurnOffWhenNewGameStarts { get; set; } = true;
         public IKeyEvent ToggleKeyEvent { get; set; }
-        public List<BountyType> BountyTypes { get; set; }
+        public List<BountyType> BountyTypes { get; set; } = new List<BountyType> { BountyType.CompleteEvent, BountyType.ClearDungeon, BountyType.KillUnique, BountyType.KillBoss, BountyType.SpecialEvent };
         public IFader Fader { get; set; }
 
         public IFont BountyNameFont { get; set; }
@@ -37,9 +35,6 @@ namespace Turbo.Plugins.Default
             Order = 30000;
 
             ToggleKeyEvent = Hud.Input.CreateKeyEvent(true, Key.F6, false, false, false);
-            TurnedOn = false;
-            TurnOffWhenNewGameStarts = true;
-            BountyTypes = new List<BountyType> { BountyType.CompleteEvent, BountyType.ClearDungeon, BountyType.KillUnique, BountyType.KillBoss, BountyType.SpecialEvent };
 
             BountyNameFont = Hud.Render.CreateFont("tahoma", 7.5f, 230, 255, 230, 200, false, false, 160, 0, 0, 0, true);
             BountyNameCompletedFont = Hud.Render.CreateFont("tahoma", 7.5f, 64, 255, 255, 255, false, false, false);
@@ -106,7 +101,7 @@ namespace Turbo.Plugins.Default
 
                         var ty = ay + sizeH * 0.22f;
 
-                        //var tf = quest.State != QuestState.completed ? (Engine.BountiesToHighlight.Exists(quest.SnoQuest.Sno) ? tfBountyNameHighlighted : tfBountyName) : tfBountyNameCompleted;
+                        // var tf = quest.State != QuestState.completed ? (Engine.BountiesToHighlight.Exists(quest.SnoQuest.Sno) ? tfBountyNameHighlighted : tfBountyName) : tfBountyNameCompleted;
                         var tf = quest.State != QuestState.completed ? (BountyNameFont) : BountyNameCompletedFont;
                         var textLayout = tf.GetTextLayout(quest.SnoQuest.NameLocalized);
                         tf.DrawText(textLayout, ax + (sizeW - textLayout.Metrics.Width) / 2, ty);
@@ -118,6 +113,7 @@ namespace Turbo.Plugins.Default
                                     textLayout = BountyWaypointAreaFont.GetTextLayout(quest.SnoQuest.BountySnoArea.NameLocalized);
                                     BountyWaypointAreaFont.DrawText(textLayout, ax + (sizeW - textLayout.Metrics.Width) / 2, ay + sizeH * 0.65f - textLayout.Metrics.Height);
                                 }
+
                                 break;
                             case QuestState.started:
                                 {
@@ -129,6 +125,7 @@ namespace Turbo.Plugins.Default
                                         InprogressTimerFont.DrawText(textLayout, ax + (sizeW - textLayout.Metrics.Width) / 2, ay + sizeH * 0.65f - textLayout.Metrics.Height);
                                     }
                                 }
+
                                 break;
                             case QuestState.completed:
                                 {
@@ -138,6 +135,7 @@ namespace Turbo.Plugins.Default
                                         elapsed = quest.StartedOn.ElapsedMilliseconds;
                                         if (quest.CompletedOn != null) elapsed -= quest.CompletedOn.ElapsedMilliseconds;
                                     }
+
                                     if (elapsed > 0)
                                     {
                                         var text = ValueToString(elapsed * TimeSpan.TicksPerMillisecond, ValueFormat.LongTime);
@@ -154,6 +152,7 @@ namespace Turbo.Plugins.Default
                                         bountyCompleteTexture.Draw(tx, ay + (sizeH - bountyCompleteH) * 0.7f, bountyCompleteW, bountyCompleteH, Opacity * 0.5f);
                                     }
                                 }
+
                                 break;
                         }
 
@@ -187,7 +186,5 @@ namespace Turbo.Plugins.Default
             yield return InprogressTimerFont;
             yield return this;
         }
-
     }
-
 }

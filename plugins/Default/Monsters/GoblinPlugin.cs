@@ -3,10 +3,8 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class GoblinPlugin : BasePlugin, IInGameWorldPainter
     {
-
         public WorldDecoratorCollection PortalDecorator { get; set; }
         public WorldDecoratorCollection DefaultGoblinDecorator { get; set; }
 
@@ -21,15 +19,13 @@ namespace Turbo.Plugins.Default
         public WorldDecoratorCollection MenageristGoblinDecorator { get; set; }
         public WorldDecoratorCollection TreasureFiendGoblinDecorator { get; set; }
 
-        public Dictionary<uint, WorldDecoratorCollection> SnoMapping { get; private set; }
+        public Dictionary<uint, WorldDecoratorCollection> SnoMapping { get; } = new Dictionary<uint, WorldDecoratorCollection>();
 
         public bool EnableSpeak { get; set; }
 
         public GoblinPlugin()
         {
             Enabled = true;
-            SnoMapping = new Dictionary<uint, WorldDecoratorCollection>();
-            EnableSpeak = false;
         }
 
         public override void Load(IController hud)
@@ -37,6 +33,7 @@ namespace Turbo.Plugins.Default
             base.Load(hud);
 
             CreateDecorators();
+
             SnoMapping.Add(413289, MalevolentTormentorDecorator);
             SnoMapping.Add(408989, BloodThiefDecorator);
             SnoMapping.Add(5985, OdiousCollectorDecorator);
@@ -53,7 +50,6 @@ namespace Turbo.Plugins.Default
 
         private void CreateDecorators()
         {
-
             PortalDecorator = new WorldDecoratorCollection(
                 new MapShapeDecorator(Hud)
                 {
@@ -421,7 +417,5 @@ namespace Turbo.Plugins.Default
             yield return MenageristGoblinDecorator;
             yield return TreasureFiendGoblinDecorator;
         }
-
     }
-
 }

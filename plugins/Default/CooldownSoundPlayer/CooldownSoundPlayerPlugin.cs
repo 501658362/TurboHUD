@@ -6,15 +6,12 @@ namespace Turbo.Plugins.Default
 {
     public class CooldownSoundPlayerPlugin : BasePlugin, ISkillCooldownHandler
     {
-
-        public bool EnableOnlyWhenIngameSoundIsEnabled { get; set; }
-        public Dictionary<ISnoPower, CoolDownRule> CoolDownRules { get; private set; }
+        public bool EnableOnlyWhenIngameSoundIsEnabled { get; set; } = true;
+        public Dictionary<ISnoPower, CoolDownRule> CoolDownRules { get; } = new Dictionary<ISnoPower, CoolDownRule>();
 
         public CooldownSoundPlayerPlugin()
         {
             Enabled = true;
-            EnableOnlyWhenIngameSoundIsEnabled = true;
-            CoolDownRules = new Dictionary<ISnoPower, CoolDownRule>();
         }
 
         public override void Load(IController hud)

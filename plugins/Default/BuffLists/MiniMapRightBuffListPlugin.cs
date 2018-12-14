@@ -1,9 +1,7 @@
 namespace Turbo.Plugins.Default
 {
-
     public class MiniMapRightBuffListPlugin : BasePlugin, IInGameTopPainter
     {
-
         public BuffPainter BuffPainter { get; set; }
         public BuffRuleCalculator RuleCalculator { get; private set; }
 
@@ -22,8 +20,10 @@ namespace Turbo.Plugins.Default
                 TimeLeftFont = Hud.Render.CreateFont("tahoma", 5, 160, 255, 255, 255, true, false, 160, 0, 0, 0, true),
             };
 
-            RuleCalculator = new BuffRuleCalculator(Hud);
-            RuleCalculator.SizeMultiplier = 0.75f;
+            RuleCalculator = new BuffRuleCalculator(Hud)
+            {
+                SizeMultiplier = 0.75f
+            };
 
             RuleCalculator.Rules.Add(new BuffRule(156484) { IconIndex = 1, MinimumIconCount = 1, IconSizeMultiplier = 1.25f, }); // Near Death Experience
             RuleCalculator.Rules.Add(new BuffRule(208474) { IconIndex = 1, MinimumIconCount = 1, IconSizeMultiplier = 1.25f, }); // Unstable Anomaly
@@ -47,7 +47,5 @@ namespace Turbo.Plugins.Default
             var x = uiMinimapRect.Right - RuleCalculator.StandardIconSize / 2;
             BuffPainter.PaintVerticalCenter(RuleCalculator.PaintInfoList, x, uiMinimapRect.Top, uiMinimapRect.Height, RuleCalculator.StandardIconSize, RuleCalculator.StandardIconSpacing);
         }
-
     }
-
 }

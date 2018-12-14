@@ -1,10 +1,8 @@
 namespace Turbo.Plugins.Default
 {
-
     public class CircularRotationTransformator : IRotationTransformator
     {
-
-        public IController Hud { get; private set; }
+        public IController Hud { get; }
         public int Speed { get; set; }
 
         public CircularRotationTransformator(IController hud, int speed)
@@ -21,7 +19,5 @@ namespace Turbo.Plugins.Default
 
             return (msec / Speed) % 360;
         }
-
     }
-
 }

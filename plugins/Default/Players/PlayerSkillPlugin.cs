@@ -1,9 +1,7 @@
 namespace Turbo.Plugins.Default
 {
-
     public class PlayerSkillPlugin : BasePlugin, IInGameWorldPainter
     {
-
         public WorldDecoratorCollection HydraDecorator { get; set; }
         public WorldDecoratorCollection SentryDecorator { get; set; }
         public WorldDecoratorCollection SentryWithCustomEngineeringDecorator { get; set; }
@@ -296,6 +294,7 @@ namespace Turbo.Plugins.Default
                             {
                                 SentryWithCustomEngineeringDecorator.Paint(layer, actor, actor.FloorCoordinate, null);
                             }
+
                             break;
                         case 341426:
                         case 341411:
@@ -320,6 +319,7 @@ namespace Turbo.Plugins.Default
                                     }
                                 }
                             }
+
                             break;
                         case 117574:
                         case 182276:
@@ -340,9 +340,11 @@ namespace Turbo.Plugins.Default
                                     }
                                 }
                             }
+
                             break;
                     }
                 }
+
                 switch (actor.SnoActor.Sno)
                 {
                     case 357846:
@@ -365,7 +367,5 @@ namespace Turbo.Plugins.Default
                 }
             }
         }
-
     }
-
 }

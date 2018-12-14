@@ -2,11 +2,9 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class StandardItemRenderer : IItemRenderer
     {
-
-        public IController Hud { get; private set; }
+        public IController Hud { get; }
         public IFont QuantityFont { get; set; }
 
         public StandardItemRenderer(IController hud)
@@ -51,6 +49,7 @@ namespace Turbo.Plugins.Default
                         socketTexture.Draw(ix, iy + ih * 1.0f, iw, ih, 0.5f);
                         break;
                 }
+
                 if ((item.ItemsInSocket != null) && (item.ItemsInSocket.Length > 0))
                 {
                     for (int i = 0; i < item.ItemsInSocket.Length; i++)
@@ -97,7 +96,5 @@ namespace Turbo.Plugins.Default
             var textLayout = QuantityFont.GetTextLayout(item.Quantity.ToString("D", CultureInfo.InvariantCulture));
             QuantityFont.DrawText(textLayout, rect.Right - rv / 20.0f - textLayout.Metrics.Width, rect.Bottom - rv / 70.0f - textLayout.Metrics.Height);
         }
-
     }
-
 }

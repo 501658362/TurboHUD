@@ -2,27 +2,23 @@ using System;
 
 namespace Turbo.Plugins.Default
 {
-
     public class WorldStarShapePainter : IWorldShapePainter
     {
-
-        public IController Hud { get; private set; }
-        public int VerticeCount { get; set; }
-        public int VerticeJump { get; set; }
+        public IController Hud { get; }
+        public int VerticeCount { get; set; } = 3;
+        public int VerticeJump { get; set; } = 1;
 
         public WorldStarShapePainter(IController hud)
         {
             Hud = hud;
-            VerticeCount = 3;
-            VerticeJump = 1;
         }
 
         public static IWorldShapePainter NewTriangle(IController hud)
         {
             return new WorldStarShapePainter(hud)
             {
-                 VerticeCount = 3,
-                 VerticeJump = 1,
+                VerticeCount = 3,
+                VerticeJump = 1,
             };
         }
 
@@ -130,7 +126,5 @@ namespace Turbo.Plugins.Default
                 brush.DrawLineWorld(x + sx, y + sy, z, x + ex, y + ey, z);
             }
         }
-
     }
-
 }

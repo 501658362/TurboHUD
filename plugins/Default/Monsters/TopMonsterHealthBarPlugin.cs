@@ -1,16 +1,14 @@
 namespace Turbo.Plugins.Default
 {
-
     public class TopMonsterHealthBarPlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public IFont MonsterHitpointsFont { get; set; }
         public IFont MonsterEffectsFont { get; set; }
 
         public TopMonsterHealthBarPlugin()
-		{
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -60,7 +58,5 @@ namespace Turbo.Plugins.Default
                 MonsterEffectsFont.DrawText(textLayout, uiBar.Rectangle.Left + (uiBar.Rectangle.Width - textLayout.Metrics.Width) / 2, uiBar.Rectangle.Top - (uiBar.Rectangle.Height * 0.38f) - textLayout.Metrics.Height);
             }
         }
-
     }
-
 }

@@ -2,10 +2,8 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class MonsterRiftProgressionColoringPlugin : BasePlugin, IInGameWorldPainter
-	{
-
+    {
         public WorldDecoratorCollection Decorator1 { get; set; }
         public WorldDecoratorCollection Decorator2 { get; set; }
         public WorldDecoratorCollection Decorator3 { get; set; }
@@ -13,16 +11,16 @@ namespace Turbo.Plugins.Default
         public WorldDecoratorCollection Decorator5 { get; set; }
 
         public MonsterRiftProgressionColoringPlugin()
-		{
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
             base.Load(hud);
 
             var shadowBrush = Hud.Render.CreateBrush(96, 0, 0, 0, 1);
-;
+
             Decorator1 = new WorldDecoratorCollection(
                 new MapShapeDecorator(Hud)
                 {
@@ -104,7 +102,5 @@ namespace Turbo.Plugins.Default
                 decorator.Paint(layer, monster, monster.FloorCoordinate, monster.SnoMonster.NameLocalized);
             }
         }
-
     }
-
 }

@@ -2,27 +2,24 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class BloodShardPlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public TopLabelDecorator RedDecorator { get; set; }
         public TopLabelDecorator YellowDecorator { get; set; }
         public TopLabelDecorator GreenDecorator { get; set; }
         public bool ShowRemaining { get; set; }
 
-		public BloodShardPlugin()
-		{
+        public BloodShardPlugin()
+        {
             Enabled = true;
-            ShowRemaining = false;
-		}
+        }
 
         public override void Load(IController hud)
         {
             base.Load(hud);
 
-            StringGeneratorFunc textFunc = () => (ShowRemaining ? 500 + Hud.Game.Me.HighestSoloRiftLevel * 10 - Hud.Game.Me.Materials.BloodShard : Hud.Game.Me.Materials.BloodShard).ToString("D", CultureInfo.InvariantCulture);
-            StringGeneratorFunc hintFunc = () => ShowRemaining ? "amount of blood shards remaining" : "amount of blood shards";
+            string textFunc() => (ShowRemaining ? 500 + Hud.Game.Me.HighestSoloRiftLevel * 10 - Hud.Game.Me.Materials.BloodShard : Hud.Game.Me.Materials.BloodShard).ToString("D", CultureInfo.InvariantCulture);
+            string hintFunc() => ShowRemaining ? "amount of blood shards remaining" : "amount of blood shards";
 
             RedDecorator = new TopLabelDecorator(Hud)
             {
@@ -71,7 +68,5 @@ namespace Turbo.Plugins.Default
             var decorator = remaining < 100 ? RedDecorator : (remaining < 200 ? YellowDecorator : GreenDecorator);
             decorator.Paint(uiRect.Left + uiRect.Width * 0.664f, uiRect.Top + uiRect.Height * 0.88f, uiRect.Width * 0.038f, uiRect.Height * 0.12f, HorizontalAlign.Center);
         }
-
     }
-
 }

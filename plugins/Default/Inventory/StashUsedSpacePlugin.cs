@@ -2,16 +2,14 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class StashUsedSpacePlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public IFont Font { get; set; }
 
-		public StashUsedSpacePlugin()
-		{
+        public StashUsedSpacePlugin()
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -19,7 +17,7 @@ namespace Turbo.Plugins.Default
 
             Font = Hud.Render.CreateFont("tahoma", 7, 160, 255, 30, 30, true, false, 128, 0, 0, 0, true);
         }
-		
+
         public void PaintTopInGame(ClipState clipState)
         {
             if (Hud.Render.UiHidden) return;
@@ -47,7 +45,5 @@ namespace Turbo.Plugins.Default
                 Font.DrawText(layout, x, tabUiElement.Rectangle.Top + tabUiElement.Rectangle.Height * 0.1f);
             }
         }
-
     }
-
 }

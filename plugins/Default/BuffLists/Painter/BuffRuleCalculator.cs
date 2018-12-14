@@ -3,22 +3,18 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class BuffRuleCalculator
     {
+        public IController Hud { get; }
 
-        public IController Hud { get; private set; }
-
-        public List<BuffRule> Rules { get; private set; }
-        public List<BuffPaintInfo> PaintInfoList { get; private set; }
+        public List<BuffRule> Rules { get; } = new List<BuffRule>();
+        public List<BuffPaintInfo> PaintInfoList { get; } = new List<BuffPaintInfo>();
 
         public float SizeMultiplier { get; set; }
 
         public BuffRuleCalculator(IController hud)
         {
             Hud = hud;
-            Rules = new List<BuffRule>();
-            PaintInfoList = new List<BuffPaintInfo>();
         }
 
         public void CalculatePaintInfo(IPlayer player)
@@ -43,21 +39,8 @@ namespace Turbo.Plugins.Default
             }
         }
 
-        public float StandardIconSize
-        {
-            get
-            {
-                return 55f / 1200.0f * Hud.Window.Size.Height * SizeMultiplier;
-            }
-        }
-
-        public float StandardIconSpacing
-        {
-            get
-            {
-                return 3.0f / 1200.0f * Hud.Window.Size.Height * SizeMultiplier;
-            }
-        }
+        public float StandardIconSize => 55f / 1200.0f * Hud.Window.Size.Height * SizeMultiplier;
+        public float StandardIconSpacing => 3.0f / 1200.0f * Hud.Window.Size.Height * SizeMultiplier;
 
         private void GetPaintInfo(IPlayer player, List<BuffPaintInfo> container, BuffRule rule, float iconSize)
         {
@@ -107,6 +90,7 @@ namespace Turbo.Plugins.Default
                             info.BackgroundTexture = info.Rule.UseLegendaryItemTexture.SetItemBonusesSno == uint.MaxValue ? Hud.Texture.InventoryLegendaryBackgroundLarge : Hud.Texture.InventorySetBackgroundLarge;
                         }
                     }
+
                     info.Texture = GetIconTexture(info);
                     info.Size = iconSize * rule.IconSizeMultiplier;
                     if (info.Texture != null)
@@ -143,11 +127,10 @@ namespace Turbo.Plugins.Default
             {
                 textureId = info.Icons[0].TextureId;
             }
+
             if (textureId <= 0) return null;
 
             return Hud.Texture.GetTexture(textureId);
         }
-
     }
-
 }

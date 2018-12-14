@@ -5,17 +5,15 @@ using System.Linq;
 namespace Turbo.Plugins.Default
 {
     public class DebugPlugin : BasePlugin, IInGameTopPainter
-	{
+    {
         public IFont PluginPerfFont { get; set; }
         public TopLabelDecorator RenderTimeDecorator { get; set; }
         public TopLabelDecorator MemoryUsageDecorator { get; set; }
-        public bool PluginPerformanceCountersEnabled { get; set; }
+        public bool PluginPerformanceCountersEnabled { get; set; } = false;
 
         public DebugPlugin()
-		{
+        {
             Enabled = false;
-            PluginPerformanceCountersEnabled = false;
-
         }
 
         public override void Load(IController hud)

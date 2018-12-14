@@ -2,7 +2,6 @@ namespace Turbo.Plugins.Default
 {
     public class CheatDeathBuffFeederPlugin : BasePlugin, IInGameTopPainter
     {
-
         public IBrush BorderBrush { get; set; }
         public IBrush FillBrush { get; set; }
 
@@ -46,7 +45,5 @@ namespace Turbo.Plugins.Default
                 BorderBrush.DrawRectangleGridFit(uiMinimapRect.X, uiMinimapRect.Y, uiMinimapRect.Width, uiMinimapRect.Height);
             }
         }
-
     }
-
 }

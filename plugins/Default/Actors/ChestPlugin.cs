@@ -2,18 +2,16 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
-    public class ChestPlugin: BasePlugin, IInGameWorldPainter
-	{
-
+    public class ChestPlugin : BasePlugin, IInGameWorldPainter
+    {
         public WorldDecoratorCollection LoreChestDecorator { get; set; }
         public WorldDecoratorCollection NormalChestDecorator { get; set; }
         public WorldDecoratorCollection ResplendentChestDecorator { get; set; }
 
-		public ChestPlugin()
-		{
+        public ChestPlugin()
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -47,7 +45,7 @@ namespace Turbo.Plugins.Default
                 }
                 );
         }
-		
+
         public void PaintWorld(WorldLayer layer)
         {
             if (Hud.Game.IsInTown) return;
@@ -70,7 +68,5 @@ namespace Turbo.Plugins.Default
                 ResplendentChestDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
             }
         }
-
     }
-
 }

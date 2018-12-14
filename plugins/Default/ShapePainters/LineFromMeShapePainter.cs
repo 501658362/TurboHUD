@@ -2,8 +2,7 @@ namespace Turbo.Plugins.Default
 {
     public class LineFromMeShapePainter : IShapePainter
     {
-
-        public IController Hud { get; private set; }
+        public IController Hud { get; }
 
         public LineFromMeShapePainter(IController hud)
         {
@@ -20,7 +19,5 @@ namespace Turbo.Plugins.Default
 
             brush.DrawLine(x, y, meOnMapX, meOnMapY);
         }
-
     }
-
 }

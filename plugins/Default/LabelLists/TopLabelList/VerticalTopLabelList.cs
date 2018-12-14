@@ -1,9 +1,7 @@
 namespace Turbo.Plugins.Default
 {
-
-    public class VerticalTopLabelList : List
+    public class VerticalTopLabelList : AbstractTopLabelList
     {
-
         public VerticalTopLabelList(IController hud)
             : base(hud)
         {
@@ -24,6 +22,7 @@ namespace Turbo.Plugins.Default
                     selectedLabel = label;
                     selectedY = y;
                 }
+
                 y += labelHeight + SpacingAdjustmentInPixels;
             }
 
@@ -32,7 +31,5 @@ namespace Turbo.Plugins.Default
                 selectedLabel.Paint(x, selectedY, labelWidth, labelHeight, HorizontalAlign.Center);
             }
         }
-
     }
-
 }

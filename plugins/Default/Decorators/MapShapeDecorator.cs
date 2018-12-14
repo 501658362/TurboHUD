@@ -2,11 +2,9 @@ using System.Collections.Generic;
 
 namespace Turbo.Plugins.Default
 {
-
     // this is not a plugin, just a helper class to display shapes on the minimap
-    public class MapShapeDecorator: AbstractMapDecoratorWithRadius, IWorldDecoratorWithRadius
+    public class MapShapeDecorator : AbstractMapDecoratorWithRadius, IWorldDecoratorWithRadius
     {
-
         public IBrush Brush { get; set; }
         public IBrush ShadowBrush { get; set; }
         public IShapePainter ShapePainter { get; set; }
@@ -34,7 +32,5 @@ namespace Turbo.Plugins.Default
             yield return Brush;
             yield return ShadowBrush;
         }
-
     }
-
 }

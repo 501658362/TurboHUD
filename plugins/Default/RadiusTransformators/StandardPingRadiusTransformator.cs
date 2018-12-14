@@ -2,11 +2,9 @@ using System;
 
 namespace Turbo.Plugins.Default
 {
-
     public class StandardPingRadiusTransformator : IRadiusTransformator
     {
-
-        public IController Hud { get; private set; }
+        public IController Hud { get; }
 
         public int PingSpeed { get; set; }
         public float RadiusMinimumMultiplier { get; set; }
@@ -34,7 +32,5 @@ namespace Turbo.Plugins.Default
                 return radius * (RadiusMaximumMultiplier - (RadiusMaximumMultiplier - RadiusMinimumMultiplier) * (msec % PingSpeed) / PingSpeed);
             }
         }
-
     }
-
 }

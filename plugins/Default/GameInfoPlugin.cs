@@ -2,17 +2,15 @@ using System;
 
 namespace Turbo.Plugins.Default
 {
-
     public class GameInfoPlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public TopLabelDecorator GameClockDecorator { get; set; }
         public TopLabelDecorator ServerIpAddressDecorator { get; set; }
 
-		public GameInfoPlugin()
-		{
+        public GameInfoPlugin()
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -29,7 +27,7 @@ namespace Turbo.Plugins.Default
                 TextFont = Hud.Render.CreateFont("tahoma", 6, 255, 170, 150, 120, false, false, true),
                 TextFunc = () => Hud.Game.ServerIpAddress,
             };
-		}
+        }
 
         public void PaintTopInGame(ClipState clipState)
         {
@@ -46,7 +44,5 @@ namespace Turbo.Plugins.Default
                 ServerIpAddressDecorator.Paint(uiRect.Left, uiRect.Top + uiRect.Height * 1.85f, uiRect.Width, uiRect.Height * 0.7f, HorizontalAlign.Right);
             }
         }
-
     }
-
 }

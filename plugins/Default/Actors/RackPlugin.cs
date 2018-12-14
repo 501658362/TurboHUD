@@ -2,16 +2,14 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class RackPlugin : BasePlugin, IInGameWorldPainter
-	{
-
+    {
         public WorldDecoratorCollection Decorator { get; set; }
 
-		public RackPlugin()
-		{
+        public RackPlugin()
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -27,7 +25,7 @@ namespace Turbo.Plugins.Default
                 }
                 );
         }
-		
+
         public void PaintWorld(WorldLayer layer)
         {
             if (Hud.Game.IsInTown) return;
@@ -44,7 +42,5 @@ namespace Turbo.Plugins.Default
                 Decorator.Paint(layer, actor, actor.FloorCoordinate, null);
             }
         }
-
     }
-
 }

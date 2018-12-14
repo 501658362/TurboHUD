@@ -2,16 +2,14 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class OculusPlugin : BasePlugin, IInGameWorldPainter
-	{
-
+    {
         public WorldDecoratorCollection Decorator { get; set; }
 
-		public OculusPlugin()
-		{
+        public OculusPlugin()
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -37,7 +35,7 @@ namespace Turbo.Plugins.Default
                 }
                 );
         }
-		
+
         public void PaintWorld(WorldLayer layer)
         {
             if (Hud.Game.IsInTown) return;
@@ -48,7 +46,5 @@ namespace Turbo.Plugins.Default
                 Decorator.Paint(layer, actor, actor.FloorCoordinate, null);
             }
         }
-
     }
-
 }

@@ -1,9 +1,7 @@
 namespace Turbo.Plugins.Default
 {
-
     public class InventoryMaterialCountPlugin : BasePlugin, IInGameTopPainter
     {
-
         public IFont MaterialCountFont { get; set; }
 
         private ISnoItem[] _materialItems, _legendaryMaterials, _otherStuff;
@@ -126,7 +124,5 @@ namespace Turbo.Plugins.Default
 
             return count;
         }
-
     }
-
 }

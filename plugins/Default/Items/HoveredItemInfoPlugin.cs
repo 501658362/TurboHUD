@@ -3,10 +3,8 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class HoveredItemInfoPlugin : BasePlugin, IInGameTopPainter
     {
-
         public IFont ItemLevelFont { get; set; }
         public TopLabelDecorator LegendaryNameDecorator { get; set; }
         public TopLabelDecorator SetNameDecorator { get; set; }
@@ -83,7 +81,5 @@ namespace Turbo.Plugins.Default
                 cubeTexture.Draw(x, y, rh, rh, 1);
             }
         }
-
     }
-
 }

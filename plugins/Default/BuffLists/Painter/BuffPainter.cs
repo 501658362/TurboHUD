@@ -6,10 +6,8 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
-    public class BuffPainter: ITransparentCollection, ITransparent
+    public class BuffPainter : ITransparentCollection, ITransparent
     {
-
         public bool Enabled { get; set; }
         public IController Hud { get; set; }
 
@@ -19,9 +17,9 @@ namespace Turbo.Plugins.Default
 
         public float Opacity { get; set; }
 
-        public bool ShowTooltips { get; set; }
-        public bool ShowTimeLeftNumbers { get; set; }
-        public bool HasIconBorder { get; set; }
+        public bool ShowTooltips { get; set; } = true;
+        public bool ShowTimeLeftNumbers { get; set; } = true;
+        public bool HasIconBorder { get; set; } = true;
 
         public BuffPainter(IController hud, bool setDefaultStyle)
         {
@@ -34,10 +32,6 @@ namespace Turbo.Plugins.Default
                 StackFont = Hud.Render.CreateFont("tahoma", 9, 255, 255, 255, 255, false, false, 255, 0, 0, 0, true);
                 TimeLeftClockBrush = Hud.Render.CreateBrush(220, 0, 0, 0, 0);
             }
-
-            ShowTooltips = true;
-            ShowTimeLeftNumbers = true;
-            HasIconBorder = true;
         }
 
         public void PaintVertical(List<BuffPaintInfo> infoList, float x, float y, float size, float spacing)
@@ -99,6 +93,7 @@ namespace Turbo.Plugins.Default
             {
                 info.BackgroundTexture.Draw(rect.X, rect.Y, rect.Width, rect.Height, Opacity);
             }
+
             info.Texture.Draw(rect.X, rect.Y, rect.Width, rect.Height, Opacity);
 
             DrawTimeLeftClock(rect, info.Elapsed, info.TimeLeft);
@@ -117,6 +112,7 @@ namespace Turbo.Plugins.Default
                     {
                         foreach (var icon in info.Icons) name += (name == null ? "" : "\n") + icon.TitleLocalized;
                     }
+
                     string desc = null;
                     foreach (var icon in info.Icons) desc += (desc == null ? "\n\n" : "\n") + icon.DescriptionLocalized;
                     Hud.Render.SetHint(name + desc);
@@ -160,9 +156,11 @@ namespace Turbo.Plugins.Default
                             var vec = new Vector2(rect.Center.X + mx, rect.Center.Y + my);
                             gs.AddLine(vec);
                         }
+
                         gs.EndFigure(FigureEnd.Closed);
                         gs.Close();
                     }
+
                     TimeLeftClockBrush.DrawGeometry(pg);
                 }
             }
@@ -206,5 +204,4 @@ namespace Turbo.Plugins.Default
             yield return this;
         }
     }
-
 }

@@ -5,21 +5,17 @@ namespace Turbo.Plugins.Default
 {
     public class CosmeticItemsPlugin : BasePlugin, IInGameWorldPainter
     {
-
         public WorldDecoratorCollection Decorator { get; set; }
-        public string DisplayTextOnActors { get; set; }
-        public string DisplayTextOnMonsters { get; set; }
-        public string DisplayTextOnItems { get; set; }
+        public string DisplayTextOnActors { get; set; } = "cosmetics";
+        public string DisplayTextOnMonsters { get; set; } = "cosmetics";
+        public string DisplayTextOnItems { get; set; } = "cosmetics";
 
-        private HashSet<uint> _monsterSnoList = new HashSet<uint>();
-        private HashSet<uint> _actorSnoList = new HashSet<uint>();
+        private readonly HashSet<uint> _monsterSnoList = new HashSet<uint>();
+        private readonly HashSet<uint> _actorSnoList = new HashSet<uint>();
 
         public CosmeticItemsPlugin()
         {
             Enabled = true;
-            DisplayTextOnActors = "cosmetics";
-            DisplayTextOnMonsters = "cosmetics";
-            DisplayTextOnItems = "cosmetics";
         }
 
         public override void Load(IController hud)
@@ -107,5 +103,4 @@ namespace Turbo.Plugins.Default
             }
         }
     }
-
 }

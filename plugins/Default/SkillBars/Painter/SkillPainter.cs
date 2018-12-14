@@ -6,10 +6,8 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class SkillPainter : ITransparentCollection
     {
-
         public bool Enabled { get; set; }
         public IController Hud { get; set; }
 
@@ -48,6 +46,7 @@ namespace Turbo.Plugins.Default
                     Hud.Render.CreateBrush(200, 138, 0, 94, 0),
                     Hud.Render.CreateBrush(200, 190, 117, 0, 0),
                 };
+
                 DamageBonusFont = Hud.Render.CreateFont("tahoma", 7, 255, 200, 200, 200, false, false, 160, 0, 0, 0, true);
                 DamageBonusEliteFont = Hud.Render.CreateFont("tahoma", 7, 255, 255, 160, 160, false, false, 160, 0, 0, 0, true);
             }
@@ -157,41 +156,40 @@ namespace Turbo.Plugins.Default
                     }
 
                     var hint =
-                    					    "此伤害计算不包含装备及技能特效的独立加成因子"  + "\n\n" +
-                                            "武器单次平均伤害（详细如下）: " + GLQ_BasePluginCN.ValueToString(weaponDamage, ValueFormat.LongNumber) + " (" + (Hud.Game.Me.Offense.MainHandIsActive ? "左" : "右") + " 手)\n" +
-                                            (Hud.Game.Me.Offense.MainHandIsActive ?
-                                            "\t武器属性均伤: " + (Hud.Game.Me.Offense.WeaponBaseDamageMinAmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxAmainHand / 2).ToString("F0", CultureInfo.InvariantCulture) + " (" + Hud.Game.Me.Offense.WeaponBaseDamageMinAmainHand.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.WeaponBaseDamageMaxAmainHand.ToString("F0", CultureInfo.InvariantCulture) + ")\n" :
-                                            "\t武器属性均伤: " + (Hud.Game.Me.Offense.WeaponBaseDamageMinAoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxAoffHand / 2).ToString("F0", CultureInfo.InvariantCulture) + " (" + Hud.Game.Me.Offense.WeaponBaseDamageMinAoffHand.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.WeaponBaseDamageMaxAoffHand.ToString("F0", CultureInfo.InvariantCulture) + ")\n") +
-                                            (((Hud.Game.Me.Offense.DamageMin > 0) || (Hud.Game.Me.Offense.DamageMax > 0)) ?
-                                            ((Hud.Game.Me.Offense.DamageMin > 0) || (Hud.Game.Me.Offense.DamageMax > 0) ? "\t+ 其他伤害词缀（如副手戒指等）: " + Hud.Game.Me.Offense.DamageMin.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.DamageMax.ToString("F0", CultureInfo.InvariantCulture) + "\n" : "") +
-                                            (Hud.Game.Me.Offense.MainHandIsActive ?
-                                            "\t= 装备总均伤: " + (Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand / 2).ToString("F0", CultureInfo.InvariantCulture) + " (" + Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand.ToString("F0", CultureInfo.InvariantCulture) + ")\n" :
-                                            "\t= 装备总均伤: " + (Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand / 2).ToString("F0", CultureInfo.InvariantCulture) + " (" + Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand.ToString("F0", CultureInfo.InvariantCulture) + ")\n")
-                                            : "") +
-                                            "\t增加主属性加成时: " +
-                                            (Hud.Game.Me.Offense.MainHandIsActive ?
-                                            "" + GLQ_BasePluginCN.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + " (" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + "-" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + ")\n" :
-                                            "" + GLQ_BasePluginCN.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + " (" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + "-" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + ")\n") +
-                                            "\t增加平均暴击加成时: " +
-                                            (Hud.Game.Me.Offense.MainHandIsActive ?
-                                            "" + GLQ_BasePluginCN.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + " (" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + "-" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + ")\n" :
-                                            "" + GLQ_BasePluginCN.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + " (" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + "-" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + ")\n") +
-                                            ((Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills > 0) ?
-                                            "\t增加技能伤害加成时: " +
-                                            (Hud.Game.Me.Offense.MainHandIsActive ?
-                                            "" + GLQ_BasePluginCN.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + " (" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + "-" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + ")\n" :
-                                            "" + GLQ_BasePluginCN.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + " (" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + "-" + GLQ_BasePluginCN.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + ")\n")
-                                            : "") +
-                                            "\n总加成伤害增加: +" + (skillBonusTotal * 100 - 100).ToString("F0", CultureInfo.InvariantCulture) + "%\n" +
-                                            "\t" + (skill.ElementalDamageBonus * 100).ToString("F0", CultureInfo.InvariantCulture) + "% 元素技能伤害加成\n" +
-                                            "\t" + (skill.DamageBonus * 100).ToString("F0", CultureInfo.InvariantCulture) + "% " + skill.SnoPower.NameLocalized + "的伤害提高\n" +
-                                            (elite ? "\t" + (Hud.Game.Me.Offense.BonusToElites * 100).ToString("F0", CultureInfo.InvariantCulture) + "% 对精英伤害加成\n" : "") +
-                                            plainBonusText +
-                                            "\n'" + skill.SnoPower.NameLocalized + "' / '" + skill.RuneNameLocalized +  "' " + (dotSeconds > 0 ? "在 " + dotSeconds.ToString("F1", CultureInfo.InvariantCulture) + " 秒内" : "") + "造成 " + weaponDamageMultiplier.ToString("F0", CultureInfo.InvariantCulture) + "% 武器伤害" + "\n" +
-                                            "\t总伤害: " + GLQ_BasePluginCN.ValueToString(skillDamage, ValueFormat.LongNumber) + " (= " + GLQ_BasePluginCN.ValueToString(weaponDamage, ValueFormat.LongNumber) + " * " + (weaponDamageMultiplier.ToString("F0", CultureInfo.InvariantCulture)) + "% + " + (skillBonusTotal * 100 - 100).ToString("F0", CultureInfo.InvariantCulture) + "% + " + (plainBonusTotal * 100 - 100).ToString("F0", CultureInfo.InvariantCulture) + "%)\n" +
-                                            "\t秒伤: " + GLQ_BasePluginCN.ValueToString(skillDps, ValueFormat.LongNumber) + " (= " + GLQ_BasePluginCN.ValueToString(skillDamage, ValueFormat.LongNumber) + (dotSeconds > 0 ? " / " + dotSeconds.ToString("F1", CultureInfo.InvariantCulture) + " 秒" : " * " + attackSpeed.ToString("F2", CultureInfo.InvariantCulture) + " 攻速/秒") + ")" +
-                                            ((resourceCost != -1) ? "\n\n能量消耗\n\t默认消耗: " + GLQ_BasePluginCN.ValueToString(Math.Abs(resourceCost), ValueFormat.NormalNumberNoDecimal) + " " + (resourceCost > 0 ? Hud.Game.Me.HeroClassDefinition.PrimaryResourceName : Hud.Game.Me.HeroClassDefinition.SecondaryResourceName) + "\n\t实际消耗: " + GLQ_BasePluginCN.ValueToString(skill.GetResourceRequirement(), ValueFormat.NormalNumber) + " " + (resourceCost > 0 ? Hud.Game.Me.HeroClassDefinition.PrimaryResourceName : Hud.Game.Me.HeroClassDefinition.SecondaryResourceName) : "");
-                                        Hud.Render.SetHint(hint, "tooltip-bottom-right");
+                        "WEAPON DAMAGE: " + BasePlugin.ValueToString(weaponDamage, ValueFormat.LongNumber) + " (" + (Hud.Game.Me.Offense.MainHandIsActive ? "left" : "right") + " hand)\n" +
+                        (Hud.Game.Me.Offense.MainHandIsActive ?
+                        "\t" + (Hud.Game.Me.Offense.WeaponBaseDamageMinAmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxAmainHand / 2).ToString("F0", CultureInfo.InvariantCulture) + " (" + Hud.Game.Me.Offense.WeaponBaseDamageMinAmainHand.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.WeaponBaseDamageMaxAmainHand.ToString("F0", CultureInfo.InvariantCulture) + ")\n" :
+                        "\t" + (Hud.Game.Me.Offense.WeaponBaseDamageMinAoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxAoffHand / 2).ToString("F0", CultureInfo.InvariantCulture) + " (" + Hud.Game.Me.Offense.WeaponBaseDamageMinAoffHand.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.WeaponBaseDamageMaxAoffHand.ToString("F0", CultureInfo.InvariantCulture) + ")\n") +
+                        (((Hud.Game.Me.Offense.DamageMin > 0) || (Hud.Game.Me.Offense.DamageMax > 0)) ?
+                        ((Hud.Game.Me.Offense.DamageMin > 0) || (Hud.Game.Me.Offense.DamageMax > 0) ? "\t+ damage from armor: " + Hud.Game.Me.Offense.DamageMin.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.DamageMax.ToString("F0", CultureInfo.InvariantCulture) + "\n" : "") +
+                        (Hud.Game.Me.Offense.MainHandIsActive ?
+                        "\t= " + (Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand / 2).ToString("F0", CultureInfo.InvariantCulture) + " (" + Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand.ToString("F0", CultureInfo.InvariantCulture) + ")\n" :
+                        "\t= " + (Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand / 2).ToString("F0", CultureInfo.InvariantCulture) + " (" + Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand.ToString("F0", CultureInfo.InvariantCulture) + "-" + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand.ToString("F0", CultureInfo.InvariantCulture) + ")\n")
+                        : "") +
+                        "\tincreased by main stat: " +
+                        (Hud.Game.Me.Offense.MainHandIsActive ?
+                        "" + BasePlugin.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + " (" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + "-" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + ")\n" :
+                        "" + BasePlugin.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + " (" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + "-" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100), ValueFormat.LongNumber) + ")\n") +
+                        "\tincreased by crit: " +
+                        (Hud.Game.Me.Offense.MainHandIsActive ?
+                        "" + BasePlugin.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + " (" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + "-" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + ")\n" :
+                        "" + BasePlugin.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + " (" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + "-" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100), ValueFormat.LongNumber) + ")\n") +
+                        ((Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills > 0) ?
+                        "\tincreased by skills: " +
+                        (Hud.Game.Me.Offense.MainHandIsActive ?
+                        "" + BasePlugin.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + " (" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + "-" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBmainHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + ")\n" :
+                        "" + BasePlugin.ValueToString((Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand / 2 + Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand / 2) * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + " (" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMinBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + "-" + BasePlugin.ValueToString(Hud.Game.Me.Offense.WeaponBaseDamageMaxBoffHand * (1 + Hud.Game.Me.Stats.MainStat / 100) * (1 + Hud.Game.Me.Offense.CriticalHitChance / 100 * Hud.Game.Me.Offense.CritDamage / 100) * (1 + Hud.Game.Me.Offense.WeaponDamageIncreasedBySkills), ValueFormat.LongNumber) + ")\n")
+                        : "") +
+                        "\nTOTAL BONUS: +" + (skillBonusTotal * 100 - 100).ToString("F0", CultureInfo.InvariantCulture) + "%\n" +
+                        "\t" + (skill.ElementalDamageBonus * 100).ToString("F0", CultureInfo.InvariantCulture) + "% elemental\n" +
+                        "\t" + (skill.DamageBonus * 100).ToString("F0", CultureInfo.InvariantCulture) + "% skill\n" +
+                        (elite ? "\t" + (Hud.Game.Me.Offense.BonusToElites * 100).ToString("F0", CultureInfo.InvariantCulture) + "% elite\n" : "") +
+                        plainBonusText +
+                        "\n'" + skill.CurrentSnoPower.NameLocalized + "' / '" + skill.RuneNameLocalized + "' does " + weaponDamageMultiplier.ToString("F0", CultureInfo.InvariantCulture) + "% weapon damage" + (dotSeconds > 0 ? " over " + dotSeconds.ToString("F1", CultureInfo.InvariantCulture) + " seconds" : "") + "\n" +
+                        "\tDMG: " + BasePlugin.ValueToString(skillDamage, ValueFormat.LongNumber) + " (= " + BasePlugin.ValueToString(weaponDamage, ValueFormat.LongNumber) + " * " + (weaponDamageMultiplier.ToString("F0", CultureInfo.InvariantCulture)) + "% + " + (skillBonusTotal * 100 - 100).ToString("F0", CultureInfo.InvariantCulture) + "% + " + (plainBonusTotal * 100 - 100).ToString("F0", CultureInfo.InvariantCulture) + "%)\n" +
+                        "\tDPS: " + BasePlugin.ValueToString(skillDps, ValueFormat.LongNumber) + " (= " + BasePlugin.ValueToString(skillDamage, ValueFormat.LongNumber) + (dotSeconds > 0 ? " / " + dotSeconds.ToString("F1", CultureInfo.InvariantCulture) + " seconds" : " * " + attackSpeed.ToString("F2", CultureInfo.InvariantCulture) + " attack/s") + ")" +
+                        ((resourceCost != -1) ? "\n\nResource cost\n\tdefault: " + BasePlugin.ValueToString(Math.Abs(resourceCost), ValueFormat.NormalNumberNoDecimal) + " " + (resourceCost > 0 ? Hud.Game.Me.HeroClassDefinition.PrimaryResourceName : Hud.Game.Me.HeroClassDefinition.SecondaryResourceName) + "\n\treal: " + BasePlugin.ValueToString(skill.GetResourceRequirement(), ValueFormat.NormalNumber) + " " + (resourceCost > 0 ? Hud.Game.Me.HeroClassDefinition.PrimaryResourceName : Hud.Game.Me.HeroClassDefinition.SecondaryResourceName) : "");
+                    Hud.Render.SetHint(hint, "tooltip-bottom-right");
                 }
             }
             else
@@ -204,7 +202,6 @@ namespace Turbo.Plugins.Default
                     }
                 }
             }
-
         }
 
         public IEnumerable<ITransparent> GetTransparents()
@@ -216,7 +213,5 @@ namespace Turbo.Plugins.Default
             yield return DamageBonusFont;
             yield return DamageBonusEliteFont;
         }
-
     }
-
 }

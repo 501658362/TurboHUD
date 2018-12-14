@@ -2,21 +2,19 @@ using System.Collections.Generic;
 
 namespace Turbo.Plugins.Default
 {
-
     public delegate string StringGeneratorFunc();
 
     public enum HorizontalAlign { Left, Center, Right }
 
     // this is not a plugin, just a helper class to display fixed sized labels on the screen
-    public class TopLabelDecorator: ITransparentCollection
+    public class TopLabelDecorator : ITransparentCollection
     {
-
         public bool Enabled { get; set; }
-        public IController Hud { get; set; }
+        public IController Hud { get; }
 
         public IFont TextFont { get; set; }
         public IFont ExpandedHintFont { get; set; }
-        public float ExpandedHintWidthMultiplier { get; set; }
+        public float ExpandedHintWidthMultiplier { get; set; } = 1;
 
         // Option #1: Use brushes for background and border
         public IBrush BackgroundBrush { get; set; }
@@ -25,13 +23,13 @@ namespace Turbo.Plugins.Default
         // Option #2: Use textures for background
         public ITexture BackgroundTexture1 { get; set; }
         public ITexture BackgroundTexture2 { get; set; }
-        public float BackgroundTextureOpacity1 { get; set; }
-        public float BackgroundTextureOpacity2 { get; set; }
+        public float BackgroundTextureOpacity1 { get; set; } = 1.0f;
+        public float BackgroundTextureOpacity2 { get; set; } = 1.0f;
 
         public StringGeneratorFunc TextFunc { get; set; }
         public StringGeneratorFunc HintFunc { get; set; }
 
-        public bool HideBackgroundWhenTextIsEmpty { get; set; }
+        public bool HideBackgroundWhenTextIsEmpty { get; set; } = false;
 
         public List<TopLabelDecorator> ExpandUpLabels { get; set; }
         public List<TopLabelDecorator> ExpandDownLabels { get; set; }
@@ -42,10 +40,6 @@ namespace Turbo.Plugins.Default
         {
             Enabled = true;
             Hud = hud;
-            BackgroundTextureOpacity1 = 1.0f;
-            BackgroundTextureOpacity2 = 1.0f;
-            HideBackgroundWhenTextIsEmpty = false;
-            ExpandedHintWidthMultiplier = 1;
         }
 
         public void Paint(float x, float y, float w, float h, HorizontalAlign align)
@@ -71,8 +65,10 @@ namespace Turbo.Plugins.Default
                         ly -= h;
                         expanded = true;
                     }
-                    this.PaintExpandedHint(x + w, y, w * 3, h, HorizontalAlign.Center);
+
+                    PaintExpandedHint(x + w, y, w * 3, h, HorizontalAlign.Center);
                 }
+
                 if (ExpandDownLabels != null && ExpandDownLabels.Count > 0)
                 {
                     var ly = y + h;
@@ -83,8 +79,10 @@ namespace Turbo.Plugins.Default
                         ly += h;
                         expanded = true;
                     }
-                    this.PaintExpandedHint(x + w, y, w * 3, h, HorizontalAlign.Center);
+
+                    PaintExpandedHint(x + w, y, w * 3, h, HorizontalAlign.Center);
                 }
+
                 if (ExpandRightLabels != null && ExpandRightLabels.Count > 0)
                 {
                     var lx = x + w;
@@ -95,6 +93,7 @@ namespace Turbo.Plugins.Default
                         expanded = true;
                     }
                 }
+
                 if (ExpandLeftLabels != null && ExpandLeftLabels.Count > 0)
                 {
                     var lx = x - w;
@@ -203,7 +202,5 @@ namespace Turbo.Plugins.Default
             yield return BackgroundTexture1;
             yield return BackgroundTexture2;
         }
-
     }
-
 }

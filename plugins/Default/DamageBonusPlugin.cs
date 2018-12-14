@@ -3,12 +3,10 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class DamageBonusPlugin : BasePlugin, IInGameTopPainter
     {
-
-        public bool ShowInTown { get; set; }
-        public bool ShowOutOfTown { get; set; }
+        public bool ShowInTown { get; set; } = true;
+        public bool ShowOutOfTown { get; set; } = false;
         public TopLabelDecorator PhysicalDecorator { get; set; }
         public TopLabelDecorator FireDecorator { get; set; }
         public TopLabelDecorator LightningDecorator { get; set; }
@@ -26,9 +24,6 @@ namespace Turbo.Plugins.Default
         public override void Load(IController hud)
         {
             base.Load(hud);
-
-            ShowInTown = true;
-            ShowOutOfTown = false;
 
             PhysicalDecorator = new TopLabelDecorator(Hud)
             {
@@ -129,7 +124,5 @@ namespace Turbo.Plugins.Default
             ArcaneDecorator.Paint(x + w * 6, y, w, h, HorizontalAlign.Center);
             HolyDecorator.Paint(x + w * 7, y, w, h, HorizontalAlign.Center);
         }
-
     }
-
 }

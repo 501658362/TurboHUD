@@ -3,13 +3,11 @@ using System.Drawing;
 
 namespace Turbo.Plugins.Default
 {
-
     // this is not a plugin, just a helper class to display labels on the screen
-    public class TopLabelWithTitleDecorator: ITransparentCollection
+    public class TopLabelWithTitleDecorator : ITransparentCollection
     {
-
         public bool Enabled { get; set; }
-        public IController Hud { get; set; }
+        public IController Hud { get; }
 
         public IBrush BackgroundBrush { get; set; }
         public IBrush BorderBrush { get; set; }
@@ -67,5 +65,4 @@ namespace Turbo.Plugins.Default
             yield return TextFont;
         }
     }
-
 }

@@ -1,15 +1,13 @@
 namespace Turbo.Plugins.Default
 {
-
     public class HeadStonePlugin : BasePlugin, IInGameWorldPainter
-	{
-
+    {
         public WorldDecoratorCollection Decorator { get; set; }
 
         public HeadStonePlugin()
-		{
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -38,7 +36,5 @@ namespace Turbo.Plugins.Default
                 Decorator.Paint(layer, headStone, headStone.FloorCoordinate, headStone.Player.BattleTagAbovePortrait);
             }
         }
-
     }
-
 }

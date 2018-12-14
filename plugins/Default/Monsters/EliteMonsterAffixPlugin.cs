@@ -3,22 +3,19 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class EliteMonsterAffixPlugin : BasePlugin, IInGameWorldPainter
-	{
-
+    {
         public WorldDecoratorCollection WeakDecorator { get; set; }
         public Dictionary<MonsterAffix, WorldDecoratorCollection> AffixDecorators { get; set; }
-        public Dictionary<MonsterAffix, string> CustomAffixNames { get; set; }
+        public Dictionary<MonsterAffix, string> CustomAffixNames { get; set; } = new Dictionary<MonsterAffix, string>();
 
-        public bool HideOnIllusions { get; set; }
+        public bool HideOnIllusions { get; set; } = true;
 
         public EliteMonsterAffixPlugin()
-		{
+        {
             Enabled = true;
             Order = 20000;
-            HideOnIllusions = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -32,8 +29,6 @@ namespace Turbo.Plugins.Default
                     TextFont = Hud.Render.CreateFont("tahoma", 5f, 200, 220, 120, 0, false, false, false)
                 }
                 );
-
-            CustomAffixNames = new Dictionary<MonsterAffix, string>();
 
             var importantBorderBrush = Hud.Render.CreateBrush(128, 0, 0, 0, 2);
             var importantLabelFont = Hud.Render.CreateFont("tahoma", 6f, 255, 255, 255, 255, true, false, false);
@@ -185,8 +180,8 @@ namespace Turbo.Plugins.Default
                 if (HideOnIllusions)
                 {
                     if (monster.Illusion) continue;
-                    //if (monster.GetAttributeValue(Hud.Sno.Attributes.Power_Buff_0_Visual_Effect_None, 264185, 0) != 0) continue;
-                }               
+                    // if (monster.GetAttributeValue(Hud.Sno.Attributes.Power_Buff_0_Visual_Effect_None, 264185, 0) != 0) continue;
+                }
 
                 foreach (var snoMonsterAffix in monster.AffixSnoList)
                 {
@@ -204,7 +199,5 @@ namespace Turbo.Plugins.Default
                 }
             }
         }
-
     }
-
 }

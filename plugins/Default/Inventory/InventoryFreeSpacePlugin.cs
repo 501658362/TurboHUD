@@ -2,18 +2,16 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class InventoryFreeSpacePlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public TopLabelDecorator RedDecorator { get; set; }
         public TopLabelDecorator YellowDecorator { get; set; }
         public TopLabelDecorator GreenDecorator { get; set; }
 
-		public InventoryFreeSpacePlugin()
-		{
+        public InventoryFreeSpacePlugin()
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -66,7 +64,5 @@ namespace Turbo.Plugins.Default
             var decorator = freeSpace < 2 ? RedDecorator : freeSpace < 20 ? YellowDecorator : GreenDecorator;
             decorator.Paint(uiRect.Left + uiRect.Width * 0.645f, uiRect.Top + uiRect.Height * 0.88f, uiRect.Width * 0.019f, uiRect.Height * 0.12f, HorizontalAlign.Center);
         }
-
     }
-
 }

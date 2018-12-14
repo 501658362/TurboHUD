@@ -1,16 +1,14 @@
 namespace Turbo.Plugins.Default
 {
-
     // range for "Strength in Numbers" buff in multiplayer games
     public class MultiplayerExperienceRangePlugin : BasePlugin, IInGameWorldPainter
-	{
-
+    {
         public WorldDecoratorCollection Decorator { get; set; }
 
-		public MultiplayerExperienceRangePlugin()
-		{
+        public MultiplayerExperienceRangePlugin()
+        {
             Enabled = false;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -34,7 +32,5 @@ namespace Turbo.Plugins.Default
 
             Decorator.Paint(layer, null, Hud.Game.Me.FloorCoordinate, null);
         }
-
     }
-
 }

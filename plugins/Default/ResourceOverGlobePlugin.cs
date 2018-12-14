@@ -2,10 +2,8 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class ResourceOverGlobePlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public TopLabelDecorator HealthDecorator { get; set; }
         public TopLabelDecorator HealingPosDecorator { get; set; }
         public TopLabelDecorator HealingNegDecorator { get; set; }
@@ -29,9 +27,9 @@ namespace Turbo.Plugins.Default
         public TopLabelDecorator EssenceRegenDecorator { get; set; }
 
         public ResourceOverGlobePlugin()
-		{
+        {
             Enabled = true; // .NET Framework does not contains CompilerServices for C# 6
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -217,7 +215,5 @@ namespace Turbo.Plugins.Default
                     break;
             }
         }
-
     }
-
 }

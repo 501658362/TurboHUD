@@ -5,10 +5,8 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class InventoryAndStashPlugin : BasePlugin, IInGameTopPainter
     {
-
         public IBrush ShadowBrush { get; set; }
         public IFont HoradricCacheFont { get; set; }
         public IBrush KeepBrush { get; set; }
@@ -18,19 +16,19 @@ namespace Turbo.Plugins.Default
         public IBrush InventoryLockBorderBrush { get; set; }
 
         public bool LooksGoodDisplayEnabled { get; set; }
-        public bool NotGoodDisplayEnabled { get; set; }
+        public bool NotGoodDisplayEnabled { get; set; } = true;
         public bool DefinitelyBadDisplayEnabled { get; set; }
 
-        public bool HoradricCacheEnabled { get; set; }
-        public bool CanCubedEnabled { get; set; }
+        public bool HoradricCacheEnabled { get; set; } = true;
+        public bool CanCubedEnabled { get; set; } = true;
 
-        public bool AncientRankEnabled { get; set; }
+        public bool AncientRankEnabled { get; set; } = true;
         public IFont AncientRankFont { get; set; }
         public IFont PrimalRankFont { get; set; }
 
-        public bool CaldesannRankEnabled { get; set; }
+        public bool CaldesannRankEnabled { get; set; } = true;
 
-        public bool SocketedLegendaryGemRankEnabled { get; set; }
+        public bool SocketedLegendaryGemRankEnabled { get; set; } = true;
         public IFont SocketedLegendaryGemRankFont { get; set; }
 
         private readonly Stopwatch _stopper = Stopwatch.StartNew();
@@ -38,14 +36,6 @@ namespace Turbo.Plugins.Default
         public InventoryAndStashPlugin()
         {
             Enabled = true;
-            LooksGoodDisplayEnabled = false;
-            DefinitelyBadDisplayEnabled = false;
-            NotGoodDisplayEnabled = true;
-            AncientRankEnabled = true;
-            SocketedLegendaryGemRankEnabled = true;
-            CaldesannRankEnabled = true;
-            HoradricCacheEnabled = true;
-            CanCubedEnabled = true;
         }
 
         public override void Load(IController hud)
@@ -153,7 +143,7 @@ namespace Turbo.Plugins.Default
 
             var legendaryGem = item.ItemsInSocket.FirstOrDefault(x => x.Quality == ItemQuality.Legendary && x.JewelRank > -1);
             if (legendaryGem == null) return;
-            
+
             var jewelRank = legendaryGem.JewelRank;
             if (jewelRank > -1)
             {
@@ -192,6 +182,7 @@ namespace Turbo.Plugins.Default
                 {
                     DarkenBrush.DrawRectangle(rect.X, rect.Y, rect.Width, rect.Height);
                 }
+
                 if (DefinitelyBadDisplayEnabled && item.KeepDecision == ItemKeepDecision.DefinitelyBad)
                 {
                     Hud.Render.TurnOnAliasing();
@@ -284,7 +275,5 @@ namespace Turbo.Plugins.Default
                 HoradricCacheFont.DrawText(textLayout, rect.Right - rv / 20.0f - textLayout.Metrics.Width, rect.Bottom - rv / 70.0f - textLayout.Metrics.Height);
             }
         }
-
     }
-
 }

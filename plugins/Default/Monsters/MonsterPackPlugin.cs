@@ -5,7 +5,6 @@ namespace Turbo.Plugins.Default
 {
     public class MonsterPackPlugin : BasePlugin, IInGameWorldPainter
     {
-
         //
         // this plugin is work-in-progress and will be finished in a later release
         //
@@ -31,13 +30,12 @@ namespace Turbo.Plugins.Default
 
         public Dictionary<MonsterAffix, int> Priorities { get; private set; }
 
-        public bool HideOnIllusions { get; set; }
+        public bool HideOnIllusions { get; set; } = true;
 
         public MonsterPackPlugin()
         {
             Enabled = false;
             Order = 20000;
-            HideOnIllusions = true;
         }
 
         public override void Load(IController hud)
@@ -75,7 +73,6 @@ namespace Turbo.Plugins.Default
                 { MonsterAffix.Vampiric, 0 },
                 { MonsterAffix.Vortex, 0 },
                 { MonsterAffix.Wormhole, 0 } };
-
 
             ChampionPackLineBrush = Hud.Render.CreateBrush(255, 125, 175, 240, -1.5f);
             ChampionPackNameFont = Hud.Render.CreateFont("tahoma", 9.0f, 255, 125, 175, 240, true, false, 255, 0, 0, 0, true);
@@ -288,6 +285,7 @@ namespace Turbo.Plugins.Default
                         n++;
                     }
                 }
+
                 center.Set(center.X / n, center.Y / n, center.Z / n);
 
                 var centerScreenCoordinate = center.ToScreenCoordinate(false);
@@ -300,6 +298,7 @@ namespace Turbo.Plugins.Default
                     {
                         PaintFloorLines(alive, ChampionPackLineBrush);
                     }
+
                     if (ChampionPackNameFont != null)
                     {
                         var layout = ChampionPackNameFont.GetTextLayout(pack.LeadSnoMonster.NameLocalized);
@@ -313,6 +312,7 @@ namespace Turbo.Plugins.Default
                     {
                         PaintFloorLines(alive, RarePackLineBrush);
                     }
+
                     if (RarePackNameFont != null)
                     {
                         var layout = RarePackNameFont.GetTextLayout(pack.LeadSnoMonster.NameLocalized);
@@ -385,6 +385,7 @@ namespace Turbo.Plugins.Default
             {
                 if (nearest == null || monster.CentralXyDistanceToMe < nearest.CentralXyDistanceToMe) nearest = monster;
             }
+
             list.Remove(nearest);
             while (list.Count > 0)
             {
@@ -399,7 +400,5 @@ namespace Turbo.Plugins.Default
                 list.Remove(nextNearest);
             }
         }
-
     }
-
 }

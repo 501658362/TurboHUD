@@ -3,10 +3,8 @@ using System;
 
 namespace Turbo.Plugins.Default
 {
-
     public class OriginalSkillBarPlugin : BasePlugin, IInGameTopPainter
     {
-
         public SkillPainter SkillPainter { get; set; }
 
         public OriginalSkillBarPlugin()
@@ -43,7 +41,5 @@ namespace Turbo.Plugins.Default
                 SkillPainter.Paint(skill, rect);
             }
         }
-
     }
-
 }

@@ -2,20 +2,18 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class ExperienceOverBarPlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public TopLabelDecorator BlueThisLevelValueDecorator { get; set; }
         public TopLabelDecorator OrangeThisLevelValueDecorator { get; set; }
         public TopLabelDecorator BlueNextLevelValueDecorator { get; set; }
         public TopLabelDecorator OrangeNextLevelValueDecorator { get; set; }
         public TopLabelDecorator BonusValueDecorator { get; set; }
 
-		public ExperienceOverBarPlugin()
-		{
+        public ExperienceOverBarPlugin()
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -55,7 +53,7 @@ namespace Turbo.Plugins.Default
                 TextFunc = () => (Hud.Game.Me.BonusPoolRemaining * 5).ToString("#,0", CultureInfo.InvariantCulture),
                 HintFunc = () => "bonus pool * 5",
             };
-		}
+        }
 
         public void PaintTopInGame(ClipState clipState)
         {
@@ -75,7 +73,5 @@ namespace Turbo.Plugins.Default
                 BonusValueDecorator.Paint(uiRect.Left + uiRect.Width * 0.651f, uiRect.Top + uiRect.Height * 0.470f, uiRect.Width * 0.075f, uiRect.Height * 0.07f, HorizontalAlign.Right);
             }
         }
-
     }
-
 }

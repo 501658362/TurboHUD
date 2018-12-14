@@ -2,10 +2,8 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class ExplosiveMonsterPlugin : BasePlugin, IInGameWorldPainter
     {
-
         public WorldDecoratorCollection FastMummyDecorator { get; set; }
         public WorldDecoratorCollection GrotesqueDecorator { get; set; }
 
@@ -18,11 +16,10 @@ namespace Turbo.Plugins.Default
         {
             base.Load(hud);
 
-            var groundBrush = Hud.Render.CreateBrush(128, 255, 50, 50, 3, SharpDX.Direct2D1.DashStyle.Dash);
             FastMummyDecorator = new WorldDecoratorCollection(
                 new GroundCircleDecorator(Hud)
                 {
-                    Brush = groundBrush,
+                    Brush = Hud.Render.CreateBrush(128, 255, 50, 50, 3, SharpDX.Direct2D1.DashStyle.Dash),
                     Radius = 5,
                 }
                 );
@@ -33,19 +30,7 @@ namespace Turbo.Plugins.Default
                 {
                     Brush = Hud.Render.CreateBrush(160, 255, 50, 50, 3, SharpDX.Direct2D1.DashStyle.Dash),
                     Radius = 20f,
-                }/*,
-                new GroundLabelDecorator(Hud)
-                {
-                    CountDownFrom = 2,
-                    LabelFont = Hud.Render.CreateFont("tahoma", 9, 255, 255, 255, 255, true, false, 128, 0, 0, 0, true),
-                },
-                new GroundTimerDecorator(Hud)
-                {
-                    CountDownFrom = 2,
-                    BackgroundBrushEmpty = Hud.Render.CreateBrush(128, 0, 0, 0, 0),
-                    BackgroundBrushFill = Hud.Render.CreateBrush(200, 255, 32, 32, 0),
-                    Radius = 30,
-                }*/
+                }
                 );
         }
 
@@ -78,7 +63,5 @@ namespace Turbo.Plugins.Default
                 }
             }
         }
-
     }
-
 }

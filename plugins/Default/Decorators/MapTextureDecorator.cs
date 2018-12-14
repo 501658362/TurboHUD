@@ -2,11 +2,9 @@ using System.Collections.Generic;
 
 namespace Turbo.Plugins.Default
 {
-
     // this is not a plugin, just a helper class to display textures on the minimap
     public class MapTextureDecorator : AbstractMapDecoratorWithRadius, IWorldDecoratorWithRadius
     {
-
         public ITexture Texture { get; set; }
         public ISnoItem SnoItem { get; set; }
 
@@ -42,7 +40,5 @@ namespace Turbo.Plugins.Default
         {
             yield return Texture;
         }
-
     }
-
 }

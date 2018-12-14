@@ -4,20 +4,18 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class WaypointQuestsPlugin : BasePlugin, ITransparentCollection, ITransparent, IInGameTopPainter
     {
         public IFont BountyNameNormalFont { get; set; }
         public IFont BountyNameHighlightedFont { get; set; }
 
-        public List<ISnoQuest> BountiesToHighlight { get; private set; }
+        public List<ISnoQuest> BountiesToHighlight { get; } = new List<ISnoQuest>();
 
         public float Opacity { get; set; }
 
         public WaypointQuestsPlugin()
         {
             Enabled = true;
-            BountiesToHighlight = new List<ISnoQuest>();
         }
 
         public override void Load(IController hud)
@@ -66,7 +64,6 @@ namespace Turbo.Plugins.Default
                     font.DrawText(layout, x + (w - layout.Metrics.Width) / 2, y + (float)Math.Ceiling(h * 0.32f));
                 }
             }
-
         }
 
         public IEnumerable<ITransparent> GetTransparents()
@@ -75,7 +72,5 @@ namespace Turbo.Plugins.Default
             yield return BountyNameHighlightedFont;
             yield return this;
         }
-
     }
-
 }

@@ -1,9 +1,7 @@
 namespace Turbo.Plugins.Default
 {
-
     public class EliteMonsterSkillPlugin : BasePlugin, IInGameWorldPainter
-	{
-
+    {
         public WorldDecoratorCollection FrozenBallDecorator { get; set; }
         public WorldDecoratorCollection MoltenDecorator { get; set; }
         public WorldDecoratorCollection MoltenExplosionDecorator { get; set; }
@@ -16,9 +14,9 @@ namespace Turbo.Plugins.Default
         public WorldDecoratorCollection FrozenPulseDecorator { get; set; }
 
         public EliteMonsterSkillPlugin()
-		{
+        {
             Enabled = true;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -181,7 +179,5 @@ namespace Turbo.Plugins.Default
                 }
             }
         }
-
     }
-
 }

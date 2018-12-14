@@ -4,10 +4,8 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
-    public abstract class BasePlugin: IPlugin
-	{
-
+    public abstract class BasePlugin : IPlugin
+    {
         public IController Hud { get; private set; }
         public bool Enabled { get; set; }
         public int Order { get; set; }
@@ -21,6 +19,7 @@ namespace Turbo.Plugins.Default
                 {
                     _performanceCounters = new Dictionary<string, IPerfCounter>();
                 }
+
                 return _performanceCounters;
             }
         }
@@ -131,6 +130,7 @@ namespace Turbo.Plugins.Default
                         return (hrcount > 0 ? hrcount.ToString("D", CultureInfo.InvariantCulture) + "h " : "") + new TimeSpan(Value).ToString(@"m\m", CultureInfo.InvariantCulture);
                     }
             }
+
             return null;
         }
 
@@ -225,9 +225,8 @@ namespace Turbo.Plugins.Default
                     }
                     else return (Value / 1000.0f / 1000.0f / 1000.0f / 1000.0f).ToString("#,0tr", CultureInfo.InvariantCulture);
             }
+
             return null;
         }
-
     }
-
 }

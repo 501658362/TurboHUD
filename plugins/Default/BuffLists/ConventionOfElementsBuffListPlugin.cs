@@ -5,8 +5,7 @@ namespace Turbo.Plugins.Default
 {
     public class ConventionOfElementsBuffListPlugin : BasePlugin, IInGameTopPainter
     {
-
-        public bool HideWhenUiIsHidden { get; set; }
+        public bool HideWhenUiIsHidden { get; set; } = false;
         public BuffPainter BuffPainter { get; set; }
 
         private BuffRuleCalculator _ruleCalculator;
@@ -20,15 +19,16 @@ namespace Turbo.Plugins.Default
         {
             base.Load(hud);
 
-            HideWhenUiIsHidden = false;
             BuffPainter = new BuffPainter(Hud, true)
             {
                 Opacity = 1.0f,
                 TimeLeftFont = Hud.Render.CreateFont("tahoma", 8, 255, 255, 255, 255, true, false, 255, 0, 0, 0, true),
             };
 
-            _ruleCalculator = new BuffRuleCalculator(Hud);
-            _ruleCalculator.SizeMultiplier = 0.55f;
+            _ruleCalculator = new BuffRuleCalculator(Hud)
+            {
+                SizeMultiplier = 0.55f
+            };
 
             _ruleCalculator.Rules.Add(new BuffRule(430674) { IconIndex = 1, MinimumIconCount = 0, DisableName = true }); // Arcane
             _ruleCalculator.Rules.Add(new BuffRule(430674) { IconIndex = 2, MinimumIconCount = 0, DisableName = true }); // Cold
@@ -53,6 +53,7 @@ namespace Turbo.Plugins.Default
                     case HeroClass.WitchDoctor: if (i == 1 || i == 4 || i == 5) continue; break;
                     case HeroClass.Wizard: if (i == 4 || i == 6 || i == 7) continue; break;
                 }
+
                 yield return _ruleCalculator.Rules[i - 1];
             }
         }
@@ -103,6 +104,7 @@ namespace Turbo.Plugins.Default
                         case 6: best = player.Offense.BonusToPhysical == highestElementalBonus; break;
                         case 7: best = player.Offense.BonusToPoison == highestElementalBonus; break;
                     }
+
                     if (best) info.Size *= 1.35f;
                     if (best && orderIndex > 0)
                     {
@@ -119,7 +121,5 @@ namespace Turbo.Plugins.Default
                 BuffPainter.PaintHorizontal(_ruleCalculator.PaintInfoList, x, y, _ruleCalculator.StandardIconSize, 0);
             }
         }
-
     }
-
 }

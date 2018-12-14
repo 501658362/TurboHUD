@@ -2,16 +2,14 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class DeadBodyPlugin : BasePlugin, IInGameWorldPainter
-	{
-
+    {
         public WorldDecoratorCollection Decorator { get; set; }
 
-		public DeadBodyPlugin()
-		{
+        public DeadBodyPlugin()
+        {
             Enabled = false;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -27,16 +25,14 @@ namespace Turbo.Plugins.Default
                 }
                 );
         }
-		
-		public void PaintWorld(WorldLayer layer)
-		{
+
+        public void PaintWorld(WorldLayer layer)
+        {
             var actors = Hud.Game.Actors.Where(x => !x.IsDisabled && !x.IsOperated && x.SnoActor.Kind == ActorKind.DeadBody);
             foreach (var actor in actors)
-			{
+            {
                 Decorator.Paint(layer, actor, actor.FloorCoordinate, null);
-			}
-		}
-
+            }
+        }
     }
-
 }

@@ -4,10 +4,8 @@ using System.Linq;
 
 namespace Turbo.Plugins.Default
 {
-
     public class RiftPlugin : BasePlugin, IInGameTopPainter
-	{
-
+    {
         public bool NephalemRiftPercentEnabled { get; set; }
         public IFont NephalemRiftPercentFont { get; set; }
 
@@ -27,11 +25,11 @@ namespace Turbo.Plugins.Default
         public IFont NearMonsterProgressionFont { get; set; }
         public int NearMonsterProgressionRange { get; set; }
 
-		public RiftPlugin()
-		{
+        public RiftPlugin()
+        {
             Enabled = true;
             Order = 30000;
-		}
+        }
 
         public override void Load(IController hud)
         {
@@ -55,7 +53,7 @@ namespace Turbo.Plugins.Default
             NearMonsterProgressionEnabled = true;
             NearMonsterProgressionFont = Hud.Render.CreateFont("tahoma", 7, 255, 180, 147, 109, true, false, 160, 0, 0, 0, true);
             NearMonsterProgressionRange = 40;
-		}
+        }
 
         public void PaintTopInGame(ClipState clipState)
         {
@@ -175,7 +173,5 @@ namespace Turbo.Plugins.Default
             var monsters = Hud.Game.AliveMonsters.Where(x => (x.SnoMonster != null) && (x.NormalizedXyDistanceToMe <= range) && !((x.SummonerAcdDynamicId != 0) && (x.Rarity == ActorRarity.RareMinion)));
             return monsters.Sum(x => x.SnoMonster.RiftProgression);
         }
-
     }
-
 }
