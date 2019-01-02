@@ -101,7 +101,7 @@ namespace Turbo.Plugins.User
                     plugin.MeScreenPaint = false; // 人物下方
                     plugin.MePortraitPaint = true; // 自己的头像处
                     plugin.OtherScreenPaint = true; // ？？
-                    plugin.OtherPortraitPaint = true; // 队友头像处
+                    plugin.OtherPortraitPaint = false; // 队友头像处
                     plugin.Tooltips = false;
 
             });
@@ -155,13 +155,13 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_LegendGemCirclePlugin>().Enabled = false;
 
         // 队友插件
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Enabled = true;
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Enabled = false;
         // 队友名字
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Tag = true;
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Tag = false;
         // 队友血量
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().HPbar = true;
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().HPbar = false;
         // 队友能量
-        Hud.GetPlugin<OtherPlayersPlusPlugin>().Resbar = true;
+        Hud.GetPlugin<OtherPlayersPlusPlugin>().Resbar = false;
 
 
         // 这个插件显示队友的名字 很小但是很烦
