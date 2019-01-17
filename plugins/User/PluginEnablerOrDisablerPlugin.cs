@@ -173,8 +173,29 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_EliteHealthListPlugin>().Enabled = true;
 
 
+		// Inventory 文件夹 物品栏、储存箱相关插件
+		Hud.TogglePlugin<InventoryAndStashPlugin>(true);			//物品装备多功能辅助显示，请在子功能上选择true、false
+		Hud.GetPlugin<InventoryAndStashPlugin>().LooksGoodDisplayEnabled = false;			//属性是否比较满，比较好会显示一个绿色角标
+		Hud.GetPlugin<InventoryAndStashPlugin>().DefinitelyBadDisplayEnabled = true;		//属性是否都很差，很差的会显示一个红色角标
+		Hud.GetPlugin<InventoryAndStashPlugin>().NotGoodDisplayEnabled = true;				//不是很好的东西，用灰色标注出来
+		Hud.GetPlugin<InventoryAndStashPlugin>().AncientRankEnabled = true;					//远古、太古显示(无须鉴定)
+		Hud.GetPlugin<InventoryAndStashPlugin>().SocketedLegendaryGemRankEnabled = true;	//显示首饰位置上传奇宝石等级
+		Hud.GetPlugin<InventoryAndStashPlugin>().CaldesannRankEnabled = true;				//卡德山的等级显示在装备上
+		Hud.GetPlugin<InventoryAndStashPlugin>().HoradricCacheEnabled = true;				//标注是否是悬赏专属物品
+		Hud.GetPlugin<InventoryAndStashPlugin>().CanCubedEnabled = false;					//显示是否可以萃取到魔盒里
+
+		Hud.TogglePlugin<BloodShardPlugin>(true);					//血岩碎片容量状态显示在成就按钮下面
+		Hud.TogglePlugin<InventoryFreeSpacePlugin>(true);			//物品栏空位数量显示在背包按钮下面
+		Hud.TogglePlugin<InventoryKanaiCubedItemsPlugin>(true);		//魔盒萃取的三件在物品栏最上面显示
+		Hud.TogglePlugin<InventoryMaterialCountPlugin>(true);		//材料数量在物品栏下面显示
+
+		Hud.TogglePlugin<StashPreviewPlugin>(false);				//储存箱内容预览，鼠标停在箱子页标，会显示该页内容
+		Hud.TogglePlugin<StashUsedSpacePlugin>(false);				//储存箱已用的格数显示在箱子页标上
 
 
+		// Items 文件夹 游戏界面内物品辅助显示插件
+		Hud.TogglePlugin<CosmeticItemsPlugin>(true);				//各种可能出现幻化与特殊收藏品的地方都会提示你
+		Hud.TogglePlugin<HoveredItemInfoPlugin>(true);				//未鉴定装备探测，鼠标停在装备上会在装备名字处显示信息
 //            // turn on MultiplayerExperienceRangePlugin
 //            Hud.TogglePlugin<MultiplayerExperienceRangePlugin>(true);
 //

@@ -23,7 +23,9 @@
         long HeartOfFright { get; }
         long VialOfPutridness { get; }
         long IdolOfTerror { get; }
-        long LeoricsSignet { get; }
+        long LeoricsRegret { get; }
+
+        long GreaterRiftKeystone { get; }
 
     }
 

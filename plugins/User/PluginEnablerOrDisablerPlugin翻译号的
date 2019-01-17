@@ -1,0 +1,324 @@
+using Turbo.Plugins.Default;
+using SharpDX.DirectInput;
+
+namespace Turbo.Plugins.User
+{
+
+    public class PluginEnablerOrDisablerPlugin : BasePlugin, ICustomizer
+    {
+
+        public PluginEnablerOrDisablerPlugin()
+        {
+            Enabled = true;
+        }
+
+        public override void Load(IController hud)
+        {
+            base.Load(hud);
+        }
+
+        // "Customize" methods are automatically executed after every plugin is loaded.
+        // So these methods can use Hud.GetPlugin<class> to access the plugin instances' public properties (like decorators, Enabled flag, parameters, etc)
+        // Make sure you test the return value against null!
+        public void Customize()
+        {
+		/*
+			自编方式：
+				某插件对应的false代表关闭，true代表开启，
+				你可以根据你自己的喜好与需要，开关对应的功能。
+				
+			子母项：
+				有的插件里有更多的选项，例如全能法戒插件ConventionOfElementsBuffListPlugin
+				第一局主体的true/false会决定整体开关，而每一个小项会决定一个小功能是否开启。
+				
+			快捷键：
+				一些带快捷键的插件，修改快捷键的方式是将对应代码里的“key.”后面改成你想要的。
+				F1-12，就是"key.F1"~"key.F12"
+				字母键a~z，就是"key.A"
+				主键盘数字键，"key.1"
+				
+			— — — — — — — — — —
+				
+			插件寻找：
+				插件有很多，你可以Ctrl+F，搜索相应字眼。例如：
+				找“true”，能找到所有开启的功能。
+				找“怪”，能发现与怪物有关的插件。
+				找“key”，能修改某些插件的快捷键
+			
+			注释与帮助：
+				每个插件的功能是什么，均在列表后面给出注释。
+				若还是不明白，可以去群里咨询。QQ: 820622023
+			
+			插件分址：
+				插件是按照他们在plugins/Default里文件夹的名字分类的。
+				例如第一个ChestPlugin插件，其代码文件地址位于plugins/Default/Actors/ChestPlugin.cs
+				如果你水平够，你可以自己去改这个插件的详细代码，能实现、DIY更多的功能。
+		*/
+		
+		
+		// Actors 文件夹 各种可互动物探测显示插件
+		
+			//可交互物探测（将对应物的位置，标注显示于小地图与主界面中）
+			Hud.TogglePlugin<ChestPlugin>(false);						//可打开的箱子
+			Hud.TogglePlugin<ClickableChestGizmoPlugin>(false);			//特殊的可打开箱子
+			Hud.TogglePlugin<CursedEventPlugin>(false);					//诅咒宝箱
+			Hud.TogglePlugin<DeadBodyPlugin>(false);					//可点击的尸体
+			Hud.TogglePlugin<RackPlugin>(false);						//可点击的架子
+			
+			Hud.TogglePlugin<GlobePlugin>(true);						//秘境进度球在小地图与主界面中标注显示
+			Hud.TogglePlugin<OculusPlugin>(false);						//神目圈的范围、倒计时显示
+			Hud.TogglePlugin<PortalPlugin>(true);						//上下层入口显示，在小地图标注位置并写上对应区域名字
+			
+			//小圣坛、秘境塔、经验池的探测显示
+			Hud.TogglePlugin<GreaterRiftPylonMarkerPlugin>(true);		//大秘境出塔记录显示在进度条上
+			Hud.TogglePlugin<ShrinePlugin>(true);						//圣坛、水晶塔、经验池显示位置。可能刷塔点预测
+				//大秘境可能刷塔点很多，觉得烦可以到plugins/Actors/ShrinePlugin.cs文件末尾找到 “？？塔” 删成 “”，就不会显示了
+		
+		
+		
+		// BuffLists 文件夹 各种BUFF状态显示
+			Hud.TogglePlugin<ConventionOfElementsBuffListPlugin>(true); //全能法戒状态提示（城镇中不显示）在下面选择true/false
+				Hud.GetPlugin<ConventionOfElementsBuffListPlugin>().MeScreenPaint = false;		//自己元素状态显示在人物头顶
+				Hud.GetPlugin<ConventionOfElementsBuffListPlugin>().MePortraitPaint = false; 	//自己元素状态在头像框处显示
+				Hud.GetPlugin<ConventionOfElementsBuffListPlugin>().OtherScreenPaint = false;	//其他人元素状态显示在人物头顶
+				Hud.GetPlugin<ConventionOfElementsBuffListPlugin>().OtherPortraitPaint = true;	//其他人元素状态在头像框处显示
+			
+			//以下4个可能会让你感觉人物周围界面较乱。酌情开启
+			Hud.TogglePlugin<PlayerBottomBuffListPlugin>(false); 		//玩家脚下显示物品、宝石BUFF
+			Hud.TogglePlugin<PlayerRightBuffListPlugin>(false);			//玩家右侧显示职业技能BUFF
+			Hud.TogglePlugin<PlayerLeftBuffListPlugin>(false);			//玩家左边显示圣坛/塔BUFF
+			Hud.TogglePlugin<PlayerTopBuffListPlugin>(true);			//玩家头顶显示春哥倒计时
+			
+			//以下这些插件，其中的功能上面都有了，看你需求吧
+			Hud.TogglePlugin<CheatDeathBuffFeederPlugin>(false);		//假死被动充能提示
+			Hud.TogglePlugin<TopLeftBuffListPlugin>(false);				//界面顶端左侧显示BUFF
+			Hud.TogglePlugin<TopRightBuffListPlugin>(false);			//界面顶端右侧显示BUFF
+			Hud.TogglePlugin<MiniMapLeftBuffListPlugin>(false);			//小地图左侧显示身上的圣坛/塔
+			Hud.TogglePlugin<MiniMapRightBuffListPlugin>(false);		//小地图右侧显示春哥被动状态
+		
+		// CooldownSoundPlayer 文件夹
+			Hud.TogglePlugin<CooldownSoundPlayerPlugin>(false);			//技能冷却好了提示音插件，我觉得没用
+			
+			
+			
+		// Inventory 文件夹 物品栏、储存箱相关插件
+			Hud.TogglePlugin<InventoryAndStashPlugin>(true);			//物品装备多功能辅助显示，请在子功能上选择true、false
+				Hud.GetPlugin<InventoryAndStashPlugin>().LooksGoodDisplayEnabled = false;			//属性是否比较满，比较好会显示一个绿色角标
+				Hud.GetPlugin<InventoryAndStashPlugin>().DefinitelyBadDisplayEnabled = false;		//属性是否都很差，很差的会显示一个红色角标
+				Hud.GetPlugin<InventoryAndStashPlugin>().NotGoodDisplayEnabled = false;				//不是很好的东西，用灰色标注出来
+				Hud.GetPlugin<InventoryAndStashPlugin>().AncientRankEnabled = true;					//远古、太古显示(无须鉴定)
+				Hud.GetPlugin<InventoryAndStashPlugin>().SocketedLegendaryGemRankEnabled = true;	//显示首饰位置上传奇宝石等级
+				Hud.GetPlugin<InventoryAndStashPlugin>().CaldesannRankEnabled = true;				//卡德山的等级显示在装备上
+				Hud.GetPlugin<InventoryAndStashPlugin>().HoradricCacheEnabled = false;				//标注是否是悬赏专属物品
+				Hud.GetPlugin<InventoryAndStashPlugin>().CanCubedEnabled = false;					//显示是否可以萃取到魔盒里
+				
+			Hud.TogglePlugin<BloodShardPlugin>(true);					//血岩碎片容量状态显示在成就按钮下面
+			Hud.TogglePlugin<InventoryFreeSpacePlugin>(true);			//物品栏空位数量显示在背包按钮下面
+			Hud.TogglePlugin<InventoryKanaiCubedItemsPlugin>(true);		//魔盒萃取的三件在物品栏最上面显示
+			Hud.TogglePlugin<InventoryMaterialCountPlugin>(true);		//材料数量在物品栏下面显示
+			
+			Hud.TogglePlugin<StashPreviewPlugin>(false);				//储存箱内容预览，鼠标停在箱子页标，会显示该页内容
+			Hud.TogglePlugin<StashUsedSpacePlugin>(false);				//储存箱已用的格数显示在箱子页标上
+			
+			
+			
+		// Items 文件夹 游戏界面内物品辅助显示插件
+			Hud.TogglePlugin<CosmeticItemsPlugin>(true);				//各种可能出现幻化与特殊收藏品的地方都会提示你
+			Hud.TogglePlugin<HoveredItemInfoPlugin>(true);				//未鉴定装备探测，鼠标停在装备上会在装备名字处显示信息
+			Hud.TogglePlugin<PickupRangePlugin>(false);					//人物拾取范围显示
+			Hud.TogglePlugin<ItemsPlugin>(true);						//地上掉落物显示(装备、材料)，下面的T/F是具体开关
+				Hud.GetPlugin<ItemsPlugin>().LegendaryDecorator.Enabled = false;		//传奇
+				Hud.GetPlugin<ItemsPlugin>().AncientDecorator.Enabled = true;			//远古传奇
+				Hud.GetPlugin<ItemsPlugin>().PrimalDecorator.Enabled = true; 			//太古传奇
+				Hud.GetPlugin<ItemsPlugin>().SetDecorator.Enabled = false;				//套装
+				Hud.GetPlugin<ItemsPlugin>().AncientSetDecorator.Enabled = true; 		//远古套装
+				Hud.GetPlugin<ItemsPlugin>().PrimalSetDecorator.Enabled = true;			//太古套装
+				Hud.GetPlugin<ItemsPlugin>().UtilityDecorator.Enabled = false;			//通货(宝石)
+				Hud.GetPlugin<ItemsPlugin>().NormalKeepDecorator.Enabled = false; 		//白材料
+				Hud.GetPlugin<ItemsPlugin>().MagicKeepDecorator.Enabled = false;		//蓝材料
+				Hud.GetPlugin<ItemsPlugin>().RareKeepDecorator.Enabled = false;			//黄材料
+				Hud.GetPlugin<ItemsPlugin>().LegendaryKeepDecorator.Enabled = true;		//遗忘之魂
+				Hud.GetPlugin<ItemsPlugin>().BookDecorator.Enabled = false;				//书籍传记？？？
+				Hud.GetPlugin<ItemsPlugin>().DeathsBreathDecorator.Enabled = true;		//死亡之息
+				Hud.GetPlugin<ItemsPlugin>().InArmorySetDecorator.Enabled = true;		//军械库物品(你穿的东西扔地上的话)
+			
+			
+			
+		// LabelLists 文件夹 属性标签列表插件
+			Hud.TogglePlugin<TopExperienceStatistics>(false);			//在屏幕最顶上显示巅峰升级所需经验量计算
+			Hud.TogglePlugin<AttributeLabelListPlugin>(true);			//在经验条紧上方显示简易面板。9个数字框，分别代表：
+			//伤害，防御，攻速，暴击/范围，CD，减耗，拾取范围，移速加成，经验/金币加成。鼠标移上去会显示具体内容和标签
+			
+			
+		// Minimap 文件夹 小地图辅助功能插件
+			Hud.TogglePlugin<MarkerPlugin>(true);						//对任务点、特殊事件等地方会在小地图里打圈
+			Hud.TogglePlugin<SceneHintPlugin>(true);					//场景预览插件，就是开图
+			// tab地图、小地图
+				Hud.SceneReveal.MapEnabled = true;				//tab地图开图功能
+				Hud.SceneReveal.MapOpacity = 60;				//大地图的预览区透明度(0-255)
+				Hud.SceneReveal.MinimapEnabled = true;			//小地图开图功能
+				Hud.SceneReveal.MinimapOpacity = 80;			//小地图预览区域透明度(0-255)
+				Hud.SceneReveal.DisplaySceneBorder = false;		//是否显示不同的地形区块的边界
+			// 小地图是否限制在框界限内(不加限制，小地图将出界展现为全屏的大地图)
+				Hud.SceneReveal.MinimapClip = true;
+			// 别动下一句
+				Hud.SceneReveal.BrushKnown = new System.Drawing.SolidBrush(System.Drawing.Color.FromArgb(64, 180, 180, 250));
+			
+			
+			
+		// Monsters 文件夹 怪物相关插件
+			Hud.TogglePlugin<TopMonsterHealthBarPlugin>(false);			//怪物血条扩展显示百分比、debuff等信息
+			Hud.TogglePlugin<BaneOfTheStrickenPlugin>(true);			//BOSS血条右边显示所有人受罚者叠层
+			Hud.TogglePlugin<EliteHealthBarPlugin>(true);				//精英怪物生命条显示在怪脚下
+			Hud.TogglePlugin<MonsterCirclePlugin>(true);				//蓝怪、金怪脚下画圈，BOSS脚下画40码的圈(贼神41码即可吃最大增伤)
+			
+			Hud.TogglePlugin<DangerousMonsterPlugin>(false);			//危险怪物显示红色名字，如飞翼刺杀者
+			Hud.TogglePlugin<ExplosiveMonsterPlugin>(false); 			//圆胖子自爆、死后爆毒怪提示
+			
+			Hud.TogglePlugin<StandardMonsterPlugin>(true);				//怪物显示在小地图上插件
+			Hud.TogglePlugin<GoblinPlugin>(true);						//地精特别标注插件
+			Hud.TogglePlugin<MonsterRiftProgressionColoringPlugin>(true);//秘境中白怪按提供进度量在小地图显示图标
+			Hud.TogglePlugin<MonsterCountPlugin>(true); 				//统计一定范围内的全部秘境进度量。【右Ctrl】切换40码还是120码
+				Hud.GetPlugin<MonsterCountPlugin>().ToggleKeyEvent = Hud.Input.CreateKeyEvent(true, Key.RightControl, true, false, false);
+			
+			Hud.TogglePlugin<EliteMonsterAffixPlugin>(true);			//精英怪显示词缀
+				//想不显示某些词缀，请去掉对应词缀那一行最前面的“//”。想显示某些词缀，请加上对应行最前面的“//”
+					//伤害词缀
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Arcane);				//奥术
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Desecrator);			//亵渎
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Electrified);  		//电化
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Thunderstorm); 		//雷暴
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Orbiter);  			//电球
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Frozen);		 		//冰冻
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.FrozenPulse);  		//冰脉
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Molten);				//熔火
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Mortar);   	 	 	//轰炮
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Plagued);  			//瘟疫
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Poison);   	 	 	//强毒
+					//控场词缀
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Jailer);   	 	 	//监禁
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Waller);   	 	 	//筑墙
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Knockback); 	 		//击退
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Nightmarish);   		//梦魇
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Vortex);   	 	 	//漩涡
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Wormhole); 	 		//虫洞
+					//烦人词缀
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Reflect);  			//反伤
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Illusionist);  		//幻术
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Fast);  				//迅捷
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Shielding); 			//护盾
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Teleporter);			//传送
+					//蓝怪特有
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.HealthLink);			//连结
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.FireChains);			//火链
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Avenger);  			//复仇
+					//金怪特有
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Horde); 				//结群
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Juggernaut);			//霸王
+				//Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.MissileDampening); 	//飞弹抑制
+			
+			
+			Hud.TogglePlugin<EliteMonsterSkillPlugin>(true);			//精英怪技能提示
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().ArcaneDecorator.Enabled = false;			//奥术哨兵
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().ArcaneSpawnDecorator.Enabled = true;		//正在生成的奥术哨兵
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().DesecratorDecorator.Enabled = false;		//亵渎
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().FrozenBallDecorator.Enabled = true;		//冰冻爆炸球
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().FrozenPulseDecorator.Enabled = false;		//冰霜脉冲
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().MoltenExplosionDecorator.Enabled = true;	//熔火爆炸
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().MoltenDecorator.Enabled = false;			//熔火地面效果
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().PlaguedDecorator.Enabled = false;			//瘟疫
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().ThunderstormDecorator.Enabled = false;		//雷暴
+				Hud.GetPlugin<EliteMonsterSkillPlugin>().GhomDecorator.Enabled = false;				//冈姆毒圈
+				
+				
+			Hud.TogglePlugin<EliteBarPlugin>(false);						//左上角显示精英组数和血量
+				Hud.GetPlugin<EliteBarPlugin>().MissingHighlight = true;		//不在屏幕内的精英，红△提示
+				Hud.GetPlugin<EliteBarPlugin>().JuggernautHighlight = true; 	//霸王金怪高亮显示
+				Hud.GetPlugin<EliteBarPlugin>().ShowDebuffAndCC = true; 		//显示Debuff和团控状态
+				Hud.GetPlugin<EliteBarPlugin>().ShowMonsterType = true; 		//显示怪物类型
+				Hud.GetPlugin<EliteBarPlugin>().ShowBossHitBox = false;			//BOSS脚下画圈(与另一个画圈插件重复)
+				Hud.GetPlugin<EliteBarPlugin>().CircleNonIllusion = false;		//怪物脚下画圈(重复，默认关)
+				Hud.GetPlugin<EliteBarPlugin>().ShowRareMinions = false; 		//显示金怪爪牙(怪多会很乱，默认关)
+			
+			
+			
+		// Players 文件夹 玩家相关插件
+			Hud.TogglePlugin<BannerPlugin>(false);						//显示其他人放的战旗的位置
+			Hud.TogglePlugin<MultiplayerExperienceRangePlugin>(false);	//显示组队“人多势众”Buff范围
+			Hud.TogglePlugin<SkillRangeHelperPlugin>(false);			//技能范围小助手，没卵用
+			
+			Hud.TogglePlugin<PlayersCirclePlugin>(true);				//玩家脚下位置画圈（城镇中不显示）
+			Hud.TogglePlugin<HeadStonePlugin>(true);					//显示其他人墓碑的地方
+			Hud.TogglePlugin<OtherPlayersPlugin>(true);     			//显示其他玩家的位置，在下面选择true/false
+				Hud.GetPlugin<OtherPlayersPlugin>().screen = true;					//在屏幕里显示玩家名字（城镇中不显示）
+				Hud.GetPlugin<OtherPlayersPlugin>().minimap = true;					//在小地图显示玩家名字
+				
+			Hud.TogglePlugin<PlayerSkillPlugin>(true);					//显示玩家技能释放状态
+				Hud.GetPlugin<PlayerSkillPlugin>().Sentry = false;					//箭塔位置
+				Hud.GetPlugin<PlayerSkillPlugin>().SentryTimer = false;				//箭塔消失倒计时
+				Hud.GetPlugin<PlayerSkillPlugin>().SlowTime = false;				//时间延缓范围
+				Hud.GetPlugin<PlayerSkillPlugin>().SlowTimeTimer = false;			//时间延缓结束倒计时
+				Hud.GetPlugin<PlayerSkillPlugin>().BlackHole = false;				//黑洞
+				Hud.GetPlugin<PlayerSkillPlugin>().BlackHoleTimer = false;			//黑洞倒计时
+				Hud.GetPlugin<PlayerSkillPlugin>().Wizard_Meteor = false;			//陨石
+				Hud.GetPlugin<PlayerSkillPlugin>().Wizard_MeteorTimer = false;		//陨石倒计时
+				Hud.GetPlugin<PlayerSkillPlugin>().InnerSanctuary = true;			//金轮阵
+				Hud.GetPlugin<PlayerSkillPlugin>().InnerSanctuaryTimer = true;		//金轮阵倒计时
+				Hud.GetPlugin<PlayerSkillPlugin>().MarkedForDeath = false;			//死亡印记
+				Hud.GetPlugin<PlayerSkillPlugin>().MarkedForDeathTimer = false;		//死亡印记倒计时
+				
+			Hud.TogglePlugin<RangeRound>(true); 						//【F3】切换15/40码距离提示圈（城镇中不显示）
+				Hud.GetPlugin<RangeRound>().ToggleKeyEvent = Hud.Input.CreateKeyEvent(true, Key.F3, false, false, false);
+				Hud.GetPlugin<RangeRound>().Round1.Radius = 15f;					//圆1半径15码
+				Hud.GetPlugin<RangeRound>().Round2.Radius = 40f;					//圆2半径40码
+			
+			
+			
+		// SkillBars 文件夹 技能栏相关插件
+			Hud.TogglePlugin<OriginalHealthPotionSkillPlugin>(false);	//药水状态
+			Hud.TogglePlugin<OriginalSkillBarPlugin>(true); 			//技能栏技能冷却状态
+			Hud.TogglePlugin<PlayerSkillBarPlugin>(true);				//头像框处显示玩家技能条，及冷却状态
+			Hud.TogglePlugin<PartyInspector>(true); 					//【F6】查看队友BD。技能、萃取、宝石……
+				Hud.GetPlugin<PartyInspector>().ToggleKeyEvent = Hud.Input.CreateKeyEvent(true, Key.F6, false, false, false);
+			
+			
+			
+		// Default 文件夹 主文件夹目录下其他插件
+			Hud.TogglePlugin<BountyTablePlugin>(true);					//【F2】查看悬赏任务状态表
+				Hud.GetPlugin<BountyTablePlugin>().ToggleKeyEvent = Hud.Input.CreateKeyEvent(true, Key.F2, false, false, false);
+			Hud.TogglePlugin<WaypointQuestsPlugin>(true);				//在地图界面传送点上显示悬赏任务名字
+			
+			Hud.TogglePlugin<ResourceOverGlobePlugin>(true);			//生命球、能量球上显示数值
+			Hud.TogglePlugin<ExperienceOverBarPlugin>(false);			//经验条数值显示插件
+			Hud.TogglePlugin<GameInfoPlugin>(false);					//显示现在几点、你的房间IP是多少
+			Hud.TogglePlugin<NetworkLatencyPlugin>(false);				//网络延迟显示
+			Hud.TogglePlugin<ParagonCapturePlugin>(false);				//巅峰照相插件，在你升级巅峰的时候截个图……
+			Hud.TogglePlugin<PortraitBottomStatsPlugin>(false);			//头像框下面显示数据，没啥用
+			Hud.TogglePlugin<DamageBonusPlugin>(false);					//伤害增益提示插件，没啥用
+			
+			Hud.TogglePlugin<RiftPlugin>(true);							//秘境进度条显示进度、剩余时间
+			Hud.TogglePlugin<NotifyAtRiftPercentagePlugin>(false);		//秘境进度提示，当秘境进度90%的时候在屏幕中间特别标注
+			
+			
+			
+			
+			/* 这是本文档原来带有的一些例子，想用可自学
+
+            // turn on MultiplayerExperienceRangePlugin
+            Hud.TogglePlugin<MultiplayerExperienceRangePlugin>(true);
+
+            // turn off sell darkening
+            Hud.GetPlugin<InventoryAndStashPlugin>().NotGoodDisplayEnabled = false;
+
+            // disable arcane affix label
+            Hud.GetPlugin<EliteMonsterAffixPlugin>().AffixDecorators.Remove(MonsterAffix.Arcane);
+
+            // override an elite affix's text
+            Hud.GetPlugin<EliteMonsterAffixPlugin>().CustomAffixNames.Add(MonsterAffix.Desecrator, "DES");
+			
+			*/
+        }
+
+    }
+
+}
