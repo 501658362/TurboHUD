@@ -141,8 +141,15 @@ namespace Turbo.Plugins.Default
                 BackgroundTexture1 = Hud.Texture.ButtonTextureOrange,
                 BackgroundTexture2 = Hud.Texture.BackgroundTextureOrange,
                 BackgroundTextureOpacity2 = 0.5f,
-                TextFunc = () => ValueToString(Hud.Game.Me.Offense.SheetDps, ValueFormat.ShortNumber),
-                HintFunc = () => "sheet DPS",
+                TextFunc = () => Hud.Game.Me.Offense.AttackSpeed.ToString("F2", CultureInfo.InvariantCulture) + "/s",
+                HintFunc = () => "攻击速度",
+//                ExpandedHintFont = expandedHintFont,
+//                ExpandedHintWidthMultiplier = expandedHintWidthMultiplier,
+//                BackgroundTexture1 = Hud.Texture.ButtonTextureOrange,
+//                BackgroundTexture2 = Hud.Texture.BackgroundTextureOrange,
+//                BackgroundTextureOpacity2 = 0.5f,
+//                TextFunc = () => ValueToString(Hud.Game.Me.Offense.SheetDps, ValueFormat.ShortNumber),
+//                HintFunc = () => "sheet DPS",
                 ExpandUpLabels = new List<TopLabelDecorator>()
                 {
                     new TopLabelDecorator(Hud)
