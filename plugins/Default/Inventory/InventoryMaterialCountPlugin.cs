@@ -109,6 +109,8 @@ namespace Turbo.Plugins.Default
                     return Hud.Game.Me.Materials.IdolOfTerror;
                 case 3336787100:
                     return Hud.Game.Me.Materials.HeartOfFright;
+                case 2835237830:
+                    return Hud.Game.Me.Materials.GreaterRiftKeystone;
             }
 
             var count = 0;

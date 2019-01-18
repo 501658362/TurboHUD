@@ -1,4 +1,4 @@
-19.1.17.1 BETA for Diablo III 2.6.4.55430 (v8.0)
+19.1.17.3 BETA for Diablo III 2.6.4.55430 (v8.0)
 	NOTE: A clean install into an empty folder is required when updating from older than v7.6!
 	NOTE: Be sure to have at least .NET 4.7.2, DirectX 11 and Windows 7 SP1 on your computer
 	NOTE: Windows 7 users have to install Windows 7 SP1, Platform Update and "Update for Universal C Runtime in Windows".
