@@ -182,7 +182,7 @@ namespace Turbo.Plugins.User
 		Hud.GetPlugin<InventoryAndStashPlugin>().SocketedLegendaryGemRankEnabled = true;	//显示首饰位置上传奇宝石等级
 		Hud.GetPlugin<InventoryAndStashPlugin>().CaldesannRankEnabled = true;				//卡德山的等级显示在装备上
 		Hud.GetPlugin<InventoryAndStashPlugin>().HoradricCacheEnabled = true;				//标注是否是悬赏专属物品
-		Hud.GetPlugin<InventoryAndStashPlugin>().CanCubedEnabled = false;					//显示是否可以萃取到魔盒里
+		Hud.GetPlugin<InventoryAndStashPlugin>().CanCubedEnabled = true;					//显示是否可以萃取到魔盒里
 
 		Hud.TogglePlugin<BloodShardPlugin>(true);					//血岩碎片容量状态显示在成就按钮下面
 		Hud.TogglePlugin<InventoryFreeSpacePlugin>(true);			//物品栏空位数量显示在背包按钮下面
@@ -207,6 +207,20 @@ namespace Turbo.Plugins.User
 //
 //            // override an elite affix's text
 //            Hud.GetPlugin<EliteMonsterAffixPlugin>().CustomAffixNames.Add(MonsterAffix.Desecrator, "DES");
+
+            // Minimap 文件夹 小地图辅助功能插件
+			Hud.TogglePlugin<MarkerPlugin>(true);						//对任务点、特殊事件等地方会在小地图里打圈
+			Hud.TogglePlugin<SceneHintPlugin>(true);					//场景预览插件，就是开图
+			// tab地图、小地图
+			Hud.SceneReveal.MapEnabled = true;				//tab地图开图功能
+			Hud.SceneReveal.MapOpacity = 60;				//大地图的预览区透明度(0-255)
+			Hud.SceneReveal.MinimapEnabled = true;			//小地图开图功能
+			Hud.SceneReveal.MinimapOpacity = 80;			//小地图预览区域透明度(0-255)
+			Hud.SceneReveal.DisplaySceneBorder = false;		//是否显示不同的地形区块的边界
+			// 小地图是否限制在框界限内(不加限制，小地图将出界展现为全屏的大地图)
+			Hud.SceneReveal.MinimapClip = true;
+			// 别动下一句
+			Hud.SceneReveal.BrushKnown = new System.Drawing.SolidBrush(System.Drawing.Color.FromArgb(64, 180, 180, 250));
         }
 
     }
