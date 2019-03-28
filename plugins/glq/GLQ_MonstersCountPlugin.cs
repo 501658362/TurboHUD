@@ -46,7 +46,10 @@ namespace Turbo.Plugins.glq
         public bool ShowPalmedCount { get; set; }
         public bool ShowPhoenixedCount { get; set; }
         public bool ShowStrongarmedCount { get; set; }
+        public bool ShowCursedCount { get; set; }
+        public bool ShowPiranhasCount { get; set; }
         public bool ShowKrysbinCount { get; set; }
+        public bool ShowPainEnhancerCount { get; set; }
         public bool ShowTime { get; set; }
         public bool ToggleEnable { get; set; }
         public float XWidth { get; set; }
@@ -59,6 +62,8 @@ namespace Turbo.Plugins.glq
         private MapShapeDecorator maxMapShapeDecorator;
 
         private StringBuilder textBuilder;
+        private IAttribute m_PowerBuff1;
+        private uint m_PainEnhancerPrimarySno;
 
         public GLQ_MonstersCountPlugin()
         {
@@ -88,10 +93,15 @@ namespace Turbo.Plugins.glq
             ShowPalmedCount = true;
             ShowPhoenixedCount = false;
             ShowStrongarmedCount = true;
+            ShowPiranhasCount = true;
+            ShowCursedCount = true;
             ShowKrysbinCount = true;
-
+            ShowPainEnhancerCount = true;
             XWidth = 0.84f;
             YHeight = 0.61f;
+            m_PowerBuff1 = Hud.Sno.Attributes.Power_Buff_1_Visual_Effect_None;
+            m_PainEnhancerPrimarySno = Hud.Sno.SnoPowers.PainEnhancerPrimary.Sno;
+
             textBuilder = new StringBuilder();
 
             baseMapShapeDecorator = new MapShapeDecorator(Hud)
@@ -182,7 +192,7 @@ namespace Turbo.Plugins.glq
             //Palmed
             int palmedCount = 0;
             int ElitepalmedCount = 0;
-            //Phoenixed BUG? 
+            //Phoenixed 
             int phoenixedCount = 0;
             int ElitephoenixedCount = 0;
             //Strongarmed Obsolete
@@ -190,10 +200,18 @@ namespace Turbo.Plugins.glq
             int ElitestrongarmedCount = 0;
             int KrysbinCount = 0;
             int EliteKrysbinCount = 0;
+            //Cursed
+            int CursedCount = 0;
+            int EliteCursedCount = 0;
+            //Piranhas
+            int PiranhasCount = 0;
+            int ElitePiranhasCount = 0;
+
             float XPos = Hud.Window.Size.Width * XWidth;
             float YPos = Hud.Window.Size.Height * YHeight;
-
-            var monsters = Hud.Game.AliveMonsters.Where(m => ((m.SummonerAcdDynamicId == 0 && m.IsElite) || !m.IsElite) && m.FloorCoordinate.XYDistanceTo(Hud.Game.Me.FloorCoordinate) <= currentYard);
+            var Allmonsters = Hud.Game.AliveMonsters;
+            var bleedCount = Allmonsters.Where(m => m.Bleeding && m.NormalizedXyDistanceToMe <= 20).ToList().Count;
+            var monsters = Allmonsters.Where(m => ((m.SummonerAcdDynamicId == 0 && m.IsElite) || !m.IsElite) && m.FloorCoordinate.XYDistanceTo(Hud.Game.Me.FloorCoordinate) <= currentYard);
             Dictionary<IMonster, string> eliteGroup = new Dictionary<IMonster, string>();
             foreach (var monster in monsters)
             {
@@ -253,6 +271,16 @@ namespace Turbo.Plugins.glq
                 {
                     palmedCount++;
                     if (Elite) ElitepalmedCount++;
+                }
+                if (monster.Piranhas && ShowPiranhasCount)
+                {
+                    PiranhasCount++;
+                    if (Elite) ElitePiranhasCount++;
+                }
+                if (monster.Cursed && ShowCursedCount)
+                {
+                    CursedCount++;
+                    if (Elite) EliteCursedCount++;
                 }
                 if (monster.Phoenixed && ShowPhoenixedCount)
                 {
@@ -380,6 +408,18 @@ namespace Turbo.Plugins.glq
                 if (ElitehauntedCount > 0) textBuilder.AppendFormat(" （精英: {0}/{1}）", ElitehauntedCount, EliteCount);
                 textBuilder.AppendLine();
             }
+            if (CursedCount > 0 && ShowCursedCount)
+            {
+                textBuilder.AppendFormat("被诅咒: {0}/{1}", CursedCount, monstersCount);
+                if (ElitehauntedCount > 0) textBuilder.AppendFormat(" （精英: {0}/{1}）", EliteCursedCount, EliteCount);
+                textBuilder.AppendLine();
+            }
+            if (PiranhasCount > 0 && ShowPiranhasCount)
+            {
+                textBuilder.AppendFormat("食人鱼: {0}/{1}", PiranhasCount, monstersCount);
+                if (ElitehauntedCount > 0) textBuilder.AppendFormat(" （精英: {0}/{1}）", ElitePiranhasCount, EliteCount);
+                textBuilder.AppendLine();
+            }
             if (palmedCount > 0 && ShowPalmedCount)
             {
                 textBuilder.AppendFormat("爆裂掌: {0}/{1}", palmedCount, monstersCount);
@@ -388,7 +428,7 @@ namespace Turbo.Plugins.glq
             }
             if (phoenixedCount > 0 && ShowPhoenixedCount)
             {
-                textBuilder.AppendFormat("燃烧: {0}/{1}", phoenixedCount, monstersCount);
+                textBuilder.AppendFormat("点燃: {0}/{1}", phoenixedCount, monstersCount);
                 if (ElitephoenixedCount > 0) textBuilder.AppendFormat(" （精英: {0}/{1}）", ElitephoenixedCount, EliteCount);
                 textBuilder.AppendLine();
             }
@@ -404,6 +444,18 @@ namespace Turbo.Plugins.glq
                 if (EliteKrysbinCount > 0) textBuilder.AppendFormat(" （精英: {0}/{1}）", EliteKrysbinCount, EliteCount);
                 textBuilder.AppendLine();
             }
+            if (ShowPainEnhancerCount && Hud.Game.Me.Powers.UsedLegendaryGems.PainEnhancerPrimary?.Active == true)
+            {
+                if(bleedCount> 0)
+                {
+                    textBuilder.AppendLine();
+                    textBuilder.AppendFormat("增痛宝石: 20码内{0}个怪流血", bleedCount);
+                    textBuilder.AppendLine();
+                    textBuilder.AppendFormat("攻速加成: {0}%", bleedCount * 3);
+                    textBuilder.AppendLine();
+                }
+            }
+
             if (totalMonsterRiftProgression >= 100d - Hud.Game.RiftPercentage && Hud.Game.RiftPercentage != 100 || TrashMonsterRiftProgression >= 100d - Hud.Game.RiftPercentage && Hud.Game.RiftPercentage != 100)
             {
                 if (totalMonsterRiftProgression >= 100d - Hud.Game.RiftPercentage && Hud.Game.RiftPercentage != 100) currentFont = OrangeTextFont;

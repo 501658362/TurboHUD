@@ -185,8 +185,7 @@ namespace Turbo.Plugins.Default
 
                 foreach (var snoMonsterAffix in monster.AffixSnoList)
                 {
-                    WorldDecoratorCollection decorator;
-                    if (!AffixDecorators.TryGetValue(snoMonsterAffix.Affix, out decorator)) continue;
+                    if (!AffixDecorators.TryGetValue(snoMonsterAffix.Affix, out WorldDecoratorCollection decorator)) continue;
 
                     string affixName = null;
                     if (CustomAffixNames.ContainsKey(snoMonsterAffix.Affix))

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
     public class GLQ_DamageBonusPlugin : BasePlugin, IInGameTopPainter

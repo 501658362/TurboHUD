@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
 
@@ -22,22 +23,25 @@ namespace Turbo.Plugins.glq
         public WorldDecoratorCollection BountyCacheDecorator { get; set; }
         public WorldDecoratorCollection AddSocketsDecorator { get; set; }
         public WorldDecoratorCollection InArmorySetDecorator { get; set; }
-
+        private float OffsetY;
         public GLQ_ItemsPlugin()
 		{
             Enabled = true;
-		}
+            
+
+        }
 
         public override void Load(IController hud)
         {
             base.Load(hud);
-
+            OffsetY = - Hud.Window.Size.Height * 0.021f;
             LegendaryDecorator = new WorldDecoratorCollection(
                 new GroundLabelDecorator(Hud)
                 {
                     BackgroundBrush = Hud.Render.CreateBrush(160, 0, 0, 0, 0),
                     BorderBrush = Hud.Render.CreateBrush(0, 0, 0, 0, 0),
-                    TextFont = Hud.Render.CreateFont("tahoma", 7, 255, 235, 120, 0, true, false, false)
+                    TextFont = Hud.Render.CreateFont("tahoma", 8, 255, 235, 120, 0, true, false, false),
+                    OffsetY = OffsetY,
                 },
                 new MapShapeDecorator(Hud)
                 {
@@ -58,9 +62,10 @@ namespace Turbo.Plugins.glq
                 },
                 new GroundLabelDecorator(Hud)
                 {
-                    BackgroundBrush = Hud.Render.CreateBrush(160, 255, 140, 0, 0),
-                    BorderBrush = Hud.Render.CreateBrush(160, 0, 0, 0, -1),
-                    TextFont = Hud.Render.CreateFont("tahoma", 7, 255, 0, 0, 0, true, false, false)
+                    BackgroundBrush = Hud.Render.CreateBrush(255, 255, 140, 0, 0),
+                    BorderBrush = Hud.Render.CreateBrush(160, 0, 0, 0, 2),
+                    TextFont = Hud.Render.CreateFont("tahoma", 8, 255, 0, 0, 0, true, false, false),
+                    OffsetY = OffsetY,
                 },
                 new MapShapeDecorator(Hud)
                 {
@@ -81,9 +86,10 @@ namespace Turbo.Plugins.glq
                 },
                 new GroundLabelDecorator(Hud)
                 {
-                    BackgroundBrush = Hud.Render.CreateBrush(160, 255, 140, 0, 0),
-                    BorderBrush = Hud.Render.CreateBrush(242, 255, 0, 0, 1),
-                    TextFont = Hud.Render.CreateFont("tahoma", 7, 255, 0, 0, 0, true, false, false)
+                    BackgroundBrush = Hud.Render.CreateBrush(255, 255, 140, 0, 0),
+                    BorderBrush = Hud.Render.CreateBrush(242, 255, 0, 0, 3),
+                    TextFont = Hud.Render.CreateFont("tahoma", 8, 255, 0, 0, 0, true, false, false),
+                    OffsetY = OffsetY,
                 },
                 new MapShapeDecorator(Hud)
                 {
@@ -100,7 +106,8 @@ namespace Turbo.Plugins.glq
                 {
                     BackgroundBrush = Hud.Render.CreateBrush(160, 0, 0, 0, 0),
                     BorderBrush = Hud.Render.CreateBrush(0, 0, 0, 0, 0),
-                    TextFont = Hud.Render.CreateFont("tahoma", 7, 255, 0, 170, 0, true, false, false)
+                    TextFont = Hud.Render.CreateFont("tahoma", 8, 255, 50, 220, 50, true, false, false),
+                    OffsetY = OffsetY,
                 },
                 new MapShapeDecorator(Hud)
                 {
@@ -121,9 +128,10 @@ namespace Turbo.Plugins.glq
                 },
                 new GroundLabelDecorator(Hud)
                 {
-                    BackgroundBrush = Hud.Render.CreateBrush(160, 50, 220, 50, 0),
-                    BorderBrush = Hud.Render.CreateBrush(160, 0, 0, 0, -1),
-                    TextFont = Hud.Render.CreateFont("tahoma", 7, 255, 0, 0, 0, true, false, false)
+                    BackgroundBrush = Hud.Render.CreateBrush(255, 50, 220, 50, 0),
+                    BorderBrush = Hud.Render.CreateBrush(160, 0, 0, 0, 2),
+                    TextFont = Hud.Render.CreateFont("tahoma", 8, 255, 0, 0, 0, true, false, false),
+                    OffsetY = OffsetY,
                 },
                 new MapShapeDecorator(Hud)
                 {
@@ -144,9 +152,10 @@ namespace Turbo.Plugins.glq
                 },
                 new GroundLabelDecorator(Hud)
                 {
-                    BackgroundBrush = Hud.Render.CreateBrush(160, 50, 220, 50, 0),
-                    BorderBrush = Hud.Render.CreateBrush(242, 255, 0, 0, 1),
-                    TextFont = Hud.Render.CreateFont("tahoma", 7, 255, 0, 0, 0, true, false, false)
+                    BackgroundBrush = Hud.Render.CreateBrush(255, 50, 220, 50, 0),
+                    BorderBrush = Hud.Render.CreateBrush(242, 255, 0, 0, 3),
+                    TextFont = Hud.Render.CreateFont("tahoma", 8, 255, 0, 0, 0, true, false, false),
+                    OffsetY= OffsetY,
                 },
                 new MapShapeDecorator(Hud)
                 {
@@ -155,7 +164,7 @@ namespace Turbo.Plugins.glq
                     ShadowBrush = Hud.Render.CreateBrush(96, 0, 0, 0, 1),
                     Radius = 11,
                     RadiusTransformator = new StandardPingRadiusTransformator(Hud, 333),
-                }
+        }
                 );
 
             UtilityDecorator = new WorldDecoratorCollection(
@@ -316,27 +325,19 @@ namespace Turbo.Plugins.glq
         private string GetItemName(IItem item)
         {
             var name = item.FullNameLocalized;
-            if (item.AncientRank ==1)
+            if (item.AncientRank >=1)
             {
-                name = "远古 " + item.FullNameLocalized;
-            }
-            if (item.AncientRank == 2)
-            {
-                name = "太古 " + item.FullNameLocalized;
-
+                name = item.FullNameLocalized;
             }
             if (item.KeepDecision == ItemKeepDecision.LooksGood)
             {
-                name += " [!]";
+                name += "[!]";
             }
-
             return name;
         }
-
 		public void PaintWorld(WorldLayer layer)
 		{
 			var items = Hud.Game.Items.Where(item => item.Location == ItemLocation.Floor);
-
             foreach (var item in items)
 			{
                 var inSet = Hud.Game.Me.ArmorySets.Any(set => set.ContainsItem(item));
@@ -392,7 +393,7 @@ namespace Turbo.Plugins.glq
                     DeathsBreathDecorator.Paint(layer, item, item.FloorCoordinate, GetItemName(item));
                     continue;
                 }
-                if (item.SnoActor.Sno == 360183)
+                if (item.SnoActor.Sno == ActorSnoEnum._greaterhoradriccache)
                 {
                     BountyCacheDecorator.Paint(layer, item, item.FloorCoordinate, GetItemName(item));
                     continue;

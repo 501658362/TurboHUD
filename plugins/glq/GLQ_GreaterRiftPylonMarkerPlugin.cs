@@ -1,12 +1,9 @@
-﻿using System;
-using System.Globalization;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using Turbo.Plugins.Default;
 
 namespace Turbo.Plugins.glq
 {
-    //by 我想静静  大秘境进度球
+    //by 我想静静
     public class GLQ_GreaterRiftPylonMarkerPlugin : BasePlugin, IInGameTopPainter
     {
         public IBrush ProgressionLineBrush { get; set; }
@@ -66,24 +63,24 @@ namespace Turbo.Plugins.glq
                     {
                         switch (actor.SnoActor.Sno)
                         {
-                            case 330695:
+                            case ActorSnoEnum._x1_lr_shrine_damage:
                                 if (flag_wn == false) ProgressionofShrines.Add("威能", percent);
                                 flag_wn = true;
                                 break;
-                            case 330696:
-                            case 398654:
+                            case ActorSnoEnum._x1_lr_shrine_electrified:
+                            case ActorSnoEnum._x1_lr_shrine_electrified_tieredrift:
                                 if (flag_dj == false) ProgressionofShrines.Add("电击", percent);
                                 flag_dj = true;
                                 break;
-                            case 330697:
+                            case ActorSnoEnum._x1_lr_shrine_infinite_casting:
                                 if (flag_jh == false) ProgressionofShrines.Add("减耗", percent);
                                 flag_jh = true;
                                 break;
-                            case 330698:
+                            case ActorSnoEnum._x1_lr_shrine_invulnerable:
                                 if (flag_hd == false) ProgressionofShrines.Add("护盾", percent);
                                 flag_hd = true;
                                 break;
-                            case 330699:
+                            case ActorSnoEnum._x1_lr_shrine_run_speed:
                                 if (flag_js == false) ProgressionofShrines.Add("加速", percent);
                                 flag_js = true;
                                 break;

@@ -104,7 +104,7 @@ namespace Turbo.Plugins.Default
                 PoolOfReflectionDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
             }
 
-            var riftPylonSpawnPoints = Hud.Game.Actors.Where(x => x.SnoActor.Sno == 428690);
+            var riftPylonSpawnPoints = Hud.Game.Actors.Where(x => x.SnoActor.Sno == ActorSnoEnum._markerlocation_tieredriftpylon);
             foreach (var actor in riftPylonSpawnPoints)
             {
                 PossibleRiftPylonDecorator.Paint(layer, actor, actor.FloorCoordinate, "pylon?");

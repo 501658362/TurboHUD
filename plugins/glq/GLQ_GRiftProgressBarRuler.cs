@@ -1,7 +1,6 @@
 ﻿using Turbo.Plugins.Default;
 namespace Turbo.Plugins.glq
 {
-    // 大秘境 进度条
     public class GLQ_GRiftProgressBarRuler : BasePlugin, IInGameTopPainter
     {
         public IBrush ProgressionLineBrush { get; set; }

@@ -36,28 +36,27 @@ namespace Turbo.Plugins.Default
 
         public void PaintWorld(WorldLayer layer)
         {
-            var deadMonsters = Hud.Game.Monsters.Where(x => !x.IsAlive);
-            foreach (var monster in deadMonsters)
+            foreach (var monster in Hud.Game.Monsters.Where(x => !x.IsAlive))
             {
                 switch (monster.SnoActor.Sno)
                 {
-                    case 4104:
-                    case 4105:
-                    case 4106:
+                    case ActorSnoEnum._fastmummy_a:
+                    case ActorSnoEnum._fastmummy_b:
+                    case ActorSnoEnum._fastmummy_c:
                         FastMummyDecorator.Paint(layer, monster, monster.FloorCoordinate, monster.SnoMonster.NameLocalized);
                         break;
-                    case 3847:
-                    case 218307:
-                    case 218308:
-                    case 365450:
-                    case 3848:
-                    case 218405:
-                    case 3849:
-                    case 113994:
-                    case 3850:
-                    case 195639:
-                    case 365465:
-                    case 191592:
+                    case ActorSnoEnum._corpulent_a:
+                    case ActorSnoEnum._corpulent_b:
+                    case ActorSnoEnum._corpulent_c:
+                    case ActorSnoEnum._corpulent_d:
+                    case ActorSnoEnum._corpulent_a_unique_01:
+                    case ActorSnoEnum._corpulent_a_unique_02:
+                    case ActorSnoEnum._corpulent_a_unique_03:
+                    case ActorSnoEnum._corpulent_b_unique_01:
+                    case ActorSnoEnum._corpulent_c_oasisambush_unique:
+                    case ActorSnoEnum._corpulent_d_cultistsurvivor_unique:
+                    case ActorSnoEnum._corpulent_d_unique_spec_01:
+                    case ActorSnoEnum._corpulent_frost_a:
                         GrotesqueDecorator.Paint(layer, monster, monster.FloorCoordinate, monster.SnoMonster.NameLocalized);
                         break;
                 }

@@ -1,5 +1,5 @@
-﻿using System.Linq;
-using Turbo.Plugins.Default;
+﻿using Turbo.Plugins.Default;
+using System.Linq;
 namespace Turbo.Plugins.glq
 {
     public class GLQ_PlayerResurrectionTimer : BasePlugin, IInGameTopPainter, INewAreaHandler

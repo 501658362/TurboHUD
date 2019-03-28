@@ -5,7 +5,6 @@ namespace Turbo.Plugins.glq
     using System.Linq;
     using Turbo.Plugins.Default;
 
-    // 装备掉落提示
     public class GLQ_ItemDropSoundAlertPlugin : BasePlugin, ILootGeneratedHandler, IAfterCollectHandler, IInGameWorldPainter
     {
         public bool Legendary { get; set; }
@@ -92,7 +91,7 @@ namespace Turbo.Plugins.glq
         {
             if(BountyCache)
             {
-                var items = Hud.Game.Items.Where(item => item.Location == ItemLocation.Floor && item.SnoActor.Sno == 360183);
+                var items = Hud.Game.Items.Where(item => item.Location == ItemLocation.Floor && item.SnoActor.Sno == ActorSnoEnum._greaterhoradriccache);
 
                 foreach (var item in items)
                 {

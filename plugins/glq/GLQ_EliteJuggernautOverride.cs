@@ -1,19 +1,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
     public class GLQ_DangerousAffixMonsterPlugin : BasePlugin, IInGameWorldPainter
     {
         public WorldDecoratorCollection EliteLeaderDecorator_Special { get; set; }
         public List<MonsterAffix> SpecialAffix { get; set; }
-
+ 
         public GLQ_DangerousAffixMonsterPlugin()
         {
             Enabled = true;
             SpecialAffix = new List<MonsterAffix>();
         }
-
+ 
         public override void Load(IController hud)
         {
             base.Load(hud);
@@ -41,7 +42,7 @@ namespace Turbo.Plugins.glq
                         {
                             EliteLeaderDecorator_Special.Paint(layer, thisMonster, thisMonster.FloorCoordinate, thisMonster.SnoMonster.NameLocalized);
                         }
-
+                        
                     }
 
                 }

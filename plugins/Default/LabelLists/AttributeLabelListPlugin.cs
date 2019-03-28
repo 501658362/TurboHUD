@@ -3,7 +3,6 @@ using System.Globalization;
 
 namespace Turbo.Plugins.Default
 {
-
     public class AttributeLabelListPlugin : BasePlugin, IInGameTopPainter
     {
         public HorizontalTopLabelList LabelList { get; private set; }
@@ -11,7 +10,7 @@ namespace Turbo.Plugins.Default
         public AttributeLabelListPlugin()
             : base()
         {
-            Enabled = false;
+            Enabled = true;
         }
 
         public override void Load(IController hud)
@@ -240,7 +239,5 @@ namespace Turbo.Plugins.Default
 
             LabelList.Paint();
         }
-
     }
-
 }

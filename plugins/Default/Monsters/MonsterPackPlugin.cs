@@ -328,8 +328,7 @@ namespace Turbo.Plugins.Default
 
                 foreach (var snoMonsterAffix in snoMonsterAffixList)
                 {
-                    GroundLabelDecorator decorator;
-                    if (!AffixDecorators.TryGetValue(snoMonsterAffix.Affix, out decorator)) continue;
+                    if (!AffixDecorators.TryGetValue(snoMonsterAffix.Affix, out GroundLabelDecorator decorator)) continue;
 
                     string affixName = null;
                     if (CustomAffixNames.ContainsKey(snoMonsterAffix.Affix))

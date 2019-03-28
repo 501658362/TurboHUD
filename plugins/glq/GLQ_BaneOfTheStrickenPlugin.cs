@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Turbo.Plugins.Default;
+using System;
 using System.Linq;
 using System.Drawing;
 using System.Collections.Generic;
-using Turbo.Plugins.Default;
  
 namespace Turbo.Plugins.glq
 {
-    public class BaneOfTheStrickenPlugin : BasePlugin, IInGameTopPainter, INewAreaHandler
+    public class GLQ_BaneOfTheStrickenPlugin : BasePlugin, IInGameTopPainter, INewAreaHandler
     {
         public bool DrawClassOnIcons { get; set; }      //Draw ClassNames per Dafault on every Stricken Icon
 
@@ -38,7 +38,7 @@ namespace Turbo.Plugins.glq
             }
         }
 
-        public BaneOfTheStrickenPlugin()
+        public GLQ_BaneOfTheStrickenPlugin()
         {
             Enabled = true;
 

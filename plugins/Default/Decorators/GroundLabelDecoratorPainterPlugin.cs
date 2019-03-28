@@ -106,8 +106,7 @@ namespace Turbo.Plugins.Default
         {
             if (string.IsNullOrEmpty(text)) return;
 
-            List<RegisteredLabel> list;
-            if (!_registeredLabels.TryGetValue(coord, out list))
+            if (!_registeredLabels.TryGetValue(coord, out List<RegisteredLabel> list))
             {
                 list = new List<RegisteredLabel>();
                 _registeredLabels.Add(coord, list);

@@ -41,7 +41,7 @@ namespace Turbo.Plugins.glq
         public GLQ_ShrineNamePlugin()
 		{
             Enabled = true;
-            EnableSpeak = false;
+            EnableSpeak = true;
 		}
 
         public override void Load(IController hud)
@@ -298,13 +298,13 @@ namespace Turbo.Plugins.glq
         public void PaintWorld(WorldLayer layer)
         {
 
-       	    var shrines = Hud.Game.Shrines.Where(x => x.DisplayOnOverlay && (x.Type != ShrineType.HealingWell) && (x.Type != ShrineType.PoolOfReflection));
+       	    var shrines = Hud.Game.Shrines.Where(x => !x.IsDisabled && !x.IsOperated && x.DisplayOnOverlay && (x.Type != ShrineType.HealingWell) && (x.Type != ShrineType.PoolOfReflection));
             foreach (var actor in shrines)
             {        
                 switch (actor.SnoActor.Sno)
                 {
-                    case 225025:
-                    case 176074:
+                    case (ActorSnoEnum)225025:
+                    case (ActorSnoEnum)176074:
                 	BlessedShrineDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && BlessedSpeak != "")
 						{
@@ -320,8 +320,8 @@ namespace Turbo.Plugins.glq
 
 						}
                         break;
-                    case 225262:
-                    case 176075:
+                    case (ActorSnoEnum)225262:
+                    case (ActorSnoEnum)176075:
                 	EnlightenedShrineDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && EnlightenedSpeak != "")
 						{
@@ -338,8 +338,8 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 225263:
-                    case 176076:
+                    case (ActorSnoEnum)225263:
+                    case (ActorSnoEnum)176076:
                 	FortuneShrineDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && FortuneSpeak != "")
 						{
@@ -356,8 +356,8 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 225266:
-                    case 176077:
+                    case (ActorSnoEnum)225266:
+                    case (ActorSnoEnum)176077:
                 	FrenziedShrineDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && FrenziedSpeak != "")
 						{
@@ -374,8 +374,8 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 260342:
-                    case 260346:
+                    case (ActorSnoEnum)260342:
+                    case (ActorSnoEnum)260346:
                 	FleetingShrineDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && FleetingSpeak != "")
 						{
@@ -392,8 +392,8 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 260343:
-                    case 260347:
+                    case (ActorSnoEnum)260343:
+                    case (ActorSnoEnum)260347:
                 	EmpoweredShrineDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && EmpoweredSpeak != "")
 						{
@@ -410,8 +410,8 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 434409:
-                    case 269349:
+                    case (ActorSnoEnum)434409:
+                    case (ActorSnoEnum)269349:
                 	BanditShrineDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && BanditSpeak != "")
 						{
@@ -428,7 +428,7 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 330695:
+                    case (ActorSnoEnum)330695:
                 	PowerPylonDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && PowerSpeak != "")
 						{
@@ -445,8 +445,8 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 330696:
-                    case 398654:
+                    case (ActorSnoEnum)330696:
+                    case (ActorSnoEnum)398654:
                 	ConduitPylonDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && ConduitSpeak != "")
 						{
@@ -463,7 +463,7 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 330697:
+                    case (ActorSnoEnum)330697:
                 	ChannelingPylonDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && ChannelingSpeak != "")
 						{
@@ -480,7 +480,7 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 330698:
+                    case (ActorSnoEnum)330698:
                 	ShieldPylonDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && ShieldSpeak != "")
 						{
@@ -497,7 +497,7 @@ namespace Turbo.Plugins.glq
 						}
                         break;
 
-                    case 330699:
+                    case (ActorSnoEnum)330699:
                 	SpeedPylonDecorator.Paint(layer, actor, actor.FloorCoordinate, actor.SnoActor.NameLocalized);
 						if (EnableSpeak && (actor.LastSpeak == null) && Hud.Sound.LastSpeak.TimerTest(2000) && SpeedSpeak != "")
 						{
@@ -517,7 +517,7 @@ namespace Turbo.Plugins.glq
             }
 
 
-            var healingWells = Hud.Game.Shrines.Where(x => x.DisplayOnOverlay && (x.Type == ShrineType.HealingWell));
+            var healingWells = Hud.Game.Shrines.Where(x => !x.IsDisabled && !x.IsOperated && x.DisplayOnOverlay && (x.Type == ShrineType.HealingWell));
             foreach (var actor in healingWells)
             {
                 HealingWellDecorator.ToggleDecorators<GroundLabelDecorator>(!actor.IsOnScreen); // do not display ground labels when the actor is on the screen
@@ -537,7 +537,7 @@ namespace Turbo.Plugins.glq
 						}
             }
 
-            var poolOfReflections = Hud.Game.Shrines.Where(x => x.DisplayOnOverlay && (x.Type == ShrineType.PoolOfReflection));
+            var poolOfReflections = Hud.Game.Shrines.Where(x => !x.IsDisabled && !x.IsOperated && x.DisplayOnOverlay && (x.Type == ShrineType.PoolOfReflection));
             foreach (var actor in poolOfReflections)
             {
                 PoolOfReflectionDecorator.ToggleDecorators<GroundLabelDecorator>(!actor.IsOnScreen); // do not display ground labels when the actor is on the screen
@@ -557,7 +557,7 @@ namespace Turbo.Plugins.glq
 						}
             }
 
-            var riftPylonSpawnPoints = Hud.Game.Actors.Where(x => x.SnoActor.Sno == 428690);
+            var riftPylonSpawnPoints = Hud.Game.Actors.Where(x => x.SnoActor.Sno == ActorSnoEnum._markerlocation_tieredriftpylon);
             foreach (var actor in riftPylonSpawnPoints)
             {
                 PossibleRiftPylonDecorator.Paint(layer, actor, actor.FloorCoordinate, "？？塔");

@@ -4,7 +4,6 @@ using Turbo.Plugins.Default;
  
 namespace Turbo.Plugins.glq
 {
-    // 装备主属性显示
     public class GLQ_InventoryMainStatPlugin : BasePlugin, IInGameTopPainter
     {
         public bool OverlayMainStatOnItems { get; set; }

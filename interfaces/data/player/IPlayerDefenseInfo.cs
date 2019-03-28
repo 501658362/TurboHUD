@@ -12,7 +12,6 @@
         float CurShield { get; set; }
 
         float Armor { get; set; }
-        float LifeBonus { get; set; }
         float ResPhysical { get; set; }
         float ResCold { get; set; }
         float ResFire { get; set; }
@@ -21,7 +20,13 @@
         float ResArcane { get; set; }
         float ResLowest { get; set; }
         float ResAverage { get; set; }
+
+        float LifeBonus { get; set; }
         float LifeRegen { get; set; }
+        float LifeOnHit { get; set; }
+        float LifeOnKill { get; set; }
+        float Thorns { get; set; }
+        float GlobeBonusHealth { get; set; }
 
         float DRClass { get; set; }
         float drArmor { get; set; }

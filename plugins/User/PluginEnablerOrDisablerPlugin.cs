@@ -61,7 +61,7 @@ namespace Turbo.Plugins.User
         // 进度条提醒 秘境百分比通知
         Hud.GetPlugin<GLQ_NotifyAtRiftPercentagePlugin>().Enabled = true;
         // 秘境圣坛标记
-        Hud.GetPlugin<GLQ_GreaterRiftPylonMarkerPlugin>().Enabled = true;
+        Hud.GetPlugin<GLQ_GreaterRiftPylonMarkerPlugin>().Enabled = false;
         // 大秘境 进度条
         Hud.GetPlugin<GLQ_GRiftProgressBarRuler>().Enabled = true;
         // 宝石计算

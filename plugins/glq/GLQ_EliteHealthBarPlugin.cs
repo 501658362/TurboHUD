@@ -2,6 +2,7 @@
 using System.Linq;
 using System;
 using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
     public class GLQ_EliteHealthBarPlugin : BasePlugin, IInGameWorldPainter
@@ -19,7 +20,7 @@ namespace Turbo.Plugins.glq
 
         public GLQ_EliteHealthBarPlugin()
         {
-            Enabled = false;
+            Enabled = true;
         }
 
         public override void Load(IController hud)
@@ -40,6 +41,7 @@ namespace Turbo.Plugins.glq
 
         public void PaintWorld(WorldLayer layer)
         {
+            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap) || (Hud.Game.MapMode == MapMode.Map)) return;
             var w1 = Hud.Window.Size.Width * 0.00333f * b;
             var textLocust = "虫群";//"L"
             var layoutLocust = TextFontLocust.GetTextLayout(textLocust);

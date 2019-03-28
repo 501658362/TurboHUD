@@ -1,4 +1,5 @@
 ﻿using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
     public class GLQ_GRProgressionToTime : BasePlugin, IInGameTopPainter

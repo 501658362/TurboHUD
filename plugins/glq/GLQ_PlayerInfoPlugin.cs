@@ -3,6 +3,8 @@
     using System.Globalization;
     using System.Linq;
     using Turbo.Plugins.Default;
+    using Turbo.Plugins.glq.Decorators.TopTables;
+
     public class GLQ_PlayerInfoPlugin : BasePlugin, INewAreaHandler, IInGameTopPainter
     {
         public TopTable Table { get; set; }
@@ -98,6 +100,7 @@
                     new TopTableCell(Hud, (l, c, ls, cs) => GetCellText(l, c)),
                     new TopTableCell(Hud, (l, c, ls, cs) => GetCellText(l, c)),
                     new TopTableCell(Hud, (l, c, ls, cs) => GetCellText(l, c)),
+                    new TopTableCell(Hud, (l, c, ls, cs) => GetCellText(l, c)),
                     new TopTableCell(Hud, (l, c, ls, cs) => GetCellText(l, c))
                     );
             }
@@ -132,6 +135,8 @@
                     return player.Offense.AreaDamageBonus.ToString() + "%";
                 case 10:
                     return player.HighestSoloRiftLevel.ToString() + "层";
+                case 11:
+                    return player.Defense.GlobeBonusHealth.ToString();
                 default:
                     return string.Empty;
             }
@@ -184,13 +189,18 @@
                 new TopTableHeader(Hud, (pos, curPos) => "单人")
                 {
                     RatioWidth = 0.05f,
+                },
+                new TopTableHeader(Hud, (pos, curPos) => "球回")
+                {
+                    RatioWidth = 0.05f,
                 }
             );
         }
 
         public void PaintTopInGame(ClipState clipState)
         {
-            if (clipState != ClipState.BeforeClip) return;
+            //if (clipState != ClipState.BeforeClip) return;
+            if (Hud.Render.WorldMapUiElement.Visible || Hud.Render.ActMapUiElement.Visible || !Hud.Render.MinimapUiElement.Visible) return;
             if (Hud.Inventory.StashMainUiElement.Visible) return;
             var myPortrait = Hud.Game.Me.PortraitUiElement.Rectangle;
             if (Hud.Window.CursorX > myPortrait.Right)

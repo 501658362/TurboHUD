@@ -1,5 +1,5 @@
-using Turbo.Plugins.Default;
 using System.Linq;
+using Turbo.Plugins.Default;
 namespace Turbo.Plugins.glq
 {
     public class GLQ_LegendItemCount : BasePlugin, IInGameTopPainter
@@ -14,7 +14,6 @@ namespace Turbo.Plugins.glq
         {
             Enabled = true;
             OnlyUnidentified = false;
-            Order = int.MaxValue;
         }
         public override void Load(IController hud)
         {
@@ -29,7 +28,7 @@ namespace Turbo.Plugins.glq
         public void PaintTopInGame(ClipState clipState)
         {
             if (clipState != ClipState.AfterClip) return;
-            var items = Hud.Game.Items.Where(item => item.Location == ItemLocation.Floor && !OnlyUnidentified || item.Location == ItemLocation.Floor && OnlyUnidentified && item.Unidentified);
+            var items = Hud.Game.Items.Where(item => item.Location == ItemLocation.Floor && !OnlyUnidentified && item.IsLegendary || item.Location == ItemLocation.Floor && OnlyUnidentified && item.Unidentified && item.IsLegendary);
             int Total = items.Count();
             if (Total == 0) return;
             int Normal = 0;
@@ -41,10 +40,10 @@ namespace Turbo.Plugins.glq
                 if (item.AncientRank == 1) Ancient++;
                 if (item.AncientRank == 2) Primal++;
             }
-            var TotaltextLayout = "åœ°é¢ä¼ å¥‡ç‰©å“ç»Ÿè®¡\næ€»æ•°ï¼š" + Total;
-            var NormaltextLayout = "æ™®é€šï¼š" + Normal;
-            var AncienttextLayout = "è¿œå¤ï¼š" + Ancient;
-            var PrimaltextLayout = "å¤ªå¤ï¼š" + Primal;
+            var TotaltextLayout = "µØÃæ´«ÆæÎïÆ·Í³¼Æ\n×ÜÊı£º" + Total;
+            var NormaltextLayout = "ÆÕÍ¨£º" + Normal;
+            var AncienttextLayout = "Ô¶¹Å£º" + Ancient;
+            var PrimaltextLayout = "Ì«¹Å£º" + Primal;
             var x = Hud.Window.Size.Width / 1.18f;
             var y = Hud.Window.Size.Height / 1.15f;
             var h = Hud.Window.Size.Height * 0.018f;

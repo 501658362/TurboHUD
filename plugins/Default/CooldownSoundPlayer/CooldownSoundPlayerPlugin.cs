@@ -49,8 +49,7 @@ namespace Turbo.Plugins.Default
             if (playerSkill.Player != Hud.Game.Me) return;
             if (EnableOnlyWhenIngameSoundIsEnabled && !Hud.Sound.IsIngameSoundEnabled) return;
 
-            CoolDownRule rule = null;
-            if (!CoolDownRules.TryGetValue(playerSkill.CurrentSnoPower, out rule)) return;
+            if (!CoolDownRules.TryGetValue(playerSkill.CurrentSnoPower, out CoolDownRule rule)) return;
             if (rule == null) return;
 
             ThreadPool.QueueUserWorkItem(state =>

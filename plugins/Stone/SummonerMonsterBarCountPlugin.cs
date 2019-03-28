@@ -54,7 +54,7 @@ namespace Turbo.Plugins.Stone
 
         public SummonerMonsterBarCountPlugin()
         {
-            Enabled = true;
+            Enabled = false;
         }
 
         public override void Load(IController hud)

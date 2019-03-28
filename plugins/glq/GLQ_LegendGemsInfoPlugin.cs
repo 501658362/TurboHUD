@@ -27,73 +27,73 @@ namespace Turbo.Plugins.glq
             switch(item.FullNameEnglish)
             {
                 case "Iceblink":
-                    InfoText = "+0.4%/Á∫ß";
+                    InfoText = "+0.4%/º∂";
                     break;
                 case "Boyarsky's Chip":
-                    InfoText = "+800/Á∫ß";
+                    InfoText = "+800/º∂";
                     break;
                 case "Mutilation Guard":
-                    InfoText = "+0.5%/Á∫ß";
+                    InfoText = "+0.5%/º∂";
                     break;
                 case "Bane of the Stricken":
-                    InfoText = "+0.01%/Á∫ß";
+                    InfoText = "+0.01%/º∂";
                     break;
                 case "Molten Wildebeest's Gizzard":
-                    InfoText = "+1000/Á∫ß";
+                    InfoText = "+1000/º∂";
                     break;
                 case "Esoteric Alteration":
-                    InfoText = "+0.5%/Á∫ß";
+                    InfoText = "+0.5%/º∂";
                     break;
                 case "Taeguk":
-                    InfoText = "+0.04%/Á∫ß";
+                    InfoText = "+0.04%/º∂";
                     break;
                 case "Boon of the Hoarder":
-                    InfoText = "+1.5%/Á∫ß";
+                    InfoText = "+1.5%/º∂";
                     break;
                 case "Simplicity's Strength":
-                    InfoText = "+0.5%/Á∫ß";
+                    InfoText = "+0.5%/º∂";
                     break;
                 case "Zei's Stone of Vengeance":
-                    InfoText = "+0.08%/Á∫ß +0.4%/Á∫ß";
+                    InfoText = "+0.08%/º∂ +0.4%/º∂";
                     break;
                 case "Moratorium":
-                    InfoText = "+0.1%/Á∫ß";
+                    InfoText = "+0.1%/º∂";
                     break;
                 case "Enforcer":
-                    InfoText = "+0.3%/Á∫ß";
+                    InfoText = "+0.3%/º∂";
                     break;
                 case "Invigorating Gemstone":
-                    InfoText = "+0.02%/Á∫ß";
+                    InfoText = "+0.02%/º∂";
                     break;
                 case "Gogok of Swiftness":
-                    InfoText = "+0.01%/Á∫ß";
+                    InfoText = "+0.01%/º∂";
                     break;
                 case "Mirinae, Teardrop of the Starweaver":
-                    InfoText = "+60%/Á∫ß";
+                    InfoText = "+60%/º∂";
                     break;
                 case "Mirinae":
-                    InfoText = "+60%/Á∫ß";
+                    InfoText = "+60%/º∂";
                     break;
                 case "Pain Enhancer":
-                    InfoText = "+50%/Á∫ß";
+                    InfoText = "+50%/º∂";
                     break;
                 case "Gem of Efficacious Toxin":
-                    InfoText = "+50%/Á∫ß";
+                    InfoText = "+50%/º∂";
                     break;
                 case "Wreath of Lightning":
-                    InfoText = "+25%/Á∫ß";
+                    InfoText = "+25%/º∂";
                     break;
                 case "Gem of Ease":
-                    InfoText = "+50/Á∫ß";
+                    InfoText = "+50/º∂";
                     break;
                 case "Bane of the Trapped":
-                    InfoText = "+0.3%/Á∫ß";
+                    InfoText = "+0.3%/º∂";
                     break;
                 case "Bane of the Powerful":
-                    InfoText = "+1Áßí/Á∫ß";
+                    InfoText = "+1√Î/º∂";
                     break;
                 case "Red Soul Shard":
-                    InfoText = "+50%/Á∫ß";
+                    InfoText = "+50%/º∂";
                     break;   
             }
             var InfoFontLayout = InfoFont.GetTextLayout(InfoText);

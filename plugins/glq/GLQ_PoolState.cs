@@ -1,4 +1,5 @@
 using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
 	public class GLQ_PoolState : BasePlugin, IInGameTopPainter
@@ -7,14 +8,14 @@ namespace Turbo.Plugins.glq
 		public IFont PortraitInfoFont { get; set; }
         public float OffsetXmultiplier { get; set; }
         public float OffsetYmultiplier { get; set; }
-
+		
 		public bool ShowDeathCounter { get; set; }
-
+		
 		public GLQ_PoolState()
 		{
 			Enabled = true;
 		}
-
+		
 		public override void Load(IController hud)
 		{
 			base.Load(hud);
@@ -23,31 +24,31 @@ namespace Turbo.Plugins.glq
 			OffsetXmultiplier = 0.004f;
 			OffsetYmultiplier = 0.125f;
 		}
-
+		
 		public void PaintTopInGame(ClipState clipState)
 		{
 			if (clipState != ClipState.BeforeClip) return;
-
+			
 
 			foreach (IPlayer player in Hud.Game.Players)
 			{
 				DrawPlayerInfo(player);
 			}
 		}
-
+		
 		private string GetPlayerInfoText(IPlayer player)
 		{
             float pool = 0;
             pool = 10 * ((float)player.BonusPoolRemaining / player.ParagonExpToNextLevel);
             if (pool > 0)
             {
-                return "ÁªèÈ™åÊ±†Ôºö" + pool.ToString("f2");
+                return "æ≠—È≥ÿ£∫" + pool.ToString("f2");
             }
             else
                 return "";
 
         }
-
+		
 		private void DrawPlayerInfo(IPlayer player)
 		{
 			var OffsetX = Hud.Window.Size.Width * OffsetXmultiplier;
@@ -55,10 +56,10 @@ namespace Turbo.Plugins.glq
 			var portraitRect = player.PortraitUiElement.Rectangle;
 			var YPos = portraitRect.Y + OffsetY;
 			var XPos = portraitRect.X + OffsetX;
-
+			
 			var Layout = PortraitInfoFont.GetTextLayout(GetPlayerInfoText(player));
 			PortraitInfoFont.DrawText(Layout, XPos, YPos);
 		}
-
+		
 	}
 }

@@ -1,5 +1,5 @@
-using System.Linq;
 using Turbo.Plugins.Default;
+using System.Linq;
 namespace Turbo.Plugins.glq
 {
 
@@ -13,7 +13,6 @@ namespace Turbo.Plugins.glq
 
         public GLQ_TopMonsterHealthBarPlugin()
 		{
-		    // 怪物血条血量说明
             Enabled = true;
 		}
 
@@ -71,7 +70,7 @@ namespace Turbo.Plugins.glq
                 BorderBrush.DrawRectangle(uiBar.Rectangle.Left, uiBar.Rectangle.Top, uiBar.Rectangle.Width, uiBar.Rectangle.Height);
                 textCC += (textCC == null ? "" : ", ") + "无敌";
             }
-
+                
             if (monster.Blind) textCC += (textCC == null ? "" : ", ") + "致盲";
 
             string textDebuff = null;

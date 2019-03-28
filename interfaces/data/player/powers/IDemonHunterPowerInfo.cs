@@ -33,6 +33,7 @@
         ISnoPower Awareness { get; } // 324770 - Awareness
         ISnoPower Ballistics { get; } // 155723 - Ballistics
         ISnoPower Brooding { get; } // 210801 - Brooding
+        ISnoPower CompanionPassiveEffect { get; } // 365312 - Companion
         ISnoPower CullTheWeak { get; } // 155721 - Cull the Weak
         ISnoPower CustomEngineering { get; } // 208610 - Custom Engineering
         ISnoPower Grenadier { get; } // 208779 - Grenadier
@@ -41,11 +42,13 @@
         ISnoPower NightStalker { get; } // 218350 - Night Stalker
         ISnoPower NumbingTraps { get; } // 218398 - Numbing Traps
         ISnoPower Perfectionist { get; } // 155722 - Perfectionist
+        ISnoPower PreparationPassiveEffect { get; } // 324845 - Preparation
         ISnoPower Sharpshooter { get; } // 155715 - Sharpshooter
         ISnoPower SingleOut { get; } // 338859 - Single Out
         ISnoPower SteadyAim { get; } // 164363 - Steady Aim
         ISnoPower TacticalAdvantage { get; } // 218385 - Tactical Advantage
         ISnoPower ThrillOfTheHunt { get; } // 211225 - Thrill of the Hunt
+        ISnoPower VengeancePassiveEffect { get; } // 155714 - Blood Vengeance
     }
 
 }

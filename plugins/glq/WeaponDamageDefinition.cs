@@ -1,5 +1,4 @@
-﻿using Turbo.Plugins.Default;
-namespace Turbo.Plugins.glq
+﻿namespace Turbo.Plugins.glq
 {
     public class WeaponDamageDefinition
     {

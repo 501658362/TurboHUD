@@ -2,7 +2,7 @@
 
 namespace Turbo.Plugins
 {
-    public interface IPlayer: IActor
+    public interface IPlayer : IActor
     {
         uint ActorId { get; } // deprecated
         bool IsMe { get; }
@@ -59,6 +59,7 @@ namespace Turbo.Plugins
         IWatch LastDied { get; }
         bool IsDeadSafeCheck { get; }
 
+        AnimSnoEnum Animation { get; }
         AcdAnimationState AnimationState { get; }
 
         long ParagonTotalExp { get; }

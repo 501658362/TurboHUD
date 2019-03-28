@@ -191,7 +191,7 @@ namespace Turbo.Plugins.glq
 
         public void PaintWorld(WorldLayer layer) {
 
-            var portals = Hud.Game.Actors.Where(x => x.SnoActor.Sno == 410460);
+            var portals = Hud.Game.Actors.Where(x => x.SnoActor.Sno == ActorSnoEnum._treasuregoblin_portal_open);
 
             foreach (var actor in portals) {
                 PortalDecorator.Paint(layer, actor, actor.FloorCoordinate, null);

@@ -56,7 +56,7 @@ namespace Turbo.Plugins.glq
                 Opacity = Opacity,
                 ShowTimeLeftNumbers = true,
                 ShowTooltips = Tooltips,
-                TimeLeftFont = Hud.Render.CreateFont("tahoma", 7, 255, 255, 255, 255, false, false, 255, 0, 0, 0, true),
+                TimeLeftFont = Hud.Render.CreateFont("tahoma", 9, 255, 255, 255, 255, false, false, 255, 0, 0, 0, true),
                 StackFont = Hud.Render.CreateFont("tahoma", 6, 255, 255, 255, 255, false, false, 255, 0, 0, 0, true),
             };
 
@@ -71,6 +71,7 @@ namespace Turbo.Plugins.glq
 
         public void PaintWorld(WorldLayer layer)
         {
+            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap) || (Hud.Game.MapMode == MapMode.Map)) return;
             var players = Hud.Game.Players;
             foreach(var p in players){
 				var portraitRect = p.PortraitUiElement.Rectangle;

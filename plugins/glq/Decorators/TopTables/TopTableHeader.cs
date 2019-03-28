@@ -1,4 +1,4 @@
-﻿namespace Turbo.Plugins.glq
+﻿namespace Turbo.Plugins.glq.Decorators.TopTables
 {
     using System;
     using System.Collections.Generic;

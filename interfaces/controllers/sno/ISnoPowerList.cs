@@ -130,6 +130,7 @@ namespace Turbo.Plugins
         ISnoPower DemonHunter_Passive_Awareness { get; } // 324770
         ISnoPower DemonHunter_Passive_Ballistics { get; } // 155723
         ISnoPower DemonHunter_Passive_Brooding { get; } // 210801
+        ISnoPower DemonHunter_Passive_CompanionPassiveEffect { get; } // 365312
         ISnoPower DemonHunter_Passive_CullTheWeak { get; } // 155721
         ISnoPower DemonHunter_Passive_CustomEngineering { get; } // 208610
         ISnoPower DemonHunter_Passive_Grenadier { get; } // 208779
@@ -138,11 +139,13 @@ namespace Turbo.Plugins
         ISnoPower DemonHunter_Passive_NightStalker { get; } // 218350
         ISnoPower DemonHunter_Passive_NumbingTraps { get; } // 218398
         ISnoPower DemonHunter_Passive_Perfectionist { get; } // 155722
+        ISnoPower DemonHunter_Passive_PreparationPassiveEffect { get; } // 324845
         ISnoPower DemonHunter_Passive_Sharpshooter { get; } // 155715
         ISnoPower DemonHunter_Passive_SingleOut { get; } // 338859
         ISnoPower DemonHunter_Passive_SteadyAim { get; } // 164363
         ISnoPower DemonHunter_Passive_TacticalAdvantage { get; } // 218385
         ISnoPower DemonHunter_Passive_ThrillOfTheHunt { get; } // 211225
+        ISnoPower DemonHunter_Passive_VengeancePassiveEffect { get; } // 155714
 
         // Monk skills
         ISnoPower Monk_BlindingFlash { get; } // 136954
@@ -218,12 +221,15 @@ namespace Turbo.Plugins
         ISnoPower Necromancer_Passive_BonePrison { get; } // 472965
         ISnoPower Necromancer_Passive_CommanderOfTheRisenDead { get; } // 472962
         ISnoPower Necromancer_Passive_DarkReaping { get; } // 470812
+        ISnoPower Necromancer_Passive_DecrepifyPassiveEffect { get; } // 471738
         ISnoPower Necromancer_Passive_DrawLife { get; } // 465264
         ISnoPower Necromancer_Passive_EternalTorment { get; } // 472795
         ISnoPower Necromancer_Passive_ExtendedServitude { get; } // 464994
         ISnoPower Necromancer_Passive_FinalService { get; } // 465952
+        ISnoPower Necromancer_Passive_FrailtyPassiveEffect { get; } // 471845
         ISnoPower Necromancer_Passive_FueledByDeath { get; } // 465917
         ISnoPower Necromancer_Passive_GrislyTribute { get; } // 473019
+        ISnoPower Necromancer_Passive_LeechPassiveEffect { get; } // 471869
         ISnoPower Necromancer_Passive_LifeFromDeath { get; } // 465703
         ISnoPower Necromancer_Passive_OverwhelmingEssence { get; } // 470764
         ISnoPower Necromancer_Passive_RathmasShield { get; } // 472910

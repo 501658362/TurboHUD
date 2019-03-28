@@ -24,9 +24,7 @@ namespace Turbo.Plugins.Default
             if (!Enabled) return;
             if (LabelFont == null) return;
             if (string.IsNullOrEmpty(text)) return;
-
-            float mapx, mapy;
-            Hud.Render.GetMinimapCoordinates(coord.X, coord.Y, out mapx, out mapy);
+            Hud.Render.GetMinimapCoordinates(coord.X, coord.Y, out float mapx, out float mapy);
 
             var layout = LabelFont.GetTextLayout(text);
             if (!Up)

@@ -675,7 +675,9 @@
             }
             if (pwr == Hud.Sno.SnoPowers.WitchDoctor_SoulHarvest.Sno){
                 yield return new BuffRule(pwr) { IconIndex = 0, MinimumIconCount = 1, ShowTimeLeft = true, ShowStacks = true};         // Rune 0
-                //yield return new BuffRule(pwr) { IconIndex = 2, MinimumIconCount = 1, ShowTimeLeft = true, ShowStacks = true};       // Rune 1 - not needed
+                //yield return new BuffRule(pwr) { IconIndex = 2, MinimumIconCount = 1, ShowTimeLeft = true, ShowStacks = true};
+                yield return new BuffRule(pwr) { IconIndex = 5, MinimumIconCount = 1, ShowTimeLeft = true, ShowStacks = true}; 
+       // Rune 1 - not needed
             }
             if (pwr == Hud.Sno.SnoPowers.WitchDoctor_SpiritBarrage.Sno){
                 yield return new BuffRule(pwr) { IconIndex = 1, MinimumIconCount = 1, ShowTimeLeft = true, ShowStacks = true};         // Rune 2
@@ -1683,7 +1685,7 @@
             
             if (pwr == 472273)
             {
-                yield return new BuffRule(451490) { IconIndex = 6, MinimumIconCount = 1, ShowTimeLeft = true, ShowStacks = true}; //死疫使者的裹布4件
+                yield return new BuffRule(472273) { IconIndex = 1, MinimumIconCount = 1, ShowTimeLeft = true, ShowStacks = true}; //死疫使者的裹布4件
             }
             if (pwr == 472274) 
             {

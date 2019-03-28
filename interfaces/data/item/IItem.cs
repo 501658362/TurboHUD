@@ -12,7 +12,6 @@ namespace Turbo.Plugins
 
         ISnoItem SnoItem { get; }
 
-        // both of these fields has English prefixes until I can't find a workaround for proper translation
         string FullNameLocalized { get; } // same as SnoItem.NameLocalized, but includes "Ancient Legendary", "Ancient Set" and other prefixes if necessary
         string FullNameEnglish { get; }
 

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
     public class GLQ_RedDoorMarker : BasePlugin, IInGameWorldPainter, INewAreaHandler, IInGameTopPainter
@@ -15,7 +16,7 @@ namespace Turbo.Plugins.glq
         private bool redDoor3;
         private bool finished;
         private int times;
-        private HashSet<uint> _actorSnoList = new HashSet<uint>();
+        private HashSet<ActorSnoEnum> _actorSnoList = new HashSet<ActorSnoEnum>();
 
         public GLQ_RedDoorMarker()
         {
@@ -45,10 +46,10 @@ namespace Turbo.Plugins.glq
                 TextFont = Hud.Render.CreateFont("tahoma", 8, 255, 239, 220, 129, false, false, true),
             };
 
-            _actorSnoList.Add(258384); //Uber_PortalSpot0
-            _actorSnoList.Add(258385); //Uber_PortalSpot1
-            _actorSnoList.Add(258386); //Uber_PortalSpot2
-            _actorSnoList.Add(366533); //Uber_PortalSpot3
+            _actorSnoList.Add(ActorSnoEnum._uber_portalspot0); //Uber_PortalSpot0
+            _actorSnoList.Add(ActorSnoEnum._uber_portalspot1); //Uber_PortalSpot1
+            _actorSnoList.Add(ActorSnoEnum._uber_portalspot2); //Uber_PortalSpot2
+            _actorSnoList.Add(ActorSnoEnum._uber_portalspot3); //Uber_PortalSpot3
         }
 
         public void OnNewArea(bool newGame, ISnoArea area)
@@ -96,23 +97,23 @@ namespace Turbo.Plugins.glq
             var actors = Hud.Game.Actors.Where(actor => actor.DisplayOnOverlay && _actorSnoList.Contains(actor.SnoActor.Sno));
             foreach (var actor in actors)
             {
-                if (redDoor0 && actor.SnoActor.Sno == 258384)
+                if (redDoor0 && actor.SnoActor.Sno == ActorSnoEnum._uber_portalspot0)
                 {
                     MarkerDecorator.Paint(layer, actor, actor.FloorCoordinate.Offset(0, 0, 6f), "A1装置已进入过");
                 }
-                if (redDoor1 && actor.SnoActor.Sno == 258385)
+                if (redDoor1 && actor.SnoActor.Sno == ActorSnoEnum._uber_portalspot1)
                 {
                     MarkerDecorator.Paint(layer, actor, actor.FloorCoordinate.Offset(0, 0, 6f), "A2装置已进入过");
                 }
-                if (redDoor2 && actor.SnoActor.Sno == 258386)
+                if (redDoor2 && actor.SnoActor.Sno == ActorSnoEnum._uber_portalspot2)
                 {
                     MarkerDecorator.Paint(layer, actor, actor.FloorCoordinate.Offset(0, 0, 6f), "A3装置已进入过");
                 }
-                if (redDoor3 && actor.SnoActor.Sno == 366533)
+                if (redDoor3 && actor.SnoActor.Sno == ActorSnoEnum._uber_portalspot3)
                 {
                     MarkerDecorator.Paint(layer, actor, actor.FloorCoordinate.Offset(0, 0, 6f), "A4装置已进入过");
                 }
-
+                
             }
         }
 

@@ -39,6 +39,7 @@ namespace Turbo.Plugins.glq
 
         public void PaintWorld(WorldLayer layer)
         {
+            if ((Hud.Game.MapMode == MapMode.WaypointMap) || (Hud.Game.MapMode == MapMode.ActMap) || (Hud.Game.MapMode == MapMode.Map)) return;
             var me = Hud.Game.Me;
             if (me.Powers.BuffIsActive(403468, 0))
                     ZeiDecorator.Paint(me, me.FloorCoordinate, null);

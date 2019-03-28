@@ -86,10 +86,10 @@ namespace Turbo.Plugins.Default
 
             for (int act = 1; act <= 5; act++)
             {
-                float ax = x + sizeW * (act - 1);
-                float ay = y + Hud.Window.Size.Height * 0.032f;
+                var ax = x + sizeW * (act - 1);
+                var ay = y + Hud.Window.Size.Height * 0.032f;
 
-                int completedCount = 0;
+                var completedCount = 0;
                 foreach (var bountyType in BountyTypes)
                 {
                     foreach (var quest in Hud.Game.Quests.Where(quest => quest.SnoQuest.Type == QuestType.Bounty))
@@ -119,7 +119,7 @@ namespace Turbo.Plugins.Default
                                 {
                                     if (quest.StartedOn != null)
                                     {
-                                        long elapsed = quest.StartedOn.ElapsedMilliseconds;
+                                        var elapsed = quest.StartedOn.ElapsedMilliseconds;
                                         var text = ValueToString(elapsed * TimeSpan.TicksPerMillisecond, ValueFormat.LongTime);
                                         textLayout = InprogressTimerFont.GetTextLayout(text);
                                         InprogressTimerFont.DrawText(textLayout, ax + (sizeW - textLayout.Metrics.Width) / 2, ay + sizeH * 0.65f - textLayout.Metrics.Height);
@@ -148,7 +148,7 @@ namespace Turbo.Plugins.Default
                                     }
                                     else
                                     {
-                                        float tx = ax + (sizeW - bountyCompleteW) / 2;
+                                        var tx = ax + (sizeW - bountyCompleteW) / 2;
                                         bountyCompleteTexture.Draw(tx, ay + (sizeH - bountyCompleteH) * 0.7f, bountyCompleteW, bountyCompleteH, Opacity * 0.5f);
                                     }
                                 }

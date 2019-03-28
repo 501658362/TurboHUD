@@ -1,9 +1,10 @@
-namespace Turbo.Plugins.glq
+namespace Turbo.Plugins.glq.Decorators.TopTables
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using Turbo.Plugins.Default;
+
     public class TopTable : IDisposable
     {
         public IController Hud { get; private set; }

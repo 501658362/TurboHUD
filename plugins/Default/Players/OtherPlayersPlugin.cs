@@ -123,8 +123,7 @@ namespace Turbo.Plugins.Default
             var players = Hud.Game.Players.Where(player => !player.IsMe && player.CoordinateKnown && (player.HeadStone == null));
             foreach (var player in players)
             {
-                WorldDecoratorCollection decorator;
-                if (!DecoratorByClass.TryGetValue(player.HeroClassDefinition.HeroClass, out decorator)) continue;
+                if (!DecoratorByClass.TryGetValue(player.HeroClassDefinition.HeroClass, out WorldDecoratorCollection decorator)) continue;
 
                 decorator.Paint(layer, null, NameOffsetZ != 0 ? player.FloorCoordinate.Offset(0, 0, NameOffsetZ) : player.FloorCoordinate, player.BattleTagAbovePortrait);
             }

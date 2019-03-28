@@ -65,13 +65,18 @@ namespace Turbo.Plugins.Default
                 }
             }
 
-            if (skill.IsOnCooldown && (skill.CooldownFinishTick > Hud.Game.CurrentGameTick))
+            if (skill.IsOnCooldown)
             {
-                var remaining = (skill.CooldownFinishTick - Hud.Game.CurrentGameTick) / 60.0d;
-                var text = remaining > 1.0f ? remaining.ToString("F0", CultureInfo.InvariantCulture) : remaining.ToString("F1", CultureInfo.InvariantCulture);
+                var remainingSeconds = (skill.CooldownFinishTick - Hud.Game.CurrentGameTick) / 60.0d;
+                var text = remainingSeconds > 1.0f
+                    ? remainingSeconds.ToString("F0", CultureInfo.InvariantCulture)
+                    : remainingSeconds.ToString("F1", CultureInfo.InvariantCulture);
 
                 var textLayout = CooldownFont.GetTextLayout(text);
-                CooldownFont.DrawText(textLayout, rect.X + (rect.Width - (float)Math.Ceiling(textLayout.Metrics.Width)) / 2.0f, rect.Y + (rect.Height - textLayout.Metrics.Height) / 2);
+                var x = rect.X + (rect.Width - (float)Math.Ceiling(textLayout.Metrics.Width)) / 2;
+                var y = rect.Y + (rect.Height - textLayout.Metrics.Height) / 2;
+
+                CooldownFont.DrawText(textLayout, x, y);
             }
 
             if (!EnableSkillDpsBar || skill.CurrentSnoPower.ElementalDamageTypesByRune == null) return;
@@ -100,7 +105,7 @@ namespace Turbo.Plugins.Default
             {
                 var dotSeconds = skill.DotSeconds;
 
-                uint powerSno = skill.CurrentSnoPower.Sno;
+                var powerSno = skill.CurrentSnoPower.Sno;
                 if (powerSno == 102573) powerSno = 109560; // summon zombie dogs fix
                 if (powerSno == 123208) powerSno = 362118; // mystic ally fix
 

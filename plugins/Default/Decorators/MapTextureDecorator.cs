@@ -26,9 +26,7 @@ namespace Turbo.Plugins.Default
 
             if (Texture == null) return;
             if (Radius <= 0) return;
-
-            float mapX, mapY, radius;
-            CalculateCoordinateAndRadius(coord, out mapX, out mapY, out radius);
+            CalculateCoordinateAndRadius(coord, out float mapX, out float mapY, out float radius);
 
             var width = Texture.Width * radius;
             var height = Texture.Height * radius;

@@ -20,9 +20,7 @@ namespace Turbo.Plugins.Default
             if (Brush == null) return;
             if (Radius <= 0) return;
             if (ShapePainter == null) return;
-
-            float x, y, radius;
-            CalculateCoordinateAndRadius(coord, out x, out y, out radius);
+            CalculateCoordinateAndRadius(coord, out float x, out float y, out float radius);
 
             ShapePainter.Paint(x, y, radius, Brush, ShadowBrush);
         }

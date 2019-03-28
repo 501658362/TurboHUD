@@ -19,7 +19,7 @@ namespace Turbo.Plugins.Default
         public WorldDecoratorCollection MenageristGoblinDecorator { get; set; }
         public WorldDecoratorCollection TreasureFiendGoblinDecorator { get; set; }
 
-        public Dictionary<uint, WorldDecoratorCollection> SnoMapping { get; } = new Dictionary<uint, WorldDecoratorCollection>();
+        public Dictionary<ActorSnoEnum, WorldDecoratorCollection> SnoMapping { get; } = new Dictionary<ActorSnoEnum, WorldDecoratorCollection>();
 
         public bool EnableSpeak { get; set; }
 
@@ -34,18 +34,18 @@ namespace Turbo.Plugins.Default
 
             CreateDecorators();
 
-            SnoMapping.Add(413289, MalevolentTormentorDecorator);
-            SnoMapping.Add(408989, BloodThiefDecorator);
-            SnoMapping.Add(5985, OdiousCollectorDecorator);
-            SnoMapping.Add(5987, GemHoarderDecorator);
-            SnoMapping.Add(408354, GelatinousDecorator); // Gelatinous Sire
-            SnoMapping.Add(410572, GelatinousDecorator); // Gelatinous Spawn
-            SnoMapping.Add(410574, GelatinousDecorator); // Gelatinous Spawn
-            SnoMapping.Add(429161, GildedBaronDecorator);
-            SnoMapping.Add(408655, InsufferableMiscreantDecorator);
-            SnoMapping.Add(450993, MenageristGoblinDecorator);
-            SnoMapping.Add(405186, RainbowGoblinDecorator);
-            SnoMapping.Add(380657, TreasureFiendGoblinDecorator);
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_h, MalevolentTormentorDecorator);
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_f, BloodThiefDecorator);
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_b, OdiousCollectorDecorator);
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_c, GemHoarderDecorator);
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_d_splitter, GelatinousDecorator); // Gelatinous Sire
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_d_splitter_02, GelatinousDecorator); // Gelatinous Spawn
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_d_splitter_03, GelatinousDecorator); // Gelatinous Spawn
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_j, GildedBaronDecorator);
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_e, InsufferableMiscreantDecorator);
+            SnoMapping.Add(ActorSnoEnum._treasuregoblin_k, MenageristGoblinDecorator);
+            SnoMapping.Add(ActorSnoEnum._p1_treasuregoblin_tentacle_a, RainbowGoblinDecorator);
+            SnoMapping.Add(ActorSnoEnum._p1_treasuregobin_a_unique_greedminion, TreasureFiendGoblinDecorator);
         }
 
         private void CreateDecorators()
@@ -378,7 +378,7 @@ namespace Turbo.Plugins.Default
 
         public void PaintWorld(WorldLayer layer)
         {
-            var portals = Hud.Game.Actors.Where(x => x.SnoActor.Sno == 410460);
+            var portals = Hud.Game.Actors.Where(x => x.SnoActor.Sno == ActorSnoEnum._treasuregoblin_portal_open);
             foreach (var actor in portals)
             {
                 PortalDecorator.Paint(layer, actor, actor.FloorCoordinate, null);
@@ -393,8 +393,7 @@ namespace Turbo.Plugins.Default
                     goblin.LastSpeak = Hud.Time.CreateAndStartWatch();
                 }
 
-                WorldDecoratorCollection decorator;
-                if (!SnoMapping.TryGetValue(goblin.SnoActor.Sno, out decorator))
+                if (!SnoMapping.TryGetValue(goblin.SnoActor.Sno, out WorldDecoratorCollection decorator))
                 {
                     decorator = DefaultGoblinDecorator;
                 }

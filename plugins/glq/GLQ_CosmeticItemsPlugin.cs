@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
     // original idea from http://turbohud.freeforums.net/user/6766 and http://turbohud.freeforums.net/user/1694
@@ -17,10 +18,10 @@ namespace Turbo.Plugins.glq
         public string DisplayTextOnItems_StaffofHerding { get; set; }
         public bool EnableSpeak { get; set; }
 		
-        private HashSet<uint> _monsterSnoList = new HashSet<uint>();
-        private HashSet<uint> _monsterSnoList_StaffofHerding = new HashSet<uint>();
-        private HashSet<uint> _actorSnoList = new HashSet<uint>();
-        private HashSet<uint> _actorSnoList_StaffofHerding = new HashSet<uint>();
+        private HashSet<ActorSnoEnum> _monsterSnoList = new HashSet<ActorSnoEnum>();
+        private HashSet<ActorSnoEnum> _monsterSnoList_StaffofHerding = new HashSet<ActorSnoEnum>();
+        private HashSet<ActorSnoEnum> _actorSnoList = new HashSet<ActorSnoEnum>();
+        private HashSet<ActorSnoEnum> _actorSnoList_StaffofHerding = new HashSet<ActorSnoEnum>();
         private HashSet<uint> _itemSnoList_Cosmetic = new HashSet<uint>();
         private HashSet<uint> _itemSnoList_StaffofHerding = new HashSet<uint>();
 
@@ -61,51 +62,51 @@ namespace Turbo.Plugins.glq
                 }
                 );
             //虹光
-            _monsterSnoList.Add(214948); // 星塵公主
-            _monsterSnoList.Add(201679); // 夢夢瑞薾媞
-            _monsterSnoList.Add(209506); // 夜光閃閃
-            _monsterSnoList.Add(218802); // 莫琳索莉
-            _monsterSnoList.Add(218806); // 地獄小姐
-            _monsterSnoList.Add(218807); // 奇麗兒
-            _monsterSnoList.Add(218808); // 拉萊耶
-            _monsterSnoList.Add(218804); // 奶油泡芙
-            _monsterSnoList.Add(373833); // 超厲害閃亮亮蛋糕
+            _monsterSnoList.Add((ActorSnoEnum)214948); // 星塵公主
+            _monsterSnoList.Add((ActorSnoEnum)201679); // 夢夢瑞薾媞
+            _monsterSnoList.Add((ActorSnoEnum)209506); // 夜光閃閃
+            _monsterSnoList.Add((ActorSnoEnum)218802); // 莫琳索莉
+            _monsterSnoList.Add((ActorSnoEnum)218806); // 地獄小姐
+            _monsterSnoList.Add((ActorSnoEnum)218807); // 奇麗兒
+            _monsterSnoList.Add((ActorSnoEnum)218808); // 拉萊耶
+            _monsterSnoList.Add((ActorSnoEnum)218804); // 奶油泡芙
+            _monsterSnoList.Add((ActorSnoEnum)373833); // 超厲害閃亮亮蛋糕
 
             //幻化物品或装饰品掉落者
-            _monsterSnoList.Add(225114); // Jay Wilson 墓园彩蛋，开发者地狱BOSS，掉落五年之剑
-            _monsterSnoList.Add(316439); // Josh Mosqueira 小秘境随机出现的开发组墓地，掉落第二把五年之剑
-            _monsterSnoList.Add(444994); // The Succulent 肥汁 A5 灰洞岛-潮汐洞穴一层 掉落 甲壳颅盔 
-            _monsterSnoList.Add(450997); // Regreb the Slayer A2 烈风之地 屠戮者雷格雷布 掉落 造王者
-            _monsterSnoList.Add(450999); // Princess Lilian  彩虹哥布林开的门 奇想郡 莉莉安公主 掉落 宇宙之翼
-            _monsterSnoList.Add(451002); // Sir William 奇想郡 威廉爵士 掉落 彩虹头像框
-            _monsterSnoList.Add(451004); // Graw the Herald 烈风之地-失落的车队 魔使葛洛 掉落吸魂器
-            _monsterSnoList.Add(451011); // Nevaz 内瓦兹 A1 苦痛大厅三层 掉落 魁黑刚的意志
-            _monsterSnoList.Add(451121); // Ravi Lilywhite 拉维·百合 掉落宠物 丽芙摩尔
-            _monsterSnoList.Add(450993); // Menagerist Goblin 园长哥布林 野外刷新 掉落 宠物
+            _monsterSnoList.Add((ActorSnoEnum)225114); // Jay Wilson 墓园彩蛋，开发者地狱BOSS，掉落五年之剑
+            _monsterSnoList.Add((ActorSnoEnum)316439); // Josh Mosqueira 小秘境随机出现的开发组墓地，掉落第二把五年之剑
+            _monsterSnoList.Add((ActorSnoEnum)444994); // The Succulent 肥汁 A5 灰洞岛-潮汐洞穴一层 掉落 甲壳颅盔 
+            _monsterSnoList.Add((ActorSnoEnum)450997); // Regreb the Slayer A2 烈风之地 屠戮者雷格雷布 掉落 造王者
+            _monsterSnoList.Add((ActorSnoEnum)450999); // Princess Lilian  彩虹哥布林开的门 奇想郡 莉莉安公主 掉落 宇宙之翼
+            _monsterSnoList.Add((ActorSnoEnum)451002); // Sir William 奇想郡 威廉爵士 掉落 彩虹头像框
+            _monsterSnoList.Add((ActorSnoEnum)451004); // Graw the Herald 烈风之地-失落的车队 魔使葛洛 掉落吸魂器
+            _monsterSnoList.Add((ActorSnoEnum)451011); // Nevaz 内瓦兹 A1 苦痛大厅三层 掉落 魁黑刚的意志
+            _monsterSnoList.Add((ActorSnoEnum)451121); // Ravi Lilywhite 拉维·百合 掉落宠物 丽芙摩尔
+            _monsterSnoList.Add((ActorSnoEnum)450993); // Menagerist Goblin 园长哥布林 野外刷新 掉落 宠物
 
-            _monsterSnoList.Add(217744); // Nine Toads 九蟾恶尸 A2凄凉沙漠 掉落 飞剪
-            _monsterSnoList.Add(156738); // Moontooth Dreadshark A2卡尔蒂姆下水道 月牙恐鲨 掉落 鱼人坠匣
-            _monsterSnoList.Add(178619); // Urzel Mordreg A1 乌泽尔·莫德雷格 掉落 碎裂船桨
+            _monsterSnoList.Add((ActorSnoEnum)217744); // Nine Toads 九蟾恶尸 A2凄凉沙漠 掉落 飞剪
+            _monsterSnoList.Add((ActorSnoEnum)156738); // Moontooth Dreadshark A2卡尔蒂姆下水道 月牙恐鲨 掉落 鱼人坠匣
+            _monsterSnoList.Add((ActorSnoEnum)178619); // Urzel Mordreg A1 乌泽尔·莫德雷格 掉落 碎裂船桨
 
-            _actorSnoList.Add(225782); // Bishibosh's Remains 毕希波什的尸骸 掉落 怀特原来的腿
-            _actorSnoList.Add(173325); // Anvil of Fury 铁砧 掉落格里斯沃尔德的破损之锋
-            _actorSnoList.Add(113845); // Fallen Shrine A1 沉没的神庙（沉沒神殿，内部偏左） 掉落 盛宰之怒
+            _actorSnoList.Add((ActorSnoEnum)225782); // Bishibosh's Remains 毕希波什的尸骸 掉落 怀特原来的腿
+            _actorSnoList.Add((ActorSnoEnum)173325); // Anvil of Fury 铁砧 掉落格里斯沃尔德的破损之锋
+            _actorSnoList.Add((ActorSnoEnum)113845); // Fallen Shrine A1 沉没的神庙（沉沒神殿，内部偏左） 掉落 盛宰之怒
 
 
-            _actorSnoList.Add(451035); // Mysterious Chest 神秘的箱子 A1 大教堂二层 掉落 圣殿骑士之链    
-            _actorSnoList.Add(451028); // Mysterious Chest 神秘的箱子 A3 亚瑞特巨坑一层（亞瑞特巨坑第一層） 掉落 史迪冯的重枪
-            _actorSnoList.Add(451030); // Mysterious Chest 神秘的箱子 A4希望花园一层 掉落鹰隼之翼
-            _actorSnoList.Add(451047); // Mysterious Chest 神秘的箱子 A4希望花园二层 掉落 食尸鬼王之刃
-            _actorSnoList.Add(451029); // Mysterious Chest 神秘的箱子 A3 永恒森林（永恆之林，A3 赛斯雪隆废墟传送平台右侧） 掉落 豹爪
-            _actorSnoList.Add(451038); // Mysterious Chest 神秘的箱子 A3 赛斯雪隆废墟-不朽王座 （仅能在3月份最后一周获得，需完成卡奈的红门奶牛关任务）掉落 卡奈的斯科恩
-            _actorSnoList.Add(451034); // Mysterious Chest 
-            _actorSnoList.Add(451033); // Mysterious Chest 神秘的箱子 A5 鲜血沼泽 科乌斯之弩
-            _actorSnoList.Add(451027); // Mysterious Chest 神秘的箱子 A5 萨卡兰姆大教堂 掉落 弑神者
-            _actorSnoList.Add(451039); // Mysterious Barrel 神秘的木桶 A3 战场-营房二层 掉落 乌鸦之锤 
-            _actorSnoList.Add(211861); // Pinata 奇想郡 Q版大菠萝挂件 掉落赫拉蒂姆汉堡
-            _actorSnoList.Add(457175); // Pinata_goblin 彩虹哥布林开的门 奇想郡 Q版大菠萝挂件 掉落赫拉蒂姆汉堡
+            _actorSnoList.Add((ActorSnoEnum)451035); // Mysterious Chest 神秘的箱子 A1 大教堂二层 掉落 圣殿骑士之链    
+            _actorSnoList.Add((ActorSnoEnum)451028); // Mysterious Chest 神秘的箱子 A3 亚瑞特巨坑一层（亞瑞特巨坑第一層） 掉落 史迪冯的重枪
+            _actorSnoList.Add((ActorSnoEnum)451030); // Mysterious Chest 神秘的箱子 A4希望花园一层 掉落鹰隼之翼
+            _actorSnoList.Add((ActorSnoEnum)451047); // Mysterious Chest 神秘的箱子 A4希望花园二层 掉落 食尸鬼王之刃
+            _actorSnoList.Add((ActorSnoEnum)451029); // Mysterious Chest 神秘的箱子 A3 永恒森林（永恆之林，A3 赛斯雪隆废墟传送平台右侧） 掉落 豹爪
+            _actorSnoList.Add((ActorSnoEnum)451038); // Mysterious Chest 神秘的箱子 A3 赛斯雪隆废墟-不朽王座 （仅能在3月份最后一周获得，需完成卡奈的红门奶牛关任务）掉落 卡奈的斯科恩
+            _actorSnoList.Add((ActorSnoEnum)451034); // Mysterious Chest 
+            _actorSnoList.Add((ActorSnoEnum)451033); // Mysterious Chest 神秘的箱子 A5 鲜血沼泽 科乌斯之弩
+            _actorSnoList.Add((ActorSnoEnum)451027); // Mysterious Chest 神秘的箱子 A5 萨卡兰姆大教堂 掉落 弑神者
+            _actorSnoList.Add((ActorSnoEnum)451039); // Mysterious Barrel 神秘的木桶 A3 战场-营房二层 掉落 乌鸦之锤 
+            _actorSnoList.Add((ActorSnoEnum)211861); // Pinata 奇想郡 Q版大菠萝挂件 掉落赫拉蒂姆汉堡
+            _actorSnoList.Add((ActorSnoEnum)457175); // Pinata_goblin 彩虹哥布林开的门 奇想郡 Q版大菠萝挂件 掉落赫拉蒂姆汉堡
 
-            _actorSnoList.Add(457828); // Wirt's Stash 怀特的箱子
+            _actorSnoList.Add((ActorSnoEnum)457828); // Wirt's Stash 怀特的箱子
 
             //_actorSnoList.Add(6131); //trOut_Griswold_Sign	格里斯沃尔德的精良武器 
 
@@ -215,13 +216,13 @@ namespace Turbo.Plugins.glq
             _itemSnoList_StaffofHerding.Add(1806898802);//图纸：牧牛杖
 
             //掉落牧牛杖材料处
-            _actorSnoList_StaffofHerding.Add(172948);//黑蘑菇
-            _actorSnoList_StaffofHerding.Add(213905);//烧焦的原木 李奥瑞克的胫骨
-            _actorSnoList_StaffofHerding.Add(207706);//彩虹魔药的神秘的箱子
+            _actorSnoList_StaffofHerding.Add((ActorSnoEnum)172948);//黑蘑菇
+            _actorSnoList_StaffofHerding.Add((ActorSnoEnum)213905);//烧焦的原木 李奥瑞克的胫骨
+            _actorSnoList_StaffofHerding.Add((ActorSnoEnum)207706);//彩虹魔药的神秘的箱子
 
             //掉落牧牛杖材料的怪
-            _monsterSnoList_StaffofHerding.Add(212750);//琪塔拉
-            _monsterSnoList_StaffofHerding.Add(148449);//衣卒尔
+            _monsterSnoList_StaffofHerding.Add((ActorSnoEnum)212750);//琪塔拉
+            _monsterSnoList_StaffofHerding.Add((ActorSnoEnum)148449);//衣卒尔
             
 
 

@@ -15,7 +15,7 @@ namespace Turbo.Plugins.glq
 
         public GLQ_EliteHealthListPlugin()
         {
-            Enabled = false;
+            Enabled = true;
         }
         public override void Load(IController hud)
         {
@@ -64,7 +64,7 @@ namespace Turbo.Plugins.glq
                     {
                         affixlist = affixlist + " " + Affix.NameLocalized;
                     }
-                    var text = (elite.Key.CurHealth * 100 / elite.Key.MaxHealth).ToString("f1") + "%" + affixlist;
+                    var text = (elite.Key.CurHealth * 100 / elite.Key.MaxHealth).ToString("f1") + "% " + elite.Key.SnoMonster.NameLocalized + affixlist;
                     var layout = TextFont.GetTextLayout(text);
                     if (preStr != elite.Value || preStr == null) count++;
                     var y = py * 8 * count;
@@ -84,7 +84,7 @@ namespace Turbo.Plugins.glq
                     {
                         affixlist = affixlist + " " + Affix.NameLocalized;
                     }
-                    var text = (elite.Key.CurHealth * 100 / elite.Key.MaxHealth).ToString("f1") + "%" + affixlist;
+                    var text = (elite.Key.CurHealth * 100 / elite.Key.MaxHealth).ToString("f1") + "% " + elite.Key.SnoMonster.NameLocalized + affixlist;
                     var layout = TextFont.GetTextLayout(text);
                     if (preStr != elite.Value || preStr == null) count++;
                     var y = py * 8 * count;

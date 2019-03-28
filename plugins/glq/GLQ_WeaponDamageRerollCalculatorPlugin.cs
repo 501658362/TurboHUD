@@ -1,9 +1,10 @@
-using Turbo.Plugins.Default;
+//by JackCeparou
 namespace Turbo.Plugins.glq
 {
     using System;
     using System.Globalization;
     using System.Linq;
+    using Turbo.Plugins.Default;
 
     public class GLQ_WeaponDamageRerollCalculatorPlugin : BasePlugin, IInGameTopPainter
     {

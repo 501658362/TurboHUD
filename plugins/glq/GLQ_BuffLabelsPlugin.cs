@@ -1,7 +1,8 @@
 ﻿namespace Turbo.Plugins.glq
 {
-    using System.Collections.Generic;
     using Turbo.Plugins.Default;
+    using System.Collections.Generic;
+
     public class GLQ_BuffLabelsPlugin : BasePlugin, IInGameTopPainter
     {
         public bool ShowIgnorePain { get; set; }

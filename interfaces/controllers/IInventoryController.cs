@@ -11,7 +11,6 @@ namespace Turbo.Plugins
         int SelectedStashTabIndex { get; }
         int HoveredStashTabIndex { get; }
         int GetStashTabUsedSpace(int pageIndex, int tabIndex);
-
         IEnumerable<IItem> ItemsInStash { get; }
         IEnumerable<IItem> ItemsInInventory { get; }
 

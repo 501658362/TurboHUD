@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using Turbo.Plugins.Default;
+
 namespace Turbo.Plugins.glq
 {
 
@@ -48,7 +49,7 @@ namespace Turbo.Plugins.glq
                 BackgroundTexture2 = Hud.Texture.BackgroundTextureBlue,
                 BackgroundTextureOpacity1 = 1.0f,
                 BackgroundTextureOpacity2 = 0.5f,
-                TextFunc = () => (Hud.Game.Me.CurrentLevelNormal < Hud.Game.Me.CurrentLevelNormalCap) ? Hud.Game.Me.CurrentLevelNormal.ToString("0") : Hud.Game.Me.CurrentLevelParagonFloat.ToString("0.##", CultureInfo.InvariantCulture) + "çº§",
+                TextFunc = () => (Hud.Game.Me.CurrentLevelNormal < Hud.Game.Me.CurrentLevelNormalCap) ? Hud.Game.Me.CurrentLevelNormal.ToString("0") : Hud.Game.Me.CurrentLevelParagonFloat.ToString("0.##", CultureInfo.InvariantCulture) + "¼¶",
                 ExpandDownLabels = new List<TopLabelDecorator>(),
             };
 
@@ -65,7 +66,7 @@ namespace Turbo.Plugins.glq
                         BackgroundTextureOpacity1 = 1.0f,
                         BackgroundTextureOpacity2 = 0.5f,
                         HideBackgroundWhenTextIsEmpty = true,
-                        TextFunc = () => Hud.Game.Me.CurrentLevelNormal >= Hud.Game.Me.CurrentLevelNormalCap ? ((Hud.Game.Me.CurrentLevelParagon + levelIncrement).ToString("D", CultureInfo.InvariantCulture) + "çº§") : null,
+                        TextFunc = () => Hud.Game.Me.CurrentLevelNormal >= Hud.Game.Me.CurrentLevelNormalCap ? ((Hud.Game.Me.CurrentLevelParagon + levelIncrement).ToString("D", CultureInfo.InvariantCulture) + "¼¶") : null,
                         HintFunc = () => ExpToParagonLevel(Hud.Game.Me.CurrentLevelParagon + levelIncrement) + " = " + TimeToParagonLevel(Hud.Game.Me.CurrentLevelParagon + levelIncrement, false),
                     });
             }
@@ -79,7 +80,7 @@ namespace Turbo.Plugins.glq
                 BackgroundTexture2 = Hud.Texture.BackgroundTextureBlue,
                 BackgroundTextureOpacity1 = 1.0f,
                 BackgroundTextureOpacity2 = 0.5f,
-                TextFunc = () => GLQ_BasePluginCN.ValueToString(Hud.Game.CurrentHeroToday.GainedExperiencePerHourPlay, ValueFormat.ShortNumber) + " ç»éªŒ/å°æ—¶",
+                TextFunc = () => GLQ_BasePluginCN.ValueToString(Hud.Game.CurrentHeroToday.GainedExperiencePerHourPlay, ValueFormat.ShortNumber) + " ¾­Ñé/Ð¡Ê±",
             });
 
         }
@@ -109,7 +110,7 @@ namespace Turbo.Plugins.glq
             {
                 if (paragonLevel > Hud.Game.Me.CurrentLevelParagon)
                 {
-                    var text = includetext ? (paragonLevel.ToString("D", CultureInfo.InvariantCulture) + "çº§") + ": " : "";
+                    var text = includetext ? (paragonLevel.ToString("D", CultureInfo.InvariantCulture) + "¼¶") + ": " : "";
                     var xph = tracker.GainedExperiencePerHourPlay;
                     if (xph > 0)
                     {
