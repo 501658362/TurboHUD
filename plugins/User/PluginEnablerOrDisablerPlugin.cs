@@ -45,6 +45,41 @@ namespace Turbo.Plugins.User
         // 截图插件
         Hud.GetPlugin<ParagonCapturePlugin>().Enabled = false;
 
+        // 管理器相关的
+        Hud.GetPlugin<GLQ_VersioninformationPlugin>().Enabled = false;
+	    // Inventory 文件夹 物品栏、储存箱相关插件
+		Hud.TogglePlugin<InventoryAndStashPlugin>(false);			//物品装备多功能辅助显示，请在子功能上选择true、false
+		Hud.TogglePlugin<GLQ_InventoryAndStashPlugin>(true);			//物品装备多功能辅助显示，请在子功能上选择true、false
+		Hud.GetPlugin<GLQ_InventoryAndStashPlugin>().LooksGoodDisplayEnabled = false;			//属性是否比较满，比较好会显示一个绿色角标
+		Hud.GetPlugin<GLQ_InventoryAndStashPlugin>().DefinitelyBadDisplayEnabled = true;		//属性是否都很差，很差的会显示一个红色角标
+		Hud.GetPlugin<GLQ_InventoryAndStashPlugin>().NotGoodDisplayEnabled = true;				//不是很好的东西，用灰色标注出来
+		Hud.GetPlugin<GLQ_InventoryAndStashPlugin>().AncientRankEnabled = true;					//远古、太古显示(无须鉴定)
+		Hud.GetPlugin<GLQ_InventoryAndStashPlugin>().SocketedLegendaryGemRankEnabled = true;	//显示首饰位置上传奇宝石等级
+		Hud.GetPlugin<GLQ_InventoryAndStashPlugin>().CaldesannRankEnabled = true;				//卡德山的等级显示在装备上
+		Hud.GetPlugin<GLQ_InventoryAndStashPlugin>().HoradricCacheEnabled = true;				//标注是否是悬赏专属物品
+		Hud.GetPlugin<GLQ_InventoryAndStashPlugin>().CanCubedEnabled = true;					//显示是否可以萃取到魔盒里
+        // 仓库中 显示装备在军械库的装备
+        Hud.GetPlugin<GLQ_ArmorySetInfo>().Enabled = true;
+        // 技能栏上方
+        Hud.GetPlugin<AttributeLabelListPlugin>().Enabled = false;
+        Hud.GetPlugin<CcpAttributeLabelListPlugin>().Enabled = false;
+        Hud.GetPlugin<GLQ_AttributeLabelListPlugin>().Enabled = true;
+        //BOSS血条右边显示所有人受罚者叠层
+        Hud.GetPlugin<GLQ_BaneOfTheStrickenPlugin>().Enabled = true;
+        //显示其他人放的战旗的位置
+        Hud.GetPlugin<BannerPlugin>().Enabled = false;
+        Hud.GetPlugin<GLQ_BannerPlugin>().Enabled = true;
+        // 显示鼠标与角色的距离 鼠标范围内怪物数量
+        Hud.GetPlugin<GLQ_MonsterDensityAroundCursorPlugin>().Enabled = false;
+        // 自己脚下的红圈
+        Hud.GetPlugin<GLQ_PlayersCirclePlugin>().Enabled = false;
+          // 自己脚下的红圈
+        Hud.GetPlugin<GLQ_MeCirclePlugin>().Enabled = false;
+        // 全能戒子 buff 计时
+        Hud.GetPlugin<GLQ_ConventionOfElementsBuffListPlugin>().Enabled = false;
+        Hud.GetPlugin<GLQ_FollowerPlugin>().Enabled = false;
+
+        //显示组队“人多势众”Buff范围
         Hud.GetPlugin<MultiplayerExperienceRangePlugin>().Enabled = true;
 
             // basic examples
@@ -172,17 +207,6 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_EliteHealthBarPlugin>().Enabled = true;
         Hud.GetPlugin<GLQ_EliteHealthListPlugin>().Enabled = true;
 
-
-		// Inventory 文件夹 物品栏、储存箱相关插件
-		Hud.TogglePlugin<InventoryAndStashPlugin>(true);			//物品装备多功能辅助显示，请在子功能上选择true、false
-		Hud.GetPlugin<InventoryAndStashPlugin>().LooksGoodDisplayEnabled = false;			//属性是否比较满，比较好会显示一个绿色角标
-		Hud.GetPlugin<InventoryAndStashPlugin>().DefinitelyBadDisplayEnabled = true;		//属性是否都很差，很差的会显示一个红色角标
-		Hud.GetPlugin<InventoryAndStashPlugin>().NotGoodDisplayEnabled = true;				//不是很好的东西，用灰色标注出来
-		Hud.GetPlugin<InventoryAndStashPlugin>().AncientRankEnabled = true;					//远古、太古显示(无须鉴定)
-		Hud.GetPlugin<InventoryAndStashPlugin>().SocketedLegendaryGemRankEnabled = true;	//显示首饰位置上传奇宝石等级
-		Hud.GetPlugin<InventoryAndStashPlugin>().CaldesannRankEnabled = true;				//卡德山的等级显示在装备上
-		Hud.GetPlugin<InventoryAndStashPlugin>().HoradricCacheEnabled = true;				//标注是否是悬赏专属物品
-		Hud.GetPlugin<InventoryAndStashPlugin>().CanCubedEnabled = true;					//显示是否可以萃取到魔盒里
 
 		Hud.TogglePlugin<BloodShardPlugin>(true);					//血岩碎片容量状态显示在成就按钮下面
 		Hud.TogglePlugin<InventoryFreeSpacePlugin>(true);			//物品栏空位数量显示在背包按钮下面
