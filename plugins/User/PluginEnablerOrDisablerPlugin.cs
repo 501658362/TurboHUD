@@ -71,6 +71,8 @@ namespace Turbo.Plugins.User
         Hud.GetPlugin<GLQ_BannerPlugin>().Enabled = true;
         // 显示鼠标与角色的距离 鼠标范围内怪物数量
         Hud.GetPlugin<GLQ_MonsterDensityAroundCursorPlugin>().Enabled = false;
+        // 怪物密度圈
+        Hud.GetPlugin<GLQ_MonsterDensityPlugin>().Enabled = false;
         // 自己脚下的红圈
         Hud.GetPlugin<GLQ_PlayersCirclePlugin>().Enabled = false;
           // 自己脚下的红圈
