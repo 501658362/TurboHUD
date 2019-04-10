@@ -47,6 +47,8 @@ namespace Turbo.Plugins.User
 
         // 管理器相关的
         Hud.GetPlugin<GLQ_VersioninformationPlugin>().Enabled = false;
+        Hud.GetPlugin<GLQ_PetCirclePlugin>().Enabled = false;
+        
 	    // Inventory 文件夹 物品栏、储存箱相关插件
 		Hud.TogglePlugin<InventoryAndStashPlugin>(false);			//物品装备多功能辅助显示，请在子功能上选择true、false
 		Hud.TogglePlugin<GLQ_InventoryAndStashPlugin>(true);			//物品装备多功能辅助显示，请在子功能上选择true、false
