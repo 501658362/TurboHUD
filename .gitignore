@@ -4,3 +4,5 @@
 /.idea
 /capture
 /snapshots
+*.user
+plugins_compiled_*
